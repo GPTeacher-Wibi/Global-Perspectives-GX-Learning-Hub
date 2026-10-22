@@ -1,0 +1,6 @@
+{
+  "name": "Global Perspectives Learning Hub",
+  "description": "Interactive Cambridge Global Perspectives & Research educational hub for Grade 10 students featuring unit slides, practice activities, educational games, and classroom presentation tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
