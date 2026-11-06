@@ -65,22 +65,22 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     targetMatrixStep: 'step2_evidence_synthesis',
     options: [
       {
-        id: 'opt-a',
-        text: 'Step 2: Synthesize Primary & Secondary Evidence (Triangulates student GPS logs with municipal telemetry).',
-        isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! This excerpt weaves together primary fieldwork and secondary official data into a synthesized evidentiary finding.'
+        id: 'opt-b',
+        text: 'Dismiss the GPS telemetry because student travel times fluctuate slightly during sudden morning monsoon rainstorms.',
+        isCorrectDiagnosisOrRepair: false,
+        analysisNote: 'Methodological mistake: weather variations do not invalidate statistically consistent multi-week travel trends.'
       },
       {
-        id: 'opt-b',
-        text: 'Step 5: Recommend budget cuts for all city buses.',
-        isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. This paragraph contains data synthesis, not policy recommendations.'
+        id: 'opt-a',
+        text: 'Synthesize primary student GPS logs with city transit telemetry to establish a verified 21% to 24% speed increase.',
+        isCorrectDiagnosisOrRepair: true,
+        analysisNote: 'Exemplary Step 2 synthesis: combines primary student field logs with official municipal telemetry data.'
       },
       {
         id: 'opt-c',
-        text: 'Step 1: Ask what a bus looks like.',
+        text: 'Claim bus lanes eliminate all urban congestion across Jakarta without comparing secondary transit authority figures.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The research question was established long before this synthesis.'
+        analysisNote: 'Unverified over-generalization: fails to synthesize cross-referenced evidence before reaching a conclusion.'
       }
     ],
     matrixAlignment: {
@@ -100,22 +100,22 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     targetMatrixStep: 'step3_validity_evaluation',
     options: [
       {
-        id: 'opt-a',
-        text: 'Step 3: Evaluate Internal and External Validity (Acknowledges high internal control while bounding external generalisability).',
-        isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! The excerpt critically evaluates the boundary between controlled laboratory success and real-world applicability.'
+        id: 'opt-b',
+        text: 'Assume indoor HEPA filter test gains apply equally to all open-air rural classrooms without testing natural airflow.',
+        isCorrectDiagnosisOrRepair: false,
+        analysisNote: 'External validity failure: ignores essential environmental differences between sealed and open learning spaces.'
       },
       {
-        id: 'opt-b',
-        text: 'Step 4: Declare that all rural schools must be demolished.',
+        id: 'opt-a',
+        text: 'Reject the 14% reading score increase completely because classroom filters require regular filter cartridge changes.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The text is assessing methodological validity boundaries.'
+        analysisNote: 'Hypercritical error: operational maintenance costs do not disprove internal reading comprehension score gains.'
       },
       {
         id: 'opt-c',
-        text: 'Step 1: State the hypothesis for the first time.',
-        isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The excerpt assumes the study has already been conducted.'
+        text: 'Evaluate study boundaries: filter gains in sealed rooms cannot be transferred directly to open-air rural classrooms.',
+        isCorrectDiagnosisOrRepair: true,
+        analysisNote: 'Exemplary Step 3 evaluation: transparently assesses external validity and transferability boundaries.'
       }
     ],
     matrixAlignment: {
@@ -136,21 +136,21 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Step 4: Formulate the Nuanced Answer with Hedging and Qualifiers (Resolves the question with realistic boundary conditions).',
+        text: 'Deliver a nuanced answer: banana leaves cut plastic waste while cooperative leaf washing preserves vendor net profits.',
         isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! Resolves the research question with precise scholarly nuance rather than simplistic sweeping claims.'
+        analysisNote: 'Exemplary Step 4 nuanced answer: directly addresses the research inquiry while accounting for institutional support.'
       },
       {
         id: 'opt-b',
-        text: 'Step 2: Collect raw plastic wrappers from the playground floor.',
+        text: 'Conclude banana leaves fail completely because canteen vendors spend ten additional minutes rinsing leaves each morning.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. This sentence is a reasoned final answer, not primary data collection.'
+        analysisNote: 'One-sided dismissal: treats minor preparation time as total project failure while ignoring massive waste reduction.'
       },
       {
         id: 'opt-c',
-        text: 'Defect 4: Express emotional love for bananas.',
+        text: 'Claim banana leaves solve all canteen waste problems immediately without considering school cooperative labor costs.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The sentence is reasoned, measured, and evidence-grounded.'
+        analysisNote: 'Oversimplification: ignores that vendor economic stability depends directly on shared cooperative washing labor.'
       }
     ],
     matrixAlignment: {
@@ -170,22 +170,22 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     targetMatrixStep: 'step5_limitations_recommendations',
     options: [
       {
-        id: 'opt-a',
-        text: 'Step 5: Articulate Limitations & Actionable Recommendations (Proposes stakeholder policy next steps and future research directions).',
-        isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! Targets concrete actions for municipal leaders and outlines future research needs.'
+        id: 'opt-b',
+        text: 'Recommend making composting mandatory under criminal penalties without supplying drill kits or neighborhood support.',
+        isCorrectDiagnosisOrRepair: false,
+        analysisNote: 'Unrealistic recommendation: punitive mandates without infrastructure or technical support alienate residents.'
       },
       {
-        id: 'opt-b',
-        text: 'Step 1: Wonder if garbage smells bad.',
-        isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The excerpt provides forward-looking actionable recommendations.'
+        id: 'opt-a',
+        text: 'Propose practical equipment subsidies for RT heads alongside longitudinal research into rainy season compost odor control.',
+        isCorrectDiagnosisOrRepair: true,
+        analysisNote: 'Exemplary Step 5 recommendations: connects policy subsidies with future research into seasonal moisture hurdles.'
       },
       {
         id: 'opt-c',
-        text: 'Step 2: Count how many biopore holes were dug last week.',
+        text: 'Limit all project conclusions to the dry season data and abandon further research into household participation barriers.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The text is making future-oriented recommendations.'
+        analysisNote: 'Academic evasion: ignoring rainy season challenges leaves critical practical research questions unanswered.'
       }
     ],
     matrixAlignment: {
@@ -207,22 +207,22 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     targetMatrixStep: 'step4_nuanced_answer',
     options: [
       {
-        id: 'opt-a',
-        text: 'Defect 1: The Sudden Miracle Fact (Introducing brand new unanalyzed external evidence for the first time in the conclusion).',
-        isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! Cambridge examiners penalize introducing surprise studies in the final paragraphs that were never analyzed in the body.'
+        id: 'opt-b',
+        text: 'Accept the surprise mouse study because prestigious university research automatically validates high school conclusions.',
+        isCorrectDiagnosisOrRepair: false,
+        analysisNote: 'Methodological fallacy: outside sources cannot be introduced into a conclusion without prior evaluation.'
       },
       {
-        id: 'opt-b',
-        text: 'High-level synthesis of student survey logs.',
+        id: 'opt-a',
+        text: 'Conclude that smartphone screens have zero impact on student sleep duration because laboratory mice differ from humans.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Introducing surprise mouse radiation studies is a major defect.'
+        analysisNote: 'False dilemma: animal research differences do not invalidate primary survey data on adolescent sleep duration.'
       },
       {
         id: 'opt-c',
-        text: 'Perfect academic hedging.',
-        isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The claim is sensationalist and unanalyzed.'
+        text: 'Diagnose a sudden miracle fact: remove the unexamined mouse study because conclusions must evaluate previously analyzed data.',
+        isCorrectDiagnosisOrRepair: true,
+        analysisNote: 'Accurate defect diagnosis: conclusions must synthesize existing analysis rather than introducing surprise data.'
       }
     ],
     matrixAlignment: {
@@ -243,21 +243,21 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Defect 2: The Mechanical Copy-Paste (Passively repeating earlier chapter headings without any higher-order synthesis or judgment).',
+        text: 'Diagnose mechanical copy-paste: replace the passive chapter listing with an analytical synthesis explaining root retention.',
         isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! This robotic summary fails to resolve the research question or evaluate the initial hypothesis.'
+        analysisNote: 'Accurate defect diagnosis: replaces passive chapter-by-chapter summaries with active evidentiary synthesis.'
       },
       {
         id: 'opt-b',
-        text: 'Brilliant conceptual triangulation.',
+        text: 'Praise the chapter summary because repeating chapter opening lines proves that the student read every project section.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. This is a classic lazy copy-paste summary.'
+        analysisNote: 'Pedagogical misconception: listing chapter topics does not evaluate empirical findings or answer the research question.'
       },
       {
         id: 'opt-c',
-        text: 'Step 5 forward-looking policy proposal.',
+        text: 'Delete all coastal erosion data and recommend building concrete seawalls without evaluating mangrove ecological value.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. No recommendations or actionable insights are offered.'
+        analysisNote: 'Drastic abandonment: ignores empirical root retention data rather than repairing the analytical conclusion structure.'
       }
     ],
     matrixAlignment: {
@@ -277,22 +277,22 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     targetMatrixStep: 'step3_validity_evaluation',
     options: [
       {
-        id: 'opt-a',
-        text: 'Defect 3: The Overreaching Leap (Making sweeping universal claims that vastly exceed what a sample of 12 farmers can prove).',
-        isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! Generalizing from 12 farmers in one village to the entire economy of Southeast Asia is a massive external validity violation.'
+        id: 'opt-b',
+        text: 'Accept the regional prediction because positive local farm outcomes prove that solar pumps work identical across Asia.',
+        isCorrectDiagnosisOrRepair: false,
+        analysisNote: 'Uncritical acceptance: small village trials cannot establish regional agricultural outcomes across diverse topographies.'
       },
       {
-        id: 'opt-b',
-        text: 'Careful adherence to external validity boundaries.',
-        isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Claiming to end all poverty in Southeast Asia from 12 interviews is wildly overreaching.'
+        id: 'opt-a',
+        text: 'Diagnose an overreaching leap: restrict the claim to the surveyed Sumba village rather than regional poverty eradication.',
+        isCorrectDiagnosisOrRepair: true,
+        analysisNote: 'Accurate defect diagnosis: aligns claim scope with actual sample size and geographical study parameters.'
       },
       {
         id: 'opt-c',
-        text: 'Appropriate scholarly modesty and hedging.',
+        text: 'Reject the 28% harvest gain completely because twelve smallholder farmers represent an invalid agricultural case study.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The excerpt demonstrates extreme dogmatic arrogance.'
+        analysisNote: 'Hyper-skepticism: localized pilot findings remain valid for that village even if they cannot be broadly extrapolated.'
       }
     ],
     matrixAlignment: {
@@ -312,22 +312,22 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     targetMatrixStep: 'step4_nuanced_answer',
     options: [
       {
-        id: 'opt-a',
-        text: 'Defect 4: The Wishful Thinking Ending (Substituting emotional preaching and moral fantasies for empirical evidence).',
-        isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! The author ignores their own survey data (85% discarded straws and plastic lids) and ends with sentimental daydreaming.'
+        id: 'opt-b',
+        text: 'Accept the emotional appeal because inspiring love for nature is more important than empirical plastic waste audit data.',
+        isCorrectDiagnosisOrRepair: false,
+        analysisNote: 'Sentimental fallacy: academic conclusions require empirical policy analysis rather than emotional exhortations.'
       },
       {
-        id: 'opt-b',
-        text: 'Scientifically rigorous causal deduction.',
+        id: 'opt-a',
+        text: 'Conclude that paper straw initiatives failed totally and abandon all commercial waste reduction policies in retail cafes.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Wishing for universal healing is not empirical research.'
+        analysisNote: 'Premature defeatism: ignores that redesigning plastic lids could resolve the remaining volume problem.'
       },
       {
         id: 'opt-c',
-        text: 'Exemplary Step 5 policy recommendation.',
-        isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. There are no feasible administrative or operational recommendations.'
+        text: 'Diagnose wishful thinking: replace sentimental emotional appeals with objective data on customer disposal and lid redesign.',
+        isCorrectDiagnosisOrRepair: true,
+        analysisNote: 'Accurate defect diagnosis: grounds recommendations in customer behavior patterns and packaging design data.'
       }
     ],
     matrixAlignment: {
@@ -350,21 +350,21 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Repair into a scholarly conclusion: "Synthesized pre- and post-intervention survey scores indicated an average 18.5% reduction in mathematics anxiety; however, gains were concentrated among students preparing in structured pairs rather than informal drop-in groups."',
+        text: 'Assemble an evidence matrix: peer tutoring reduced reported anxiety by 18%, though algebra problem scores stayed level.',
         isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! Provides quantitative synthesis, directly evaluates the hypothesis, and uses precise qualifying boundaries.'
+        analysisNote: 'Nuanced synthesis: differentiates emotional anxiety reductions from cognitive standardized test score outcomes.'
       },
       {
         id: 'opt-b',
-        text: 'Keep the original draft because brevity is always best.',
+        text: 'Claim peer tutoring eliminates all learning difficulties because student survey ratings showed high emotional satisfaction.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. The draft is childish, unscientific, and lacks evidentiary backing.'
+        analysisNote: 'Overclaiming: conflates enjoyable social interaction with mastery of difficult academic concepts.'
       },
       {
         id: 'opt-c',
-        text: 'Claim that students who dislike peer tutoring should be barred from school.',
+        text: 'Conclude peer tutoring is useless because student friendships distract adolescents from formal teacher classroom lectures.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Punitive authoritarianism has no place in academic conclusions.'
+        analysisNote: 'Unsubstantiated dismissal: ignores documented psychological benefits in lowering math-related test anxiety.'
       }
     ],
     matrixAlignment: {
@@ -384,22 +384,22 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     targetMatrixStep: 'step1_question_hypothesis',
     options: [
       {
-        id: 'opt-a',
-        text: 'Repair with scientific honesty: "The empirical findings refuted the 100% sufficiency hypothesis, revealing that collected rainwater met garden irrigation needs for only 42 days of the dry season, demonstrating the need for supplementary greywater filtration."',
-        isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! Demonstrates academic honesty, accurately classifies the hypothesis as refuted, and proposes an actionable engineering fix.'
+        id: 'opt-b',
+        text: 'Conceal the empty tank data to preserve the original hypothesis and ensure the final student project earns high marks.',
+        isCorrectDiagnosisOrRepair: false,
+        analysisNote: 'Scientific fraud: falsifying empirical evidence to protect a hypothesis violates core academic ethics.'
       },
       {
-        id: 'opt-b',
-        text: 'Falsify the rainfall records to match the 100% prediction.',
-        isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Falsifying research data is an unforgivable ethical violation.'
+        id: 'opt-a',
+        text: 'Maintain scientific honesty: report that August tank depletion refuted the hypothesis, and recommend supplementary storage.',
+        isCorrectDiagnosisOrRepair: true,
+        analysisNote: 'Exemplary scientific integrity: transparently reports hypothesis refutation and recommends expanded tank capacity.'
       },
       {
         id: 'opt-c',
-        text: 'Delete the entire research paper and pretend the garden does not exist.',
+        text: 'Abandon the rainwater project entirely because August shortages prove school rooftop catchment is completely unworkable.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Refuted hypotheses are valuable scientific discoveries.'
+        analysisNote: 'Defeatist overreaction: meeting water needs through July demonstrates partial viability requiring expanded storage.'
       }
     ],
     matrixAlignment: {
@@ -420,21 +420,21 @@ export const G10_1_CHALLENGES: ConclusionMatrixItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Synthesize into an actionable Step 5 conclusion: "While color-coded bins alone yielded only a 12% sorting rate due to rapid morning rush pacing, pairing visual icon labels with daily collection fee discounts raised compliance to 64%, indicating that behavioral nudges must be backed by tangible economic incentives."',
+        text: 'Propose systemic solutions: pair color-coded bins with daily organic collection schedules and stallholder fee discounts.',
         isCorrectDiagnosisOrRepair: true,
-        analysisNote: 'Correct! Identifies the causal limitation (rush hour pacing) and proposes a validated multi-factor solution (visual icons + economic incentives).'
+        analysisNote: 'Mature recommendations: pairs physical infrastructure with operational schedules and economic incentives.'
       },
       {
         id: 'opt-b',
-        text: 'Recommend that market vendors be fined 10 million rupiah per banana peel.',
+        text: 'Conclude market stallholders cannot learn waste sorting habits and terminate municipal composting collection in Surakarta.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Disproportionate punitive fines destroy community livelihood and ignore root operational barriers.'
+        analysisNote: 'Defeatist stereotyping: blames vendor culture rather than analyzing bin placement or collection logistics.'
       },
       {
         id: 'opt-c',
-        text: 'Conclude that market waste can never be solved and abandon research.',
+        text: 'Blame stallholder attitudes for sorting failures without investigating whether bin placement or collection timing caused mixing.',
         isCorrectDiagnosisOrRepair: false,
-        analysisNote: 'Incorrect. Defeatist cynicism is not academic scholarship.'
+        analysisNote: 'Superficial attribution: attributes sorting failure to personal carelessness without examining system constraints.'
       }
     ],
     matrixAlignment: {
@@ -483,21 +483,21 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     verdict: 'overturned_internal',
     options: [
       {
-        id: 'opt-a',
-        verdictLabel: 'Overturned: Fatal Internal Validity Flaw',
-        critique: 'Without an isolated control group drinking water or a placebo, there is zero proof the energy drink caused the 82% score (the test might have simply been easy).',
-        isCorrectVerdict: true
-      },
-      {
         id: 'opt-b',
-        verdictLabel: 'Upheld: High External Validity',
-        critique: 'The study applies to every student in Asia because everyone drinks beverages.',
+        verdictLabel: 'Sound and fully justified conclusion based on rigorous methodology',
+        critique: 'The researcher surveyed a broad representative cross-section of the entire city',
         isCorrectVerdict: false
       },
       {
+        id: 'opt-a',
+        verdictLabel: 'Fatal Overgeneralization: Sample size of 15 cannot represent 3 million residents',
+        critique: 'Fifteen high school friends in one suburban cafe cannot support sweeping claims about citywide transit preferences.',
+        isCorrectVerdict: true
+      },
+      {
         id: 'opt-c',
-        verdictLabel: 'Upheld: Perfect Scientific Design',
-        critique: '20 classmates is enough to prove universal medical truth.',
+        verdictLabel: 'Valid deductive logic applying universal psychological principles',
+        critique: 'Individual adolescent commute preferences reliably predict adult passenger behavior across provinces.',
         isCorrectVerdict: false
       }
     ],
@@ -514,23 +514,23 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     primaryDimensionAffected: 'external_validity',
     verdict: 'overturned_external',
     options: [
-      {
-        id: 'opt-a',
-        verdictLabel: 'Overturned: Fatal External Validity Flaw (Overreaching Scope)',
-        critique: 'High internal success among 25 honors students in a high-tech lab cannot be generalized across diverse national schools with limited hardware, internet, and teacher training.',
-        isCorrectVerdict: true
-      },
-      {
+{
         id: 'opt-b',
-        verdictLabel: 'Overturned: Fatal Internal Validity Flaw',
-        critique: '100% scores prove that the computer software had a virus.',
+        verdictLabel: 'Empirically proven causal relationship between sports and school performance',
+        critique: 'Higher blood circulation from exercise directly increases cognitive test performance in all subjects, completely disregarding methodological validity, representative sampling standards, multi-scalar trade-offs, and empirical rigor.',
         isCorrectVerdict: false
       },
-      {
-        id: 'opt-c',
-        verdictLabel: 'Upheld: Universally Transferable',
-        critique: 'All students across Indonesia have identical computers and electricity.',
+{
+        id: 'opt-a',
+        verdictLabel: 'Sound inductive generalization backed by quantitative survey metrics',
+        critique: 'Statistical correlation between two variables proves that increasing one directly elevates the other.',
         isCorrectVerdict: false
+      },
+{
+        id: 'opt-c',
+        verdictLabel: 'Correlation Confused with Causation: Confounding variables ignored',
+        critique: 'Students who play varsity sports may have higher discipline, family support, or tutors; correlation is not causation.',
+        isCorrectVerdict: true
       }
     ],
     repairMethodology: 'Bound the conclusion to well-resourced private labs, or replicate testing across urban public and rural community schools before generalizing.',
@@ -548,20 +548,20 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     options: [
       {
         id: 'opt-a',
-        verdictLabel: 'Overturned: Fatal Internal Validity Flaw (Measurement Bias)',
-        critique: 'The heavily loaded, emotionally biased question forced participants toward agreement, invalidating the survey measurement tool itself.',
+        verdictLabel: 'Un-actionable Vague Moralizing: Lacks agency, timeline, mechanism, and budget',
+        critique: 'Saying "people should care more" provides zero policy guidance, assigns no institutional responsibility, and costs nothing',
         isCorrectVerdict: true
       },
       {
         id: 'opt-b',
-        verdictLabel: 'Upheld: Strong Democratic Majority',
-        critique: '94% is a massive number so question wording does not matter.',
+        verdictLabel: 'Pragmatic and actionable policy recommendation for municipal sanitation',
+        critique: 'Public awareness campaigns asking citizens to care about nature solve urban littering challenges.',
         isCorrectVerdict: false
       },
       {
         id: 'opt-c',
-        verdictLabel: 'Upheld: External Generalisability',
-        critique: 'This proves every canteen in the world serves bad food.',
+        verdictLabel: 'Legally enforceable municipal decree ready for parliamentary adoption',
+        critique: 'Moral encouragement represents the most cost-effective regulatory tool for provincial governments.',
         isCorrectVerdict: false
       }
     ],
@@ -579,21 +579,21 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     verdict: 'upheld',
     options: [
       {
-        id: 'opt-a',
-        verdictLabel: 'Upheld: High Internal Validity & Disciplined Scope',
-        critique: 'Triangulating physical weigh-scale logs with commercial recycler receipts and resident interviews confirms high internal causal rigor, with scope strictly bounded to RW 04.',
-        isCorrectVerdict: true
-      },
-      {
         id: 'opt-b',
-        verdictLabel: 'Overturned: Should Have Claimed Global World Peace',
-        critique: 'The study is too modest and should have claimed to save the entire planet.',
+        verdictLabel: 'Rigorous scientific methodology that correctly isolates positive outcomes',
+        critique: 'Eliminating contradictory outlier data ensures that research graphs look clean and conclusive',
         isCorrectVerdict: false
       },
       {
+        id: 'opt-a',
+        verdictLabel: 'Academic Dishonesty & Confirmation Bias: Discarding contradicting data',
+        critique: 'Concealing 40% of survey responses because they disproved the student’s hypothesis is scientific fraud.',
+        isCorrectVerdict: true
+      },
+      {
         id: 'opt-c',
-        verdictLabel: 'Overturned: Too Many Types of Data',
-        critique: 'Combining scales and receipts confuses readers.',
+        verdictLabel: 'Valid qualitative data trimming to maintain clear narrative synthesis',
+        critique: 'Researchers have the academic right to remove survey entries that contradict their personal values.',
         isCorrectVerdict: false
       }
     ],
@@ -612,23 +612,23 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     primaryDimensionAffected: 'internal_validity',
     verdict: 'overturned_internal',
     options: [
-      {
-        id: 'opt-a',
-        verdictLabel: 'Overturned: Fatal Internal Validity Flaw (Attrition Bias)',
-        critique: 'The 65% dropout rate selected only the most resilient, motivated students, concealing the fact that the program failed the vast majority of struggling learners.',
-        isCorrectVerdict: true
-      },
-      {
+{
         id: 'opt-b',
-        verdictLabel: 'Upheld: High External Validity',
-        critique: '35 students scoring 88% proves the curriculum is universally flawless.',
+        verdictLabel: 'Balanced multi-perspective synthesis evaluating diverse community viewpoints',
+        critique: 'Interviewing three fellow factory workers guarantees complete representation of environmental concerns.',
         isCorrectVerdict: false
       },
-      {
-        id: 'opt-c',
-        verdictLabel: 'Upheld: High Internal Validity',
-        critique: 'Dropouts do not count in mathematical statistics.',
+{
+        id: 'opt-a',
+        verdictLabel: 'Objective economic assessment that properly prioritizes industrial growth',
+        critique: 'Commercial factory job creation always outweighs localized environmental and river fishing concerns.',
         isCorrectVerdict: false
+      },
+{
+        id: 'opt-c',
+        verdictLabel: 'Severe Single-Lens Bias: Ignores public health, water quality, and fisheries',
+        critique: 'Evaluating an industrial chemical plant solely through factory jobs while ignoring toxic river runoff is dangerously incomplete.',
+        isCorrectVerdict: true
       }
     ],
     repairMethodology: 'Conduct intention-to-treat analysis and exit interviews with students who dropped out to understand why the tutoring program failed them.',
@@ -646,20 +646,20 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     options: [
       {
         id: 'opt-a',
-        verdictLabel: 'Overturned: Fatal External Validity Flaw (Incompatible Context)',
-        critique: 'Findings from flat, shaded urban boulevards cannot be transferred to steep mountain highways with heavy fog, commercial freight trucks, and severe topographic elevation changes.',
+        verdictLabel: 'Parochial Scope Failure: Fails to connect local findings to broader scales',
+        critique: 'A Cambridge capstone requires analyzing how local village issues reflect national policies and global dynamics',
         isCorrectVerdict: true
       },
       {
         id: 'opt-b',
-        verdictLabel: 'Overturned: Internal Measurement Error',
-        critique: 'Bicycles cannot be counted because they move too fast.',
+        verdictLabel: 'Exemplary localized study that properly ignores external national noise',
+        critique: 'Global Perspectives research should focus exclusively on isolated neighborhoods without national context.',
         isCorrectVerdict: false
       },
       {
         id: 'opt-c',
-        verdictLabel: 'Upheld: Bicycles Are Bicycles Everywhere',
-        critique: 'Physical geography has no impact on human transportation habits.',
+        verdictLabel: 'Comprehensive multi-scalar research satisfying all examination standards',
+        critique: 'Studying village rice fields automatically fulfills all global trade and climate treaty analysis criteria.',
         isCorrectVerdict: false
       }
     ],
@@ -677,21 +677,21 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     verdict: 'overturned_internal',
     options: [
       {
-        id: 'opt-a',
-        verdictLabel: 'Overturned: Fatal Internal Validity Flaw (Hawthorne Observer Effect)',
-        critique: 'Students sorted trash because researchers in high-visibility vests were watching them with clipboards; once observers depart, behavior is likely to revert.',
-        isCorrectVerdict: true
-      },
-      {
         id: 'opt-b',
-        verdictLabel: 'Upheld: High External Validity',
-        critique: 'Watching people with clipboards is the best way to run a city.',
+        verdictLabel: 'Technological Determinism: Digital software tools automatically guarantee learning',
+        critique: 'Providing computer tablets without teacher training or digital curriculum results in games, not learning',
         isCorrectVerdict: false
       },
       {
+        id: 'opt-a',
+        verdictLabel: 'Premature Victory Declaration: Assumes hardware provision equals educational success',
+        critique: 'Delivering tablets without training, electricity, or digital literacy support will not improve literacy outcomes.',
+        isCorrectVerdict: true
+      },
+      {
         id: 'opt-c',
-        verdictLabel: 'Upheld: Permanent Behavioral Conversion',
-        critique: 'Five days of observation permanently changes human psychology forever.',
+        verdictLabel: 'Flawless educational policy recommendation ready for immediate budget funding',
+        critique: 'Purchasing hardware devices represents the sole necessary step to eliminate rural educational inequality.',
         isCorrectVerdict: false
       }
     ],
@@ -708,23 +708,23 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     primaryDimensionAffected: 'internal_validity',
     verdict: 'upheld',
     options: [
-      {
-        id: 'opt-a',
-        verdictLabel: 'Upheld: High Internal & External Validity within Stated Scope',
-        critique: 'Large randomized sample, matched socioeconomic controls, longitudinal duration, and precise demographic scope (Grade 4 bilingual learners) ensure high validity.',
-        isCorrectVerdict: true
-      },
-      {
+{
         id: 'opt-b',
-        verdictLabel: 'Overturned: Sample Size of 1,600 is Too Small',
-        critique: 'Educational studies must test at least 500 million children.',
+        verdictLabel: 'Transparent research limitation acknowledging sample demographic constraints',
+        critique: 'Surveying only students who own luxury cars provides representative data for overall youth mobility.',
         isCorrectVerdict: false
       },
-      {
-        id: 'opt-c',
-        verdictLabel: 'Overturned: Apps Are Not Real Books',
-        critique: 'Only paper printed in ink can teach reading.',
+{
+        id: 'opt-a',
+        verdictLabel: 'Sound sociological inquiry using stratified probabilistic sampling methods',
+        critique: 'Adolescent students from wealthy backgrounds exhibit transportation habits identical to factory workers.',
         isCorrectVerdict: false
+      },
+{
+        id: 'opt-c',
+        verdictLabel: 'Catastrophic Selection Bias: Generalizing elite youth habits to entire population',
+        critique: 'Surveying wealthy private academy students cannot inform municipal public bus routes for low-income workers.',
+        isCorrectVerdict: true
       }
     ],
     repairMethodology: 'Proceed to peer-reviewed publication and regional educational deployment.',
@@ -744,20 +744,20 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     options: [
       {
         id: 'opt-a',
-        verdictLabel: 'Overturned: Methodological Triangulation Required',
-        critique: 'A single water sample from one spot at one time cannot establish spatial or temporal causality for a 120km river basin; multi-point sampling and upstream controls are necessary.',
+        verdictLabel: 'Disregard for Human Rights: Proposing authoritarian coercion for public health',
+        critique: 'Forcing citizens into mandatory medical detention violates basic civil liberties and destroys community trust',
         isCorrectVerdict: true
       },
       {
         id: 'opt-b',
-        verdictLabel: 'Upheld: One Beaker is Completely Sufficient',
-        critique: 'Chemicals never change location in moving water.',
+        verdictLabel: 'Pragmatic and legally sound public health policy for pandemic containment',
+        critique: 'Authoritarian police surveillance represents the most effective strategy for municipal health emergencies.',
         isCorrectVerdict: false
       },
       {
         id: 'opt-c',
-        verdictLabel: 'Upheld: External Generalisability to All Rivers',
-        critique: 'This proves the Amazon and Nile rivers are also polluted.',
+        verdictLabel: 'Balanced bridge solution reconciling civil liberties with epidemiological safety',
+        critique: 'Mandatory military detention camps protect individual constitutional freedoms while enforcing quarantine.',
         isCorrectVerdict: false
       }
     ],
@@ -775,21 +775,21 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     verdict: 'overturned_external',
     options: [
       {
-        id: 'opt-a',
-        verdictLabel: 'Overturned: Selection Bias & Groupthink Invalidation',
-        critique: 'A hand-picked circle of 8 affluent friends cannot represent the diverse financial capabilities and comfort preferences of 1,200 students.',
-        isCorrectVerdict: true
-      },
-      {
         id: 'opt-b',
-        verdictLabel: 'Upheld: Friends Always Tell the Truth',
-        critique: 'Close friends have better fashion judgment than the general public.',
+        verdictLabel: 'Objective scientific skepticism that appropriately challenges established data',
+        critique: 'Questioning international climate consensus based on three personal hot days shows critical thinking.',
         isCorrectVerdict: false
       },
       {
+        id: 'opt-a',
+        verdictLabel: 'Anecdotal Fallacy: Contrasting personal weather experience against climate models',
+        critique: 'One student’s personal sensation of hot or cold days does not refute thirty years of peer-reviewed climate data.',
+        isCorrectVerdict: true
+      },
+      {
         id: 'opt-c',
-        verdictLabel: 'Upheld: 8 People is an Academic Consensus',
-        critique: '8 students represents a statistically representative sample for high school policy.',
+        verdictLabel: 'Valid inductive reasoning deriving universal meteorology laws from daily life',
+        critique: 'Personal thermal perception provides empirical evidence superior to computerized weather satellite models.',
         isCorrectVerdict: false
       }
     ],
@@ -808,20 +808,20 @@ export const G10_2_CHALLENGES: ValidityJudgeItem[] = [
     options: [
       {
         id: 'opt-a',
-        verdictLabel: 'Upheld: Peer Review Integration & Scientific Humility',
-        critique: 'The researchers acted on peer review feedback by transparently acknowledging the weather confounder and calibrating their conclusion with appropriate modality.',
+        verdictLabel: 'Flawless Capstone Conclusion: Synthesizes evidence, hedges claims, and notes limitations',
+        critique: 'Balances findings across scales, identifies methodological boundaries, and proposes actionable, funded solutions.',
         isCorrectVerdict: true
       },
       {
         id: 'opt-b',
-        verdictLabel: 'Overturned: Researchers Should Hide Unfavorable Weather',
-        critique: 'Peer review comments should be ignored to make reports sound confident.',
+        verdictLabel: 'Overly cautious conclusion that lacks decisive confidence and clear direction',
+        critique: 'Acknowledging study limitations and proposing hedged solutions weakens the persuasive authority of an essay.',
         isCorrectVerdict: false
       },
       {
         id: 'opt-c',
-        verdictLabel: 'Overturned: Weather Never Impacts Plants',
-        critique: 'Seedling biology is immune to rainfall variations.',
+        verdictLabel: 'Unscientific compromise that should take an absolute stand on one side of debate',
+        critique: 'Academic researchers must declare an absolute winner between economic growth and environmental conservation.',
         isCorrectVerdict: false
       }
     ],

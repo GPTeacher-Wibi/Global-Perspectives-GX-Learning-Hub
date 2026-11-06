@@ -1,0 +1,44 @@
+{
+  "releaseCandidate": "v1.0.0-rc1",
+  "phase": "2G.7",
+  "status": "FROZEN_STABLE_RELEASE_CANDIDATE",
+  "timestamp": "2026-10-29T19:05:00-07:00",
+  "application": "Global Perspectives Learning Hub",
+  "architecture": {
+    "framework": "React 19",
+    "language": "TypeScript 5.8",
+    "bundler": "Vite 6.2",
+    "styling": "Tailwind CSS 4.1",
+    "executionModel": "Frontend-only, offline-first client application",
+    "storageKey": "gphub_progress_v1",
+    "backend": "None (No external databases, auth, or tracking)"
+  },
+  "contentInventory": {
+    "totalUnits": 10,
+    "totalInstructionalSlides": 215,
+    "totalCanonicalMicroGames": 30,
+    "totalCapstoneChallenges": 10,
+    "totalPracticeQuestions": 110,
+    "totalAuditedScoredItems": 420
+  },
+  "unitBreakdown": [
+    { "unit": 1, "title": "Understanding Perspectives", "slides": 27, "microGames": 3, "capstone": 1, "practice": 15 },
+    { "unit": 2, "title": "Understanding Research", "slides": 27, "microGames": 3, "capstone": 1, "practice": 15 },
+    { "unit": 3, "title": "Data Analysis", "slides": 20, "microGames": 3, "capstone": 1, "practice": 10 },
+    { "unit": 4, "title": "Data Synthesis", "slides": 18, "microGames": 3, "capstone": 1, "practice": 10 },
+    { "unit": 5, "title": "Planning", "slides": 19, "microGames": 3, "capstone": 1, "practice": 10 },
+    { "unit": 6, "title": "Questioning", "slides": 19, "microGames": 3, "capstone": 1, "practice": 10 },
+    { "unit": 7, "title": "Reasoning", "slides": 21, "microGames": 3, "capstone": 1, "practice": 10 },
+    { "unit": 8, "title": "Evidence", "slides": 20, "microGames": 3, "capstone": 1, "practice": 10 },
+    { "unit": 9, "title": "Claims", "slides": 19, "microGames": 3, "capstone": 1, "practice": 10 },
+    { "unit": 10, "title": "Drawing Conclusions", "slides": 25, "microGames": 3, "capstone": 1, "practice": 10 }
+  ],
+  "verificationStatus": {
+    "typeScript": "PASS (0 errors)",
+    "lint": "PASS (0 errors)",
+    "productionBuild": "PASS (dist/index.html 1.07kB, dist/assets/index-D9R9m9Gu.js 3,172.89kB)",
+    "positionBiasAudit": "PASS (Practice: A=25.5%, B=25.5%, C=24.5%, D=24.5%; 0 streaks >= 3)",
+    "lengthBiasAudit": "PASS (137/420 uniquely longest [32.6%], avg ratio 0.97x)",
+    "manualAcceptanceTesting": "PASS (Phase 2G.6 completed with no issues found)"
+  }
+}

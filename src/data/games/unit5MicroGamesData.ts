@@ -461,22 +461,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'hormat_constructive',
         label: 'Hormat with Constructive Inquiry (Culturally Appropriate)',
-        description: 'Expresses sincere respect for authority while introducing empirical scientific data through polite inquiry and collaborative framing.'
+        description: 'Expresses sincere respect for authority while introducing empirical scientific data through polite inquiry and collaborative framing'
       },
       {
         strategy: 'confrontational_blunt',
         label: 'Aggressive Direct Contradiction (Counterproductive)',
-        description: 'Bluntly declaring the senior teacher wrong in front of the group, causing public loss of face (kehilangan muka).'
+        description: 'Bluntly declares the senior teacher wrong in front of the group, causing public loss of face (kehilangan muka) and damaging rapport, despite failing to account for interpersonal group dynamics, shared project deadlines, and constructive conflict resolution frameworks.'
       },
       {
         strategy: 'passive_disengagement',
         label: 'Passive Compliance / Silent Resignation (Uncritical)',
-        description: 'Keeping silent and omitting vital peer-reviewed scientific findings to avoid any dialogue.'
+        description: 'Remains completely silent and omits vital peer-reviewed findings, failing to advance scientific truth or contribute to the project.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Superficial Harmony at All Costs',
-        description: 'Agreeing verbally while planning to secretly ignore the teacher later.'
+        label: 'Superficial Harmony at All Costs (Avoidance)',
+        description: 'Verbally agrees with the teacher\'s analysis to avoid friction while privately planning to bypass their guidance without discussion.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -499,18 +499,18 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Forced Binary Majority Showdown',
-        description: 'Calling an abrupt vote and telling the losing side to shut up and obey.'
+        label: 'Forced Binary Majority Showdown (Divisive)',
+        description: 'Forces an abrupt yes-or-no majority vote, commanding the dissenting minority to submit without exploring constructive common ground.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Group Dissolution / Walking Away',
-        description: 'Refusing to speak until the teacher assigns topics.'
+        label: 'Group Dissolution / Walking Away (Evasion)',
+        description: 'Refuses to participate further in negotiations, passively demanding that the supervising teacher intervene and dictate the decision.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Avoidance of Difficult Choices',
-        description: 'Tossing a coin or doing half of each topic sloppily without coherence.'
+        label: 'Avoidance of Difficult Choices (Compromise Failure)',
+        description: 'Tosses a coin or merges unrelated research questions into an unworkable compromise, evading rigorous analytical deliberation.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -529,22 +529,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'confrontational_blunt',
         label: 'Public Humiliation / Frontal Attack (Culturally & Professionally Destructive)',
-        description: 'Direct public confrontation that strips dignity, violates Rukun, and triggers defensive hostility rather than accountability.'
+        description: 'Direct public confrontation that strips dignity, violates Rukun, and triggers defensive hostility rather than accountability'
       },
       {
         strategy: 'rukun_preservation',
         label: 'Private Clarification & Support Protocol (Culturally Appropriate)',
-        description: 'Holding a calm private discussion (Empat Mata) to understand the blocker, set a firm 24-hour milestone, and preserve working relationships.'
+        description: 'Holds a calm private discussion (Empat Mata) to diagnose blockers, sets a clear 24-hour milestone, and preserves working relations.'
       },
       {
         strategy: 'musyawarah_mufakat',
-        label: 'Formal Musyawarah Deliberation',
-        description: 'Gathering the whole team to calmly rebalance workload.'
+        label: 'Formal Musyawarah Deliberation (Collaborative Review)',
+        description: 'Convenes the whole team in a structured circle to redistribute overdue workload equitably while addressing project bottlenecks.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Complete Avoidance',
-        description: 'Saying nothing and doing all of Budi\'s work for him.'
+        label: 'Complete Avoidance & Resentment (Passive Resignation)',
+        description: 'Remains completely silent while quietly completing Budi\'s unfinished slides, fostering hidden resentment and team friction.'
       }
     ],
     isCulturallyAppropriate: false,
@@ -563,22 +563,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'musyawarah_mufakat',
         label: 'Structured Gotong Royong with Role Clarity (Culturally Appropriate)',
-        description: 'Combines the spirit of communal solidarity (Gotong Royong) with modern project task architecture to ensure fairness and safety.'
+        description: 'Combines communal solidarity (Gotong Royong) with clear task distribution matrix to ensure shared responsibility and efficiency.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Unstructured Free-for-All',
-        description: 'Letting chaos reign in the name of friendliness.'
+        label: 'Unstructured Free-for-All (Chaotic Drift)',
+        description: 'Allows aimless participation without role coordination, resulting in duplicated efforts, neglected tasks, and student confusion.'
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Autocratic Dictatorship',
-        description: 'One person barking orders without consulting anyone.'
+        label: 'Autocratic Dictatorship (Coercive Control)',
+        description: 'Imposes rigid personal commands unilaterally without consulting team members or seeking consensus during task allocation.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Passive Resignation',
-        description: 'Letting one quiet student do all the heavy lifting.'
+        label: 'Passive Resignation (Silent Burden)',
+        description: 'Accepts unequal effort without speaking up, forcing compliant students to bear all heavy tasks to avoid social conflict.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -599,22 +599,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'hormat_constructive',
         label: 'Constructive Bridge-Building (Hormat + Alternative Proposal)',
-        description: 'Affirms the positive intent of the senior (excitement and visibility) while offering an eco-friendly, cost-effective alternative backed by logical alignment.'
+        description: 'Affirms the positive intent of the senior while offering an eco-friendly, cost-effective alternative backed by logical alignment'
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Frontal Mockery',
-        description: '"Kak, that is totally hypocritical and embarrassing. You obviously know nothing about ecology."'
+        label: 'Frontal Mockery & Condemnation (Disrespectful Dissent)',
+        description: 'Publicly accuses the senior leader of hypocrisy and environmental ignorance, triggering defensive hostility and division.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Silent Compliance',
-        description: 'Buying the balloons silently and complaining on Twitter later.'
+        label: 'Silent Compliance & Subversion (Passive Grumbling)',
+        description: 'Complies outwardly with the wasteful purchasing plan while privately complaining and venting frustration on social media.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Blind Agreement',
-        description: 'Pretending plastic balloons are biodegradable.'
+        label: 'Blind Agreement & Rationalization (Complacent Harmony)',
+        description: 'Endorses the harmful proposal unconditionally under the pretext of maintaining harmony, ignoring the core environmental purpose.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -633,22 +633,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'rukun_preservation',
         label: 'Empathic Private Accountability (Bicara Empat Mata)',
-        description: 'Approaching the struggling peer with empathy and curiosity about root causes, preserving dignity while re-establishing firm task commitments.'
+        description: 'Approaches the struggling peer with empathy and diagnostic inquiry, preserving dignity while re-establishing firm task commitments.'
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Public Group Chat Humiliation',
-        description: 'Posting screenshots of Dina\'s inactivity in a 50-person classroom group chat with clown emojis.'
+        label: 'Public Group Chat Humiliation (Aggressive Exposure)',
+        description: 'Broadcasts screenshots of Dina\'s inactive chat records to a massive student group, inflicting humiliation and resentment.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Total Ostracization',
-        description: 'Silently removing Dina\'s name from the paper without telling her or giving her a chance to recover.'
+        label: 'Total Ostracization (Silent Disregard)',
+        description: 'Silently removes Dina\'s name from the research roster without offering any opportunity for dialogue, feedback, or recovery.'
       },
       {
         strategy: 'musyawarah_mufakat',
-        label: 'Immediate Formal Tribunal',
-        description: 'Calling an emergency group trial before asking Dina if she was sick.'
+        label: 'Immediate Formal Tribunal (Premature Trial)',
+        description: 'Convenes an adversarial tribunal meeting before checking whether personal emergencies or health issues caused the absence.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -667,22 +667,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'musyawarah_mufakat',
         label: 'Active Facilitation of Quiet Voices (Inclusive Deliberation)',
-        description: 'Deliberately creating space and inviting quieter members to speak, honoring Rukun by ensuring all group members contribute their wisdom.'
+        description: 'Deliberately creating space and inviting quieter members to speak, honoring Rukun by ensuring all group members contribute their wisdom'
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Public Put-Down of the Boys',
-        description: 'Shouting at the boys: "You are all rude, sexist, and selfish!"'
+        label: 'Public Put-Down of Dominant Peers (Aggressive Shaming)',
+        description: 'Angrily berates the assertive students with personal insults rather than establishing structured conversational turn-taking.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Ignoring Siti Completely',
-        description: 'Assuming that because Siti is quiet, she has nothing valuable to contribute.'
+        label: 'Ignoring Siti Completely (Exclusionary Drift)',
+        description: 'Assumes silence implies lack of knowledge or interest, proceeding to finalize designs without reviewing Siti\'s notes.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Passive Acceptance of Dominance',
-        description: 'Letting the loudest voices make all decisions to avoid awkward silences.'
+        label: 'Passive Acceptance of Dominance (Superficial Peace)',
+        description: 'Allows aggressive speakers to monopolize discussions without intervention to avoid momentary social discomfort or tension.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -701,22 +701,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'hormat_constructive',
         label: 'Respectful Scheduling Adjustment (Toleransi & Hormat)',
-        description: 'Clearly communicates religious and cultural commitments while providing an immediate, practical schedule adjustment that respects all parties.'
+        description: 'Communicates religious commitments with dignity while proposing a practical timetable adjustment that accommodates everyone.'
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Accusatory Outrage',
-        description: '"You are deliberately disrespecting our religion and you are a terrible leader!"'
+        label: 'Accusatory Outrage (Hostile Escalation)',
+        description: 'Accuses the leader of intentional discrimination and hostility rather than resolving the calendar oversight constructively.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Silent Truancy',
-        description: 'Simply not showing up on Friday without explaining why.'
+        label: 'Silent Truancy (Unannounced Absence)',
+        description: 'Absents oneself from the scheduled session without notifying teammates or offering an alternative time slot for fieldwork.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Abandoning Spiritual Commitments',
-        description: 'Skipping prayer to please the leader.'
+        label: 'Compromising Fundamental Duties (Unprincipled Accord)',
+        description: 'Sacrifices core religious obligations in silence merely to avoid initiating an easy 30-minute schedule rearrangement.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -737,22 +737,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'hormat_constructive',
         label: 'Traditional Sowan Protocol (Cultural Respect & Ethics)',
-        description: 'Honoring local customs, community leadership, and social hierarchy before conducting empirical field research.'
+        description: 'Honors local traditions, community leadership, and social hierarchy before conducting empirical research within the village'
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Arrogant Academic Entitlement',
-        description: 'Demanding immediate interviews because "we have national university funding and research rights."'
+        label: 'Arrogant Academic Entitlement (Coercive Research)',
+        description: 'Demands immediate citizen interviews, insisting that university accreditation and research permits override local customs.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Cancelling Fieldwork Completely',
-        description: 'Running away because village customs seem complicated.'
+        label: 'Cancelling Fieldwork Completely (Defeatist Retreat)',
+        description: 'Abandons community data collection entirely upon encountering local formalities, discarding the entire research mission.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Covert Surveillance',
-        description: 'Filming secretly from behind trees to avoid talking to the Village Chief.'
+        label: 'Covert Surveillance (Evasive Intrusion)',
+        description: 'Records villagers secretly from behind trees to avoid greeting community elders, violating research ethics and human dignity.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -775,18 +775,18 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Scientific Chauvinism / Ridicule',
-        description: 'Writing in the report that village elders are superstitious and illiterate.'
+        label: 'Scientific Chauvinism / Ridicule (Arrogant Rejection)',
+        description: 'Derides ancestral herbal knowledge as superstitious nonsense in the final paper, alienating the host community completely.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Falsifying Lab Data',
-        description: 'Faking test results to match the lunar cycle myth.'
+        label: 'Falsifying Laboratory Findings (Academic Dishonesty)',
+        description: 'Fabricates experimental chemical data to mirror folk narratives, compromising academic integrity and scientific rigor.'
       },
       {
         strategy: 'rukun_preservation',
-        label: 'Omitting Laboratory Findings',
-        description: 'Hiding the lab data entirely to avoid any perceived disagreement.'
+        label: 'Omitting Quantitative Evidence (Evasive Censorship)',
+        description: 'Suppresses rigorous laboratory measurements entirely to avoid perceived social friction, degrading the academic paper.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -805,22 +805,22 @@ export const G5_2_CHALLENGES: IndonesianEtiquetteItem[] = [
       {
         strategy: 'rukun_preservation',
         label: 'Restoration of Rukun through Shared Fellowship and Shared Roles',
-        description: 'Using informal social fellowship and mutual apologies to dissolve interpersonal tension and establish cooperative co-roles.'
+        description: 'Restores communal warmth through informal fellowship, mutual apologies, and cooperative co-roles that value both strengths'
       },
       {
         strategy: 'confrontational_blunt',
-        label: 'Permanent Schism',
-        description: 'Demanding the teacher expel one student permanently.'
+        label: 'Permanent Interpersonal Schism (Vindictive Escalation)',
+        description: 'Demands that the supervising instructor permanently expel the rival member from the team, destroying group cohesion.'
       },
       {
         strategy: 'passive_disengagement',
-        label: 'Silent Cold War',
-        description: 'Continuing the project without speaking to each other for the rest of the year.'
+        label: 'Prolonged Silent Cold War (Paralyzing Avoidance)',
+        description: 'Continues project collaboration in hostile silence without addressing root friction, crippling effective communication.'
       },
       {
         strategy: 'musyawarah_mufakat',
-        label: 'Coin Toss with Zero Discussion',
-        description: 'Flipping a coin while remaining bitter enemies.'
+        label: 'Superficial Coin Toss Mechanism (Arbitrary Avoidance)',
+        description: 'Decides presentation roles with a coin flip without addressing the interpersonal rift, leaving emotional resentment unresolved.'
       }
     ],
     isCulturallyAppropriate: true,
@@ -871,33 +871,33 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'High School Plastic Waste Initiative',
     draftGoalStatement: '"Our 4-student group will completely eliminate all plastic pollution across Southeast Asia by the end of next month."',
     primaryDefect: 'lacks_achievable',
-    repairedGoalOptionA: '"By November 30, our 4-person team will audit plastic waste in our high school canteen and reduce single-use plastic water bottles by 50% by installing 2 refill stations."',
-    repairedGoalOptionB: '"We will write letters to world leaders asking them to ban plastic factories forever."',
-    repairedGoalOptionC: '"We will eliminate all plastic waste in Indonesia by next semester."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"Our 4-person student team will draft formal petitions urging international ministers across Southeast Asia to shut down commercial plastic manufacturing factories forever."',
+    repairedGoalOptionB: '"By November 30, our 4-person team will audit plastic waste in our high school canteen and reduce single-use plastic water bottles by 50% by installing 2 refill stations."',
+    repairedGoalOptionC: '"By next semester, our student environmental group will launch an awareness campaign across major Indonesian cities to eliminate urban consumer single-use plastic waste."',
+    correctRepairedOption: 'B',
     options: [
       {
         defect: 'lacks_achievable',
         label: 'Lacks Achievability (Unrealistic Scope)',
-        description: 'The goal is impossibly vast given the team\'s human skills, timeline, budget, and institutional authority.'
+        description: 'The stated scope exceeds the team\'s available time, human skills, financial budget, or institutional authority.'
       },
       {
         defect: 'lacks_specific',
-        label: 'Lacks Specificity',
-        description: 'The goal does not say what topic is being addressed.'
+        label: 'Lacks Specificity (Vague Definition)',
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
         defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Boundary',
-        description: 'The goal has no completion date.'
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'The goal meets all 5 criteria perfectly.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       }
     ],
-    explanation: 'A 4-person high school student team cannot eliminate regional plastic pollution in 30 days. Option A recalibrates the scope to their actual school canteen with realistic metrics.',
+    explanation: 'A 4-person high school student team cannot eliminate regional plastic pollution in 30 days. Option B recalibrates the scope to their actual school canteen with realistic metrics.',
     pedagogicalKey: 'Achievable goals match real student capabilities and resources.'
   },
   {
@@ -907,33 +907,33 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'Mental Health in Adolescence',
     draftGoalStatement: '"Our project will make Grade 10 students feel significantly happier and less stressed during the school year."',
     primaryDefect: 'lacks_measurable',
-    repairedGoalOptionA: '"By October 15, we will implement a 10-minute daily mindfulness breathing protocol in Class 10-B and measure changes in self-reported stress levels using a standardized 1–5 Likert scale across 30 students."',
-    repairedGoalOptionB: '"We will tell funny jokes during morning announcements so everyone smiles more."',
-    repairedGoalOptionC: '"Grade 10 students will be happier sometime in the future."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"Throughout the upcoming academic term, our student support team will organize engaging activities to ensure Grade 10 students feel consistently happier and less overwhelmed."',
+    repairedGoalOptionB: '"During morning homeroom sessions, our project members will broadcast humorous anecdotes over the school intercom system to boost overall student morale and reduce exam tension."',
+    repairedGoalOptionC: '"By October 15, we will implement a 10-minute daily mindfulness breathing protocol in Class 10-B and measure changes in self-reported stress levels using a standardized 1–5 Likert scale across 30 students."',
+    correctRepairedOption: 'C',
     options: [
+      {
+        defect: 'lacks_relevant',
+        label: 'Lacks Relevance to Research Focus',
+        description: 'The objective fails to align with the overarching research purpose, core community problem, or team priorities.'
+      },
       {
         defect: 'lacks_measurable',
         label: 'Lacks Measurability (No Numerical Indicator)',
-        description: 'Words like "happier" or "less stressed" contain no quantifiable metrics or verification baseline.'
-      },
-      {
-        defect: 'lacks_relevant',
-        label: 'Lacks Relevance',
-        description: 'The topic has nothing to do with student life.'
+        description: 'The statement omits quantifiable indicators, baseline metrics, or verifiable criteria for monitoring progress.'
       },
       {
         defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Boundary',
-        description: 'There is no reference to school time.'
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'The draft goal is already sound.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       }
     ],
-    explanation: 'Without standardized metrics (e.g., Likert scale, participation rate), you can never prove whether student stress actually decreased. Option A provides verifiable indicators.',
+    explanation: 'Without standardized metrics (e.g., Likert scale, participation rate), you can never prove whether student stress actually decreased. Option C provides verifiable indicators.',
     pedagogicalKey: 'If a goal cannot be quantified or verified, success cannot be proven.'
   },
   {
@@ -944,29 +944,29 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     draftGoalStatement: '"We will survey TransJakarta passengers on Bus Route 1 to determine average passenger waiting times at peak hours."',
     primaryDefect: 'lacks_time_bound',
     repairedGoalOptionA: '"Between October 1 and October 14, our team will survey 100 passengers at Harmoni station to benchmark peak-hour waiting times."',
-    repairedGoalOptionB: '"We will survey passengers forever until our teacher gives us an A."',
-    repairedGoalOptionC: '"We will survey passengers whenever we feel like taking the bus."',
+    repairedGoalOptionB: '"Our research group will continuously administer passenger questionnaires along Bus Route 1 until our supervising faculty advisor agrees we have collected sufficient responses."',
+    repairedGoalOptionC: '"Our project team will interview daily TransJakarta transit riders at designated bus stops whenever student schedules permit during ordinary afternoon commuting journeys."',
     correctRepairedOption: 'A',
     options: [
       {
-        defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Deadline',
-        description: 'The goal has no start date, no milestones, and no final deadline, making accountability impossible.'
+        defect: 'lacks_achievable',
+        label: 'Lacks Achievability (Unrealistic Scope)',
+        description: 'The stated scope exceeds the team\'s available time, human skills, financial budget, or institutional authority.'
       },
       {
         defect: 'lacks_specific',
-        label: 'Lacks Specificity',
-        description: 'It does not identify the city or bus network.'
+        label: 'Lacks Specificity (Vague Definition)',
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
-        defect: 'lacks_achievable',
-        label: 'Lacks Achievability',
-        description: 'Students cannot board buses.'
+        defect: 'lacks_time_bound',
+        label: 'Lacks Time-Bound Deadline (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'The goal is complete.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       }
     ],
     explanation: 'Without a concrete timeframe, tasks expand indefinitely and clash with exam deadlines. Option A sets a clear 2-week observation window.',
@@ -979,30 +979,30 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'Inquiry into Local Renewable Solar Energy in Malang',
     draftGoalStatement: '"By December 1, our solar energy team will organize a massive campus-wide video game tournament to raise money for new gaming monitors."',
     primaryDefect: 'lacks_relevant',
-    repairedGoalOptionA: '"By December 1, our team will conduct an energy audit of 12 rooftop solar panels on the science building to calculate actual kilowatt-hour savings for the school budget."',
-    repairedGoalOptionB: '"By December 1, we will play solar-powered video games in the cafeteria."',
-    repairedGoalOptionC: '"By December 1, we will ask the gaming club to talk about sunlight."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"By December 1, our renewable energy team will host an exhibition displaying solar-powered electronics in the cafeteria to spark casual conversations about clean power technology."',
+    repairedGoalOptionB: '"By December 1, our team will conduct an energy audit of 12 rooftop solar panels on the science building to calculate actual kilowatt-hour savings for the school budget."',
+    repairedGoalOptionC: '"By December 1, our inquiry group will coordinate with local gaming societies to sponsor open discussions evaluating environmental electricity usage in entertainment venues."',
+    correctRepairedOption: 'B',
     options: [
       {
-        defect: 'lacks_relevant',
-        label: 'Lacks Relevance to Mission',
-        description: 'The activity (gaming tournament) does not advance the stated research objective (evaluating local solar energy).'
+        defect: 'fully_smart',
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       },
       {
         defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Boundary',
-        description: 'It has no deadline.'
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
         defect: 'lacks_measurable',
-        label: 'Lacks Measurability',
-        description: 'It contains no tournament brackets.'
+        label: 'Lacks Measurability (No Numerical Indicator)',
+        description: 'The statement omits quantifiable indicators, baseline metrics, or verifiable criteria for monitoring progress.'
       },
       {
-        defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'The goal is sound.'
+        defect: 'lacks_relevant',
+        label: 'Lacks Relevance to Mission Focus',
+        description: 'The objective fails to align with the overarching research purpose, core community problem, or team priorities.'
       }
     ],
     explanation: 'Scope drift often disguises fun side-quests as project work. The goal must directly advance the core academic inquiry.',
@@ -1017,33 +1017,33 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'School Literacy Project',
     draftGoalStatement: '"We will make the school library better so more students read books."',
     primaryDefect: 'lacks_specific',
-    repairedGoalOptionA: '"By November 15, our team will catalog 150 contemporary graphic novels and launch a weekly lunch-hour peer reading club in the library to increase Grade 10 book checkouts by 25%."',
-    repairedGoalOptionB: '"We will make the library brighter and put up inspirational posters about reading."',
-    repairedGoalOptionC: '"We will ask the librarian to buy thousands of new books immediately."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"Our student literacy initiative will petition the school administration to acquire hundreds of contemporary publications and furnish reading lounges across the building."',
+    repairedGoalOptionB: '"Our literacy team will repaint the library reading hall, install inspirational educational banners, and encourage visitors to read novels during scheduled break periods."',
+    repairedGoalOptionC: '"By November 15, our team will catalog 150 contemporary graphic novels and launch a weekly lunch-hour peer reading club in the library to increase Grade 10 book checkouts by 25%."',
+    correctRepairedOption: 'C',
     options: [
       {
         defect: 'lacks_specific',
         label: 'Lacks Specificity (Extremely Vague)',
-        description: '"Better" is undefined; does it mean new books, air conditioning, silent rules, or comfortable chairs?'
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
         defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Boundary',
-        description: 'No completion target.'
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
         defect: 'lacks_measurable',
-        label: 'Lacks Measurability',
-        description: 'No book metrics.'
+        label: 'Lacks Measurability (No Numerical Indicator)',
+        description: 'The statement omits quantifiable indicators, baseline metrics, or verifiable criteria for monitoring progress.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'The goal needs no changes.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       }
     ],
-    explanation: '"Make better" is a wish, not a plan. Option A specifies the collection (150 graphic novels), the intervention (lunchtime club), the metric (+25% checkouts), and the deadline.',
+    explanation: '"Make better" is a wish, not a plan. Option C specifies the collection (150 graphic novels), the intervention (lunchtime club), the metric (+25% checkouts), and the deadline.',
     pedagogicalKey: 'Replace subjective adjectives like "better" with specific operational actions.'
   },
   {
@@ -1054,29 +1054,29 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     draftGoalStatement: '"Our group will convince the canteen vendors to sell healthy food soon."',
     primaryDefect: 'lacks_measurable',
     repairedGoalOptionA: '"By October 31, our group will partner with 4 canteen vendors to introduce at least 1 certified balanced fruit or vegetable snack option priced under Rp 10.000 per stall."',
-    repairedGoalOptionB: '"We will tell vendors that fried food is dangerous for students."',
-    repairedGoalOptionC: '"Vendors will sell delicious organic salads someday."',
+    repairedGoalOptionB: '"During the coming weeks, our student campaign will distribute informative brochures to food sellers warning them about the negative health impacts of excessive oily snacks."',
+    repairedGoalOptionC: '"Our wellness group will collaborate with school foodservice operators so that nutritious and affordable meal selections become widely accessible across the campus soon."',
     correctRepairedOption: 'A',
     options: [
       {
-        defect: 'lacks_measurable',
-        label: 'Lacks Measurability and Time-Bound Precision',
-        description: '"Healthy food soon" has no numerical target (how many vendors? what menu items?) and no calendar date.'
+        defect: 'lacks_relevant',
+        label: 'Lacks Relevance to Research Focus',
+        description: 'The objective fails to align with the overarching research purpose, core community problem, or team priorities.'
       },
       {
-        defect: 'lacks_relevant',
-        label: 'Lacks Relevance',
-        description: 'Canteens have no connection to health.'
+        defect: 'lacks_measurable',
+        label: 'Lacks Measurability (No Numerical Indicator)',
+        description: 'The statement omits quantifiable indicators, baseline metrics, or verifiable criteria for monitoring progress.'
       },
       {
         defect: 'lacks_achievable',
-        label: 'Lacks Achievability',
-        description: 'Canteens cannot sell food.'
+        label: 'Lacks Achievability (Unrealistic Scope)',
+        description: 'The stated scope exceeds the team\'s available time, human skills, financial budget, or institutional authority.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'It meets SMART criteria.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       }
     ],
     explanation: 'Option A establishes exact deliverables: 4 partner vendors, 1 specific menu item, price ceiling (Rp 10.000), and a deadline.',
@@ -1089,33 +1089,33 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'Coastal Conservation Research',
     draftGoalStatement: '"We will interview some environmental people about mangroves."',
     primaryDefect: 'lacks_specific',
-    repairedGoalOptionA: '"By September 25, our team will conduct 3 semi-structured 30-minute recorded interviews with certified marine biologists from the Surabaya Coastal Agency on mangrove reforestation survival rates."',
-    repairedGoalOptionB: '"We will chat with anyone who lives near the beach about trees."',
-    repairedGoalOptionC: '"We will read mangrove Wikipedia articles all week."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"Our research team will engage local coastal residents and fishermen in casual discussions to gather general impressions regarding regional mangrove forest preservation."',
+    repairedGoalOptionB: '"By September 25, our team will conduct 3 semi-structured 30-minute recorded interviews with certified marine biologists from the Surabaya Coastal Agency on mangrove reforestation survival rates."',
+    repairedGoalOptionC: '"During our upcoming study period, our group will read numerous academic online resources and compile encyclopedic summaries documenting Indonesian coastal biodiversity issues."',
+    correctRepairedOption: 'B',
     options: [
       {
-        defect: 'lacks_specific',
-        label: 'Lacks Specificity in Population and Instrument',
-        description: '"Some environmental people" fails to specify expert credentials, sample size, interview protocol, or focus questions.'
+        defect: 'lacks_time_bound',
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
         defect: 'lacks_achievable',
-        label: 'Lacks Achievability',
-        description: 'Experts do not exist in Indonesia.'
+        label: 'Lacks Achievability (Unrealistic Scope)',
+        description: 'The stated scope exceeds the team\'s available time, human skills, financial budget, or institutional authority.'
       },
       {
-        defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Boundary',
-        description: 'Only mentions September.'
+        defect: 'lacks_specific',
+        label: 'Lacks Specificity (Vague Definition)',
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'It is complete.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       }
     ],
-    explanation: 'Vague population sampling produces low-credibility data. Option A specifies expert profile, exact count (3), interview length (30 min), agency, and deadline.',
+    explanation: 'Vague population sampling produces low-credibility data. Option B specifies expert profile, exact count (3), interview length (30 min), agency, and deadline.',
     pedagogicalKey: 'Define exactly who will be interviewed and with what protocol.'
   },
   {
@@ -1125,33 +1125,33 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'Educational Technology Project',
     draftGoalStatement: '"Our 3-student team will code an artificial intelligence supercomputer app that teaches every subject in Indonesian high schools by next Friday."',
     primaryDefect: 'lacks_achievable',
-    repairedGoalOptionA: '"By next Friday, our 3-student team will build and test a functional 10-question interactive digital quiz on Grade 10 chemistry nomenclature using Google Forms and evaluate user feedback from 20 classmates."',
-    repairedGoalOptionB: '"We will hire professional software engineers in Silicon Valley to write the AI code."',
-    repairedGoalOptionC: '"We will launch the supercomputer app on iOS and Android next month."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"Our three-member student group will program and publish a comprehensive machine learning application covering the nationwide secondary school syllabus on digital platforms next month."',
+    repairedGoalOptionB: '"Our student project will partner with global technology corporations to secure enterprise servers and hire professional programmers to construct a universal tutoring software suite."',
+    repairedGoalOptionC: '"By next Friday, our 3-student team will build and test a functional 10-question interactive digital quiz on Grade 10 chemistry nomenclature using Google Forms and evaluate user feedback from 20 classmates."',
+    correctRepairedOption: 'C',
     options: [
       {
-        defect: 'lacks_achievable',
-        label: 'Lacks Achievability (Severe Delusion of Capacity)',
-        description: 'Building a multi-subject AI supercomputer in 7 days is impossible for high school novices.'
+        defect: 'fully_smart',
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       },
       {
         defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Boundary',
-        description: 'It has no deadline.'
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
         defect: 'lacks_specific',
-        label: 'Lacks Specificity',
-        description: 'It does not mention schools.'
+        label: 'Lacks Specificity (Vague Definition)',
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
-        defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'It is realistic.'
+        defect: 'lacks_achievable',
+        label: 'Lacks Achievability (Unrealistic Scope)',
+        description: 'The stated scope exceeds the team\'s available time, human skills, financial budget, or institutional authority.'
       }
     ],
-    explanation: 'Scope creep and unrealistic tech fantasies doom high school projects. Option A replaces an impossible AI supercomputer with an achievable 10-question digital prototype.',
+    explanation: 'Scope creep and unrealistic tech fantasies doom high school projects. Option C replaces an impossible AI supercomputer with an achievable 10-question digital prototype.',
     pedagogicalKey: 'Scale tech prototypes to tools and timeframes you actually control.'
   },
 
@@ -1164,29 +1164,29 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     draftGoalStatement: '"By November 10, our 4-person research team will complete an electricity audit of 16 high school classrooms, log air conditioner temperature settings over 10 consecutive school days, and present a policy brief to the school principal recommending a 24°C thermostat baseline to cut campus energy consumption by 12%."',
     primaryDefect: 'fully_smart',
     repairedGoalOptionA: '"This objective is already fully SMART: It has specific targets (16 classrooms), measurable metrics (10 days, 24°C, 12% savings), achievable scope, high relevance to school energy, and a firm deadline (November 10)."',
-    repairedGoalOptionB: '"We should remove the 24°C number because numbers make goals look too complicated."',
-    repairedGoalOptionC: '"We should extend the audit to include every building in the province."',
+    repairedGoalOptionB: '"We should simplify this draft objective by removing all numerical indicators, temperature thresholds, and calendar milestones so the project remains adaptable to unexpected circumstances."',
+    repairedGoalOptionC: '"We should broaden this school energy investigation by requiring our student team to audit municipal commercial buildings and regional industrial complexes across East Java before reporting."',
     correctRepairedOption: 'A',
     options: [
       {
         defect: 'fully_smart',
         label: 'Fully SMART Objective (Exemplary Rigor)',
-        description: 'Exhibits all five criteria: Specific boundaries, measurable indicators, achievable tasks, direct relevance, and a precise calendar deadline.'
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       },
       {
         defect: 'lacks_specific',
-        label: 'Lacks Specificity',
-        description: 'Does not name classrooms.'
+        label: 'Lacks Specificity (Vague Definition)',
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
         defect: 'lacks_measurable',
-        label: 'Lacks Measurability',
-        description: 'Has no numbers.'
+        label: 'Lacks Measurability (No Numerical Indicator)',
+        description: 'The statement omits quantifiable indicators, baseline metrics, or verifiable criteria for monitoring progress.'
       },
       {
         defect: 'lacks_achievable',
-        label: 'Lacks Achievability',
-        description: 'Students cannot read thermometers.'
+        label: 'Lacks Achievability (Unrealistic Scope)',
+        description: 'The stated scope exceeds the team\'s available time, human skills, financial budget, or institutional authority.'
       }
     ],
     explanation: 'This goal is an exemplary benchmark: every single SMART dimension is clearly satisfied with concrete deliverables and verifiable parameters.',
@@ -1199,33 +1199,33 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'Local River Water Quality Project',
     draftGoalStatement: '"Our team wants to clean up Brantas River so fish stop dying."',
     primaryDefect: 'lacks_specific',
-    repairedGoalOptionA: '"Between October 1 and October 20, our 5-person team will collect and test water samples at 3 designated points along the Brantas tributary to measure dissolved oxygen levels and publish an educational brochure for 100 riverbank residents."',
-    repairedGoalOptionB: '"We will build a giant water filter across the entire river channel."',
-    repairedGoalOptionC: '"We will ask the government to pass a river law soon."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"Our student environmental group will design and install massive industrial filtration barriers across the entire river basin to prevent debris accumulation by the end of next month."',
+    repairedGoalOptionB: '"Between October 1 and October 20, our 5-person team will collect and test water samples at 3 designated points along the Brantas tributary to measure dissolved oxygen levels and publish an educational brochure for 100 riverbank residents."',
+    repairedGoalOptionC: '"Our campaign team will submit urgent appeals to regional governmental authorities requesting comprehensive legislative reforms and increased municipal environmental patrols along the riverway soon."',
+    correctRepairedOption: 'B',
     options: [
       {
-        defect: 'lacks_specific',
-        label: 'Lacks Specificity, Measurability, and Timeline',
-        description: 'Completely unspecific on testing method, location, metrics, or deadlines.'
+        defect: 'lacks_relevant',
+        label: 'Lacks Relevance to Research Focus',
+        description: 'The objective fails to align with the overarching research purpose, core community problem, or team priorities.'
       },
       {
-        defect: 'lacks_relevant',
-        label: 'Lacks Relevance',
-        description: 'Rivers do not matter.'
+        defect: 'lacks_specific',
+        label: 'Lacks Specificity (Vague Definition)',
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'Nothing needs changing.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       },
       {
         defect: 'lacks_time_bound',
-        label: 'Only Missing a Date',
-        description: 'The rest is perfect.'
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       }
     ],
-    explanation: 'The draft statement is a generic emotional plea with zero scientific parameters. Option A equips the inquiry with specific sampling locations, physical chemical metrics (dissolved oxygen), sample size, and firm dates.',
+    explanation: 'The draft statement is a generic emotional plea with zero scientific parameters. Option B equips the inquiry with specific sampling locations, physical chemical metrics (dissolved oxygen), sample size, and firm dates.',
     pedagogicalKey: 'Transform emotional environmental wishes into structured scientific inquiry.'
   },
   {
@@ -1235,33 +1235,33 @@ export const G5_3_CHALLENGES: SmartGoalItem[] = [
     projectDomain: 'School Mental Health Survey',
     draftGoalStatement: '"By next Monday, we will publish a peer-reviewed 200-page psychology book analyzing adolescent depression across 50 international high schools."',
     primaryDefect: 'lacks_achievable',
-    repairedGoalOptionA: '"By December 5, our team will administer a verified 15-item wellbeing survey to 80 Grade 10 students at our school, synthesize findings into an 8-page portfolio report, and present actionable recommendations to the counseling department."',
-    repairedGoalOptionB: '"We will read 50 books about psychology by tonight."',
-    repairedGoalOptionC: '"We will submit our 200-page book to Harvard University next week."',
-    correctRepairedOption: 'A',
+    repairedGoalOptionA: '"By next Monday, our research group will complete a comprehensive manuscript reviewing adolescent mental health literature and submit the draft to international medical journal editors."',
+    repairedGoalOptionB: '"Over the upcoming weekend, our student team will review 50 empirical psychology monographs and synthesize their complete analytical frameworks into an executive briefing document."',
+    repairedGoalOptionC: '"By December 5, our team will administer a verified 15-item wellbeing survey to 80 Grade 10 students at our school, synthesize findings into an 8-page portfolio report, and present actionable recommendations to the counseling department."',
+    correctRepairedOption: 'C',
     options: [
       {
-        defect: 'lacks_achievable',
-        label: 'Lacks Achievability (Excessive Scope Creep)',
-        description: 'A 200-page academic book across 50 international schools in one weekend is completely outside student possibilities.'
+        defect: 'lacks_specific',
+        label: 'Lacks Specificity (Vague Definition)',
+        description: 'The goal statement uses vague or ambiguous phrasing without clarifying exact actions, targets, or operational scope.'
       },
       {
         defect: 'lacks_time_bound',
-        label: 'Lacks Time-Bound Boundary',
-        description: 'No date given.'
+        label: 'Lacks Time-Bound Boundary (Missing Schedule)',
+        description: 'The project plan lacks explicit calendar deadlines, completion milestones, or a defined operational timeframe.'
       },
       {
-        defect: 'lacks_specific',
-        label: 'Lacks Specificity',
-        description: 'Does not name schools.'
+        defect: 'lacks_achievable',
+        label: 'Lacks Achievability (Unrealistic Scope)',
+        description: 'The stated scope exceeds the team\'s available time, human skills, financial budget, or institutional authority.'
       },
       {
         defect: 'fully_smart',
-        label: 'Already Fully SMART',
-        description: 'Fully achievable.'
+        label: 'Already Fully SMART (Balanced Criteria)',
+        description: 'The proposed goal successfully satisfies all five criteria with clear, quantifiable, and realistic targets.'
       }
     ],
-    explanation: 'Unrealistic ambition results in missed deadlines and burnout. Option A calibrates the study to an 80-student cohort, an 8-page synthesis report, and an internal school counseling presentation.',
+    explanation: 'Unrealistic ambition results in missed deadlines and burnout. Option C calibrates the study to an 80-student cohort, an 8-page synthesis report, and an internal school counseling presentation.',
     pedagogicalKey: 'High academic rigor on a focused sample beats superficial fantasy on a global scale.'
   }
 ];

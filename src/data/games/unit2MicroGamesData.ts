@@ -427,22 +427,22 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     promptQuestion: 'Which prerequisite step was critically neglected before data collection?',
     options: [
       {
+        id: 'opt-1b',
+        text: 'Publishing the findings immediately in an international peer-reviewed journal.',
+        isCorrect: false,
+        feedback: 'Incorrect. Publishing occurs at the conclusion of the research lifecycle, not before collecting data.'
+      },
+      {
         id: 'opt-1a',
         text: 'Conducting a Literature Review to understand established variables and existing findings.',
         isCorrect: true,
-        feedback: 'Correct! Skipping the literature review causes researchers to "reinvent the wheel" or use flawed questions that prior research has already refined.'
-      },
-      {
-        id: 'opt-1b',
-        text: 'Publishing the findings in an international medical journal.',
-        isCorrect: false,
-        feedback: 'Incorrect. Publishing occurs at the very end of the research lifecycle, not before data collection.'
+        feedback: 'Correct! Skipping literature reviews causes researchers to reinvent the wheel or use flawed variables.'
       },
       {
         id: 'opt-1c',
-        text: 'Calculating the standard deviation of classroom grades.',
+        text: 'Calculating the standard deviation and variance of classroom academic semester grades.',
         isCorrect: false,
-        feedback: 'Incorrect. Calculating statistics is part of data analysis, which occurs after data is properly collected.'
+        feedback: 'Incorrect. Statistical calculation is part of data analysis, which occurs after structured data collection.'
       }
     ],
     pedagogicalKey: 'A literature review is not optional homework; it defines your variables and protects against amateur mistakes.',
@@ -460,22 +460,22 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     promptQuestion: 'What vital analytical gate must be completed before any legitimate conclusion can be stated?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Analyzing numerical differences through statistical tests and interpreting whether the yield increases are statistically significant.',
-        isCorrect: true,
-        feedback: 'Correct! Raw numbers mean nothing without data analysis. A researcher cannot claim success without testing whether differences happened by random chance.'
-      },
-      {
         id: 'opt-2b',
-        text: 'Rewriting the original research question to make it much easier to answer.',
+        text: 'Step 8: Formulating final municipal policy recommendations and action plans, although executing policy actions requires multi-year legislative reviews and dedicated municipal budget allocations.',
         isCorrect: false,
-        feedback: 'Incorrect. Changing your question to fit unanalyzed raw data is dishonest academic practice.'
+        feedback: 'Incorrect. Recommendations come at the end.'
       },
       {
         id: 'opt-2c',
-        text: 'Purchasing 500 more hectares of farmland immediately.',
+        text: 'Step 6: Executing advanced thematic qualitative coding matrices.',
         isCorrect: false,
-        feedback: 'Incorrect. Commercial expansion is a business decision, not a step in the scientific research pipeline.'
+        feedback: 'Incorrect. Thematic analysis belongs to Step 6.'
+      },
+      {
+        id: 'opt-2a',
+        text: 'Step 4: Methodology & Design (specifying ethical protocols, sampling frameworks, and data tools).',
+        isCorrect: true,
+        feedback: 'Correct! Methodology & Design specifies how sampling is conducted and ensures consent before collecting data.'
       }
     ],
     pedagogicalKey: 'Raw data is not evidence until it is systematically analyzed and critically discussed.',
@@ -494,21 +494,21 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     options: [
       {
         id: 'opt-3a',
-        text: 'Because research ethics committees must approve consent protocols and privacy protections before any data collection begins to prevent harm.',
+        text: 'Step 7: Discussion & Interpretation (contextualizing empirical findings against existing literature).',
         isCorrect: true,
-        feedback: 'Correct! In Cambridge Global Perspectives, ethical integrity is non-negotiable. Violating consent and privacy invalidates the entire study.'
+        feedback: 'Correct! Discussion explains what findings mean in relation to prior published studies.'
       },
       {
         id: 'opt-3b',
-        text: 'Because ethical reviews are only required if the study takes place in a foreign country.',
+        text: 'Step 2: Preparing a comprehensive academic literature review bibliography, despite needing systematic citation screening and comparative methodological synthesis across multiple research libraries.',
         isCorrect: false,
-        feedback: 'Incorrect. Ethics applies to all research involving human participants, regardless of location.'
+        feedback: 'Incorrect. Literature reviews precede data collection.'
       },
       {
         id: 'opt-3c',
-        text: 'Because ethics forms are simply bureaucratic paperwork that can be signed after the study is published.',
+        text: 'Step 5: Distributing standardized surveys to additional participants.',
         isCorrect: false,
-        feedback: 'Incorrect. Unethical data cannot be published and can result in severe legal and academic penalties.'
+        feedback: 'Incorrect. Collecting more data does not substitute for interpreting existing findings.'
       }
     ],
     pedagogicalKey: 'Methodology is not just tools; it is the moral framework that guarantees safety, consent, and validity.',
@@ -526,22 +526,22 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     promptQuestion: 'How does an authentic academic Discussion section connect with earlier research pipeline stages?',
     options: [
       {
-        id: 'opt-4a',
-        text: 'It compares current empirical findings against the theories and findings identified in the literature review to show what is confirmed or challenged.',
-        isCorrect: true,
-        feedback: 'Correct! The Discussion section closes the loop: it explains how your new data fits into the wider academic conversation established in Step 2.'
+        id: 'opt-4b',
+        text: 'Drafting the concluding bibliography according to APA academic guidelines, although formatting referencing styles does not define the core research boundaries or investigatory scope.',
+        isCorrect: false,
+        feedback: 'Incorrect. Referencing is essential but does not define research focus.'
       },
       {
-        id: 'opt-4b',
-        text: 'It repeats the raw survey tables word-for-word without adding any explanatory text.',
-        isCorrect: false,
-        feedback: 'Incorrect. Repeating raw data belongs in the Findings section; the Discussion explains the significance and implications.'
+        id: 'opt-4a',
+        text: 'Step 3: Question & Objectives (transforming vague general interest into focused, answerable inquiry).',
+        isCorrect: true,
+        feedback: 'Correct! Framing specific questions defines scope, boundaries, and variables.'
       },
       {
         id: 'opt-4c',
-        text: 'It apologizes to the reader for choosing a boring research topic.',
+        text: 'Designing colorful presentation slide graphics for the final exhibition.',
         isCorrect: false,
-        feedback: 'Incorrect. Academic discussions are objective analyses of what the evidence reveals.'
+        feedback: 'Incorrect. Graphic design does not solve lack of focus.'
       }
     ],
     pedagogicalKey: 'Research is a cumulative dialogue: your discussion must converse with the researchers who came before you.'
@@ -557,22 +557,22 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     promptQuestion: 'Why does Step 3 (Research Question) strictly dictate Step 4 (Methodology)?',
     options: [
       {
-        id: 'opt-1a',
-        text: 'Because the nature of the inquiry question (measuring numbers vs. exploring human experiences) determines whether quantitative or qualitative tools are required.',
-        isCorrect: true,
-        feedback: 'Correct! The research question is the compass. The tool must serve the question, never the other way around.'
-      },
-      {
         id: 'opt-1b',
-        text: 'Because research questions are always written in English, while methodologies are written in mathematics.',
+        text: 'Hypothesis testing requires calculating statistical confidence intervals before collecting evidence.',
         isCorrect: false,
-        feedback: 'Incorrect. Both sections use academic English and disciplinary conventions.'
+        feedback: 'Incorrect. Tests operate on collected data.'
       },
       {
         id: 'opt-1c',
-        text: 'Because surveys are universally required in every single research study regardless of topic.',
+        text: 'Data analysis and data collection must occur simultaneously in qualitative research designs.',
         isCorrect: false,
-        feedback: 'Incorrect. Surveys are only appropriate when measuring population frequencies or attitudes.'
+        feedback: 'Incorrect. You cannot run full analysis without data.'
+      },
+      {
+        id: 'opt-1a',
+        text: 'Formulating the question, designing the methodology, and obtaining ethics approval must precede data collection.',
+        isCorrect: true,
+        feedback: 'Correct! Data collection requires a question, sampling design, and ethical permissions.'
       }
     ],
     pedagogicalKey: 'Methodological tools are vehicles; your research question is the destination.'
@@ -587,21 +587,21 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     options: [
       {
         id: 'opt-2a',
-        text: 'In Step 3 (Objectives & Hypotheses), because hypotheses must be pre-registered predictions based on theory, not invented after seeing the results.',
+        text: 'Cleaning raw data, verifying participant entries, and computing statistical descriptive frequencies.',
         isCorrect: true,
-        feedback: 'Correct! Formulating a hypothesis after looking at your data (known as HARKing) is scientific misconduct.'
+        feedback: 'Correct! Data Analysis (Step 6) structures raw evidence before interpretation.'
       },
       {
         id: 'opt-2b',
-        text: 'In Step 8 (Conclusion), because researchers only know what they predicted once the study is finished.',
+        text: 'Submitting policy petitions to provincial parliament committees for legislative review, despite political advocacy operating outside the initial data processing and empirical validation pipeline.',
         isCorrect: false,
-        feedback: 'Incorrect. A prediction made after the fact is not a hypothesis; it is hindsight bias.'
+        feedback: 'Incorrect. Action plans come after conclusion.'
       },
       {
         id: 'opt-2c',
-        text: 'In Step 6 (Data Analysis), because computers automatically generate hypotheses during calculation.',
+        text: 'Re-writing the literature review to match the preferred political beliefs of respondents.',
         isCorrect: false,
-        feedback: 'Incorrect. Hypotheses are intellectual products grounded in prior literature.'
+        feedback: 'Incorrect. Falsifying reviews violates academic integrity.'
       }
     ],
     pedagogicalKey: 'A hypothesis is a priori: it is a testable prediction established before evidence is collected.'
@@ -615,22 +615,22 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     promptQuestion: 'What essential pipeline function does pilot testing serve?',
     options: [
       {
-        id: 'opt-3a',
-        text: 'It identifies ambiguous questions, cultural misunderstandings, and timing issues so the instrument can be calibrated before full data collection.',
-        isCorrect: true,
-        feedback: 'Correct! Piloting is a quality-control dress rehearsal that prevents wasted time and invalid datasets.'
+        id: 'opt-3b',
+        text: 'Conducting in-depth semi-structured qualitative interviews with five senior school administrators, although small qualitative samples cannot establish statistically generalizable prevalence across the student body.',
+        isCorrect: false,
+        feedback: 'Incorrect. Qualitative interviews do not measure statistical incidence.'
       },
       {
-        id: 'opt-3b',
-        text: 'It guarantees that all 40 participants will give identical answers.',
-        isCorrect: false,
-        feedback: 'Incorrect. Research does not seek identical answers; it seeks truthful, reliable data.'
+        id: 'opt-3a',
+        text: 'Administering a structured anonymous survey across a stratified random sample of 250 students.',
+        isCorrect: true,
+        feedback: 'Correct! Quantitative prevalence requires representative probabilistic sampling and standardized tools.'
       },
       {
         id: 'opt-3c',
-        text: 'It allows the researcher to skip the final conclusion if the pilot goes well.',
+        text: 'Writing reflective personal journal entries regarding childhood memories of playground exercise.',
         isCorrect: false,
-        feedback: 'Incorrect. A pilot test tests the instrument, not the full research hypothesis.'
+        feedback: 'Incorrect. Personal diaries cannot establish population-level rates.'
       }
     ],
     pedagogicalKey: 'Piloting tests the measurement tool so that your actual study tests the real phenomenon.'
@@ -644,22 +644,22 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     promptQuestion: 'Why does an authentic academic conclusion actively highlight its own limitations?',
     options: [
       {
-        id: 'opt-4a',
-        text: 'Because scientific honesty demands acknowledging scope boundaries, preventing over-generalization and guiding future researchers.',
-        isCorrect: true,
-        feedback: 'Correct! Stating limitations is a sign of high academic rigor, not weakness. It defines where the findings are valid.'
-      },
-      {
         id: 'opt-4b',
-        text: 'Because the researchers want to convince readers that the study was completely useless.',
+        text: 'Presenting raw survey spreadsheets directly to government ministers without summarizing findings.',
         isCorrect: false,
-        feedback: 'Incorrect. Limitations define contextual boundaries, not failure.'
+        feedback: 'Incorrect. Raw spreadsheets are uninterpreted.'
       },
       {
         id: 'opt-4c',
-        text: 'Because it is a legal requirement to avoid paying municipal research taxes.',
+        text: 'Claiming that the student’s personal opinions represent universal facts for all provincial schools.',
         isCorrect: false,
-        feedback: 'Incorrect. Limitations are an academic validity requirement, not a tax regulation.'
+        feedback: 'Incorrect. Unsubstantiated claims violate research rigor.'
+      },
+      {
+        id: 'opt-4a',
+        text: 'Step 8: Conclusion & Recommendations (synthesizing evidence, stating limitations, and proposing actions).',
+        isCorrect: true,
+        feedback: 'Correct! Step 8 translates academic findings into actionable, contextualized solutions.'
       }
     ],
     pedagogicalKey: 'Every study has boundaries: acknowledging limitations is the hallmark of honest inquiry.'
@@ -676,21 +676,21 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     options: [
       {
         id: 'opt-1a',
-        text: 'Review behavioral signage literature (Step 2) → formulate a specific question on bin placement and color cues (Step 3) → design an observational protocol (Step 4).',
+        text: 'Revising research questions iteratively as unexpected empirical findings reveal deeper underlying mechanisms.',
         isCorrect: true,
-        feedback: 'Correct! This follows the logical pipeline: study existing behavioral research first, refine the focus, then design the empirical observation method.'
+        feedback: 'Correct! The pipeline is iterative: anomalous data causes researchers to refine questions and models.'
       },
       {
         id: 'opt-1b',
-        text: 'Immediately lock the bins (Step 5) → write disciplinary referral letters (Step 8) → guess what the literature says later (Step 2).',
+        text: 'Changing survey response numbers secretly when statistical results do not confirm hypotheses.',
         isCorrect: false,
-        feedback: 'Incorrect. This jumps straight to punitive action without understanding the root causes through research.'
+        feedback: 'Incorrect. Falsifying data is scientific fraud.'
       },
       {
         id: 'opt-1c',
-        text: 'Publish a school newspaper article claiming students are hopeless (Step 8) → interview two friends (Step 5).',
+        text: 'Abandoning scientific methodology to rely entirely on informal peer speculation and rumor.',
         isCorrect: false,
-        feedback: 'Incorrect. This reverses the entire research sequence and replaces evidence with emotional frustration.'
+        feedback: 'Incorrect. Iteration requires systematic rigor.'
       }
     ],
     pedagogicalKey: 'Master researchers move deliberately: Understanding precedes design; design precedes data; data precedes conclusion.'
@@ -704,22 +704,22 @@ export const G2_2_CHALLENGES: PipelineChallengeItem[] = [
     promptQuestion: 'How should a scientific researcher respond when empirical findings contradict the initial hypothesis?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Report the unexpected outcome objectively in Findings, analyze why the mortality occurred in Discussion, and update agricultural theory.',
-        isCorrect: true,
-        feedback: 'Correct! In authentic science, "negative" or unexpected results are valuable discoveries. Falsifying a hypothesis advances knowledge.'
+        id: 'opt-2b',
+        text: 'Rejecting all scientific research because natural environments constantly undergo weather changes.',
+        isCorrect: false,
+        feedback: 'Incorrect. Changing conditions require rigorous updates.'
       },
       {
-        id: 'opt-2b',
-        text: 'Delete the mortality data and invent fictional high chili yields so the paper looks successful.',
-        isCorrect: false,
-        feedback: 'Incorrect. Falsifying data is the most severe crime in academic research and permanently ruins credibility.'
+        id: 'opt-2a',
+        text: 'Acknowledge ecological limitations openly, highlight seasonal variations, and recommend longitudinal follow-up.',
+        isCorrect: true,
+        feedback: 'Correct! Robust research explicitly articulates methodological and environmental constraints.'
       },
       {
         id: 'opt-2c',
-        text: 'Blame the seedlings and pretend the experiment never happened.',
+        text: 'Pretending that rainy season conditions never occurred to make data look cleaner and simpler.',
         isCorrect: false,
-        feedback: 'Incorrect. Science learns as much from what fails as from what succeeds.'
+        feedback: 'Incorrect. Concealing environmental factors destroys study validity.'
       }
     ],
     pedagogicalKey: 'Science is empirical: we conform our theories to reality, never reality to our theories.'

@@ -59,22 +59,22 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     taskPrompt: 'Calculate the Mean and identify the Median of this dataset. Which statement is mathematically true?',
     options: [
       {
-        id: 'opt-1a',
-        text: 'Mean = 18 minutes (Total 90 ÷ 5); Median = 15 minutes (the middle value).',
-        isCorrect: true,
-        feedback: 'Correct! Sum = 10 + 15 + 15 + 20 + 30 = 90. Mean = 90 ÷ 5 = 18. The middle ordered value is 15.'
+        id: 'opt-1b',
+        text: 'Mean = 25 minutes, Median = 20 minutes (values exaggerated due to uncalibrated stopwatch timing errors).',
+        isCorrect: false,
+        feedback: 'Incorrect. Sum is 90 / 5 = 18 mins.'
       },
       {
-        id: 'opt-1b',
-        text: 'Mean = 15 minutes; Median = 30 minutes.',
-        isCorrect: false,
-        feedback: 'Incorrect. The sum is 90, so the mean is 90 ÷ 5 = 18. 30 is the maximum value, not the median.'
+        id: 'opt-1a',
+        text: 'Mean = 18 minutes, Median = 15 minutes (exact central value).',
+        isCorrect: true,
+        feedback: 'Correct! Sum is 90 / 5 = 18 mins; middle value is 15 mins.'
       },
       {
         id: 'opt-1c',
-        text: 'Mean = 20 minutes; Median = 10 minutes.',
+        text: 'Mean = 15 minutes, Median = 18 minutes (calculations reversed).',
         isCorrect: false,
-        feedback: 'Incorrect. Please add all 5 numbers and divide by 5.'
+        feedback: 'Incorrect. 15 is the median.'
       }
     ],
     calculatedValues: {
@@ -99,22 +99,22 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     taskPrompt: 'What is the Mode of this dataset, and what does it communicate about seedling growth?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Mode = 16 cm; it represents the most frequently occurring sapling height in the sample.',
-        isCorrect: true,
-        feedback: 'Correct! 16 cm appears three times, making it the mode (most common value).'
-      },
-      {
         id: 'opt-2b',
-        text: 'Mode = 20 cm; it represents the tallest and healthiest sapling.',
+        text: 'Only Mode can be determined because student allowances are qualitative categories.',
         isCorrect: false,
-        feedback: 'Incorrect. 20 cm is the maximum value, not the mode.'
+        feedback: 'Incorrect. Currency values are continuous quantitative numbers.'
       },
       {
         id: 'opt-2c',
-        text: 'Mode = 12 cm; it represents the baseline starting height.',
+        text: 'Mean = 10,000 IDR and Median = 25,000 IDR (inaccurate calculation).',
         isCorrect: false,
-        feedback: 'Incorrect. 12 cm is the minimum value.'
+        feedback: 'Incorrect. Middle value is 20,000 IDR.'
+      },
+      {
+        id: 'opt-2a',
+        text: 'Mean = 21,667 IDR, Median = 20,000 IDR, and Mode = 20,000 IDR.',
+        isCorrect: true,
+        feedback: 'Correct! Sum is 130,000 / 6 = 21,667 IDR; median is 20,000 IDR.'
       }
     ],
     calculatedValues: {
@@ -136,21 +136,21 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     options: [
       {
         id: 'opt-3a',
-        text: 'Average the two central numbers (6 and 8): Median = (6 + 8) ÷ 2 = 7 cups.',
+        text: 'Mean = 75, Median = 75, and Mode = 75 (perfectly symmetrical unimodal distribution).',
         isCorrect: true,
-        feedback: 'Correct! When a dataset has an even count (n = 6), take the arithmetic mean of the two middle values.'
+        feedback: 'Correct! In a balanced symmetrical distribution, Mean, Median, and Mode coincide at 75.'
       },
       {
         id: 'opt-3b',
-        text: 'Pick the first number (2) because it started the experiment.',
+        text: 'Mean = 85, Median = 65, and Mode = 70 (asymmetrical values skewed by extreme high scores in the cohort).',
         isCorrect: false,
-        feedback: 'Incorrect. The median must represent the central division of the data.'
+        feedback: 'Incorrect. Scores balance symmetrically.'
       },
       {
         id: 'opt-3c',
-        text: 'Multiply 6 by 8 to get 48 cups.',
+        text: 'Mode = 90 because 90 is the highest numerical value recorded.',
         isCorrect: false,
-        feedback: 'Incorrect. Median is the middle point, never a multiplication product.'
+        feedback: 'Incorrect. Mode is the most frequent score, not the highest.'
       }
     ],
     calculatedValues: {
@@ -171,22 +171,22 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     taskPrompt: 'Which measure of central tendency can be used for this categorical data, and why can you NOT calculate a Mean?',
     options: [
       {
-        id: 'opt-4a',
-        text: 'The Mode (Motorcycle) must be used, because non-numerical categorical labels cannot be mathematically added or divided.',
-        isCorrect: true,
-        feedback: 'Correct! You cannot calculate "average transport" by dividing words by 150. The mode identifies the modal category.'
+        id: 'opt-4b',
+        text: 'The dataset has no mode because all four scores occurred at least once across the sampled classroom group.',
+        isCorrect: false,
+        feedback: 'Incorrect. Bimodal distributions have two modes.'
       },
       {
-        id: 'opt-4b',
-        text: 'The Mean must be calculated by assigning numbers to words: Walking = 1, Bicycle = 2, Angkot = 3, Motorcycle = 4.',
-        isCorrect: false,
-        feedback: 'Incorrect. Assigning arbitrary numbers to nominal categories does not create meaningful arithmetic averages.'
+        id: 'opt-4a',
+        text: 'The dataset is bimodal with Modes at 60 and 90, indicating two distinct subgroups.',
+        isCorrect: true,
+        feedback: 'Correct! Bimodal distributions exhibit two peaks representing distinct groups.'
       },
       {
         id: 'opt-4c',
-        text: 'The Standard Deviation must be zero because all students go to the same school.',
+        text: 'The dataset has only one mode at 90 because 90 is the top score.',
         isCorrect: false,
-        feedback: 'Incorrect. Standard deviation requires numerical interval or ratio data.'
+        feedback: 'Incorrect. 60 and 90 occur with equal frequency.'
       }
     ],
     calculatedValues: {
@@ -213,22 +213,22 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     taskPrompt: 'Sum = 280. The Mean is Rp 40,000, while the Median is Rp 25,000. Which measure truthfully represents the typical student, and why?',
     options: [
       {
-        id: 'opt-1a',
-        text: 'The Median (Rp 25,000), because the extreme outlier (Rp 135,000) artificially pulls the Mean higher than 6 out of the 7 students.',
-        isCorrect: true,
-        feedback: 'Correct! 6 out of 7 students get Rp 35,000 or less. Stating that the "average student gets Rp 40,000" is completely misleading.'
-      },
-      {
         id: 'opt-1b',
-        text: 'The Mean (Rp 40,000), because the mean is always the most scientific and superior statistical tool.',
+        text: 'The Mean is unaffected because calculating averages automatically eliminates extreme numbers.',
         isCorrect: false,
-        feedback: 'Incorrect. The mean is highly sensitive to extreme outliers, making it deceptive in skewed distributions.'
+        feedback: 'Incorrect. The Mean is heavily sensitive to outliers.'
       },
       {
         id: 'opt-1c',
-        text: 'Neither; all statistical averages are useless when numbers are unequal.',
+        text: 'The Median shifts to 500 million IDR because extreme values pull the center.',
         isCorrect: false,
-        feedback: 'Incorrect. The median provides an exceptionally robust and truthful summary of skewed data.'
+        feedback: 'Incorrect. The Median stays at the middle rank.'
+      },
+      {
+        id: 'opt-1a',
+        text: 'The Mean increases dramatically to 92 million IDR, while the Median remains at 20 million IDR.',
+        isCorrect: true,
+        feedback: 'Correct! The 500M CEO salary skews the mean, whereas the median remains stable.'
       }
     ],
     calculatedValues: {
@@ -255,21 +255,21 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     options: [
       {
         id: 'opt-2a',
-        text: 'It creates a positive (right-skewed) tail that inflates the Mean by 8 minutes above the Median.',
+        text: 'Median (3.5 million IDR), because extreme wealth outliers create severe positive skew in the Mean.',
         isCorrect: true,
-        feedback: 'Correct! An extreme high value pulls the mean to the right (Mean 24 > Median 16). The distribution is positively skewed.'
+        feedback: 'Correct! In highly skewed income datasets, the median represents the true typical earner.'
       },
       {
         id: 'opt-2b',
-        text: 'It reduces the Mean and makes the commute seem faster than it actually was.',
+        text: 'Mean (18.2 million IDR), because arithmetic averages always incorporate every citizen equally.',
         isCorrect: false,
-        feedback: 'Incorrect. A high value increases the mean, never decreases it.'
+        feedback: 'Incorrect. A few billionaires distort the mean upward.'
       },
       {
         id: 'opt-2c',
-        text: 'It changes the Mode from 16 to 98 minutes.',
+        text: 'Range (250 million IDR), because maximum income differences define poverty lines.',
         isCorrect: false,
-        feedback: 'Incorrect. 16 appears twice; 98 appears only once.'
+        feedback: 'Incorrect. Range measures dispersion, not central tendency.'
       }
     ],
     calculatedValues: {
@@ -291,22 +291,22 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     taskPrompt: 'Sum = 630. Mean = 78.75. Median = 87.5. What does the relationship Mean < Median indicate?',
     options: [
       {
-        id: 'opt-3a',
-        text: 'The distribution is negatively (left) skewed because the extreme low score (10) pulls the Mean downwards.',
-        isCorrect: true,
-        feedback: 'Correct! When Mean < Median, an extreme low outlier is dragging the mean down to the left tail.'
+        id: 'opt-3b',
+        text: 'Symmetrical normal distribution with zero skewness and identical central metrics across all score quartiles.',
+        isCorrect: false,
+        feedback: 'Incorrect. Zero scores create a long tail.'
       },
       {
-        id: 'opt-3b',
-        text: 'The distribution is perfectly normal and symmetrical.',
-        isCorrect: false,
-        feedback: 'Incorrect. In a normal distribution, Mean = Median.'
+        id: 'opt-3a',
+        text: 'Negatively skewed (left-skewed), with the Mean pulled below the Median by the zero scores.',
+        isCorrect: true,
+        feedback: 'Correct! Extreme low outliers pull the Mean to the left below the Median.'
       },
       {
         id: 'opt-3c',
-        text: 'The exam was too difficult for 90% of the class.',
+        text: 'Positively skewed (right-skewed), with high scores pulling the arithmetic average upward.',
         isCorrect: false,
-        feedback: 'Incorrect. 7 out of 8 students scored 80 or above.'
+        feedback: 'Incorrect. Zeroes pull the mean downward.'
       }
     ],
     calculatedValues: {
@@ -328,22 +328,22 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     taskPrompt: 'What is the scientifically honest procedure for handling this extreme outlier in research reports?',
     options: [
       {
-        id: 'opt-4a',
-        text: 'Investigate Station 14 (check for pipe leaks or sensor errors), report both with and without the outlier, and explain the reason transparently.',
-        isCorrect: true,
-        feedback: 'Correct! Never secretly delete outliers. Investigate whether it is a measurement error or a real environmental contamination event.'
-      },
-      {
         id: 'opt-4b',
-        text: 'Silently delete the 0.1 mg/L number so the graph looks clean and attractive for school presentations.',
+        text: 'Delete the five zero scores secretly to make class performance appear flawless.',
         isCorrect: false,
-        feedback: 'Incorrect. Silently removing inconvenient data is a serious academic integrity violation.'
+        feedback: 'Incorrect. Removing valid data violates research ethics.'
       },
       {
         id: 'opt-4c',
-        text: 'Change the 0.1 mg/L to 6.5 mg/L without telling anyone.',
+        text: 'Report only the maximum score to celebrate top student achievements.',
         isCorrect: false,
-        feedback: 'Incorrect. Falsifying data is scientific fraud.'
+        feedback: 'Incorrect. Maximum alone conceals learning gaps.'
+      },
+      {
+        id: 'opt-4a',
+        text: 'Report both the Mean and Median, note the negative skew, and explain the five absent zeroes.',
+        isCorrect: true,
+        feedback: 'Correct! Transparent reporting contextualizes outliers without distorting reality.'
       }
     ],
     calculatedValues: {
@@ -367,21 +367,21 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     options: [
       {
         id: 'opt-1a',
-        text: 'Class Alpha has low spread (students perform consistently close to the mean), while Class Beta has high spread (extreme inequality between struggling and advanced learners).',
+        text: 'Class Alpha has higher consistency; Class Beta has wide score variability (high standard deviation).',
         isCorrect: true,
-        feedback: 'Correct! Standard deviation measures dispersion around the mean. Same mean does NOT mean identical classrooms.'
+        feedback: 'Correct! Lower standard deviation signifies tighter grouping around the mean.'
       },
       {
         id: 'opt-1b',
-        text: 'Class Alpha performed much worse than Class Beta because their standard deviation is smaller.',
+        text: 'Both classes have identical performance and learning outcomes because their means are 75.',
         isCorrect: false,
-        feedback: 'Incorrect. A smaller standard deviation means higher consistency, not worse performance.'
+        feedback: 'Incorrect. Standard deviation reveals dramatic disparity.'
       },
       {
         id: 'opt-1c',
-        text: 'Class Beta is superior because higher standard deviation always means students are smarter.',
+        text: 'Class Beta is superior because higher standard deviation proves students are smarter.',
         isCorrect: false,
-        feedback: 'Incorrect. High standard deviation indicates high score inequality and variability.'
+        feedback: 'Incorrect. High standard deviation indicates high score inequality.'
       }
     ],
     calculatedValues: {
@@ -407,22 +407,22 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
     taskPrompt: 'If you must catch a flight at the airport and cannot afford an unpredictable arrival, which bus line is safer, and why?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Route 101, because its low standard deviation means delays are highly predictable (almost always between 4 and 6 minutes).',
-        isCorrect: true,
-        feedback: 'Correct! Low SD means low variability and high predictability. Route 202 could be 20 minutes late on any given day.'
+        id: 'opt-2b',
+        text: 'Route 202, because high standard deviation means the bus will drive faster and avoid heavy suburban traffic congestion.',
+        isCorrect: false,
+        feedback: 'Incorrect. High SD means unpredictable delays.'
       },
       {
-        id: 'opt-2b',
-        text: 'Route 202, because high standard deviation means the bus will drive faster.',
-        isCorrect: false,
-        feedback: 'Incorrect. High standard deviation means unpredictable delays ranging from on-time to severely late.'
+        id: 'opt-2a',
+        text: 'Route 101, because its low standard deviation means delays are highly predictable (4–6 mins).',
+        isCorrect: true,
+        feedback: 'Correct! Low SD means high predictability and low operational risk.'
       },
       {
         id: 'opt-2c',
-        text: 'They are 100% identical in risk because their mean delays are both 5 minutes.',
+        text: 'They are identical in risk because their mean delays are both calculated at 5 minutes.',
         isCorrect: false,
-        feedback: 'Incorrect. Relying on the mean alone ignores the enormous difference in reliability.'
+        feedback: 'Incorrect. The mean ignores the huge difference in variance.'
       }
     ],
     calculatedValues: {
@@ -447,17 +447,17 @@ export const G3_1_CHALLENGES: StatsSleuthItem[] = [
         id: 'opt-3a',
         text: 'Approximately 68% of students score within ±1 Standard Deviation (between 60 and 80).',
         isCorrect: true,
-        feedback: 'Correct! In any normal distribution, ~68% falls within ±1 SD, ~95% within ±2 SD (50–90), and ~99.7% within ±3 SD (40–100).'
+        feedback: 'Correct! Under the Empirical Rule, ~68% falls within ±1 SD in normal distributions.'
       },
       {
         id: 'opt-3b',
-        text: 'Exactly 100% of students must score within 60 and 80.',
+        text: 'Exactly 100% of students must score within 60 and 80 in any standardized examination.',
         isCorrect: false,
-        feedback: 'Incorrect. There are students scoring below 60 and above 80 in the distribution tails.'
+        feedback: 'Incorrect. Distribution tails extend beyond ±1 SD.'
       },
       {
         id: 'opt-3c',
-        text: 'Only 10% of students score in this range because the standard deviation is 10.',
+        text: 'Only 10% of students score in this range because the standard deviation is 10 points.',
         isCorrect: false,
         feedback: 'Incorrect. 10 is the spread unit, not a percentage.'
       }
@@ -514,19 +514,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'line',
     options: [
       {
+        type: 'pie',
+        label: 'Pie Chart',
+        description: 'Displays static proportional parts of a single whole as slices summing to 100%.'
+      },
+      {
         type: 'line',
         label: 'Line Graph',
         description: 'Connects sequential data points to reveal continuous chronological trends over time.'
       },
       {
-        type: 'pie',
-        label: 'Pie Chart',
-        description: 'Shows parts of a static whole as slices of 100%.'
-      },
-      {
         type: 'scatter',
         label: 'Scatter Plot',
-        description: 'Plots individual pairs of numerical variables to test correlation.'
+        description: 'Plots paired numerical coordinates across two continuous axes to assess correlation.'
       }
     ],
     explanation: 'Line graphs are designed specifically for continuous time-series data. Connecting points with lines shows trajectory, slopes, and seasonal rainfall peaks.',
@@ -543,19 +543,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'bar',
     options: [
       {
-        type: 'bar',
-        label: 'Bar Chart (Column Chart)',
-        description: 'Compares discrete, separate categories using rectangular bars whose heights indicate magnitude.'
-      },
-      {
         type: 'line',
         label: 'Line Graph',
-        description: 'Connects data points across time.'
+        description: 'Connects sequential numerical observations across an ongoing chronological timeline.'
       },
       {
         type: 'scatter',
         label: 'Scatter Plot',
-        description: 'Plots independent numerical variables.'
+        description: 'Plots independent numerical variables across dual axes to detect statistical outliers.'
+      },
+      {
+        type: 'bar',
+        label: 'Bar Chart (Column Chart)',
+        description: 'Compares discrete, separate categories using rectangular bars whose heights indicate magnitude.'
       }
     ],
     explanation: 'Bar charts are ideal for comparing distinct, separate categories. Clear vertical gaps between bars show that the districts are separate entities, not a continuous timeline.',
@@ -579,12 +579,12 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
       {
         type: 'pie',
         label: 'Pie Chart',
-        description: 'Divides a circle into proportions.'
+        description: 'Divides a single circular whole into slice percentages representing proportional parts of 100%.'
       },
       {
         type: 'bar',
         label: 'Bar Chart',
-        description: 'Compares discrete categories.'
+        description: 'Compares discrete, separate categories using vertical rectangular bars displaying comparative amounts.'
       }
     ],
     explanation: 'A Scatter Plot is the standard scientific tool to visualize bivariate relationships between two continuous variables and determine if a trendline exists.',
@@ -602,18 +602,18 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     options: [
       {
         type: 'pie',
-        label: 'Pie Chart / Donut Chart',
-        description: 'Displays percentage proportions of a static whole when categories are few and sum to 100%.'
+        label: 'Pie Chart',
+        description: 'Shows proportional composition of a whole where mutually exclusive slices sum to exactly 100%.'
       },
       {
         type: 'line',
         label: 'Line Graph',
-        description: 'Displays changes over chronological time.'
+        description: 'Tracks continuous chronological shifts across successive time intervals and seasons.'
       },
       {
         type: 'scatter',
         label: 'Scatter Plot',
-        description: 'Displays correlation between two numbers.'
+        description: 'Evaluates statistical correlation between two separate numerical variables over trials.'
       }
     ],
     explanation: 'When showing parts of a single whole (proportions of 100%) with 5 or fewer categories, a Pie or Donut chart provides an intuitive visual breakdown.',
@@ -632,22 +632,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'bar',
     options: [
       {
-        id: 'opt-1a',
-        text: 'Flawed Chart: Truncating the Y-axis exaggerates a tiny 4% difference into a massive visual deception; bar charts must start at zero.',
-        isCorrect: true,
-        feedback: 'Correct! In bar charts, bar length encodes value. Starting the axis above zero deceives the viewer by distorting visual proportions.'
+        type: 'box-plot',
+        label: 'Box Plot (Box-and-Whisker)',
+        description: 'Visualizes 5-number summary (Min, Q1, Median, Q3, Max) and identifies extreme score outliers.'
       },
       {
-        id: 'opt-1b',
-        text: 'Perfect Chart: Starting at 95 saves ink and makes the presentation look more exciting.',
-        isCorrect: false,
-        feedback: 'Incorrect. Good science prioritizes honest communication over "exciting" visual exaggeration.'
+        type: 'line',
+        label: 'Line Graph',
+        description: 'Tracks continuous trajectories over time, obscuring median values and interquartile spread.'
       },
       {
-        id: 'opt-1c',
-        text: 'Flawed Chart: Bar charts should only be drawn horizontally, never vertically.',
-        isCorrect: false,
-        feedback: 'Incorrect. Bar charts can be vertical or horizontal; the flaw is the misleading non-zero baseline.'
+        type: 'bar',
+        label: 'Bar Chart',
+        description: 'Displays category averages, concealing data spread, skewness, and extreme score outliers.'
       }
     ],
     explanation: 'Bar charts rely on bar length to communicate magnitude. Truncating the axis distorts visual proportionality.',
@@ -664,22 +661,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'bar',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Replace with a Horizontal Bar Chart: Pie charts with over 5–7 slices become unreadable rainbow wheels where angles cannot be accurately judged.',
-        isCorrect: true,
-        feedback: 'Correct! Human eyes struggle to compare subtle angle differences. A sorted horizontal bar chart allows instant, precise comparison of 20+ items.'
+        type: 'pie',
+        label: 'Pie Chart',
+        description: 'Divides a circle into proportional slices, unsuited for large continuous frequency counts.'
       },
       {
-        id: 'opt-2b',
-        text: 'Keep the Pie Chart but rotate it into 3D so it looks like a flying saucer.',
-        isCorrect: false,
-        feedback: 'Incorrect. 3D perspective distorts slice angles even worse by making front slices look artificially larger.'
+        type: 'histogram',
+        label: 'Histogram (Continuous Bins)',
+        description: 'Groups continuous numerical test scores into contiguous intervals (bins) to reveal distribution shape.'
       },
       {
-        id: 'opt-2c',
-        text: 'Replace with a Scatter Plot comparing budget to the date of birth of the accountant.',
-        isCorrect: false,
-        feedback: 'Incorrect. Irrelevant variables do not solve visualization clutter.'
+        type: 'bar',
+        label: 'Categorical Bar Chart',
+        description: 'Compares distinct categorical groups with gaps between bars, obscuring continuous bin flow.'
       }
     ],
     explanation: 'Pie charts fail when category counts exceed 5–7. Horizontal bar charts handle numerous categories with clear label readability.',
@@ -696,22 +690,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'bar',
     options: [
       {
-        id: 'opt-3a',
-        text: 'Flawed Chart: Connecting categorical foods with a line implies an ongoing physical continuum between Burgers and Nasi Goreng where none exists.',
-        isCorrect: true,
-        feedback: 'Correct! Lines signify continuity or change across time. Categorical items should be plotted with distinct separated bars.'
+        type: 'bar',
+        label: 'Stacked Bar Chart',
+        description: 'Compares discrete categorical groups clearly without implying false chronological continuity.'
       },
       {
-        id: 'opt-3b',
-        text: 'Valid Chart: Lines can be drawn between any random items as long as the colors are pretty.',
-        isCorrect: false,
-        feedback: 'Incorrect. Lines carry mathematical meaning: slope implies rate of change between adjacent states.'
+        type: 'scatter',
+        label: 'Scatter Plot',
+        description: 'Plots individual unlinked coordinate points, making categorical food satisfaction hard to follow.'
       },
       {
-        id: 'opt-3c',
-        text: 'Flawed Chart: Satisfaction scores can only be presented in audio podcasts.',
-        isCorrect: false,
-        feedback: 'Incorrect. Visual presentation is standard; the mistake is using a continuous line for discrete categories.'
+        type: 'line',
+        label: 'Multi-Line Trend Graph',
+        description: 'Draws continuous lines between nominal food categories, falsely implying continuous transitions.'
       }
     ],
     explanation: 'Lines imply continuity and interpolation. Connecting discrete nominal categories produces meaningless slopes.',
@@ -728,19 +719,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'box-plot',
     options: [
       {
+        type: 'scatter',
+        label: 'Scatter Plot with Trendline',
+        description: 'Plots bivariate numerical pairs across dual axes, failing to summarize multi-group quartile spreads.'
+      },
+      {
         type: 'box-plot',
-        label: 'Box Plot (Box-and-Whisker Plot)',
-        description: 'Displays the 5-number summary (Min, Q1, Median, Q3, Max) and plots individual outliers clearly.'
+        label: 'Box Plot (Box-and-Whisker)',
+        description: 'Displays 5-number distribution summary and highlights extreme statistical outliers across regional groups.'
       },
       {
         type: 'pie',
         label: 'Pie Chart',
-        description: 'Displays parts of a whole.'
-      },
-      {
-        type: 'line',
-        label: 'Line Graph',
-        description: 'Displays time series trends.'
+        description: 'Displays static percentage slices of a single whole, unable to represent distribution skewness or income gaps.'
       }
     ],
     explanation: 'Box plots are the gold standard for comparing distributions, showing medians, interquartile ranges, and explicitly identifying outliers as separate points.',
@@ -759,22 +750,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'scatter',
     options: [
       {
-        id: 'opt-1a',
-        text: 'The plot shows a strong positive linear correlation: schools with more experienced teachers consistently demonstrate higher literacy growth.',
-        isCorrect: true,
-        feedback: 'Correct! Upward slope indicates positive correlation; tight clustering around the trendline indicates strong correlation.'
+        type: 'pie',
+        label: '3D Exploding Pie Chart',
+        description: 'Distorts geometric slice proportions through artificial perspective angles and adds visual clutter.'
       },
       {
-        id: 'opt-1b',
-        text: 'The plot proves that teacher experience causes 100% of student learning without any other factors.',
-        isCorrect: false,
-        feedback: 'Incorrect. Correlation does not prove single-cause causation; other factors (school funding) may also contribute.'
+        type: 'scatter',
+        label: 'Bivariate Scatter Plot',
+        description: 'Plots paired coordinates across two continuous axes to display linear clustering and correlation strength.'
       },
       {
-        id: 'opt-1c',
-        text: 'The plot shows a negative correlation because there are too many dots.',
-        isCorrect: false,
-        feedback: 'Incorrect. An upward diagonal slope is the definition of a positive correlation.'
+        type: 'line',
+        label: 'Connected Line Graph',
+        description: 'Implies false continuous chronological flow between independent schools that share no sequential timeline.'
       }
     ],
     explanation: 'Interpreting scatter plots requires evaluating slope direction (positive/negative) and dot clustering tightness (strength).',
@@ -791,22 +779,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'histogram',
     options: [
       {
-        id: 'opt-2a',
-        text: 'A Histogram groups continuous numerical data into ranges (bins) with touching bars, whereas a Bar Chart compares discrete categorical groups with gaps between bars.',
-        isCorrect: true,
-        feedback: 'Correct! In a histogram, bars touch to show a continuous numerical spectrum. In a bar chart, gaps separate distinct categories.'
+        type: 'scatter',
+        label: 'Bivariate Scatter Plot',
+        description: 'Correlates two numerical metrics, failing to group single-variable test scores into contiguous score bins.'
       },
       {
-        id: 'opt-2b',
-        text: 'They are identical names for the exact same chart created in Microsoft Excel.',
-        isCorrect: false,
-        feedback: 'Incorrect. They serve fundamentally different mathematical data types (continuous ranges vs discrete categories).'
+        type: 'histogram',
+        label: 'Continuous Binned Histogram',
+        description: 'Groups continuous numerical data into contiguous adjacent intervals (bins) to reveal distribution shape.'
       },
       {
-        id: 'opt-2c',
-        text: 'A histogram only measures historical events from the 19th century.',
-        isCorrect: false,
-        feedback: 'Incorrect. "Histogram" comes from the Greek word for mast/upright bar, not history.'
+        type: 'bar',
+        label: 'Simple Categorical Bar Chart',
+        description: 'Compares discrete categories separated by gaps, obscuring continuous numeric frequency distributions.'
       }
     ],
     explanation: 'Histograms represent continuous distributions grouped into contiguous bins (touching bars). Bar charts represent discrete categories (separated bars).',
@@ -823,22 +808,19 @@ export const G3_2_CHALLENGES: ChartSelectorItem[] = [
     correctChart: 'line',
     options: [
       {
-        id: 'opt-3a',
-        text: 'A Multi-Line Graph: It clearly displays both starting baselines and differing rates of acceleration (slopes) across countries on a shared timeline.',
-        isCorrect: true,
-        feedback: 'Correct! Multi-line graphs allow direct comparison of growth trajectories and inflection points over time.'
+        type: 'line',
+        label: 'Multi-Line Trend Graph',
+        description: 'Tracks and compares three continuous time-series trajectories on shared axes to identify slope differences.'
       },
       {
-        id: 'opt-3b',
-        text: 'Three separate pie charts drawn on different pieces of paper.',
-        isCorrect: false,
-        feedback: 'Incorrect. Separate pie charts make comparing rate of growth across time nearly impossible.'
+        type: 'pie',
+        label: 'Pie Chart with 35 Slices',
+        description: 'Crowds thirty-five micro-slices into unreadable slivers, making accurate comparison impossible.'
       },
       {
-        id: 'opt-3c',
-        text: 'A single word cloud containing the names of car brands.',
-        isCorrect: false,
-        feedback: 'Incorrect. Word clouds do not display numerical growth trajectories.'
+        type: 'bar',
+        label: 'Pareto Bar Chart with "Other"',
+        description: 'Compares discrete static totals, unable to show continuous year-by-year trajectory slope differences.'
       }
     ],
     explanation: 'Multi-line graphs enable cross-entity trajectory comparison along a shared chronological scale.',
@@ -873,32 +855,32 @@ export interface QualitativeCodingItem {
 }
 
 export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
-  // STAGE 1: MEANING UNITS & INDUCTIVE CODING (4 items)
+  // STAGE 1: MEANING UNITS & INDUCTIVE CODING (Items 1-4)
   {
     id: 'g3-3-s1-q1',
     stage: 1,
     title: 'Coding 1: Traditional Market Vendor on Digital Payment Apps',
     sourceContext: 'Interview with Pak Joko (58), a fruit stall owner in Pasar Beringharjo, Yogyakarta, discussing QRIS digital payment systems.',
     rawExcerpt: '"Young customers just wave their phones and walk away. But my screen takes three minutes to confirm the notification, and when the market Wi-Fi drops, I don’t know if the money actually arrived. I feel anxious every time I don’t hear physical coins clinking in my wooden drawer."',
-    taskPrompt: 'Which inductive code best captures the core psychological and operational meaning of Pak Joko’s statement?',
+    taskPrompt: 'Which inductive qualitative code best captures the core psychological and operational meaning of Pak Joko’s statement?',
     options: [
       {
-        id: 'opt-1a',
-        text: 'Code: "Technological Anxiety & Loss of Tangible Verification"',
-        isCorrect: true,
-        feedback: 'Correct! The code synthesizes both the technical barrier (Wi-Fi latency) and the emotional need for tangible physical confirmation.'
+        id: 'opt-1b',
+        text: 'Code: "Smartphone Screen Latency" (describing the three-minute delay in phone notification alerts).',
+        isCorrect: false,
+        feedback: 'Incorrect. This describes a surface technical symptom rather than interpreting Pak Joko’s emotional experience.'
       },
       {
-        id: 'opt-1b',
-        text: 'Code: "Fruit is Healthy to Eat"',
-        isCorrect: false,
-        feedback: 'Incorrect. The excerpt is not about nutrition; it is about anxiety surrounding digital payments.'
+        id: 'opt-1a',
+        text: 'Code: "Technological Anxiety & Loss of Tangible Verification" (capturing emotional fear and missing cash confirmation).',
+        isCorrect: true,
+        feedback: 'Correct! The code abstracts both Pak Joko’s emotional insecurity and the operational disruption of losing physical cash proof.'
       },
       {
         id: 'opt-1c',
-        text: 'Code: "Young People Have Bad Manners"',
+        text: 'Code: "Total Rejection of Modern Financial Commerce" (assuming traditional vendors reject all digital transaction infrastructure).',
         isCorrect: false,
-        feedback: 'Incorrect. The vendor is reflecting on payment verification lag, not criticizing youth morality.'
+        feedback: 'Incorrect. This overgeneralizes Pak Joko’s specific anxiety into an extreme ideological rejection of technology.'
       }
     ],
     revealedCode: 'Technological Anxiety & Loss of Tangible Verification',
@@ -917,22 +899,22 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     taskPrompt: 'What inductive qualitative code accurately interprets Sarah’s emotional driver?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Code: "Peer-Induced Academic Guilt & Sleep Deprivation"',
-        isCorrect: true,
-        feedback: 'Correct! This code captures the psychological pressure (group chat comparison) and behavioral response (late-night caffeine/sleep loss).'
-      },
-      {
         id: 'opt-2b',
-        text: 'Code: "Coffee Brands in Indonesia"',
+        text: 'Code: "Late-Night Caffeine Consumption" (recording physical habits like drinking instant coffee past midnight to endure fatigue).',
         isCorrect: false,
-        feedback: 'Incorrect. Coffee is merely an incidental detail, not the core phenomenon being studied.'
+        feedback: 'Incorrect. Caffeine intake is merely an operational coping behavior, not the underlying emotional driver.'
       },
       {
         id: 'opt-2c',
-        text: 'Code: "Smartphone Screens are Bright"',
+        text: 'Code: "Hostile Peer Competition" (assuming classmates are deliberately trying to harm each other).',
         isCorrect: false,
-        feedback: 'Incorrect. The focus is social comparison and pressure, not screen hardware.'
+        feedback: 'Incorrect. The peer chat is cooperative, but triggers internal psychological guilt in Sarah.'
+      },
+      {
+        id: 'opt-2a',
+        text: 'Code: "Peer-Induced Academic Guilt & Sleep Sacrifice" (interpreting social comparison and forced sleeplessness).',
+        isCorrect: true,
+        feedback: 'Correct! The code synthesizes Sarah’s internal guilt driven by social comparison with her coping mechanism of sleep sacrifice.'
       }
     ],
     revealedCode: 'Peer-Induced Academic Guilt & Sleep Deprivation',
@@ -944,25 +926,25 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     title: 'Coding 3: Coastal Fisherman on Mangrove Rehabilitation',
     sourceContext: 'Interview with Pak Hasan (47), coastal fisherman in Demak, Central Java, after a sea dyke construction project.',
     rawExcerpt: '"The concrete sea wall protected the highway, but it blocked the natural sediment that fed our mudflats. The juvenile crabs and milkfish fry have disappeared because their mangrove nurseries were cut down. Now our boats must burn twice as much diesel fuel to fish far out in the deep sea."',
-    taskPrompt: 'Which code best synthesizes Pak Hasan’s observation of environmental infrastructure trade-offs?',
+    taskPrompt: 'Which code best captures Pak Hasan’s observation of environmental infrastructure trade-offs?',
     options: [
       {
         id: 'opt-3a',
-        text: 'Code: "Infrastructure Development vs. Ecosystem Livelihood Disruption"',
+        text: 'Code: "Infrastructure Defense vs. Ecosystem Livelihood Disruption" (capturing seawall protection at the expense of fisheries).',
         isCorrect: true,
-        feedback: 'Correct! The code balances the infrastructure goal (highway protection) against the ecological and economic harm to artisanal fisheries.'
+        feedback: 'Correct! The code abstracts Pak Hasan’s insight: protecting inland highway infrastructure came at the direct cost of coastal marine nurseries and local livelihood.'
       },
       {
         id: 'opt-3b',
-        text: 'Code: "Boats Need Diesel Fuel"',
+        text: 'Code: "Rising Boat Fuel Expenses" (describing the diesel purchase costs for offshore fishing vessels).',
         isCorrect: false,
-        feedback: 'Incorrect. That is a trivial surface fact, not an analytical qualitative code.'
+        feedback: 'Incorrect. Rising diesel costs are a secondary symptom of the destroyed nursery mudflats, not the core structural tension.'
       },
       {
         id: 'opt-3c',
-        text: 'Code: "Fishermen Dislike Concrete"',
+        text: 'Code: "Complete Opposition to Coastal Engineering" (assuming local fishing communities reject all governmental seawall barriers).',
         isCorrect: false,
-        feedback: 'Incorrect. The issue is ecosystem disruption and lost fish nurseries, not an aesthetic opinion of concrete.'
+        feedback: 'Incorrect. Pak Hasan acknowledges the sea wall protected the highway; he critiques the unmitigated ecological destruction.'
       }
     ],
     revealedCode: 'Infrastructure Development vs. Ecosystem Livelihood Disruption',
@@ -974,32 +956,32 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     title: 'Coding 4: Urban Teacher on AI Chatbots in Classrooms',
     sourceContext: 'Focus group with Bu Sri (34), high school history teacher in Bandung.',
     rawExcerpt: '"Students hand in essays with flawless English grammar and sophisticated vocabulary, but when I ask them in class to explain why the Dutch VOC collapsed, they look confused. The chatbot generated the final essay product, but the internal thinking process never happened in the student’s mind."',
-    taskPrompt: 'Which code captures Bu Sri’s primary pedagogical concern regarding generative AI?',
+    taskPrompt: 'Which inductive code captures Bu Sri’s primary pedagogical concern regarding generative AI?',
     options: [
       {
-        id: 'opt-4a',
-        text: 'Code: "Superficial Polish Masking Cognitive Disengagement"',
-        isCorrect: true,
-        feedback: 'Correct! The code identifies the contrast between external polished output and the absence of internal conceptual understanding.'
+        id: 'opt-4b',
+        text: 'Code: "Grammatical Vocabulary Mastery" (describing high-level prose formatting in student homework papers).',
+        isCorrect: false,
+        feedback: 'Incorrect. Flawless grammar is the misleading surface symptom, not Bu Sri’s underlying pedagogical concern.'
       },
       {
-        id: 'opt-4b',
-        text: 'Code: "History Essays are Long"',
-        isCorrect: false,
-        feedback: 'Incorrect. The quote addresses artificial intelligence replacing student critical thinking.'
+        id: 'opt-4a',
+        text: 'Code: "Superficial Polish Masking Cognitive Disengagement" (capturing flawless output hiding lack of understanding).',
+        isCorrect: true,
+        feedback: 'Correct! Bu Sri’s concern is that pristine automated text hides the absence of actual conceptual understanding and critical thinking.'
       },
       {
         id: 'opt-4c',
-        text: 'Code: "The Dutch VOC was Founded in 1602"',
+        text: 'Code: "Total Student Refusal to Learn History" (assuming learners are incapable of academic motivation).',
         isCorrect: false,
-        feedback: 'Incorrect. Historical facts in the prompt are context, not the teacher’s qualitative perspective.'
+        feedback: 'Incorrect. The excerpt indicates students complete assignments, but outsource cognitive reasoning to software.'
       }
     ],
     revealedCode: 'Superficial Polish Masking Cognitive Disengagement',
     pedagogicalKey: 'Effective coding abstracts from surface text to the underlying conceptual dilemma.'
   },
 
-  // STAGE 2: CATEGORY TO OVERARCHING THEME (4 items)
+  // STAGE 2: CATEGORY TO OVERARCHING THEME (Items 5-8)
   {
     id: 'g3-3-s2-q1',
     stage: 2,
@@ -1009,22 +991,22 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     taskPrompt: 'What overarching analytical Theme unites these three codes into a coherent finding?',
     options: [
       {
-        id: 'opt-1a',
-        text: 'Overarching Theme: "Structural Precarity and Vulnerability in Informal Livelihoods"',
-        isCorrect: true,
-        feedback: 'Correct! A theme connects multiple sub-codes into an overarching conceptual narrative that explains the shared condition.'
-      },
-      {
         id: 'opt-1b',
-        text: 'Overarching Theme: "Street Food in Jakarta Tastes Delicious"',
+        text: 'Theme: "Municipal Enforcement Tactics" (focusing exclusively on municipal Satpol PP patrol routines and urban sidewalk crackdowns).',
         isCorrect: false,
-        feedback: 'Incorrect. The codes relate to financial insecurity and legal vulnerability, not culinary taste.'
+        feedback: 'Incorrect. Municipal enforcement represents only one code, omitting weather volatility and health vulnerability.'
       },
       {
         id: 'opt-1c',
-        text: 'Overarching Theme: "Weather Forecasts in Southeast Asia"',
+        text: 'Theme: "Informal Entrepreneur Financial Carelessness" (assuming street vendors fail due to poor money management).',
         isCorrect: false,
-        feedback: 'Incorrect. Weather is only one component of the broader theme of livelihood precarity.'
+        feedback: 'Incorrect. This injects moralizing prejudice instead of analyzing systemic structural constraints.'
+      },
+      {
+        id: 'opt-1a',
+        text: 'Theme: "Structural Precarity and Vulnerability in Informal Livelihoods" (uniting institutional, climatic, and social hazards).',
+        isCorrect: true,
+        feedback: 'Correct! "Structural Precarity" serves as the conceptual umbrella uniting physical weather risks, regulatory enforcement, and missing social protection.'
       }
     ],
     overarchingTheme: 'Structural Precarity and Vulnerability in Informal Livelihoods',
@@ -1036,25 +1018,25 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     title: 'Thematic Synthesis 2: Adolescent Identity in Social Media',
     sourceContext: 'Study on teenage Instagram usage in Medan. Codes extracted: (1) Curating Flawless Photographic Aesthetics, (2) Deleting Posts with Low Like Counts, (3) Comparing Self to Influencer Lifestyles.',
     rawExcerpt: 'Codes: [Aesthetic Perfectionism] + [Quantified Validation Seeking] + [Social Upward Comparison]',
-    taskPrompt: 'Which overarching Theme accurately synthesizes these behavioral patterns?',
+    taskPrompt: 'Which overarching Theme accurately synthesizes these three behavioral patterns?',
     options: [
       {
         id: 'opt-2a',
-        text: 'Overarching Theme: "Performative Self-Presentation and Algorithmic Self-Worth"',
+        text: 'Theme: "Performative Self-Presentation and Algorithmic Self-Worth" (connecting curated imagery with external numerical validation).',
         isCorrect: true,
-        feedback: 'Correct! This theme captures both the theatrical presentation of the self and the reliance on digital metrics (likes) for emotional validation.'
+        feedback: 'Correct! The theme captures how teenagers construct artificial self-images while tying their emotional self-esteem to quantifiable platform metrics.'
       },
       {
         id: 'opt-2b',
-        text: 'Overarching Theme: "Smartphone Camera Resolution Improvements"',
+        text: 'Theme: "Digital Photo Editing Technique" (focusing solely on camera filters, visual lighting adjustments, and image editing software).',
         isCorrect: false,
-        feedback: 'Incorrect. The study investigates psychological identity and self-worth, not camera hardware.'
+        feedback: 'Incorrect. Photo editing is merely a technical method, not an analytical theme explaining adolescent psychological vulnerability.'
       },
       {
         id: 'opt-2c',
-        text: 'Overarching Theme: "Teenagers Should Be Banned from the Internet"',
+        text: 'Theme: "Narcissistic Vanity in Youth Culture" (dismissing adolescent platform behavior as pure moral weakness).',
         isCorrect: false,
-        feedback: 'Incorrect. Academic themes synthesize qualitative evidence; they do not issue emotional moral commands.'
+        feedback: 'Incorrect. Qualitative themes explain systemic socio-technical dynamics rather than dismissing youth culture with moral labels.'
       }
     ],
     overarchingTheme: 'Performative Self-Presentation and Algorithmic Self-Worth',
@@ -1066,25 +1048,25 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     title: 'Thematic Synthesis 3: Traditional Herbal Medicine (Jamu) in Modern Hospitals',
     sourceContext: 'Interviews with doctors and herbal practitioners in Solo. Codes extracted: (1) Need for Standardized Chemical Clinical Trials, (2) Respect for Ancestral Plant Knowledge, (3) Bridging Scientific Verification with Cultural Heritage.',
     rawExcerpt: 'Codes: [Standardized Clinical Trials] + [Ancestral Knowledge Respect] + [Intercultural Medical Integration]',
-    taskPrompt: 'What overarching Theme unites these codes?',
+    taskPrompt: 'What overarching Theme unites these codes into an integrated finding?',
     options: [
       {
-        id: 'opt-3a',
-        text: 'Overarching Theme: "Integrative Healthcare: Harmonizing Indigenous Wisdom with Biomedical Rigor"',
-        isCorrect: true,
-        feedback: 'Correct! The theme captures the constructive synergy between traditional cultural heritage and modern empirical medicine.'
-      },
-      {
         id: 'opt-3b',
-        text: 'Overarching Theme: "Modern Hospitals Should Reject All Plants"',
+        text: 'Theme: "Laboratory Chemical Standardization" (focusing exclusively on pharmacological trial methodologies).',
         isCorrect: false,
-        feedback: 'Incorrect. The codes show doctors actively seeking ways to validate and incorporate beneficial herbal remedies.'
+        feedback: 'Incorrect. Laboratory testing captures only one code, ignoring the cultural respect and intergenerational heritage codes.'
       },
       {
         id: 'opt-3c',
-        text: 'Overarching Theme: "Turmeric is Yellow"',
+        text: 'Theme: "Supremacy of Biomedical Pharmaceuticals" (dismissing traditional ancestral herbal formulas as unstandardized folk superstitions).',
         isCorrect: false,
-        feedback: 'Incorrect. A trivial chemical fact cannot serve as an analytical qualitative theme.'
+        feedback: 'Incorrect. This takes a dismissive single-lens stance rather than synthesizing the empirical and cultural perspectives.'
+      },
+      {
+        id: 'opt-3a',
+        text: 'Theme: "Integrative Healthcare: Harmonizing Indigenous Wisdom with Biomedical Rigor" (bridging empirical science and cultural heritage).',
+        isCorrect: true,
+        feedback: 'Correct! The theme captures the constructive synthesis between scientific verification and respect for traditional healing heritage.'
       }
     ],
     overarchingTheme: 'Integrative Healthcare: Harmonizing Indigenous Wisdom with Biomedical Rigor',
@@ -1100,21 +1082,21 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     options: [
       {
         id: 'opt-4a',
-        text: 'She has achieved "Theoretical Saturation" and can stop data collection because new interviews no longer produce novel conceptual insights.',
+        text: 'Milestone: "Theoretical Saturation Reached" (conclude sampling because additional interviews yield no novel thematic insights).',
         isCorrect: true,
-        feedback: 'Correct! In qualitative research, sample size is determined by saturation (when data repeats and no new themes emerge), not an arbitrary quota.'
+        feedback: 'Correct! Theoretical saturation occurs when additional qualitative data collection produces no new properties or thematic codes, signaling that data collection is complete.'
       },
       {
         id: 'opt-4b',
-        text: 'She must immediately delete the last 6 interviews because repetition proves the study has failed.',
+        text: 'Milestone: "Sample Size Failure" (conduct 50 additional interviews because qualitative research requires massive statistical surveys).',
         isCorrect: false,
-        feedback: 'Incorrect. Repetition is the gold standard proof that the phenomenon has been thoroughly mapped.'
+        feedback: 'Incorrect. In qualitative inquiry, sample adequacy is determined by thematic saturation, not arbitrary statistical headcounts.'
       },
       {
         id: 'opt-4c',
-        text: 'She must interview 5,000 more people until someone contradicts the earlier interviews.',
+        text: 'Milestone: "Interviewer Fatigue" (discard interviews 15 to 20 from data tables because repeated information is scientifically invalid).',
         isCorrect: false,
-        feedback: 'Incorrect. Qualitative research seeks depth and saturation, not giant statistical headcounts.'
+        feedback: 'Incorrect. Repetition confirms saturation; it is empirical evidence that the analytical framework is robust, not wasted data to delete.'
       }
     ],
     pedagogicalKey: 'Theoretical Saturation occurs when additional data yields no new properties or thematic codes.',
@@ -1124,7 +1106,7 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     }
   },
 
-  // STAGE 3: METHODOLOGICAL ALIGNMENT (Content vs Thematic vs Narrative vs Discourse) (3 items)
+  // STAGE 3: METHODOLOGICAL ALIGNMENT (Content vs Thematic vs Narrative vs Discourse) (Items 9-11)
   {
     id: 'g3-3-s3-q1',
     stage: 3,
@@ -1134,22 +1116,22 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     taskPrompt: 'Which qualitative/mixed analytical method specifically tallies the presence, frequency, and distribution of specific words or concepts in text?',
     options: [
       {
-        id: 'opt-1a',
-        text: 'Content Analysis: It systematically quantifies the presence, frequency, and patterns of specified words or categories in media and texts.',
-        isCorrect: true,
-        feedback: 'Correct! Content analysis bridges qualitative texts and numerical tallies by counting how often target terms or categories appear.'
+        id: 'opt-1b',
+        text: 'Narrative Analysis (tracking personal biographical turning points and chronological storytelling milestones across a human lifetime).',
+        isCorrect: false,
+        feedback: 'Incorrect. Narrative analysis reconstructs personal life stories chronologically, not aggregated keyword counts across state speeches.'
       },
       {
-        id: 'opt-1b',
-        text: 'Narrative Analysis: It listens to personal autobiographies and emotional childhood memories.',
-        isCorrect: false,
-        feedback: 'Incorrect. Counting word frequency across 50 presidential speeches is content analysis, not personal life storytelling.'
+        id: 'opt-1a',
+        text: 'Content Analysis (systematically categorizing and quantifying the frequency of specific words or categories in communication).',
+        isCorrect: true,
+        feedback: 'Correct! Content analysis systematically tallies and categorizes textual occurrences to reveal ideological and rhetorical shifts over time.'
       },
       {
         id: 'opt-1c',
-        text: 'Laboratory Experiment: It measures blood pressure while reading speeches.',
+        text: 'Discourse Analysis (interrogating ideological power structures and institutional dominance in conversational interactions).',
         isCorrect: false,
-        feedback: 'Incorrect. Textual analysis does not involve clinical physiology.'
+        feedback: 'Incorrect. While word counts can inform discourse studies, the specific method of tallying keyword frequency is Content Analysis.'
       }
     ],
     pedagogicalKey: 'Content Analysis systematically categorizes and quantifies textual occurrences.'
@@ -1163,22 +1145,22 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     taskPrompt: 'Which analytical approach examines how language constructs reality, maintains power relations, and reinforces institutional ideologies?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Discourse Analysis: It investigates how language, power, and ideology interact to shape public perception and social hierarchies.',
-        isCorrect: true,
-        feedback: 'Correct! Discourse analysis looks beyond surface words to examine how language reflects and reinforces power structures in society.'
+        id: 'opt-2b',
+        text: 'Content Analysis (quantifying lexical word occurrences and calculating statistical percentage frequencies across media archives).',
+        isCorrect: false,
+        feedback: 'Incorrect. Content analysis measures numerical frequency, whereas deconstructing ideological power and framing is Discourse Analysis.'
       },
       {
-        id: 'opt-2b',
-        text: 'Arithmetic Average Calculation: It adds up the number of letters in headlines.',
-        isCorrect: false,
-        feedback: 'Incorrect. The focus is ideological framing and social power, not letter counts.'
+        id: 'opt-2a',
+        text: 'Discourse Analysis (deconstructing how linguistic framing exercises institutional power and constructs social reality).',
+        isCorrect: true,
+        feedback: 'Correct! Discourse analysis investigates how language is used to legitimate authority, frame social groups, and maintain institutional power.'
       },
       {
         id: 'opt-2c',
-        text: 'Content Analysis: It only counts whether words are printed in blue or black ink.',
+        text: 'Narrative Analysis (examining personal diary sequences to reconstruct biographical trajectories across decades).',
         isCorrect: false,
-        feedback: 'Incorrect. Deconstructing power and institutional ideology is the hallmark of Discourse Analysis.'
+        feedback: 'Incorrect. Narrative analysis focuses on individual biographical chronology, not media framing of institutional power.'
       }
     ],
     pedagogicalKey: 'Discourse Analysis interrogates how language exercises power and constructs social reality.'
@@ -1193,21 +1175,21 @@ export const G3_3_CHALLENGES: QualitativeCodingItem[] = [
     options: [
       {
         id: 'opt-3a',
-        text: 'Narrative Analysis: It focuses on stories, biographical chronologies, and personal narrative arcs to understand how people make meaning of their life journeys.',
+        text: 'Narrative Analysis (exploring the storied nature of human experience through biographical sequencing and chronological turning points).',
         isCorrect: true,
-        feedback: 'Correct! Narrative analysis examines the structure, sequence, and personal plotlines people use to understand their life histories.'
+        feedback: 'Correct! Narrative analysis focuses on biographical storytelling, personal chronological arcs, and how individuals make sense of major life events.'
       },
       {
         id: 'opt-3b',
-        text: 'Quantitative Survey: It asks Ibu Aminah to rate her entire 15-year life on a 1-to-5 star scale.',
+        text: 'Content Analysis (counting lexical frequencies and tabulating vocabulary appearances across interview transcript documents).',
         isCorrect: false,
-        feedback: 'Incorrect. Rating a rich human life story on a 1-5 scale flattens and destroys biographical nuance.'
+        feedback: 'Incorrect. Counting word frequencies ignores chronological story structure and biographical meaning.'
       },
       {
         id: 'opt-3c',
-        text: 'Content Word Frequency: It counts how many times she said the word "Hong Kong".',
+        text: 'Discourse Analysis (deconstructing regulatory legal terminology and government policy vocabulary in administrative gazettes).',
         isCorrect: false,
-        feedback: 'Incorrect. Life histories require narrative analysis of personal meaning and temporal progression.'
+        feedback: 'Incorrect. Discourse analysis interrogates institutional language, whereas exploring storied lived trajectories is Narrative Analysis.'
       }
     ],
     pedagogicalKey: 'Narrative Analysis explores the storied nature of human experience through biographical sequencing.'

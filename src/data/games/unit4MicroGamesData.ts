@@ -700,21 +700,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-1a',
-        text: 'They diverge on academic impact: Study A saw gains in large public schools with high classroom distraction, while Study B observed no academic gain in well-resourced academies where students already had personal laptops.',
-        isCorrect: true,
-        feedback: 'Correct! The contradiction dissolves when you examine context: in schools where phones were the primary distraction, bans helped; in schools with laptops, banning phones only caused social anxiety.'
+        text: 'Secondary school students utilize cellular smartphones to communicate with families and friends daily.',
+        isCorrect: false,
+        feedback: 'Incorrect. Routine phone communication facts do not explain the academic outcome divergence.'
       },
       {
         id: 'opt-1b',
-        text: 'Study A is 100% correct and Study B was conducted by incompetent researchers who should be fired.',
-        isCorrect: false,
-        feedback: 'Incorrect. In Global Perspectives, conflicting findings indicate contextual heterogeneity, not researcher incompetence.'
+        text: 'They diverge on academic gains: bans help public schools where phones distract, but add little where laptops exist.',
+        isCorrect: true,
+        feedback: 'Correct! The contradiction dissolves when analyzing institutional context and existing technology baseline.'
       },
       {
         id: 'opt-1c',
-        text: 'There is no difference between the two studies; both proved that smartphones cause blindness.',
+        text: 'School administrators administer standardized mathematics examinations at the conclusion of academic semesters.',
         isCorrect: false,
-        feedback: 'Incorrect. Neither study measured vision.'
+        feedback: 'Incorrect. School administrative testing schedules do not account for the divergent study findings.'
       }
     ],
     heterogeneityReason: 'Institutional baseline differences (public classroom distraction vs. elite school laptop redundancy).',
@@ -740,66 +740,66 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-2a',
-        text: 'Corroborate biological presence with human clinical latency: microplastics are definitively present in seafood (Study A), but human physical symptoms may take decades to manifest or require higher dosage thresholds (Study B).',
-        isCorrect: true,
-        feedback: 'Correct! The studies do not contradict; they measure different stages of the problem (environmental presence vs. long-term human toxicological latency).'
+        text: 'Marine bivalve mollusks filter coastal ocean seawater continuously to consume microscopic plankton particles.',
+        isCorrect: false,
+        feedback: 'Incorrect. Biological feeding mechanics do not address the clinical health timescale question.'
       },
       {
         id: 'opt-2b',
-        text: 'Declare microplastics 100% harmless because Study B found no hospital admissions in 3 years.',
+        text: 'Municipal hospital emergency departments maintain digital admissions databases recording patient diagnoses.',
         isCorrect: false,
-        feedback: 'Incorrect. 3 years is far too short to detect chronic cellular toxicity or bioaccumulation risks.'
+        feedback: 'Incorrect. Hospital recordkeeping routines do not explain the disconnect between contamination and illness.'
       },
       {
         id: 'opt-2c',
-        text: 'Claim Study A fabricated its microscope photos.',
-        isCorrect: false,
-        feedback: 'Incorrect. Rejection of empirical evidence without counter-evidence is unscientific.'
+        text: 'Synthesize across timelines: physical particle ingestion occurs immediately, but toxic harm requires decades.',
+        isCorrect: true,
+        feedback: 'Correct! Acute short-term exposure causes no immediate organ death, but chronic bioaccumulation poses delayed risks.'
       }
     ],
-    heterogeneityReason: 'Time-horizon latency (immediate physical contamination vs multi-decade chronic health latency).',
-    synthesisResolution: 'Microplastic contamination is ubiquitous in coastal molluscs, but chronic human health risks require multi-decade longitudinal monitoring rather than short-term hospital tracking.',
-    pedagogicalKey: 'Connecting findings requires understanding time horizons and biological latency.'
+    heterogeneityReason: 'Timeframe divergence: immediate physical ingestion vs. long-term biological accumulation latency.',
+    synthesisResolution: 'Physical particle accumulation is pervasive in shellfish, but clinical health pathologies take decades to manifest; short-term studies do not prove long-term safety.',
+    pedagogicalKey: 'Synthesizing evidence requires distinguishing immediate physical ingestion from chronic toxicological latency.'
   },
   {
     id: 'g4-3-s1-q3',
     stage: 1,
-    title: 'Dossier 3: Solar Home Systems in Rural East Nusa Tenggara (NTT)',
+    title: 'Dossier 3: Decentralized Solar Home Systems in Rural Sumba',
     controversyTopic: 'Evaluating decentralized solar panels for off-grid island electrification.',
     studyA: {
-      source: 'Government Engineering Audit',
-      finding: '92% of installed solar home kits remained fully functional after 12 months, providing reliable lighting.',
-      method: 'Technical hardware voltage inspection.'
+      source: 'Energy Access NGO Report',
+      finding: '100% of recipient homes replaced smoky kerosene lamps with LED solar lights, increasing children’s evening homework time by 1.8 hours.',
+      method: 'Household qualitative interviews and light monitoring.'
     },
     studyB: {
-      source: 'Anthropological Fieldwork (Same Villages)',
-      finding: 'Families report severe frustration because the 50-watt solar panels cannot power water pumps, rice cookers, or refrigeration, keeping women trapped in manual labor.',
-      method: 'In-depth village women interviews.'
+      source: 'Regional Economic Development Institute',
+      finding: 'Village-level micro-business revenue and industrial processing capacity grew by 0.0%, with zero new manufacturing jobs created.',
+      method: 'Econometric census of village enterprise tax data.'
     },
     taskPrompt: 'What crucial insight does Methodological Triangulation reveal here?',
     options: [
       {
         id: 'opt-3a',
-        text: 'Technical success does not equal developmental success: the hardware functions perfectly (engineering), but fails to meet the community’s productive economic needs (anthropology).',
+        text: 'Threshold capacity mismatch: home solar powers lighting, but industrial job growth requires heavy mini-grids.',
         isCorrect: true,
-        feedback: 'Correct! Methodological triangulation bridges engineering metrics (voltage) with human developmental realities (productive energy needs).'
+        feedback: 'Correct! Triangulation demonstrates that domestic welfare benefits and commercial productive capacity have very different power thresholds.'
       },
       {
         id: 'opt-3b',
-        text: 'The villagers are ungrateful and should be happy with a lightbulb.',
+        text: 'Photovoltaic semiconductor panels convert ambient solar irradiance into direct electrical voltage currents.',
         isCorrect: false,
-        feedback: 'Incorrect. Research evaluates real-world human needs, not moral judgments.'
+        feedback: 'Incorrect. Solar semiconductor physics does not explain the gap between household lighting and economic GDP.'
       },
       {
         id: 'opt-3c',
-        text: 'Solar panels should be banned across all islands.',
+        text: 'Rural island villagers travel to coastal trading towns to purchase household consumer electrical appliances.',
         isCorrect: false,
-        feedback: 'Incorrect. The lesson is sizing the energy grid to productive needs, not abandoning solar power.'
+        feedback: 'Incorrect. Retail shopping patterns do not account for the power capacity threshold requirement.'
       }
     ],
-    heterogeneityReason: 'Methodological perspective gap (technical operational validity vs human economic utility).',
-    synthesisResolution: 'Decentralized solar home kits achieve high technical reliability for lighting, but productive economic transformation requires larger mini-grids capable of powering agricultural machinery.',
-    pedagogicalKey: 'Triangulating technical audits with qualitative fieldwork prevents hollow developmental claims.'
+    heterogeneityReason: 'Outcome metric divergence: domestic quality-of-life improvements vs. productive industrial power thresholds.',
+    synthesisResolution: 'Decentralized 50W home systems transform household literacy and respiratory health, but industrial village economic growth requires 3-phase mini-grids capable of powering processing machinery.',
+    pedagogicalKey: 'Triangulation distinguishes domestic social welfare metrics from productive economic industrial metrics.'
   },
   {
     id: 'g4-3-s1-q4',
@@ -807,42 +807,42 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     title: 'Dossier 4: Plastic Straw Bans in Fast-Food Outlets',
     controversyTopic: 'Measuring the environmental and social impact of eliminating plastic straws.',
     studyA: {
-      source: 'Environmental NGO Beach Audit',
-      finding: 'Plastic straw counts on coastal beaches declined by 18% in the two years following municipal fast-food straw bans.',
-      method: 'Beach cleanup litter audits.'
+      source: 'Municipal Environmental Protection Agency',
+      finding: 'Single-use plastic straw bans in Jakarta shopping malls eliminated 14 tons of non-biodegradable debris from drainage canals annually.',
+      method: 'Canal trash trap weight audits.'
     },
     studyB: {
-      source: 'Disability Rights Advocacy Coalition',
-      finding: 'Disabled individuals with motor impairments and cerebral palsy face severe dehydration and choking hazards because paper and metal straws are inflexible or dissolve in hot drinks.',
-      method: 'Inclusive focus groups and clinical safety logs.'
+      source: 'Indonesian Disability Rights Coalition',
+      finding: 'Rigid bans severely harmed quadriplegic and cerebral palsy citizens who cannot safely drink hot fluids using paper or metal straws.',
+      method: 'Clinical occupational therapy surveys.'
     },
     taskPrompt: 'How does an authentic Global Perspectives synthesis navigate this conflict between environmental reform and disability access?',
     options: [
       {
         id: 'opt-4a',
-        text: 'Synthesize common ground: maintain the broad retail ban on single-use plastic straws for the general public, while mandating that pharmacies and customer service counters provide flexible plastic straws on request for disabled individuals.',
-        isCorrect: true,
-        feedback: 'Correct! Synthesis does not pick one group to suffer; it designs an inclusive policy that protects both the environment and vulnerable community members.'
+        text: 'Polypropylene plastic polymers take centuries to biodegrade and break down into microscopic ocean debris.',
+        isCorrect: false,
+        feedback: 'Incorrect. Chemical degradation facts do not address disability accommodation.'
       },
       {
         id: 'opt-4b',
-        text: 'Abolish the straw ban completely and dump billions of plastic straws into the ocean.',
-        isCorrect: false,
-        feedback: 'Incorrect. This abandons environmental stewardship.'
+        text: 'Synthesized policy pairing: general retail bans combined with guaranteed medical dispensations for disability.',
+        isCorrect: true,
+        feedback: 'Correct! Master synthesis pairs environmental restrictions with medical exemptions, protecting both the planet and vulnerable people.'
       },
       {
         id: 'opt-4c',
-        text: 'Ignore the disabled community and declare that plastic straws are banned forever with zero exceptions.',
+        text: 'Commercial dining restaurants purchase beverage service equipment from licensed hospitality wholesalers.',
         isCorrect: false,
-        feedback: 'Incorrect. This violates social inclusion and human dignity.'
+        feedback: 'Incorrect. Hospitality wholesale purchasing does not resolve the ethical and civic policy tension.'
       }
     ],
-    heterogeneityReason: 'Conflicting legitimate ethical claims (environmental conservation vs accessibility/inclusion).',
-    synthesisResolution: 'A synthesized policy pairs general environmental restrictions with explicit medical accessibility exemptions, ensuring ecological progress does not harm disabled citizens.',
-    pedagogicalKey: 'Synthesis resolves ethical trade-offs by crafting nuanced, inclusive policy exceptions.'
+    heterogeneityReason: 'Competing policy priorities: aggregate ecological waste reduction vs. specialized accessibility accommodations.',
+    synthesisResolution: 'Authentic synthesis does not declare one group wrong; it crafts a nuanced policy combining general bans with mandatory medical exemptions.',
+    pedagogicalKey: 'Synthesis resolves ethical tensions by designing multi-tier policies rather than blunt zero-sum prohibitions.'
   },
 
-  // STAGE 2: HETEROGENEITY DIAGNOSIS (4 items)
+  // STAGE 2: DIAGNOSING EMPIRICAL HETEROGENEITY (4 items)
   {
     id: 'g4-3-s2-q1',
     stage: 2,
@@ -862,21 +862,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-1a',
-        text: 'Baseline physiological health: young athletes already have optimal blood pressure (floor effect), whereas hypertensive older adults have elevated vascular resistance that green tea antioxidants can measurably relax.',
-        isCorrect: true,
-        feedback: 'Correct! You cannot lower blood pressure that is already healthy. The baseline demographic state explains the divergent findings.'
+        text: 'Green tea leaves contain antioxidant polyphenol compounds harvested from Camellia sinensis plantations.',
+        isCorrect: false,
+        feedback: 'Incorrect. Plant botany does not explain why young athletes and older adults experienced different outcomes.'
       },
       {
         id: 'opt-1b',
-        text: 'Study 1 used fake tea made of dried grass.',
+        text: 'Clinical nursing staff record patient systolic and diastolic blood pressure readings using pressure cuffs.',
         isCorrect: false,
-        feedback: 'Incorrect. Both used standardized green tea catechins.'
+        feedback: 'Incorrect. Medical measurement procedures do not explain the age-dependent physiological divergence.'
       },
       {
         id: 'opt-1c',
-        text: 'Athletes are biologically immune to all plant chemicals.',
-        isCorrect: false,
-        feedback: 'Incorrect. The explanation is baseline blood pressure saturation.'
+        text: 'Baseline participant status: youthful cardiovascular baselines show floor effects, while adults gain benefits.',
+        isCorrect: true,
+        feedback: 'Correct! Young athletes already have optimal blood pressure (floor effect), whereas hypertensive older adults have room for measurable improvement.'
       }
     ],
     heterogeneityReason: 'Participant baseline clinical status (floor effect in healthy youth vs room for improvement in hypertensive adults).',
@@ -902,21 +902,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-2a',
-        text: 'Construct Measurement Heterogeneity: The two studies used the identical label ("green space") to measure two completely different physical realities (tranquil botanic park vs exhaust-polluted traffic median).',
+        text: 'Operational definition mismatch: peaceful pedestrian botanic parks foster wellness, but traffic medians do not.',
         isCorrect: true,
-        feedback: 'Correct! Just because two studies use the same English word does not mean they measured the same thing. Definitional discrepancies create artificial contradictions.'
+        feedback: 'Correct! The researchers used the same word ("green space") but measured completely different physical environments.'
       },
       {
         id: 'opt-2b',
-        text: 'Satellite Camera Glitch.',
+        text: 'Municipal urban planning offices utilize satellite geographic mapping tools to catalog municipal boundaries.',
         isCorrect: false,
-        feedback: 'Incorrect. The issue is conceptual and operational definition, not satellite optics.'
+        feedback: 'Incorrect. GIS software technology does not explain the operational construct mismatch.'
       },
       {
         id: 'opt-2c',
-        text: 'Surabaya citizens dislike trees.',
+        text: 'City highway landscaping maintenance crews plant perennial shrubbery along multi-lane vehicular corridors.',
         isCorrect: false,
-        feedback: 'Incorrect. Traffic medians do not provide the psychological restoration that quiet parks offer.'
+        feedback: 'Incorrect. Road maintenance facts do not address the psychological restorative construct discrepancy.'
       }
     ],
     heterogeneityReason: 'Operational definition mismatch (quiet park vs polluted traffic divider).',
@@ -942,21 +942,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-3a',
-        text: 'The "Novelty Effect": The excitement of a brand-new toy boosted engagement in the first two weeks, but wore off over a full school year, revealing the true underlying pedagogical impact.',
-        isCorrect: true,
-        feedback: 'Correct! The novelty effect temporarily inflates short-term results. Longitudinal studies are required to measure durable learning.'
+        text: 'Mobile software applications operate on touchscreen smartphones connected to high-speed school Wi-Fi systems.',
+        isCorrect: false,
+        feedback: 'Incorrect. Wireless connectivity hardware does not explain psychological habituation and fatigue.'
       },
       {
         id: 'opt-3b',
-        text: 'The computers ran out of batteries in month 11.',
-        isCorrect: false,
-        feedback: 'Incorrect. Longitudinal studies measure sustained educational outcomes.'
+        text: 'Temporal duration and novelty effect: short-term excitement produces spikes that fade over full school years.',
+        isCorrect: true,
+        feedback: 'Correct! The novelty effect creates short-term motivation spikes, but long-term sustained learning requires deeper curriculum integration.'
       },
       {
         id: 'opt-3c',
-        text: 'History became boring in the second semester.',
+        text: 'Secondary history curriculum syllabi document major historical national eras and political constitution changes.',
         isCorrect: false,
-        feedback: 'Incorrect. The novelty of game mechanics diminishes over time.'
+        feedback: 'Incorrect. History syllabi contents do not explain the novelty effect or gamification boredom.'
       }
     ],
     heterogeneityReason: 'Temporal duration and the novelty effect.',
@@ -982,21 +982,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-4a',
-        text: 'Funding Source Heterogeneity & Conflict of Interest: Commercial sponsorship is strongly correlated with favorable study conclusions, requiring researchers to stratify evidence by funding independence.',
+        text: 'Commercial funding bias: industry sponsorship systematically correlates with favorable product safety findings.',
         isCorrect: true,
-        feedback: 'Correct! When industry-funded trials produce 100% favorable outcomes while independent trials find side effects, funding source bias is the primary explanatory variable.'
+        feedback: 'Correct! Financial conflicts of interest create systematic publication and design bias that synthesis must account for.'
       },
       {
         id: 'opt-4b',
-        text: 'Beverage companies have better scientists who never make mistakes.',
+        text: 'Artificial sweetener molecules stimulate human tongue taste buds to produce calorie-free sweet sensations.',
         isCorrect: false,
-        feedback: 'Incorrect. Financial conflict of interest is an established cause of study outcome distortion.'
+        feedback: 'Incorrect. Chemical sweetness receptors do not explain the commercial funding conflict of interest.'
       },
       {
         id: 'opt-4c',
-        text: 'Gut bacteria do not exist in beverage labs.',
+        text: 'Public university research laboratories receive competitive government science grants and student tuition.',
         isCorrect: false,
-        feedback: 'Incorrect. The issue is commercial funding bias.'
+        feedback: 'Incorrect. University budget sources do not explain why corporate studies showed zero side effects.'
       }
     ],
     heterogeneityReason: 'Commercial conflict of interest and funding bias.',
@@ -1029,21 +1029,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-1a',
-        text: 'While nickel industrialization delivers substantial macroeconomic revenue and domestic jobs (Study A), its long-term viability requires enforcing strict marine tailings regulations to safeguard coastal ecosystems (Study B), alongside expanding provincial charging infrastructure and subsidies to accelerate real domestic adoption (Study C).',
-        isCorrect: true,
-        feedback: 'Correct! Masterful synthesis: it weaves together economic growth, ecological protection, and consumer infrastructure realities across all three studies.'
+        text: 'Mining corporations operate hydraulic industrial excavation shovels to extract raw nickel ore on islands.',
+        isCorrect: false,
+        feedback: 'Incorrect. Mining machinery descriptions do not construct a multi-dimensional policy synthesis.'
       },
       {
         id: 'opt-1b',
-        text: 'Nickel is wonderful, let’s ignore the coral reefs and sell everything to foreign buyers.',
-        isCorrect: false,
-        feedback: 'Incorrect. This ignores Study B entirely.'
+        text: 'Multi-criteria synthesis matrix: balancing industrial employment, marine waste regulation, and grid charging.',
+        isCorrect: true,
+        feedback: 'Correct! Master synthesis integrates economic job creation, environmental marine protections, and consumer charging rollout.'
       },
       {
         id: 'opt-1c',
-        text: 'Ban all electric cars and close all factories immediately.',
+        text: 'Consumer automotive buyers inspect vehicle dashboard features at certified retail automotive dealership stores.',
         isCorrect: false,
-        feedback: 'Incorrect. This destroys economic development and ignores Study A and C.'
+        feedback: 'Incorrect. Showroom customer behavior does not synthesize macroeconomic and environmental trade-offs.'
       }
     ],
     synthesisResolution: 'Integrated economic development, environmental waste regulation, and domestic infrastructure rollout.',
@@ -1073,21 +1073,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-2a',
-        text: 'Establish an official "Standardized Jamu" regulatory certification: validate authentic active botanical compounds (Study A), rigorously inspect and prosecute illegal adulteration by unlicensed vendors (Study B), and train community doctors to prescribe certified herbal remedies for patient comfort and compliance (Study C).',
+        text: 'Standardized phytopharmaceutical certification: combining lab chemistry, BPOM safety audits, and clinic trials.',
         isCorrect: true,
-        feedback: 'Correct! It harnesses the biological efficacy, eliminates the contamination danger, and leverages the cultural compliance benefit.'
+        feedback: 'Correct! Synthesizes botanical therapeutic efficacy, regulatory adulteration prevention, and medical cultural respect.'
       },
       {
         id: 'opt-2b',
-        text: 'Ban all turmeric from Indonesia and throw all traditional tea into the river.',
+        text: 'Traditional street vendors brew herbal tonics using pounded fresh ginger rhizomes, tamarind, and coconut sugar.',
         isCorrect: false,
-        feedback: 'Incorrect. This destroys valuable pharmacology and cultural tradition.'
+        feedback: 'Incorrect. Recipe ingredients do not resolve the regulatory adulteration and clinical integration challenges.'
       },
       {
         id: 'opt-2c',
-        text: 'Let vendors put whatever chemicals they want into drinks without testing.',
+        text: 'Primary healthcare centers supply subsidized synthetic medication pills under national public healthcare insurance.',
         isCorrect: false,
-        feedback: 'Incorrect. This endangers public health.'
+        feedback: 'Incorrect. Standard pharmacy routines ignore the proven cultural adherence benefits of herbal integration.'
       }
     ],
     synthesisResolution: 'Standardized phytopharmaceutical certification combining botanical chemistry, regulatory enforcement, and doctor-supervised clinical integration.',
@@ -1117,21 +1117,21 @@ export const G4_3_CHALLENGES: ConnectingDotsItem[] = [
     options: [
       {
         id: 'opt-3a',
-        text: 'AI should not be used as an automated answer-substitute for student critical thinking (Study A), but rather as an adaptive language practice tutor in under-resourced schools (Study B) and an administrative assistant that frees teachers to provide deeper human mentorship (Study C).',
-        isCorrect: true,
-        feedback: 'Correct! Masterpiece synthesis: it prohibits cognitive harm while actively channeling AI toward educational equity and human teacher empowerment.'
+        text: 'Digital server microprocessors process machine learning calculations inside climate-controlled data storage centers.',
+        isCorrect: false,
+        feedback: 'Incorrect. Data center hardware operations do not offer an educational pedagogical synthesis.'
       },
       {
         id: 'opt-3b',
-        text: 'All computers should be banned from schools forever because of Study A.',
+        text: 'Secondary school English teachers grade weekly handwritten narrative prose essays and classroom homework diaries.',
         isCorrect: false,
-        feedback: 'Incorrect. This discards the immense equity gains of Study B and teacher time savings of Study C.'
+        feedback: 'Incorrect. Routine grading activities do not synthesize AI opportunities and cognitive risks.'
       },
       {
         id: 'opt-3c',
-        text: 'Fire all human teachers and let robots run the schools because of Study B.',
-        isCorrect: false,
-        feedback: 'Incorrect. This ignores the severe cognitive decline documented in Study A.'
+        text: 'Guarded pedagogical deployment: curbing cognitive shortcuts while leveraging AI tools for teacher mentoring.',
+        isCorrect: true,
+        feedback: 'Correct! Master synthesis restricts passive student shortcuts while empowering teacher mentorship and language access.'
       }
     ],
     synthesisResolution: 'Guarded pedagogical AI deployment: restrict passive cognitive shortcuts while leveraging conversational practice and administrative workload relief for deeper human mentorship.',

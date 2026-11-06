@@ -53,26 +53,22 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'The percentage of households with solar panels in Yogyakarta',
-        explanation: 'Percentages are numerical measurements, which are quantitative.'
+        text: 'The Mean is always the most accurate representation of typical values in every dataset, despite introducing unverified assumptions regarding population compliance and resource availability.'
       },
       {
         id: 'opt-b',
-        text: 'Transcripts of farmer interviews describing how seasonal droughts feel and affect their livelihood',
-        explanation: 'Interview transcripts capture verbal words, personal meanings, and lived experiences, which are qualitative.'
+        text: 'Extreme outliers exert zero mathematical influence on the calculated arithmetic Mean.'
       },
       {
         id: 'opt-c',
-        text: 'The daily kilograms of organic waste collected across five wet markets',
-        explanation: 'Kilograms are physical numeric measurements, which are quantitative.'
+        text: 'The Median provides a more robust measure of central tendency when datasets contain severe outliers.'
       },
       {
         id: 'opt-d',
-        text: 'A spreadsheet of average test scores from 25 high schools in Jakarta',
-        explanation: 'Test score averages are numeric quantitative values.'
+        text: 'The Mode should be discarded because qualitative categories cannot have repeated frequencies.'
       }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation: 'Qualitative data consists of non-numerical descriptions such as interview transcripts, open text, and lived experiences, while quantitative data consists of countable or measurable numbers.'
   },
   {
@@ -93,12 +89,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 3.2, pp. 41–43',
     question: 'Which measure of central tendency identifies the exact middle value when data points are sorted from lowest to highest?',
     options: [
-      { id: 'opt-a', text: 'Mean', explanation: 'The mean is the arithmetic average obtained by dividing the sum by the total count.' },
-      { id: 'opt-b', text: 'Median', explanation: 'The median is the precise physical midpoint of an ordered distribution.' },
-      { id: 'opt-c', text: 'Mode', explanation: 'The mode is the most frequently occurring value in a dataset.' },
-      { id: 'opt-d', text: 'Range', explanation: 'The range is the difference between the highest and lowest values, measuring spread rather than central tendency.' }
+      {
+        id: 'opt-a',
+        text: 'Median'
+      },
+      {
+        id: 'opt-b',
+        text: 'Mean, despite failing to account for localized socioeconomic disparities and long-term community resistance.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Mode'
+      },
+      {
+        id: 'opt-d',
+        text: 'Range'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation: 'The median is the exact middle value of an ordered dataset. It divides the higher half of the data from the lower half.'
   },
   {
@@ -122,12 +130,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'In a small village workshop, five apprentice artisans earn 2 million IDR per month, one supervisor earns 4 million IDR, and the founder CEO earns 80 million IDR per month.',
     question: 'Why would the median monthly income provide a more truthful picture of typical earnings in this workshop than the mean?',
     options: [
-      { id: 'opt-a', text: 'Because the median is easier to calculate without a scientific calculator', explanation: 'Ease of calculation is not an academic criterion for statistical validity.' },
-      { id: 'opt-b', text: 'Because the founder’s 80 million IDR salary is an extreme outlier that pulls the arithmetic mean unrealistically high', explanation: 'Outliers dramatically distort the mean, whereas the median remains resistant to extreme values.' },
-      { id: 'opt-c', text: 'Because qualitative data cannot have an arithmetic average', explanation: 'Salaries are quantitative numbers, not qualitative.' },
-      { id: 'opt-d', text: 'Because the median is always strictly higher than the mean in all social research', explanation: 'The median can be higher, lower, or equal to the mean depending on skewness.' }
+      {
+        id: 'opt-a',
+        text: 'Standard deviation measures the exact difference between the highest value and the lowest value in a survey sample.'
+      },
+      {
+        id: 'opt-b',
+        text: 'A higher standard deviation always proves that the underlying research methodology suffered from sampling errors.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Standard deviation calculates the percentage of survey respondents who selected the neutral option on a Likert scale.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Standard deviation quantifies the dispersion of data points around the mean; low values indicate high consistency.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-d',
     explanation: 'The mean is highly sensitive to extreme outliers like the 80 million IDR salary. The median represents the typical worker without being distorted by one disproportionate income.'
   },
   {
@@ -148,12 +168,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 3.4, pp. 49–51',
     question: 'A student researcher wants to show how the municipal budget of Surabaya is divided into health, education, transport, and parks (adding up to 100%). Which chart type is most appropriate?',
     options: [
-      { id: 'opt-a', text: 'Line graph', explanation: 'Line graphs are designed to show trends over continuous time, not budget part-to-whole splits.' },
-      { id: 'opt-b', text: 'Scatter plot', explanation: 'Scatter plots are used to evaluate relationships/correlations between two continuous variables.' },
-      { id: 'opt-c', text: 'Pie chart or 100% Stacked Bar chart', explanation: 'Pie and stacked bar charts are specifically designed to illustrate percentage shares that total 100% of a whole.' },
-      { id: 'opt-d', text: 'Box-and-whisker plot', explanation: 'Box plots display dispersion, quartiles, and outliers rather than budget allocations.' }
+      {
+        id: 'opt-a',
+        text: 'Pie Chart showing parts of 100%'
+      },
+      {
+        id: 'opt-b',
+        text: 'Line Graph showing continuous trends over time'
+      },
+      {
+        id: 'opt-c',
+        text: 'Bar Chart comparing discrete categories'
+      },
+      {
+        id: 'opt-d',
+        text: 'Scatter Plot assessing correlation between variables'
+      }
     ],
-    correctAnswer: 'opt-c',
+    correctAnswer: 'opt-b',
     explanation: 'Pie charts and 100% stacked bar charts are the optimal visual choice when illustrating parts of a single whole that sum up to 100%.'
   },
   {
@@ -174,12 +206,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 3.4, pp. 50–52',
     question: 'Which visualization format is standard for displaying monthly changes in average ambient air pollution (PM2.5) across Jakarta from January through December?',
     options: [
-      { id: 'opt-a', text: 'Line graph with time on the horizontal X-axis', explanation: 'Line charts are the international standard for showing continuous temporal progression and seasonal trends.' },
-      { id: 'opt-b', text: 'Donut chart with 12 equal slices', explanation: 'Donut charts do not effectively convey sequential temporal trends.' },
-      { id: 'opt-c', text: 'Venn diagram', explanation: 'Venn diagrams show conceptual overlap and logical sets, not time-series measurements.' },
-      { id: 'opt-d', text: 'Treemap diagram', explanation: 'Treemaps show hierarchical categorical data sizes, not continuous time series.' }
+      {
+        id: 'opt-a',
+        text: 'Histogram showing numerical data distribution, although this overlooks critical institutional constraints and unintended regional environmental side effects.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Line Graph tracking monthly temperature shifts'
+      },
+      {
+        id: 'opt-c',
+        text: 'Scatter Plot examining the relationship between two variables'
+      },
+      {
+        id: 'opt-d',
+        text: 'Box Plot highlighting median and interquartile ranges'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-c',
     explanation: 'A line graph with chronological time on the horizontal X-axis connects data points to clearly reveal upward, downward, and seasonal trends.'
   },
   {
@@ -203,12 +247,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A study in a coastal city finds that during months when ice cream sales are highest, drowning incidents at the municipal beach also reach their annual peak.',
     question: 'What is the most rigorous academic critique of concluding that "eating ice cream causes drowning"?',
     options: [
-      { id: 'opt-a', text: 'Ice cream contains sugar which makes people too heavy to swim', explanation: 'This accepts the flawed causal claim without empirical justification.' },
-      { id: 'opt-b', text: 'Both variables correlate because hot sunny weather increases both beach visits and ice cream demand independently (confounding variable)', explanation: 'A third confounding variable (hot weather) causes both independent behaviors, explaining the correlation without any direct causation.' },
-      { id: 'opt-c', text: 'The sample size of ice cream buyers was not collected with a spreadsheet', explanation: 'The tool used to collect data does not address the logical flaw of assuming causation from correlation.' },
-      { id: 'opt-d', text: 'Correlation is illegal to report in Cambridge Global Perspectives research', explanation: 'Correlation is widely studied in research, provided researchers do not falsely claim direct causation.' }
+      {
+        id: 'opt-a',
+        text: 'Truncating the y-axis creates a visually dramatic slope that exaggerates small, statistically minor differences.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Starting the vertical scale at 50% is required by international cartographic and graphic visualization standards.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Using a line graph for percentage data is fundamentally invalid because lines can only represent physical speed.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Labeling the horizontal axis with calendar years distorts longitudinal trends by concealing seasonal fluctuations.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation: 'Correlation does not imply causation. Hot summer weather is a confounding variable that causes both more ice cream consumption and more swimming, leading to higher drowning risks.'
   },
   {
@@ -230,12 +286,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'Two classrooms, Class A and Class B, both achieve an average (mean) score of 75 on their Global Perspectives midterm exam. However, Class A has a standard deviation of 2.1, while Class B has a standard deviation of 18.5.',
     question: 'What does this difference in standard deviation reveal to an educational researcher?',
     options: [
-      { id: 'opt-a', text: 'Class A and Class B have identical learning profiles because their means match', explanation: 'Matching means mask dramatic differences in distribution and consistency.' },
-      { id: 'opt-b', text: 'Class A students scored very consistently close to 75, whereas Class B has wide disparity with very high and very low scoring students', explanation: 'A low standard deviation means tightly clustered data, while a high standard deviation indicates broad spread and inequality.' },
-      { id: 'opt-c', text: 'Class B had more students than Class A', explanation: 'Standard deviation measures spread, not total class headcount.' },
-      { id: 'opt-d', text: 'Class A cheated because their scores were too close together', explanation: 'Consistency does not imply academic dishonesty.' }
+      {
+        id: 'opt-a',
+        text: 'Qualitative thematic coding converts written narratives into exact mathematical equations for regression analysis, even though empirical field observations demonstrate significant divergence across diverse municipal contexts.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Thematic analysis requires researchers to discard all participant quotes that contradict the researcher’s hypothesis.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Qualitative coding is performed exclusively by computer software without any human interpretive judgments.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Thematic analysis involves systematically organizing raw narrative data into meaningful codes to identify overarching themes.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-d',
     explanation: 'Standard deviation measures how spread out values are from the mean. A low standard deviation (Class A) indicates consistent performance, while a high standard deviation (Class B) indicates wide variation.'
   },
   {
@@ -256,12 +324,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 3.4, pp. 51–53',
     question: 'A media broadcast displays a bar chart comparing two candidates: Candidate A has 50.5% and Candidate B has 49.5%. However, Candidate A’s bar looks three times taller than Candidate B’s. What deceptive graphical technique was used?',
     options: [
-      { id: 'opt-a', text: 'Using a truncated vertical Y-axis that starts at 49% rather than zero', explanation: 'Truncating the baseline exaggerates tiny differences, creating an optical illusion of a huge gap.' },
-      { id: 'opt-b', text: 'Using a qualitative pie slice instead of a numeric bar', explanation: 'The description specifies a bar chart was used.' },
-      { id: 'opt-c', text: 'Calculating the median instead of the mode', explanation: 'Calculation method does not alter graphical bar scaling.' },
-      { id: 'opt-d', text: 'Surveying only voters who had access to smartphones', explanation: 'Sampling bias is a collection flaw, not a visual graphing trick.' }
+      {
+        id: 'opt-a',
+        text: 'Counting the total number of words in an interview transcript.'
+      },
+      {
+        id: 'opt-b',
+        text: 'A shorthand label assigned to a text excerpt representing an idea.'
+      },
+      {
+        id: 'opt-c',
+        text: 'A statistical test proving the statistical significance of a quote.'
+      },
+      {
+        id: 'opt-d',
+        text: 'The final policy recommendation presented to government ministers.'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-b',
     explanation: 'Starting the Y-axis at a non-zero baseline (such as 49%) artificially exaggerates small differences between values, visually misleading the audience.'
   },
   {
@@ -282,12 +362,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 3.1, pp. 40–41',
     question: 'When analyzing 50 open-ended interview responses from local community members, what is the first rigorous step in thematic coding?',
     options: [
-      { id: 'opt-a', text: 'Converting all words into numbers and calculating the arithmetic mean', explanation: 'Qualitative text should not be superficially converted to numbers without coding themes.' },
-      { id: 'opt-b', text: 'Reading through transcripts to identify recurring ideas, patterns, and categories, then assigning codes to key excerpts', explanation: 'Thematic analysis systematically identifies recurring patterns, categorizing and coding meaning across transcripts.' },
-      { id: 'opt-c', text: 'Discarding any interviews that express negative opinions about the local council', explanation: 'Selectively omitting dissenting opinions introduces severe researcher bias.' },
-      { id: 'opt-d', text: 'Publishing only the shortest quote to save space on presentation slides', explanation: 'Academic rigour requires systematic synthesis, not cherry-picking single soundbites.' }
+      {
+        id: 'opt-a',
+        text: 'Triangulation means surveying exactly three participants to maintain a small, highly manageable qualitative dataset, while neglecting the essential requirement for transparent ethical oversight and stakeholder consensus.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Triangulation requires researchers to discard the lowest and highest survey responses before calculating statistical means.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Triangulation combines multiple data sources, methods, or observers to cross-verify findings and enhance research credibility.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Triangulation replaces formal ethical consent procedures by cross-referencing public social media profiles of participants.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation: 'Qualitative thematic analysis begins by thoroughly reading transcripts, identifying recurring patterns, and assigning structured thematic codes to substantive excerpts.'
   },
   {
@@ -309,12 +401,24 @@ export const UNIT_3_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A student conducts an analysis of mental health survey responses from 40 classmates. In the final research poster, the student publishes direct quotes alongside the student participants’ real names and classroom student numbers.',
     question: 'Which fundamental principle of academic research and data ethics has been violated?',
     options: [
-      { id: 'opt-a', text: 'Failure to use a secondary source', explanation: 'Primary surveys are valid data sources; the flaw is ethical privacy protection.' },
-      { id: 'opt-b', text: 'Breach of participant confidentiality and informed consent regarding anonymity', explanation: 'Ethical researchers must protect participant privacy and remove personally identifiable identifiers (PII).' },
-      { id: 'opt-c', text: 'Failure to compute the standard deviation of each quote', explanation: 'Standard deviation cannot be computed on verbal quotes.' },
-      { id: 'opt-d', text: 'Violating copyright law on student names', explanation: 'Names are not protected by copyright; the issue is human participant ethics and privacy.' }
+      {
+        id: 'opt-a',
+        text: 'Correlation indicates that two variables change together, but does not prove that one variable causes the other to occur.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Whenever two statistical variables demonstrate strong correlation, a direct causal link is mathematically guaranteed, despite introducing unverified assumptions regarding population compliance and resource availability.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Correlation can only be calculated for biological experiments, whereas social science data requires thematic causality.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Negative correlation indicates that research data was recorded incorrectly and must be discarded from the final analysis.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation: 'Researchers are ethically bound to maintain confidentiality and anonymity, ensuring that participants cannot be personally identified or harmed by published findings.'
   }
 ];

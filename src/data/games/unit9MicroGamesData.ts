@@ -214,21 +214,21 @@ export const G9_2_CHALLENGES: AssumptionUnmaskerItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Rewearing clothes is socially embarrassing, and constant wasteful purchasing is necessary for social status.',
-        isCorrectAssumption: true,
-        analysisNote: 'Correct! The ad subtly encourages shame around repeating outfits to drive endless purchasing.'
+        text: 'Fast-fashion brands manufacture synthetic polyester textile garments in high-volume industrial facilities.',
+        isCorrectAssumption: false,
+        analysisNote: 'Factual manufacturing detail, not the hidden psychological value assumption about personal popularity.'
       },
       {
         id: 'opt-b',
-        text: 'Cotton farms require rainwater to grow.',
-        isCorrectAssumption: false,
-        analysisNote: 'Irrelevant agricultural fact that is neither stated nor assumed by the ad.'
+        text: 'Rewearing clothing is socially embarrassing, and continuous disposable consumerism is required for personal status.',
+        isCorrectAssumption: true,
+        analysisNote: 'Underlying unstated premise: consumer worth depends on non-stop disposable apparel purchases.'
       },
       {
         id: 'opt-c',
-        text: 'Tuesday is the second working day of the week.',
+        text: 'Modern digital social networks allow global retail influencers to broadcast short-form streaming video clips.',
         isCorrectAssumption: false,
-        analysisNote: 'Calendar fact, not an unstated ideological assumption.'
+        analysisNote: 'Technical media platform observation, not the underlying consumerism assumption.'
       }
     ],
     hedgedAlternative: '"Purchasing durable, timeless clothing and rewearing quality garments supports environmental sustainability and personal budget health."',
@@ -244,21 +244,21 @@ export const G9_2_CHALLENGES: AssumptionUnmaskerItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'All video game play is purely destructive and students lack any capacity for self-regulation or study discipline.',
-        isCorrectAssumption: true,
-        analysisNote: 'Correct! The speaker assumes gaming has zero cognitive benefit and inevitably destroys studying.'
+        text: 'Video games operate on digital computer graphics cards and require household electrical current to function.',
+        isCorrectAssumption: false,
+        analysisNote: 'Physical engineering fact, not the hidden educational assumption about student behavioral balance.'
       },
       {
         id: 'opt-b',
-        text: 'Examinations contain multiple choice questions.',
+        text: 'Secondary school curricula require students to take cumulative standardized academic examinations in term two.',
         isCorrectAssumption: false,
-        analysisNote: 'Format detail that is not the ideological assumption driving the extreme warning.'
+        analysisNote: 'Standard schooling administrative fact, not the unexamined assumption about gaming causing failure.'
       },
       {
         id: 'opt-c',
-        text: 'Computer screens consume electrical energy.',
-        isCorrectAssumption: false,
-        analysisNote: 'Physical fact, not an unstated warrant.'
+        text: 'All video gaming is universally destructive, and adolescents cannot balance recreation with academic study.',
+        isCorrectAssumption: true,
+        analysisNote: 'Extreme absolute premise: ignores moderation, self-regulation, and educational games.'
       }
     ],
     hedgedAlternative: '"Excessive, unregulated gaming can displace homework time, whereas moderate gaming with clear boundaries often coexists with strong academic performance."',
@@ -274,21 +274,21 @@ export const G9_2_CHALLENGES: AssumptionUnmaskerItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Masculinity and personal power are validated by operating large, dominating machinery in civilian neighborhoods.',
+        text: 'Personal masculinity, respect, and social authority are demonstrated by driving an aggressive, oversized vehicle.',
         isCorrectAssumption: true,
-        analysisNote: 'Correct! The ad links gender identity to aggressive commercial vehicle consumption.'
+        analysisNote: 'Hidden marketing warrant: artificially linking gender identity to commercial vehicle ownership.'
       },
       {
         id: 'opt-b',
-        text: 'Rubber tires wear down over asphalt roads.',
+        text: 'Four-wheel-drive vehicles contain dual differentials designed to distribute motor torque across all axles.',
         isCorrectAssumption: false,
-        analysisNote: 'Physical friction reality, not an implicit value assumption.'
+        analysisNote: 'Mechanical automotive engineering specification, not the cultural status assumption.'
       },
       {
         id: 'opt-c',
-        text: 'Mountains are taller than hills.',
+        text: 'Dense urban traffic corridors feature multi-lane paved municipal road networks and automated traffic signals.',
         isCorrectAssumption: false,
-        analysisNote: 'Geographical definition, not the hidden message.'
+        analysisNote: 'Urban infrastructure description, not the unstated gender status premise.'
       }
     ],
     hedgedAlternative: '"While 4x4 vehicles provide traction on rough rural trails, compact transit modes are far more efficient and safer for dense city commuting."',
@@ -304,21 +304,21 @@ export const G9_2_CHALLENGES: AssumptionUnmaskerItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Spicy sambal is the single root cause of all digestive issues, ignoring bacteria, food freshness, hand hygiene, and exam stress.',
-        isCorrectAssumption: true,
-        analysisNote: 'Correct! The proposal assumes a monocausal explanation for a complex health symptom.'
+        text: 'Traditional Indonesian chili sambal condiments contain capsaicin compounds that stimulate taste buds.',
+        isCorrectAssumption: false,
+        analysisNote: 'Culinary chemistry fact, not the monocausal scapegoating assumption.'
       },
       {
         id: 'opt-b',
-        text: 'Chilies contain red capsaicin molecules.',
-        isCorrectAssumption: false,
-        analysisNote: 'Chemical fact, not an unexamined assumption.'
+        text: 'Spicy chili sauce is the sole cause of stomach illness, while hygiene, food bacteria, and stress play zero role.',
+        isCorrectAssumption: true,
+        analysisNote: 'Single-cause fallacy: assuming an isolated dietary factor explains all gastrointestinal symptoms.'
       },
       {
         id: 'opt-c',
-        text: 'Students eat food during recess.',
+        text: 'School canteens serve warm cooked meals to students and teachers during scheduled lunchtime recess periods.',
         isCorrectAssumption: false,
-        analysisNote: 'Basic behavior, not a hidden warrant.'
+        analysisNote: 'Everyday operational school detail, not the underlying medical assumption.'
       }
     ],
     hedgedAlternative: '"Regulating extreme spice levels may reduce heartburn, but improving overall food hygiene and handwashing is necessary to prevent gastrointestinal illness."',
@@ -336,173 +336,173 @@ export const G9_2_CHALLENGES: AssumptionUnmaskerItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'The convenience of private car drivers has higher priority than public green recreation, clean air, and community health.',
-        isCorrectAssumption: true,
-        analysisNote: 'Correct! The argument assumes private car access automatically overrides public parkland.'
+        text: 'Modern multi-story vehicle garages are constructed using reinforced concrete pillars and asphalt driveways.',
+        isCorrectAssumption: false,
+        analysisNote: 'Structural civil engineering detail, not the urban policy priority assumption.'
       },
       {
         id: 'opt-b',
-        text: 'Concrete is composed of cement, gravel, and water.',
+        text: 'Downtown commercial business districts experience peak vehicle traffic during morning and evening rush hours.',
         isCorrectAssumption: false,
-        analysisNote: 'Construction material definition, not an ideological premise.'
+        analysisNote: 'Observed traffic pattern, not the normative assumption prioritizing drivers over park users.'
       },
       {
         id: 'opt-c',
-        text: 'Automobiles require parking when not in motion.',
-        isCorrectAssumption: false,
-        analysisNote: 'Obvious physical reality that does not justify destroying a park.'
+        text: 'Convenience for private automobile commuters takes priority over community parkland, canopy shade, and health.',
+        isCorrectAssumption: true,
+        analysisNote: 'Unexamined value premise: prioritizing driver convenience over shared ecological and community welfare.'
       }
     ],
-    hedgedAlternative: '"Rather than sacrificing vital public parkland for parking, the city could expand shuttle buses and park-and-ride hubs on peripheral industrial land."',
-    pedagogicalTakeaway: 'Policy proposals often hide unstated value rankings that privilege one stakeholder group over the public good.'
+    hedgedAlternative: '"Building satellite park-and-ride lots connected to rapid transit expands parking access while preserving irreplaceable urban green spaces."',
+    pedagogicalTakeaway: 'Hidden value priorities often favor vehicle convenience over community health and green spaces.'
   },
   {
     id: 'g9-2-c6',
     stage: 2,
-    speakerOrAuthor: 'University Admissions Consultant',
+    speakerOrAuthor: 'Tech Industry Lobbyist',
     surfaceStatement: '"Every Grade 10 student should study computer coding; anyone who studies literature, history, or philosophy is wasting their life."',
-    explicitClaim: 'Only programming education is valuable; the humanities are useless.',
+    explicitClaim: 'All students should study coding and humanities are useless.',
     correctHiddenAssumption: 'Human worth and education are measured solely by immediate corporate technical utility and software salaries.',
     options: [
       {
         id: 'opt-a',
-        text: 'The sole purpose of human education is immediate technological monetization, while critical thinking, ethics, and culture have zero worth.',
+        text: 'Human worth and educational validity are measured exclusively by corporate technical utility and tech salaries.',
         isCorrectAssumption: true,
-        analysisNote: 'Correct! The speaker assumes narrow technical utility is the only valid metric of human learning.'
+        analysisNote: 'Narrow economic instrumentalism: assuming liberal arts and critical humanities have zero human value.'
       },
       {
         id: 'opt-b',
-        text: 'Computers run on binary machine code.',
+        text: 'Software developers write program code in languages such as Python and JavaScript to build mobile applications.',
         isCorrectAssumption: false,
-        analysisNote: 'Technical fact, not the philosophical assumption.'
+        analysisNote: 'Computer science programming description, not the philosophical assumption about educational purpose.'
       },
       {
         id: 'opt-c',
-        text: 'Shakespeare wrote plays in English.',
+        text: 'High school academic libraries maintain physical collections of printed literature anthologies and history books.',
         isCorrectAssumption: false,
-        analysisNote: 'Historical fact, not the hidden warrant.'
+        analysisNote: 'Library archive fact, not the underlying educational value premise.'
       }
     ],
-    hedgedAlternative: '"While software engineering skills offer strong career opportunities, humanities cultivate ethical judgment and communication essential for leadership."',
-    pedagogicalTakeaway: 'Statements that dismiss entire disciplines assume that economic monetization is the only goal of education.'
+    hedgedAlternative: '"Digital literacy prepares students for technology careers, while studying humanities cultivates ethical discernment, empathy, and critical citizenship."',
+    pedagogicalTakeaway: 'Technical education claims often presuppose narrow economic instrumentalism over holistic human development.'
   },
   {
     id: 'g9-2-c7',
     stage: 2,
-    speakerOrAuthor: 'Public Health Campaigner',
+    speakerOrAuthor: 'Organic Grocery Influencer',
     surfaceStatement: '"If people truly cared about their children’s health, they would only buy 100% certified organic vegetables from boutique supermarkets."',
-    explicitClaim: 'Caring parents buy organic produce exclusively.',
+    explicitClaim: 'Good parents only buy certified organic produce.',
     correctHiddenAssumption: 'All families have the financial budget to pay 300% higher organic food prices, and low-income parents who buy regular food are neglectful.',
     options: [
       {
         id: 'opt-a',
-        text: 'All families possess unlimited household budgets, and parents who cannot afford expensive specialty groceries do not love their children.',
-        isCorrectAssumption: true,
-        analysisNote: 'Correct! The claim assumes financial privilege and moralizes economic poverty.'
+        text: 'Certified organic vegetables are cultivated without synthetic nitrogen fertilizers or chemical insecticides.',
+        isCorrectAssumption: false,
+        analysisNote: 'Agronomic agricultural definition, not the moralizing socio-economic assumption.'
       },
       {
         id: 'opt-b',
-        text: 'Vegetables contain vitamins and dietary fiber.',
-        isCorrectAssumption: false,
-        analysisNote: 'Nutritional fact, not an unstated class assumption.'
+        text: 'All families possess the household income to afford luxury groceries, and cheaper food purchases reflect neglect.',
+        isCorrectAssumption: true,
+        analysisNote: 'Class-blind assumption: ignoring severe family budget constraints and equating poverty with lack of love.'
       },
       {
         id: 'opt-c',
-        text: 'Supermarkets have refrigeration units.',
+        text: 'Supermarket retailers arrange fresh leafy green vegetables on chilled refrigerated display shelves each morning.',
         isCorrectAssumption: false,
-        analysisNote: 'Retail detail, not the hidden prejudice.'
+        analysisNote: 'Grocery store merchandising fact, not the underlying moralizing assumption.'
       }
     ],
-    hedgedAlternative: '"While organic produce minimizes synthetic pesticides, thoroughly washing affordable fresh local vegetables provides excellent nutrition for all families."',
-    pedagogicalTakeaway: 'Moralizing lifestyle advice often conceals unexamined socio-economic privilege.'
+    hedgedAlternative: '"Washing conventionally farmed produce thoroughly provides affordable, vital nutrition for children across diverse family income levels."',
+    pedagogicalTakeaway: 'Moralizing lifestyle choices masks deep socio-economic inequalities and budget constraints.'
   },
   {
     id: 'g9-2-c8',
     stage: 2,
-    speakerOrAuthor: 'School Principal on AI in Classrooms',
+    speakerOrAuthor: 'School Board Traditionalist',
     surfaceStatement: '"We must permanently ban all AI writing tools in our school; using any AI makes thinking impossible."',
-    explicitClaim: 'Artificial intelligence completely prevents human cognitive thought.',
+    explicitClaim: 'Using AI makes thinking impossible and must be banned.',
     correctHiddenAssumption: 'Students are unable to use AI as a formative brainstorm partner without cheating, and AI offers zero legitimate pedagogical value.',
     options: [
       {
         id: 'opt-a',
-        text: 'Students will inevitably use technology to cheat, and interactive digital scaffolding can never enhance human learning.',
-        isCorrectAssumption: true,
-        analysisNote: 'Correct! The ban assumes technology can only corrupt rather than scaffold critical inquiry.'
+        text: 'Generative machine learning models process text tokens using statistical transformer neural network algorithms.',
+        isCorrectAssumption: false,
+        analysisNote: 'Computer science algorithm description, not the educational deficit assumption.'
       },
       {
         id: 'opt-b',
-        text: 'Artificial intelligence algorithms run on computer servers.',
+        text: 'Secondary schools establish academic integrity guidelines governing formal examination and essay submissions.',
         isCorrectAssumption: false,
-        analysisNote: 'Hardware reality, not an educational assumption.'
+        analysisNote: 'Institutional policy rule, not the unstated pedagogical premise.'
       },
       {
         id: 'opt-c',
-        text: 'Schools possess printed textbooks.',
-        isCorrectAssumption: false,
-        analysisNote: 'Classroom fact, not the unstated belief.'
+        text: 'Students lack all critical agency to use AI formatively, and automated digital tools offer zero learning value.',
+        isCorrectAssumption: true,
+        analysisNote: 'Technological panic assumption: assuming learners have zero metacognition and cannot learn ethical integration.'
       }
     ],
-    hedgedAlternative: '"Uncritical reliance on AI can weaken independent drafting, but guided AI use for brainstorming and data analysis fosters vital digital literacy."',
-    pedagogicalTakeaway: 'Total bans often stem from unstated assumptions of student dishonesty rather than balanced digital ethics.'
+    hedgedAlternative: '"Restricting unmonitored AI during exams prevents academic fraud, while guided AI critique in class strengthens evaluative critical reasoning."',
+    pedagogicalTakeaway: 'Technological moral panics assume users lack critical agency and cannot develop ethical usage protocols.'
   },
 
-  // STAGE 3: TRANSFORMING DOGMATIC ABSOLUTES INTO HEDGED SCHOLARSHIP (Items 9-11)
+  // STAGE 3: SYNTHESIS & HEDGED REFLECTION (Items 9-11)
   {
     id: 'g9-2-c9',
     stage: 3,
-    speakerOrAuthor: 'Agricultural Activist Speech',
+    speakerOrAuthor: 'Eco-Enthusiast Pamphlet',
     surfaceStatement: '"It is an undeniable, indisputable fact that organic farming will easily feed the entire planet without any chemical inputs."',
-    explicitClaim: 'Organic farming is 100% capable of feeding all humanity without chemicals.',
+    explicitClaim: 'Organic farming can feed the world without chemicals.',
     correctHiddenAssumption: 'Current organic crop yields per hectare are identical to synthetic yields, and sudden transition would cause zero crop shortages.',
     options: [
       {
         id: 'opt-a',
-        text: 'Organic yields per hectare equal modern high-yield agriculture, and zero land clearance would be needed to replace synthetic fertilizers.',
+        text: 'Organic crop yields per hectare equal conventional farming immediately, with zero transition calorie deficits.',
         isCorrectAssumption: true,
-        analysisNote: 'Correct! Agricultural science shows organic yields average 20-30% lower, so the claim assumes land constraints do not exist.'
+        analysisNote: 'Unexamined agronomic premise: ignoring documented 20-30% yield gaps and global food distribution limits.'
       },
       {
         id: 'opt-b',
-        text: 'Earth revolves around the Sun.',
+        text: 'Agricultural compost recycling converts discarded organic food waste into rich soil nutrient amendments.',
         isCorrectAssumption: false,
-        analysisNote: 'Cosmic fact, not an agricultural assumption.'
+        analysisNote: 'Soil science composting fact, not the unstated global food security yield assumption.'
       },
       {
         id: 'opt-c',
-        text: 'Plants absorb sunlight through photosynthesis.',
+        text: 'The United Nations Food and Agriculture Organization monitors worldwide grain production and crop reserves.',
         isCorrectAssumption: false,
-        analysisNote: 'Biological reality, not the hidden dogmatic leap.'
+        analysisNote: 'International agency function, not the hidden agronomic yield premise.'
       }
     ],
-    hedgedAlternative: '"Organic practices improve soil ecology, but hybrid sustainable approaches may be needed to maintain crop yields required for global food security."',
-    pedagogicalTakeaway: 'Dogmatic certainty ("indisputable", "undeniable") ignores complex trade-offs that hedged scholarship balances.'
+    hedgedAlternative: '"Expanding agro-ecological organic methods enhances biodiversity and soil health, though balanced hybrid fertilizers may remain necessary for staple crop yield security in dense regions."',
+    pedagogicalTakeaway: 'Unquestioned ecological claims ignore agronomic yield trade-offs and global distribution realities.'
   },
   {
     id: 'g9-2-c10',
     stage: 3,
-    speakerOrAuthor: 'Urban Commuter Advocacy Group',
+    speakerOrAuthor: 'Automotive Marketing Executive',
     surfaceStatement: '"Electric vehicles are 100% clean and produce zero environmental damage anywhere on Earth."',
-    explicitClaim: 'Electric cars cause zero ecological harm.',
+    explicitClaim: 'Electric vehicles produce zero environmental damage.',
     correctHiddenAssumption: 'Mining lithium and nickel creates zero environmental destruction, and electric power grids are 100% powered by renewable energy.',
     options: [
       {
         id: 'opt-a',
-        text: 'Battery mineral extraction causes zero ecological disruption, and electricity used for battery charging comes entirely from clean green sources.',
-        isCorrectAssumption: true,
-        analysisNote: 'Correct! The claim ignores supply chain emissions, battery mining runoff, and coal-fired electrical grids.'
+        text: 'Electric passenger cars utilize lithium-ion battery cells connected to alternating-current electric motors.',
+        isCorrectAssumption: false,
+        analysisNote: 'Automotive hardware engineering fact, not the unexamined supply chain lifecycle assumption.'
       },
       {
         id: 'opt-b',
-        text: 'Electric motors use magnetic coils.',
-        isCorrectAssumption: false,
-        analysisNote: 'Engineering fact, not an environmental assumption.'
+        text: 'Mining nickel and lithium causes zero ecological damage, and regional power grids generate 100% green energy.',
+        isCorrectAssumption: true,
+        analysisNote: 'Zero-damage fallacy: overlooking upstream mineral extraction impacts and fossil-fuel grid emissions.'
       },
       {
         id: 'opt-c',
-        text: 'Cars possess wheels made of vulcanized rubber.',
+        text: 'Municipal charging stations connect to local electrical transmission lines to deliver battery power refills.',
         isCorrectAssumption: false,
-        analysisNote: 'Tire fact, not the hidden premise.'
+        analysisNote: 'Charging infrastructure fact, not the hidden ecological lifecycle assumption.'
       }
     ],
     hedgedAlternative: '"Electric vehicles eliminate urban tailpipe emissions, though sustainable lifecycle management must address battery mining impacts and grid decarbonization."',
@@ -518,21 +518,21 @@ export const G9_2_CHALLENGES: AssumptionUnmaskerItem[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Traffic congestion stems from a single factor, and private vehicle owners will universally switch to public buses regardless of last-mile gaps.',
+        text: 'Congestion has only one cause, and commuters will universally switch to buses regardless of last-mile gaps.',
         isCorrectAssumption: true,
-        analysisNote: 'Correct! The claim assumes total modal shift without accounting for housing sprawl and last-mile connectivity.'
+        analysisNote: 'Single-cause fallacy: assumes dedicated bus lanes eliminate traffic without solving housing sprawl or suburban feeders.'
       },
       {
         id: 'opt-b',
-        text: 'Buses run on diesel or electric power.',
+        text: 'Public transit buses operate on diesel combustion or electric battery motor systems.',
         isCorrectAssumption: false,
-        analysisNote: 'Engine type, not an urban planning warrant.'
+        analysisNote: 'Automotive vehicle engineering detail, not the urban planning behavioral assumption.'
       },
       {
         id: 'opt-c',
-        text: 'Asphalt roads have lane markings.',
+        text: 'Paved municipal arterial roadways feature painted lane dividers and pedestrian crosswalks.',
         isCorrectAssumption: false,
-        analysisNote: 'Roadway feature, not the unstated belief.'
+        analysisNote: 'Civil roadway engineering feature, not the unstated transit adoption belief.'
       }
     ],
     hedgedAlternative: '"Dedicated bus rapid transit lanes provide dependable transit corridors, though comprehensive decongestion also requires integrated feeder microbuses and safe pedestrian paths."',
@@ -576,16 +576,16 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
     bestCounterEvidence: 'Peer-reviewed medical epidemiology showing antibiotics and childhood vaccines reduced infant mortality worldwide by 75% over the past century.',
     options: [
       {
+        id: 'opt-b',
+        text: 'Argue that dietary nutrition has zero influence on clinical disease outcomes and ignore all preventative medical guidance.',
+        isStrongestCounterMove: false,
+        reasoning: 'Over-correcting into nutritional nihilism dismisses valid dietary science and alienates participants'
+      },
+      {
         id: 'opt-a',
         text: 'Inject empirical historical data showing modern antibiotics and vaccines reduced infant mortality by 75%.',
         isStrongestCounterMove: true,
         reasoning: 'Presents verified clinical evidence directly disproving the extreme claim that modern medicine has zero life-saving value.'
-      },
-      {
-        id: 'opt-b',
-        text: 'Argue that nutrition has zero influence on health and that lifestyle choices are completely irrelevant.',
-        isStrongestCounterMove: false,
-        reasoning: 'Over-correcting into nutritional nihilism dismisses valid dietary science and alienates participants.'
       },
       {
         id: 'opt-c',
@@ -608,12 +608,6 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
     bestCounterEvidence: 'Audited financial records showing that 95% of retail crypto traders lose their savings within 18 months, alongside regulatory consumer warning alerts.',
     options: [
       {
-        id: 'opt-a',
-        text: 'Share financial market statistics showing that over 90% of day-traders in unregulated tokens experience net financial losses.',
-        isStrongestCounterMove: true,
-        reasoning: 'Presents grounded statistical realities to balance selective survivorship bias.'
-      },
-      {
         id: 'opt-b',
         text: 'Assume that because group members post screenshots of gains, their investment strategy must be mathematically sound.',
         isStrongestCounterMove: false,
@@ -624,6 +618,12 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
         text: 'Rely solely on positive forum testimonials while disregarding independent consumer protection alerts.',
         isStrongestCounterMove: false,
         reasoning: 'Echo chamber moderation deletes critical reports to manufacture false consensus.'
+      },
+      {
+        id: 'opt-a',
+        text: 'Share financial market statistics showing that over 90% of day-traders in unregulated tokens experience net financial losses.',
+        isStrongestCounterMove: true,
+        reasoning: 'Presents grounded statistical realities to balance selective survivorship bias.'
       }
     ],
     intellectualHumilityLesson: 'Echo chambers suppress dissenting voices. Notice who is being silenced or banned from the room.',
@@ -643,17 +643,17 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
         id: 'opt-a',
         text: 'Introduce the proven concept of Induced Demand with traffic data showing expanded highways re-clog within 24 months.',
         isStrongestCounterMove: true,
-        reasoning: 'Exposes the engineering flaw in the dominant narrative using transportation science.'
+        reasoning: 'Exposes the engineering flaw in the dominant narrative using transportation science'
       },
       {
         id: 'opt-b',
-        text: 'Demand that all public buses and commuter rail lines be defunded to widen private traffic lanes.',
+        text: 'Demand that all municipal public buses and regional commuter rail lines be defunded to widen private traffic lanes.',
         isStrongestCounterMove: false,
         reasoning: 'Doubles down on the flawed bubble assertion, worsening urban congestion.'
       },
       {
         id: 'opt-c',
-        text: 'Assume that building wider roads has no effect on commuter driving decisions.',
+        text: 'Assume that adding new expressway lanes has zero influence on commuter automobile travel habits and route choices.',
         isStrongestCounterMove: false,
         reasoning: 'Ignores the proven transport reality that new roadway capacity encourages more private vehicle trips.'
       }
@@ -672,16 +672,16 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
     bestCounterEvidence: 'Educational research showing that structured digital literacy instruction prepares students for 21st-century careers while teaching responsible screen time.',
     options: [
       {
+        id: 'opt-b',
+        text: 'Propose replacing all computers with paper worksheets across every subject to eliminate parental debate.',
+        isStrongestCounterMove: false,
+        reasoning: 'Surrenders to moral panic rather than fostering necessary 21st-century research competencies'
+      },
+      {
         id: 'opt-a',
         text: 'Share longitudinal educational studies showing balanced digital literacy prepares students for collaborative global research.',
         isStrongestCounterMove: true,
         reasoning: 'Demonstrates that purposeful educational use is radically different from mindless entertainment addiction.'
-      },
-      {
-        id: 'opt-b',
-        text: 'Propose replacing all computers with paper worksheets across every subject to eliminate parental debate.',
-        isStrongestCounterMove: false,
-        reasoning: 'Surrenders to moral panic rather than fostering necessary 21st-century research competencies.'
       },
       {
         id: 'opt-c',
@@ -706,22 +706,22 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
     bestCounterEvidence: 'Community-based ecotourism models showing that when local residents receive revenue from tourism and guiding, illegal poaching drops by 85%.',
     options: [
       {
-        id: 'opt-a',
-        text: 'Present community-based conservation data demonstrating that local economic benefit directly reduces illegal poaching and protects wildlife.',
-        isStrongestCounterMove: true,
-        reasoning: 'Bridges ecological protection with local economic survival (social-economic lens).'
-      },
-      {
         id: 'opt-b',
-        text: 'Build concrete amusement parks and casino hotels across Komodo Island.',
+        text: 'Develop high-density commercial resort infrastructure across Komodo Island to maximize regional municipal tax revenue regardless of habitat disturbance.',
         isStrongestCounterMove: false,
         reasoning: 'Extreme commercial exploitation that destroys fragile habitats.'
       },
       {
         id: 'opt-c',
-        text: 'Claim that Komodo dragons prefer eating fried chicken from tourists.',
+        text: 'Close all park borders permanently with armed patrols while offering no economic alternatives or compensation to indigenous resident fishermen.',
         isStrongestCounterMove: false,
         reasoning: 'Absurd falsehood harmful to animal health.'
+      },
+      {
+        id: 'opt-a',
+        text: 'Present community-based conservation data demonstrating that local economic benefit directly reduces illegal poaching and protects wildlife.',
+        isStrongestCounterMove: true,
+        reasoning: 'Bridges ecological protection with local economic survival (social-economic lens).'
       }
     ],
     intellectualHumilityLesson: 'Ecological solutions that impoverish local humans usually fail. Sustainable policy integrates human dignity.',
@@ -741,17 +741,17 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
         id: 'opt-a',
         text: 'Provide environmental valuation data showing coastal mangroves provide natural storm surge protection and fish breeding nurseries worth millions.',
         isStrongestCounterMove: true,
-        reasoning: 'Speaks the language of economic value while defending ecological preservation.'
+        reasoning: 'Speaks the language of economic value while defending ecological preservation'
       },
       {
         id: 'opt-b',
-        text: 'Tell the developers that money is evil and they should give away all their clothes.',
+        text: 'Dismiss commercial profits entirely and lecture real estate developers that corporate commerce is unethical during municipal zoning sessions.',
         isStrongestCounterMove: false,
         reasoning: 'Moral preaching that will be dismissed immediately in a commercial boardroom.'
       },
       {
         id: 'opt-c',
-        text: 'Pour concrete over the remaining mangroves at night.',
+        text: 'Pave over remaining coastal mangrove greenbelts immediately to accelerate waterfront luxury housing construction across intertidal mudflats.',
         isStrongestCounterMove: false,
         reasoning: 'Surrenders to environmental destruction.'
       }
@@ -770,20 +770,20 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
     bestCounterEvidence: 'Seismic engineering studies showing culturally adaptive retrofits (concealed steel joints) preserve traditional aesthetics while saving human lives during earthquakes.',
     options: [
       {
+        id: 'opt-b',
+        text: 'Demolish historic wooden homes and replace them with standard unreinforced concrete blocks to simplify municipal building permit compliance.',
+        isStrongestCounterMove: false,
+        reasoning: 'Destroys invaluable cultural heritage'
+      },
+      {
         id: 'opt-a',
         text: 'Show examples of culturally sensitive seismic retrofits that preserve heritage woodworking while safeguarding human life in earthquake zones.',
         isStrongestCounterMove: true,
         reasoning: 'Demonstrates that cultural tradition and human safety can be harmoniously synthesized.'
       },
       {
-        id: 'opt-b',
-        text: 'Bulldoze all traditional wooden houses and replace them with grey concrete blocks.',
-        isStrongestCounterMove: false,
-        reasoning: 'Destroys invaluable cultural heritage.'
-      },
-      {
         id: 'opt-c',
-        text: 'Pretend earthquakes do not happen in Indonesia.',
+        text: 'Disregard geological seismic hazards completely and insist that traditional wood construction requires no structural evaluation or maintenance.',
         isStrongestCounterMove: false,
         reasoning: 'Denies geological reality and endangers human lives.'
       }
@@ -802,12 +802,6 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
     bestCounterEvidence: 'Clinical studies showing algorithmic diagnostic bias on diverse skin tones, alongside the vital therapeutic role of doctor-patient human empathy in recovery.',
     options: [
       {
-        id: 'opt-a',
-        text: 'Share clinical findings showing AI requires human physician oversight to catch algorithmic edge cases and provide compassionate patient care.',
-        isStrongestCounterMove: true,
-        reasoning: 'Advocates human-in-the-loop collaboration rather than blind technological replacement.'
-      },
-      {
         id: 'opt-b',
         text: 'Allow automated systems to operate without clinical oversight for routine cases while reserving human doctors only for emergencies.',
         isStrongestCounterMove: false,
@@ -818,6 +812,12 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
         text: 'Argue that clinical healthcare should completely reject software algorithms to preserve traditional doctor intuition.',
         isStrongestCounterMove: false,
         reasoning: 'Rejects helpful diagnostic assistance tools instead of pursuing balanced human-AI collaboration.'
+      },
+      {
+        id: 'opt-a',
+        text: 'Share clinical findings showing AI requires human physician oversight to catch algorithmic edge cases and provide compassionate patient care.',
+        isStrongestCounterMove: true,
+        reasoning: 'Advocates human-in-the-loop collaboration rather than blind technological replacement.'
       }
     ],
     intellectualHumilityLesson: 'Technology assists human wisdom; it cannot replace human ethical accountability and empathy.',
@@ -839,17 +839,17 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
         id: 'opt-a',
         text: 'Facilitate a bridge solution using directional drilling techniques that access geothermal steam while fully preserving ancestral sacred forest zones.',
         isStrongestCounterMove: true,
-        reasoning: 'Breaks the false binary by synthesizing clean energy needs with ancestral land rights.'
+        reasoning: 'Breaks the false binary by synthesizing clean energy needs with ancestral land rights'
       },
       {
         id: 'opt-b',
-        text: 'Prioritize geothermal drilling speed by bypassing community consultation to meet national green energy targets.',
+        text: 'Bypass indigenous community consultations entirely and accelerate geothermal drilling pipelines to satisfy urgent national green energy quotas.',
         isStrongestCounterMove: false,
         reasoning: 'Violates human rights and community trust, escalating civil and legal deadlock.'
       },
       {
         id: 'opt-c',
-        text: 'Cancel the geothermal project entirely and build fossil fuel generators on peripheral coastal land.',
+        text: 'Cancel the geothermal project permanently and construct new diesel power plants on coastal land away from indigenous territory.',
         isStrongestCounterMove: false,
         reasoning: 'Abandons renewable clean energy goals instead of finding creative spatial engineering solutions.'
       }
@@ -868,16 +868,16 @@ export const G9_3_CHALLENGES: EchoChamberItem[] = [
     bestCounterEvidence: 'Economic surveys showing small canteen vendors earn low daily margins and cannot afford sudden wholesale biodegradable containers without a phased school subsidy.',
     options: [
       {
-        id: 'opt-a',
-        text: 'Propose a phased transition with school bulk-purchasing subsidies for cassava-starch packaging so small vendors can comply without bankruptcy.',
-        isStrongestCounterMove: true,
-        reasoning: 'Replaces punitive self-righteousness with practical economic support and phased implementation.'
-      },
-      {
         id: 'opt-b',
         text: 'Immediately fine any vendor caught with plastic wrap while offering no institutional assistance for biodegradable alternatives.',
         isStrongestCounterMove: false,
         reasoning: 'Imposes heavy financial burdens on low-margin food vendors without addressing supplier access.'
+      },
+      {
+        id: 'opt-a',
+        text: 'Propose a phased transition with school bulk-purchasing subsidies for cassava-starch packaging so small vendors can comply without bankruptcy.',
+        isStrongestCounterMove: true,
+        reasoning: 'Replaces punitive self-righteousness with practical economic support and phased implementation.'
       },
       {
         id: 'opt-c',

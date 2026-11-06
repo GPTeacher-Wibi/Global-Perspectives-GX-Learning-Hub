@@ -377,7 +377,13 @@ export const QualitativeThemeCoder: React.FC<QualitativeThemeCoderProps> = ({
 
                       <div className="space-y-2">
                         <div className="font-bold text-base">
-                          {isCorrect ? 'Inductive Code Validated!' : 'Coding Misinterpretation'}
+                          {isCorrect
+                            ? currentItem.stage === 1
+                              ? 'Inductive Code Validated!'
+                              : currentItem.stage === 2
+                              ? 'Overarching Theme Validated!'
+                              : 'Method Alignment Validated!'
+                            : 'Coding Misinterpretation'}
                         </div>
 
                         <p className="text-sm leading-relaxed text-slate-800">

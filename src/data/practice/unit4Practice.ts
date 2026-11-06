@@ -51,10 +51,22 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     misconceptionAlert: 'Do not confuse summarizing individual articles one-by-one with synthesizing connections across multiple sources.',
     question: 'What is the key difference between an academic summary and an academic synthesis?',
     options: [
-      { id: 'opt-a', text: 'A summary uses bullet points, while a synthesis must only use pie charts', explanation: 'Formatting styles do not define the cognitive boundary between summary and synthesis.' },
-      { id: 'opt-b', text: 'A summary restates each source one by one in isolation, while a synthesis weaves multiple sources together to show how they agree, disagree, or build upon one another', explanation: 'Synthesis integrates multiple sources to reveal overarching themes, consensus, or contradictions, whereas summary simply retells individual texts.' },
-      { id: 'opt-c', text: 'A summary is written by students, while a synthesis is only created by government ministers', explanation: 'Synthesis is a core skill taught to Grade 10 researchers in Global Perspectives.' },
-      { id: 'opt-d', text: 'A summary always focuses on quantitative numbers, while a synthesis focuses only on opinions', explanation: 'Both summaries and syntheses can incorporate qualitative and quantitative evidence.' }
+      {
+        id: 'opt-a',
+        text: 'A single immediate factor that triggers an event, such as a lightning strike igniting a forest fire, despite failing to account for localized socioeconomic disparities and long-term community resistance.'
+      },
+      {
+        id: 'opt-b',
+        text: 'An underlying, systemic factor that creates the vulnerabilities allowing a crisis to develop over time.'
+      },
+      {
+        id: 'opt-c',
+        text: 'The visible physical damage documented by journalists immediately following a natural disaster.'
+      },
+      {
+        id: 'opt-d',
+        text: 'An emergency relief donation organized by international non-governmental organizations.'
+      }
     ],
     correctAnswer: 'opt-b',
     explanation: 'A summary recounts individual sources in isolation, whereas an academic synthesis connects multiple sources together to discover commonalities, contrasts, and new integrated perspectives.'
@@ -77,12 +89,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 4.2, pp. 58–59',
     question: 'When a researcher reads five independent peer-reviewed reports on mangrove restoration and discovers that all five conclude that community participation is vital for sapling survival, what has been identified?',
     options: [
-      { id: 'opt-a', text: 'A scholarly consensus', explanation: 'When multiple credible, independent sources arrive at the same conclusion, a consensus exists across the literature.' },
-      { id: 'opt-b', text: 'A cognitive bias', explanation: 'Broad independent agreement across peer-reviewed sources indicates scholarly consensus, not bias.' },
-      { id: 'opt-c', text: 'An academic plagiarism violation', explanation: 'Independent researchers reaching the same empirical finding is replication and consensus, not plagiarism.' },
-      { id: 'opt-d', text: 'A false dilemma fallacy', explanation: 'Consensus among experts is an evidentiary pattern, not a logical fallacy.' }
+      {
+        id: 'opt-a',
+        text: 'Root Cause Factor'
+      },
+      {
+        id: 'opt-b',
+        text: 'Systemic Vulnerability'
+      },
+      {
+        id: 'opt-c',
+        text: 'Long-term Condition'
+      },
+      {
+        id: 'opt-d',
+        text: 'Immediate Trigger'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-d',
     explanation: 'Scholarly consensus occurs when multiple independent, credible sources and researchers arrive at the same conclusion through empirical investigation.'
   },
   {
@@ -104,12 +128,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'Source A (a tech firm survey) claims AI in classrooms improves student test scores by 25%. Source B (an independent university clinical trial) reports that excessive screen time lowers student reading retention by 15%.',
     question: 'How should an effective Global Perspectives synthesizer handle these contradictory findings?',
     options: [
-      { id: 'opt-a', text: 'Delete Source B because it sounds pessimistic', explanation: 'Ignoring contradictory evidence is confirmation bias and poor scholarship.' },
-      { id: 'opt-b', text: 'Examine differences in context, methodology, sample size, and specific tool usage to explain under what conditions AI helps versus hinders learning', explanation: 'Rigorous synthesis analyzes the boundaries and methodological nuances that explain why differing outcomes occurred.' },
-      { id: 'opt-c', text: 'Average the two numbers together (+25% and -15%) and conclude AI has a +5% impact everywhere', explanation: 'Averaging disparate metrics from completely different studies is mathematically invalid.' },
-      { id: 'opt-d', text: 'Declare that neither source can ever be used again in any research paper', explanation: 'Contradictions in research provide fertile ground for deeper inquiry rather than total dismissal.' }
+      {
+        id: 'opt-a',
+        text: 'Root causes are systemic and structural conditions, whereas triggers are immediate catalytic events.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Root causes occur exclusively at international scales, while triggers happen only within private households.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Addressing triggers permanently resolves social problems, while studying root causes produces academic delay.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Triggers are verifiable empirical facts, while root causes are subjective opinions without statistical evidence.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation: 'Synthesizing contradictory evidence requires investigating differing research contexts, methodologies, and definitions to explain why different results emerged.'
   },
   {
@@ -130,12 +166,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 4.3, pp. 62–64',
     question: 'In a synthesis matrix (grid), what typically forms the rows and columns to organize literature effectively?',
     options: [
-      { id: 'opt-a', text: 'Student names in the rows and favorite hobbies in the columns', explanation: 'This structure has no relevance to academic literature synthesis.' },
-      { id: 'opt-b', text: 'Key themes or research sub-questions along the columns, and individual source citations down the rows', explanation: 'A synthesis matrix organizes sources against central themes or sub-questions, allowing researchers to see cross-source patterns at a glance.' },
-      { id: 'opt-c', text: 'Only website URLs without any thematic categories', explanation: 'A list of URLs is a bookmark list, not an analytical matrix.' },
-      { id: 'opt-d', text: 'Random vocabulary words sorted alphabetically', explanation: 'Alphabetical vocabulary lists do not facilitate thematic synthesis.' }
+      {
+        id: 'opt-a',
+        text: 'A primary effect that occurs immediately at the point of intervention, although this overlooks critical institutional constraints and unintended regional environmental side effects.'
+      },
+      {
+        id: 'opt-b',
+        text: 'An unverified rumor shared across informal community communication channels.'
+      },
+      {
+        id: 'opt-c',
+        text: 'An unintended secondary consequence triggered indirectly along a causal chain.'
+      },
+      {
+        id: 'opt-d',
+        text: 'A planned policy outcome that matches all initial government projections.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation: 'A synthesis matrix places sources along one axis and key thematic concepts or sub-questions along the other, enabling researchers to identify trends, agreements, and gaps across studies.'
   },
   {
@@ -157,12 +205,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A student synthesizes 12 studies on public electric bus adoption in Southeast Asia. All 12 studies were conducted in Singapore and Kuala Lumpur, focusing on high-density urban commuters. None examined rural feeder routes or island provinces.',
     question: 'What has the student successfully discovered through this synthesis?',
     options: [
-      { id: 'opt-a', text: 'A significant geographic and demographic research gap in the existing literature', explanation: 'Recognizing unstudied populations or settings identifies an empirical gap for future inquiry.' },
-      { id: 'opt-b', text: 'Proof that electric buses do not work on islands', explanation: 'Lack of research does not prove technical failure.' },
-      { id: 'opt-c', text: 'That the 12 studies are all fake and invalid', explanation: 'Urban studies can be highly valid for urban contexts; they simply have limited generalizability to rural areas.' },
-      { id: 'opt-d', text: 'That Singapore and Kuala Lumpur are rural communities', explanation: 'Both are prominent metropolitan areas.' }
+      {
+        id: 'opt-a',
+        text: 'Installing coastal flood barriers in response to rising sea levels.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Subsidizing corn biofuels leading to global food price inflation.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Distributing mosquito nets that immediately reduce malaria cases.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Building a school library that directly increases reading scores.'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-b',
     explanation: 'A research gap represents an unexplored territory or underrepresented demographic in existing research. Synthesizing existing papers exposes where new inquiry is needed.'
   },
   {
@@ -183,12 +243,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 4.4, pp. 66–68',
     question: 'In a Cambridge Global Perspectives research report, what distinguishes a well-synthesized body paragraph from a poorly synthesized one?',
     options: [
-      { id: 'opt-a', text: 'A well-synthesized paragraph starts with a thematic topic sentence and integrates multiple citations together, while a poor paragraph discusses only one author in isolation', explanation: 'Organizing by theme and integrating diverse citations produces authentic academic synthesis.' },
-      { id: 'opt-b', text: 'A well-synthesized paragraph avoids using any citations or author names', explanation: 'Academic synthesis strictly requires accurate source attribution.' },
-      { id: 'opt-c', text: 'A well-synthesized paragraph must be at least 1,500 words long', explanation: 'Word count does not measure the quality of synthesis.' },
-      { id: 'opt-d', text: 'A well-synthesized paragraph uses only direct quotes without any original student analysis', explanation: 'Relying exclusively on quotes without analysis is called quote-dumping, not synthesis.' }
+      {
+        id: 'opt-a',
+        text: 'Linear causality guarantees that complex ecosystems respond predictably to single-variable chemical modifications.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Ecosystems operate on simple one-to-one cause-and-effect mechanisms where side effects never compound.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Chemical interventions always produce purely localized outcomes without influencing adjacent food chains.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Complex systems involve interconnected feedback loops where interventions generate cascading ripple effects.'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-d',
     explanation: 'Effective synthesis structures writing around central themes or claims, integrating multiple sources within the same paragraph to show how they converse with each other.'
   },
   {
@@ -210,12 +282,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A school cafeteria survey shows that only 32% of students purchase healthy salad bowls (quantitative). In interviews, students explain that the salads are pre-packaged in cold plastic containers with tasteless dressings (qualitative).',
     question: 'What comprehensive conclusion emerges from synthesizing these two datasets?',
     options: [
-      { id: 'opt-a', text: 'Students hate health food and will never eat vegetables', explanation: 'This overgeneralizes and ignores the specific qualitative reasons given.' },
-      { id: 'opt-b', text: 'The low purchase rate (32%) is driven by packaging and sensory presentation rather than an inherent rejection of nutritious food', explanation: 'Synthesizing the "what" (quantitative stat) with the "why" (qualitative feedback) yields an actionable, complete explanation.' },
-      { id: 'opt-c', text: 'The quantitative survey was clearly flawed because numbers cannot be trusted', explanation: 'The 32% statistic aligns with and is explained by the qualitative remarks.' },
-      { id: 'opt-d', text: 'Salads should be banned from all school campuses permanently', explanation: 'An irrational conclusion that ignores constructive student feedback.' }
+      {
+        id: 'opt-a',
+        text: 'A self-reinforcing cycle where an initial change produces effects that amplify the original condition.'
+      },
+      {
+        id: 'opt-b',
+        text: 'A stabilizing mechanism that automatically restores a natural ecosystem back to its original equilibrium.'
+      },
+      {
+        id: 'opt-c',
+        text: 'A formal legal agreement between national governments to regulate greenhouse gas emissions.'
+      },
+      {
+        id: 'opt-d',
+        text: 'A data collection technique where researchers survey the same participant three consecutive times.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation: 'Synthesizing quantitative metrics with qualitative human feedback reveals the underlying mechanism behind observed behaviors.'
   },
   {
@@ -236,12 +320,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 4.2, pp. 60–62',
     question: 'During a group project synthesis session, team members quickly agree with the loudest student’s conclusion without reviewing opposing data because they want to avoid conflict and finish early. What problem has occurred?',
     options: [
-      { id: 'opt-a', text: 'Rigorous peer review', explanation: 'Peer review actively critiques and challenges assertions rather than passively conforming.' },
-      { id: 'opt-b', text: 'Groupthink', explanation: 'Groupthink is the psychological drive for consensus and harmony that overrides critical evaluation of evidence.' },
-      { id: 'opt-c', text: 'Triangulation', explanation: 'Triangulation cross-verifies multiple perspectives and data sources.' },
-      { id: 'opt-d', text: 'Random stratified sampling', explanation: 'This is a sampling technique, not a team collaboration pitfall.' }
+      {
+        id: 'opt-a',
+        text: 'Linear Cause, even though empirical field observations demonstrate significant divergence across diverse municipal contexts.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Direct Driver'
+      },
+      {
+        id: 'opt-c',
+        text: 'Feedback Loop'
+      },
+      {
+        id: 'opt-d',
+        text: 'Static Factor'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation: 'Groupthink occurs when team members prioritize harmony or speed over critical examination of facts, resulting in superficial consensus and unexamined errors.'
   },
   {
@@ -262,10 +358,22 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 4.3, pp. 63–65',
     question: 'Why does "triangulation" (using three different methods or sources to investigate the same research question) increase the validity of an academic conclusion?',
     options: [
-      { id: 'opt-a', text: 'Because having three sources means the report is guaranteed to be three times as long', explanation: 'Length does not equate to academic validity.' },
-      { id: 'opt-b', text: 'Because if different methods (e.g. observation, survey, and official audit) point to the same outcome, the finding is far less likely to be an artifact of a single method’s flaw or bias', explanation: 'Triangulation cross-checks findings across disparate methods, cancelling out individual methodological weaknesses.' },
-      { id: 'opt-c', text: 'Because triangles are the strongest geometric shapes in engineering', explanation: 'A metaphor, not an epistemological justification for research validity.' },
-      { id: 'opt-d', text: 'Because Cambridge examiners penalize any paper that uses only two sources', explanation: 'While variety is praised, the core justification is epistemological strength and error reduction.' }
+      {
+        id: 'opt-a',
+        text: 'Assuming that every global crisis can be traced back to a single malicious individual or corporation.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Examining relationships, feedback loops, and structural patterns rather than isolating single events.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Focusing exclusively on short-term emergency interventions while ignoring long-term historical trends.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Relying solely on anecdotal interviews with local officials without verifying systemic economic data.'
+      }
     ],
     correctAnswer: 'opt-b',
     explanation: 'Triangulation strengthens validity because convergence across different inquiry methods (e.g., surveys, interviews, and official statistics) confirms the finding is robust and not an artifact of a single method’s bias.'
@@ -289,12 +397,24 @@ export const UNIT_4_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A researcher synthesizes economic data showing that eco-tourism creates 500 new jobs in Bali, alongside environmental reports documenting reef damage from tourist speedboats and cultural preservation petitions from local village elders.',
     question: 'Which synthesized policy recommendation best reconciles these competing perspectives?',
     options: [
-      { id: 'opt-a', text: 'Close the entire coast to all visitors permanently, eliminating all tourism jobs', explanation: 'Ignores economic livelihoods and local employment completely.' },
-      { id: 'opt-b', text: 'Allow unlimited speedboats without any regulations to maximize tax revenue', explanation: 'Ignores environmental degradation and cultural sanctity.' },
-      { id: 'opt-c', text: 'Implement a capped-capacity eco-tourism zoning plan with speedboat-free marine corridors and an entry tariff dedicated to local reef restoration and village cultural programs', explanation: 'Integrates economic livelihoods, ecological conservation, and cultural preservation into a viable, balanced bridge solution.' },
-      { id: 'opt-d', text: 'Do not write any recommendation because the three sources disagree', explanation: 'A synthesized conclusion should actively construct balanced bridge solutions amidst conflicting priorities.' }
+      {
+        id: 'opt-a',
+        text: 'Complex global challenges will naturally self-correct if governments refrain from regulatory interventions.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Single-factor solutions are universally effective because eliminating one root cause terminates all consequences.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Local communities must bear the entire financial burden of mitigating unintended global environmental side effects.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Effective interventions require mapping multi-tiered causal chains to anticipate unintended systemic consequences.'
+      }
     ],
-    correctAnswer: 'opt-c',
+    correctAnswer: 'opt-d',
     explanation: 'High-level synthesis constructs balanced bridge solutions that honor economic vitality while implementing robust protections for environmental and cultural stakeholders.'
   }
 ];

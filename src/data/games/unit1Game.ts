@@ -31,6 +31,7 @@ export interface StakeholderProfile {
   primaryLens: PerspectiveLens;
   primaryLevel: PerspectiveLevel;
   quote: string;
+  evidenceCited?: string;
   corePriority: string;
   keyConcern: string;
   hiddenSharedInterest: string;
@@ -139,111 +140,120 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
       'The tension between national/global economic trade expansion and local social-ecological survival and cultural heritage.',
     sourceRef: {
       unitNumber: 1,
-      section: '1.1–1.3 & Review',
-      pageRange: '6-21',
+      section: 'Review pp. 16-21',
+      pageRange: '16-21',
       sourceTextTitle: 'Global Perspectives Grade X (2nd Ed.)',
       verificationStatus: 'verified'
     },
     stakeholders: [
       {
         id: 'sh-fisher',
-        name: 'Ibu Sari Nurmala',
-        role: 'Chairperson of Teluk Bakau Artisanal Fisherfolk Cooperative',
-        organization: 'Koperasi Nelayan Bahari Mandiri',
-        avatarIcon: 'Anchor',
+        name: 'Ibu Sari',
+        role: 'Artisanal Fisherfolk Cooperative Chairperson',
+        organization: 'Koperasi Nelayan Bakau Sejahtera',
+        avatarIcon: 'Fish',
         primaryLens: 'Social',
         primaryLevel: 'Local',
         quote:
-          '"Our boats depend on the calm shallow waters behind the mangrove belt. If the mudflats are dredged for giant container ships, fish breeding grounds will vanish, and our 600 families will have no income to buy rice or educate our children."',
-        corePriority: 'Protecting community livelihoods, food security, and safe inshore fishing waters.',
-        keyConcern: 'Loss of fish breeding nurseries, increased coastal erosion, and displacement of local fishing families.',
+          '"If the dredging destroys the mangrove roots, our prawn catches will drop to zero within two seasons. Our families cannot eat concrete docks, and cash compensation runs out in six months."',
+        evidenceCited:
+          'Local cooperative catch records show 85% of crab and prawn larvae mature exclusively in the inner mangrove roots.',
+        corePriority: 'Preserving nursery habitat and ensuring community food security.',
+        keyConcern: 'Total collapse of artisanal fisheries and forced migration to urban slums.',
         hiddenSharedInterest:
-          'Needs reliable coastal water safety, clean marine waters free of toxic chemical spills, and sustainable harbor logistics so fresh fish can reach city markets.',
+          'Needs clean, calm coastal water and reliable transportation infrastructure to sell fresh catches.',
         explanation:
-          'Her primary lens is Social because she fights for human equity, family livelihoods, and the basic survival of vulnerable community workers. Her primary level is Local (the coastal fishing village).'
+          'Ibu Sari represents the Social lens at the Local level. Her primary concern is the lived survival and daily food security of village families.'
       },
       {
         id: 'sh-port-director',
-        name: 'Pak Budi Hartono',
-        role: 'Regional Port Infrastructure Director',
-        organization: 'Provincial Maritime Development Authority',
+        name: 'Pak Budi',
+        role: 'Regional Port Logistics Authority Director',
+        organization: 'Sumatra Maritime Development Board (PT Pelindo Regional)',
         avatarIcon: 'Ship',
         primaryLens: 'Economic',
         primaryLevel: 'National',
         quote:
-          '"Current logistics bottlenecks at provincial docks add 22% in deadweight freight costs to local agricultural exports. A modern deep-water port will attract $450 million in manufacturing investments, modernize regional trade, and create over 3,200 direct logistics jobs."',
-        corePriority: 'Lowering regional logistics costs, attracting industrial capital, and expanding trade revenue.',
-        keyConcern: 'Severe port congestion, shipping delays, and loss of foreign investment to neighboring nations.',
+          '"Our export commodities currently wait up to seven days at shallow river piers, costing our national economy $45 million annually in demurrage penalties. Teluk Bakau is the only natural deep-water bay capable of accommodating Post-Panamax container vessels."',
+        evidenceCited:
+          'National Chamber of Commerce report showing 32% lower transport costs per container if deep-water berths are constructed.',
+        corePriority: 'Maximizing regional export logistics throughput and reducing national shipping tariffs.',
+        keyConcern: 'Project delays causing foreign maritime consortia to redirect investments to rival ports.',
         hiddenSharedInterest:
-          'Needs long-term coastal stability and storm surge protection; siltation and destructive tidal floods would shut down harbor operations and damage multi-million-dollar crane infrastructure.',
+          'Requires a stable coastal shoreline protected from catastrophic typhoon waves and sedimentation.',
         explanation:
-          'His primary lens is Economic because his calculations focus on trade volume, export costs, investment returns, and job creation. His primary level is National (domestic export infrastructure and provincial trade power).'
+          'Pak Budi represents the Economic lens at the National level. His calculations center on macro-economic competitiveness and logistics efficiency.'
       },
       {
         id: 'sh-biologist',
-        name: 'Dr. Rian Pratama',
-        role: 'Senior Coastal Ecologist & UN Habitat Advisor',
-        organization: 'National Coastal Research Institute & UN Environment Programme',
-        avatarIcon: 'Leaf',
+        name: 'Dr. Rian',
+        role: 'Senior Marine Ecologist & Wetland Specialist',
+        organization: 'Indonesian Mangrove Research Consortium (BRIN)',
+        avatarIcon: 'TreeDeciduous',
         primaryLens: 'Political',
         primaryLevel: 'Global',
         quote:
-          '"Indonesia is a signatory to the Ramsar Wetland Convention and the Paris Climate Agreement. Teluk Bakau\'s mangrove biomass stores over 420,000 tons of blue carbon and provides biological wave buffering against rising sea levels. Clearing it violates national commitments to international climate treaties."',
-        corePriority: 'Upholding international climate agreements and preserving high-density blue carbon sinks.',
-        keyConcern: 'Severe carbon emissions from destroyed peat-mangrove soils and total loss of regional coastal wave attenuation.',
+          '"Teluk Bakau stores an estimated 240 metric tons of soil carbon per hectare—four times more than terrestrial rainforests. Eradicating it violates Indonesia’s Nationally Determined Contributions (NDCs) under the Paris Climate Agreement."',
+        evidenceCited:
+          'Peer-reviewed IPCC coastal blue carbon benchmarks and multispectral satellite vegetative index maps.',
+        corePriority: 'Enforcing multilateral environmental treaties and planetary carbon sink preservation.',
+        keyConcern: 'Irreversible coastal erosion, greenhouse gas emissions, and loss of endemic mangrove species.',
         hiddenSharedInterest:
-          'Supports modern, well-regulated maritime transport that utilizes renewable shore power rather than old, polluting, unregulated diesel barges.',
+          'Supports sustainable maritime economic activities that finance long-term coastal conservation zones.',
         explanation:
-          'His primary lens is Political because his core argument relies on international treaty enforcement, international environmental law, and legal compliance (Ramsar/Paris Agreement). His primary scale is Global (worldwide planetary climate systems and multilateral treaties).'
+          'Dr. Rian uses the Political lens at the Global level. His reasoning is rooted in international climate agreements and multilateral commitments.'
       },
       {
         id: 'sh-cultural-elder',
-        name: 'Pak Wayan Sudirman',
-        role: 'Traditional Community Custodian & Heritage Representative',
+        name: 'Pak Wayan',
+        role: 'Traditional Custodian & Coastal Community Elder',
         organization: 'Lembaga Adat Pesisir Teluk Bakau',
-        avatarIcon: 'Compass',
+        avatarIcon: 'Sparkles',
         primaryLens: 'Cultural',
         primaryLevel: 'Local',
         quote:
-          '"The eastern tip of the mangrove cove is home to our ancestral sanctuary where the annual Petik Laut ceremony has taken place since 1892. If foreign container cranes replace our holy sea boundary, the living spirit of our ancestors and our cultural moral compass will be broken."',
-        corePriority: 'Preserving ancestral heritage, sacred ceremonial shrines, and traditional maritime identity.',
-        keyConcern: 'Desecration of sacred ceremonial zones and the erasure of centuries-old coastal cultural practices.',
+          '"Our ancestors consecrated the Tanjung Karang promontory as sacred ground four hundred years ago. The annual Petik Laut ceremony is where our children learn gratitude to the sea; flattening it for a container yard erases our soul."',
+        evidenceCited:
+          'Historical Dutch colonial cartography from 1840 confirming continuous ceremonial utilization of the shoreline promontory.',
+        corePriority: 'Safeguarding ancestral sacred grounds and intergenerational heritage transmission.',
+        keyConcern: 'Desecration of ritual sacred shrines and social fragmentation of traditional elders.',
         hiddenSharedInterest:
-          'Welcomes community prosperity and stable docks if sacred boundaries are legally protected and youth are not forced to migrate away to distant cities.',
+          'Wants orderly, respectful community development that prevents lawless industrial sprawl.',
         explanation:
-          'His primary lens is Cultural because he focuses entirely on ancestral traditions, sacred spiritual boundaries, historical heritage, and moral customs. His primary level is Local (the village heritage site).'
+          'Pak Wayan embodies the Cultural lens at the Local level, focusing on sacred ancestral heritage and intergenerational identity.'
       }
     ],
+
     stages: {
       stage1Comprehension: {
         id: 'c1-s1',
         stageNumber: 1,
-        stageName: 'See the Situation (Deconstruction)',
+        stageName: 'Identify the Underlying Conflict',
         prompt:
-          'Based on the background briefing for Teluk Bakau, which statement most accurately captures the primary conflict and multi-stakeholder challenge?',
+          'What is the fundamental analytical disagreement driving the controversy at Teluk Bakau?',
         guidanceText:
-          'Look for the statement that acknowledges both economic development goals and the human/ecological needs of the local community.',
+          'Look beyond the surface argument about port construction. What two legitimate priorities are clashing?',
         options: [
           {
-            id: 'c1-s1-opt-a',
-            text: 'The port authority simply wants to destroy nature because they dislike local fishermen and prefer foreign corporations.',
-            isCorrect: false,
-            explanation:
-              'Incorrect. This represents a simplistic, cartoonish view. The port authority’s objective is to reduce logistics costs, expand national export capacity, and create regional jobs—a legitimate economic priority.'
-          },
-          {
             id: 'c1-s1-opt-b',
-            text: 'The proposed port promises substantial regional economic growth and trade efficiency, but threatens local artisanal fishing livelihoods, coastal storm protection, and sacred cultural heritage.',
+            text: 'A commercial development priority to expand national trade logistics versus local community interests in coastal ecology, sustainable livelihoods, and cultural heritage.',
             isCorrect: true,
             explanation:
-              'Correct! This accurately captures the fundamental tension between legitimate national/global economic priorities and vital local social, ecological, and cultural realities.'
+              'Correct! The conflict represents a classic Global Perspectives tension: macro-economic growth (national trade logistics) vs. micro-level social, cultural, and environmental sustainability.'
+          },
+          {
+            id: 'c1-s1-opt-a',
+            text: 'A local industrial lobby that seeks to maximize commercial profits by building heavy export infrastructure regardless of environmental and social safeguards across the coastal region.',
+            isCorrect: false,
+            explanation:
+              'Incorrect. While the port involves industrial interests, this option reduces the dispute to villainous motives rather than an analytical clash of legitimate development frameworks.'
           },
           {
             id: 'c1-s1-opt-c',
-            text: 'Local fishermen should relocate immediately because national economic projects always override small village concerns without discussion.',
+            text: 'A purely symbolic cultural celebration with zero economic implications for regional shipping infrastructure or municipal trade logistics networks across Sumatra.',
             isCorrect: false,
             explanation:
-              'Incorrect. Cambridge Global Perspectives rejects the assumption that local communities and vulnerable groups can simply be ignored without evaluating equity, social impact, and sustainable alternatives.'
+              'Incorrect. The dispute has massive economic, social, and environmental consequences; cultural heritage is only one of four analytical dimensions.'
           }
         ]
       },
@@ -307,25 +317,25 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
           'Consider what happens if one side achieves 100% of their goal while the other side gets 0%.',
         options: [
           {
-            id: 'c1-s4-opt-a',
-            text: 'Because building 100% of the original port destroys local livelihoods and coastal storm buffers, while cancelling the port entirely leaves the region with crippling logistics bottlenecks and lost employment opportunities.',
-            isCorrect: true,
-            explanation:
-              'Correct! Complex global problems involve legitimate competing priorities. An all-or-nothing approach either destroys human communities and ecology, or sacrifices essential regional economic progress.'
-          },
-          {
             id: 'c1-s4-opt-b',
-            text: 'Because both leaders secretly agree on everything and only argue in public to attract media attention.',
+            text: 'Because both commercial developers and artisanal fishers have identical economic objectives and are merely creating public drama to solicit external government subsidies.',
             isCorrect: false,
             explanation:
               'Incorrect. The tension is genuine and stems from fundamentally different responsibilities and analytical lenses.'
           },
           {
             id: 'c1-s4-opt-c',
-            text: 'Because international law bans all port construction worldwide.',
+            text: 'Because international maritime trade regulations strictly forbid all port construction near mangrove estuaries under any environmental mitigation agreement worldwide.',
             isCorrect: false,
             explanation:
               'Incorrect. International conventions regulate environmental standards and human rights, but do not prohibit sustainable maritime development.'
+          },
+          {
+            id: 'c1-s4-opt-a',
+            text: 'Because fully executing the original port destroys coastal livelihoods and protective mangroves, while cancelling it leaves the region with severe logistics bottlenecks and lost trade employment.',
+            isCorrect: true,
+            explanation:
+              'Correct! Complex global problems involve legitimate competing priorities. An all-or-nothing approach either destroys human communities and ecology, or sacrifices essential regional economic progress.'
           }
         ]
       },
@@ -341,21 +351,21 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
         options: [
           {
             id: 'c1-s5-opt-a',
-            text: 'Both parties require a stable coastal shoreline protected from catastrophic storm surges, clean navigation channels free of uncontrolled siltation/spills, and reliable transport infrastructure to move goods to markets.',
+            text: 'Both parties require a stable coastline protected from storm surges, clean navigation channels free of heavy siltation and toxic spills, and dependable transport routes to deliver goods to domestic and export markets.',
             isCorrect: true,
             explanation:
               'Correct! Both the multi-million-dollar container port and artisanal fishing boats depend on healthy coastal wave buffering and clean water. If storm surges wreck the coastline or industrial pollution ruins the bay, both operations fail.'
           },
           {
             id: 'c1-s5-opt-b',
-            text: 'Both parties agree that all mangroves should be turned into a golf resort for foreign tourists.',
+            text: 'Both parties agree that commercial maritime shipping should be fully suspended and the entire coastal zone converted into an exclusive foreign luxury eco-resort with private beachfront concessions and yacht marinas.',
             isCorrect: false,
             explanation:
               'Incorrect. Neither stakeholder wants this, and it would exacerbate both ecological and social crises.'
           },
           {
             id: 'c1-s5-opt-c',
-            text: 'There is zero common ground; opposing stakeholders in Global Perspectives never share any underlying interests.',
+            text: 'There is zero underlying common ground because modern container logistics infrastructure and traditional artisanal fishing ecosystems are completely irreconcilable in all physical, legal, and operational respects.',
             isCorrect: false,
             explanation:
               'Incorrect. This reflects Misconception 6 (Zero-Sum Polarization). Real-world stakeholders almost always share foundational dependencies.'
@@ -371,10 +381,10 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
         options: [
           {
             id: 'dec-1-commercial',
-            title: 'Option 1: Unrestricted Fast-Track Port Expansion',
+            title: 'Option A: Unrestricted Fast-Track Port Expansion',
             approachType: 'unbalanced-commercial',
             description:
-              'Approve the original 180-hectare dredging master plan immediately. Provide one-off cash payouts of Rp 15,000,000 to displaced fishing families and proceed with 24/7 construction to beat rival regional ports.',
+              'Approve the original 180-hectare dredging master plan immediately to secure commercial investment. Provide one-off cash relocation payouts of Rp 15,000,000 to registered fishing families and establish round-the-clock dredging operations to outpace rival regional transport hubs and meet international shipping deadlines.',
             shortTermConsequence:
               'Port construction starts on schedule; industrial investors express satisfaction; but local fisherfolk launch massive boat blockades in protest.',
             longTermConsequence:
@@ -390,31 +400,11 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
               'This policy ignores the Social, Cultural, and Ecological lenses. While it achieves rapid short-term commercial investment, the destruction of coastal buffering creates catastrophic long-term economic and human liabilities.'
           },
           {
-            id: 'dec-2-freeze',
-            title: 'Option 2: Absolute Development Ban & Marine Sanctuary Freeze',
-            approachType: 'unbalanced-freeze',
-            description:
-              'Cancel the port project entirely. Declare the entire 5,000-hectare bay a zero-development preservation sanctuary. Disallow any industrial modifications, deep docks, or transport upgrades.',
-            shortTermConsequence:
-              'Local fishing families and environmental activists celebrate; mangroves and sacred ceremonial shrines remain undisturbed.',
-            longTermConsequence:
-              'The province’s agricultural producers suffer 35% higher export losses; regional youth face severe lack of formal jobs; unregulated illegal shallow dredging spreads due to lack of municipal oversight.',
-            stakeholderImpact: {
-              economicScore: 25,
-              socialScore: 55,
-              environmentalScore: 85,
-              culturalScore: 85
-            },
-            isOptimalBridge: false,
-            debriefFeedback:
-              'This policy completely dismisses the Economic lens. Freezing all development preserves nature in the short term, but fails to provide employment opportunities or resolve regional logistics bottlenecks.'
-          },
-          {
             id: 'dec-3-bridge',
-            title: 'Option 3: The Integrated Eco-Harbor & Co-Management Corridor',
+            title: 'Option B: The Integrated Eco-Harbor & Co-Management Corridor',
             approachType: 'balanced-bridge',
             description:
-              'Redesign the port layout into a compact offshore finger-pier design, sparing 85% of the mangrove forest. Establish a legally protected 300-meter buffer zone around the Petik Laut sacred shrine. Construct a modern solar-powered fish landing dock and cold-storage facility dedicated to the local cooperative, and create a joint Community Co-Management Council with veto power over dredging sediment management.',
+              'Redesign the harbor using compact offshore finger-piers, preserving 85% of the mangrove buffer and the Petik Laut sacred shrine. Build a solar-powered fish landing dock and cold-storage facility for the local cooperative, and establish a joint Co-Management Council with binding oversight over sediment dredging.',
             shortTermConsequence:
               'Design revisions add 4 months to the planning timeline and $18M in specialized engineering costs, but all four stakeholder groups formally sign the Teluk Bakau Accord.',
             longTermConsequence:
@@ -428,6 +418,26 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
             isOptimalBridge: true,
             debriefFeedback:
               'Exemplary Bridge Solution! This policy integrates all four analytical lenses: Economic (modern logistics efficiency), Social (empowered fishing livelihoods and shared profits), Cultural (protected sacred shrine), and Political (legally binding co-management and UN treaty compliance).'
+          },
+          {
+            id: 'dec-2-freeze',
+            title: 'Option C: Absolute Development Ban & Marine Sanctuary Freeze',
+            approachType: 'unbalanced-freeze',
+            description:
+              'Cancel the container port project entirely and declare the entire 5,000-hectare coastal bay an untouchable ecological sanctuary. Prohibit any industrial dredging, berth construction, or logistics transit highways to preserve the mangrove nursery and ancestral ceremonial sites without compromise.',
+            shortTermConsequence:
+              'Local fishing families and environmental activists celebrate; mangroves and sacred ceremonial shrines remain undisturbed.',
+            longTermConsequence:
+              'The province’s agricultural producers suffer 35% higher export losses; regional youth face severe lack of formal jobs; unregulated illegal shallow dredging spreads due to lack of municipal oversight.',
+            stakeholderImpact: {
+              economicScore: 25,
+              socialScore: 55,
+              environmentalScore: 85,
+              culturalScore: 85
+            },
+            isOptimalBridge: false,
+            debriefFeedback:
+              'This policy completely dismisses the Economic lens. Freezing all development preserves nature in the short term, but fails to provide employment opportunities or resolve regional logistics bottlenecks.'
           }
         ]
       },
@@ -440,25 +450,25 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
           'How does the Integrated Bridge Solution demonstrate resilience and foresight when confronted by these unexpected events?',
         options: [
           {
-            id: 'c1-s7-opt-a',
-            text: 'The preserved mangrove corridor absorbs 65% of the storm wave energy, protecting both the village and port berths, while the eco-port design secures the international green shipping certification, attracting premium global cargo.',
-            isCorrect: true,
-            explanation:
-              'Correct! By designing for interconnected perspectives rather than narrow short-term gain, the bridge solution built structural resilience against both environmental hazards and evolving global market regulations.'
-          },
-          {
             id: 'c1-s7-opt-b',
-            text: 'The storm proves that humans cannot build anything near the coast, so all operations should be abandoned.',
+            text: 'The severe storm proves that all human coastal development is doomed to fail, indicating that municipal planners should abandon the harbor site entirely and relocate regional shipping facilities inland.',
             isCorrect: false,
             explanation:
               'Incorrect. Sustainable engineering and multi-lens planning allow communities to thrive alongside natural ecosystems.'
           },
           {
             id: 'c1-s7-opt-c',
-            text: 'The international shipping lines will always choose the cheapest, most polluting port regardless of environmental standards.',
+            text: 'International green shipping regulations are non-binding publicity guidelines that maritime shipping consortia will routinely ignore during major economic crises and regional trade bottlenecks.',
             isCorrect: false,
             explanation:
-              'Incorrect. Global perspectives show that international trade is increasingly governed by ESG (environmental, social, governance) treaties and consumer expectations.'
+              'Incorrect. Global shipping markets increasingly enforce strict decarbonization and wetland-preservation covenants.'
+          },
+          {
+            id: 'c1-s7-opt-a',
+            text: 'The preserved mangrove forest buffers the harbor from destructive storm surge damage, while verified eco-friendly operations allow the port to attract premium certified global green shipping carriers.',
+            isCorrect: true,
+            explanation:
+              'Correct! The Bridge Solution anticipates future systemic risks: the intact mangrove belt protects port infrastructure from catastrophic wave energy, and green compliance positions the port as a preferred hub for sustainable global shipping lines.'
           }
         ]
       }
@@ -472,125 +482,134 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
     id: 'case-trans-metropolis',
     caseNumber: 2,
     title: 'Trans-Metropolis: The Clean Air Transit Corridor',
-    subtitle: 'Electric Bus Fleets vs. Micro-Transport (Angkot) Livelihoods & Commuter Costs',
-    location: 'Metropolitan Bandung & Greater Jakarta Fringe, Indonesia',
+    subtitle: 'Managing Urban Air Quality, Electric Bus Transition, and Informal Minibus Livelihoods',
+    location: 'Metropolitan Jakarta & Greater Suburban Ring, Indonesia',
     summary:
-      'To address chronic air pollution and meet national emissions targets, the municipal government proposes replacing 1,400 privately owned petrol minivans (angkot) with a centralized fleet of modern zero-emission electric buses. While commuters welcome cleaner air and fixed schedules, 3,800 informal drivers and roadside food vendors (warung) face sudden eviction and loss of livelihood.',
+      'The provincial government is rolling out a high-capacity electric Bus Rapid Transit (e-BRT) corridor to eliminate toxic particulate pollution and meet carbon reduction pledges. However, the plan cancels diesel fuel subsidies and bans 12,000 privately-owned "angkot" (informal minibuses), threatening the daily survival of 25,000 informal drivers and fare collectors who cannot afford new electric vehicles.',
     backgroundStory: [
-      'Metropolitan corridors suffer from dangerous PM2.5 air quality levels, leading to high rates of childhood respiratory illness. Over 65% of corridor emissions stem from aging, poorly maintained petrol minivans and motorcycles.',
-      'The city transportation agency announces "Trans-Bersih": a fully integrated electric bus corridor featuring dedicated lanes, GPS tracking, and contactless electronic fare cards.',
-      'However, thousands of angkot drivers operate on daily cash targets without formal employment contracts. Furthermore, hundreds of informal street food vendors rely on passenger foot traffic at unregulated micro-bus stops to sustain their families.',
-      'Public protests erupt as drivers strike, halting urban transit and sparking citywide debates.'
+      'Greater Jakarta regularly records PM2.5 particulate pollution levels five to eight times higher than World Health Organization safe thresholds, causing severe childhood asthma and respiratory illness.',
+      'The municipal transport authority announced the "Clean Skies 2030" initiative: an exclusive 40-kilometer dedicated electric bus transit corridor, paired with an immediate prohibition on older diesel minibuses.',
+      'Informal minibus operators (angkot drivers) stage massive traffic strikes, pointing out that their narrow routes connect low-income alleyways ("kampung") that large municipal electric buses can never physically reach.',
+      'Suburban factory workers and low-wage commuters rely on the cheap, flexible Rp 4,000 angkot fares, fearing that modern digital smartcard systems will exclude unbanked citizens.'
     ],
     keyTension:
-      'The tension between public health/national climate commitments and informal worker livelihoods and social inclusion.',
+      'The tension between planetary environmental goals / public health imperatives and economic inclusion for vulnerable informal transport workers.',
     sourceRef: {
       unitNumber: 1,
-      section: '1.2 & 1.3',
-      pageRange: '10-16',
+      section: 'Review pp. 16-21',
+      pageRange: '16-21',
       sourceTextTitle: 'Global Perspectives Grade X (2nd Ed.)',
       verificationStatus: 'verified'
     },
     stakeholders: [
       {
-        id: 'sh-angkot-driver',
-        name: 'Pak Asep Sutisna',
-        role: 'Spokesperson for Informal Minivan Drivers Association',
-        organization: 'Paguyuban Pengemudi Angkutan Kota',
-        avatarIcon: 'Car',
-        primaryLens: 'Social',
-        primaryLevel: 'Personal',
-        quote:
-          '"I have driven Route 08 for 22 years. I pay daily rental fees and take home Rp 80,000 to feed my three children. If the city replaces us with corporate buses requiring university diplomas, how will middle-aged drivers survive?"',
-        corePriority: 'Preserving daily family livelihood, dignified employment, and financial survival.',
-        keyConcern: 'Sudden unemployment, lack of formal education to qualify for corporate driver posts, and age discrimination.',
-        hiddenSharedInterest:
-          'Wants predictable, stable daily income and safer roads without predatory loan sharks and daily traffic gridlock.',
-        explanation:
-          'His primary lens is Social (family survival, worker dignity, equity for vulnerable informal workers). His primary level is Personal (household food and children’s school fees).'
-      },
-      {
-        id: 'sh-health-officer',
-        name: 'Dr. Maya Indriani',
-        role: 'Chief of Municipal Pediatric Respiratory Health',
-        organization: 'City Public Health Agency & Clean Air Coalition',
-        avatarIcon: 'HeartPulse',
-        primaryLens: 'Social',
+        id: 'sh-driver',
+        name: 'Pak Joko',
+        role: 'Informal Minibus Driver & Cooperative Representative',
+        organization: 'Federasi Angkot Mandiri Jakarta',
+        avatarIcon: 'Truck',
+        primaryLens: 'Economic',
         primaryLevel: 'Local',
         quote:
-          '"In our roadside community clinics, respiratory admissions among primary school children have jumped 44%. Diesel and low-grade petrol exhaust fumes are literally poisoning our children\'s lungs. Clean electric transit is a moral and public health emergency."',
-        corePriority: 'Protecting children’s respiratory health, clean air standards, and public health equity.',
-        keyConcern: 'Rising childhood asthma, chronic bronchitis, and long-term healthcare expenditure for low-income families.',
+          '"We want clean air too, but we have invested 15 years paying off our diesel vans. If the city bans our vehicles overnight without vehicle buy-backs or driver retraining, 25,000 families will be pushed into extreme poverty."',
+        evidenceCited:
+          'Over 60% of daily commuter trips from narrow alleyways depend on micro-transit that full-sized 12-meter buses cannot access.',
+        corePriority: 'Immediate loss of daily household livelihood and inability to finance Rp 350M electric vans.',
+        keyConcern: 'Exclusion of informal workers from formal municipal transit payrolls.',
         hiddenSharedInterest:
-          'Wants a complete transit network that covers all neighborhoods, not just wealthy commercial thoroughfares.',
+          'Needs reliable road networks, passenger volume, and affordable access to modern vehicle financing.',
         explanation:
-          'Her primary lens is Social (public health, quality of life, children’s well-being). Her primary level is Local (citywide public clinics and schools).'
+          'Pak Joko represents the Economic lens at the Local level. His priority is the livelihood survival of informal transport families.'
       },
       {
-        id: 'sh-finance-director',
-        name: 'Pak Hendra Kusuma',
-        role: 'Municipal Transport & Investment Commissioner',
-        organization: 'City Economic Development Board',
-        avatarIcon: 'TrendingUp',
-        primaryLens: 'Economic',
+        id: 'sh-health-minister',
+        name: 'Dr. Linda',
+        role: 'Director of Environmental Health',
+        organization: 'Provincial Department of Public Health',
+        avatarIcon: 'Stethoscope',
+        primaryLens: 'Social',
         primaryLevel: 'National',
         quote:
-          '"Traffic congestion costs our metropolitan economy Rp 14.2 trillion annually in wasted fuel and lost productivity. Modern electric buses will raise transit ridership by 30%, reduce municipal fuel import subsidies, and position our city for national green infrastructure bonds."',
-        corePriority: 'Eliminating congestion economic losses, modernizing infrastructure, and capturing green bonds.',
-        keyConcern: 'Excessive municipal budget deficits from inefficient transit subsidies and declining city productivity.',
+          '"Diesel particulate emissions from unmaintained minibuses are responsible for 42% of pediatric asthma hospitalizations along transit corridors. Phasing out diesel exhaust is a non-negotiable human right to health."',
+        evidenceCited:
+          'Hospital admissions for respiratory illnesses spike by 300% on high-particulate weekdays along central minibus arteries.',
+        corePriority: 'Reducing preventable childhood respiratory mortality and long-term lung disability.',
+        keyConcern: 'National healthcare costs under BPJS Kesehatan for preventable respiratory treatments.',
         hiddenSharedInterest:
-          'Needs feeder transit to bring passengers from narrow residential alleys to the main electric bus corridors.',
+          'Requires orderly, dependable public transit that serves low-income communities safely.',
         explanation:
-          'His primary lens is Economic (macro-economic productivity, city budget efficiency, transit investment returns). His primary level is National (domestic economic competitiveness and green bonds).'
+          'Dr. Linda represents the Social lens at the National level, focusing on epidemiological data and pediatric wellness.'
       },
       {
-        id: 'sh-climate-envoy',
-        name: 'Ms. Clara van Dijk',
-        role: 'International Green Cities Partnership Envoy',
-        organization: 'C40 Cities Climate Leadership Group & UN-Habitat',
-        avatarIcon: 'Globe2',
+        id: 'sh-transit-planner',
+        name: 'Pak Farhan',
+        role: 'Chief Urban Mobility Architect',
+        organization: 'Metropolitan Electric Bus Consortium',
+        avatarIcon: 'Bus',
         primaryLens: 'Political',
         primaryLevel: 'Global',
         quote:
-          '"Urban transit decarbonization is a binding milestone in the Nationally Determined Contributions (NDCs) submitted under the Paris Climate Agreement. Cities that fail to decarbonize will be penalized in international green climate funding."',
-        corePriority: 'Enforcing greenhouse gas reduction targets and international climate treaty compliance.',
-        keyConcern: 'Failure to hit urban carbon emission reduction milestones.',
+          '"Our city has signed binding international climate pacts (C40 Cities) to cut urban transport emissions by 50% by 2030. We must build a modern, high-capacity electrified transit corridor to attract international green financing."',
+        evidenceCited:
+          'International multilateral development banks offer $120M in low-interest green bonds conditional on total bus fleet electrification.',
+        corePriority: 'Fulfilling international climate treaty pledges and securing global infrastructure financing.',
+        keyConcern: 'Corridor speed, timetable reliability, and automated digital ticketing integration.',
         hiddenSharedInterest:
-          'Advocates for "Just Transition" frameworks where international climate grants co-fund retraining for informal transport workers.',
+          'Needs high passenger ridership that depends on functional feeder networks from suburban alleyways.',
         explanation:
-          'Her primary lens is Political (international treaties, legal emission pacts, inter-governmental governance). Her primary level is Global (planetary climate covenants and worldwide municipal networks).'
+          'Pak Farhan represents the Political lens at the Global level, centering on international climate agreements and green capital.'
+      },
+      {
+        id: 'sh-commuter-student',
+        name: 'Rina',
+        role: 'Suburban University Student & Daily Commuter',
+        organization: 'Youth Transit Equity Network',
+        avatarIcon: 'GraduationCap',
+        primaryLens: 'Social',
+        primaryLevel: 'Local',
+        quote:
+          '"The new electric buses are wonderful, but they only stop at main boulevard stations. To get from my home in the alleyway to the station, I still depend on Pak Joko’s angkot. If the angkot disappears, my travel time doubles and costs rise."',
+        evidenceCited:
+          'First-mile and last-mile connections account for 45% of total commuting time for suburban transit users.',
+        corePriority: 'Affordable, connected first-mile and last-mile transit that reaches inner-neighborhood alleys.',
+        keyConcern: 'Digital smartcard barriers for elderly and unbanked neighborhood residents.',
+        hiddenSharedInterest:
+          'Wants a clean, connected public transit network that is both modern and socially inclusive.',
+        explanation:
+          'Rina embodies the Social lens at the Local level, focusing on commuter accessibility and equitable mobility.'
       }
     ],
+
     stages: {
       stage1Comprehension: {
         id: 'c2-s1',
         stageNumber: 1,
-        stageName: 'See the Situation (Deconstruction)',
+        stageName: 'Frame the Core Policy Tension',
         prompt:
-          'Which statement best summarizes the core dilemma in the Trans-Metropolis Clean Air Transit project?',
+          'What fundamental tension between competing global and local priorities does the Trans-Metropolis Clean Air dispute illustrate?',
         guidanceText:
-          'Look for the option that identifies both the urgent need for clean public health and the real human risk to informal workers.',
+          'Analyze how environmental modernism at the global/national scale interacts with informal labor economics at the local scale.',
         options: [
           {
-            id: 'c2-s1-opt-a',
-            text: 'Informal angkot drivers are malicious polluters who intentionally make children sick and should be arrested.',
+            id: 'c2-s1-opt-b',
+            text: 'A confrontation between suburban student commuters and elderly bus drivers who refuse to learn modern digital navigation applications.',
             isCorrect: false,
             explanation:
-              'Incorrect. Informal drivers are workers trying to feed their families within an existing system; they are not malicious saboteurs.'
+              'Incorrect. The tension is systemic and institutional, not an interpersonal generational disagreement about technology.'
           },
           {
-            id: 'c2-s1-opt-b',
-            text: 'The city must rapidly reduce dangerous air pollution and emissions, but doing so through an abrupt corporate takeover threatens the basic livelihoods of thousands of vulnerable informal drivers and vendors.',
+            id: 'c2-s1-opt-a',
+            text: 'The clash between urgent global/national environmental health goals (eliminating lethal diesel exhaust) and local economic survival for vulnerable informal transport workers.',
             isCorrect: true,
             explanation:
-              'Correct! This captures the authentic tension between public health/climate urgency and social-economic equity for low-income workers.'
+              'Correct! This illustrates a central theme in Global Perspectives: progressive global environmental policies can inflict acute local harm on informal laborers unless thoughtfully integrated.'
           },
           {
             id: 'c2-s1-opt-c',
-            text: 'Electric buses are too expensive for any developing nation to ever consider.',
+            text: 'A commercial disagreement between private battery manufacturing corporations and domestic gasoline refining monopolies over government procurement kickbacks.',
             isCorrect: false,
             explanation:
-              'Incorrect. Electric transit systems are being successfully adopted throughout Southeast Asia and the Global South with proper financial planning.'
+              'Incorrect. This misdiagnoses the fundamental policy dilemma as corporate corruption rather than a profound trade-off between public health and livelihood equity.'
           }
         ]
       },
@@ -598,7 +617,7 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
       stage2StakeholderMatching: {
         instruction:
           'Examine the four primary stakeholders in Trans-Metropolis. Note how their distinct responsibilities shape their priorities.',
-        stakeholderIds: ['sh-angkot-driver', 'sh-health-officer', 'sh-finance-director', 'sh-climate-envoy']
+        stakeholderIds: ['sh-driver', 'sh-health-minister', 'sh-transit-planner', 'sh-commuter-student']
       },
 
       stage3LensAndLevel: {
@@ -606,40 +625,40 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
           'Assign each stakeholder their correct primary Analytical Lens (Type) and Scale (Level).',
         items: [
           {
-            stakeholderId: 'sh-angkot-driver',
-            correctLens: 'Social',
-            correctLevel: 'Personal',
-            lensReasoning:
-              'Pak Asep focuses on family survival, basic worker equity, and avoiding starvation for his household.',
-            levelReasoning:
-              'His scope is his personal household budget and direct daily wages.'
-          },
-          {
-            stakeholderId: 'sh-health-officer',
-            correctLens: 'Social',
+            stakeholderId: 'sh-driver',
+            correctLens: 'Economic',
             correctLevel: 'Local',
             lensReasoning:
-              'Dr. Maya’s priority is community pediatric health, clean air, and reduced hospital admissions.',
+              'Pak Joko focuses on household wages, informal van equity, and avoiding economic destitution for driver families.',
             levelReasoning:
-              'Her operational scope is the municipal metropolitan district.'
+              'His scope is his local driver cooperative and household livelihood.'
           },
           {
-            stakeholderId: 'sh-finance-director',
-            correctLens: 'Economic',
+            stakeholderId: 'sh-health-minister',
+            correctLens: 'Social',
             correctLevel: 'National',
             lensReasoning:
-              'Pak Hendra focuses on economic productivity losses, fuel subsidies, and citywide green investment bonds.',
+              'Dr. Linda’s priority is pediatric respiratory health, clean air standards, and national healthcare hospitalization budgets.',
             levelReasoning:
-              'His scope is provincial and national economic competitiveness.'
+              'Her operational scope is provincial and national public healthcare policy.'
           },
           {
-            stakeholderId: 'sh-climate-envoy',
+            stakeholderId: 'sh-transit-planner',
             correctLens: 'Political',
             correctLevel: 'Global',
             lensReasoning:
-              'Ms. Clara argues from international treaty obligations, carbon quotas, and inter-governmental accords.',
+              'Pak Farhan focuses on international climate treaty compliance, multilateral green bonds, and metropolitan decarbonization targets.',
             levelReasoning:
-              'Her scope is the worldwide planetary climate regime (UN NDCs / Paris Agreement).'
+              'His scope is global multilateral covenants and international municipal networks (C40).'
+          },
+          {
+            stakeholderId: 'sh-commuter-student',
+            correctLens: 'Social',
+            correctLevel: 'Local',
+            lensReasoning:
+              'Rina argues from passenger equity, transit affordability, and first-mile neighborhood connectivity.',
+            levelReasoning:
+              'Her scope is the local suburban university student commuter cohort.'
           }
         ]
       },
@@ -647,32 +666,32 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
       stage4ConflictAnalysis: {
         id: 'c2-s4',
         stageNumber: 4,
-        stageName: 'Compare Interests & Tensions',
+        stageName: 'Analyze Conflicting Rationales',
         prompt:
-          'Why does an abrupt, heavy-handed ban on traditional minivans create a major social justice failure even if air quality improves?',
+          'Why does Dr. Linda (Health Director) reject Pak Joko’s request to simply postpone the diesel phaseout by 10 years without modifications?',
         guidanceText:
-          'Consider what happens to families when the breadwinner is stripped of their livelihood without retraining or transitional safety nets.',
+          'Consider the cumulative human and economic health consequences of maintaining the status quo.',
         options: [
           {
-            id: 'c2-s4-opt-a',
-            text: 'Because it shifts the burden of environmental cleanup onto the most economically vulnerable workers while creating transit deserts in narrow residential alleys that big buses cannot navigate.',
+            id: 'c2-s4-opt-b',
+            text: 'Because maintaining unmitigated diesel exhaust for another decade inflicts thousands of preventable pediatric asthma hospitalizations and permanent respiratory damage on children living along transit corridors.',
             isCorrect: true,
             explanation:
-              'Correct! Abrupt bans without worker integration violate social equity by penalizing the poorest workers for systemic issues, while big buses often cannot navigate narrow neighborhood streets where angkots serve as vital lifelines.'
+              'Correct! From a public health and social justice lens, delaying emission cuts directly condemns vulnerable low-income urban children to severe, irreversible respiratory illness.'
           },
           {
-            id: 'c2-s4-opt-b',
-            text: 'Because old petrol engines are scientifically cleaner than modern zero-emission electric motors.',
+            id: 'c2-s4-opt-a',
+            text: 'Because Dr. Linda personally dislikes informal transport drivers and prefers seeing imported luxury electric vehicles operating exclusively through high-income central business corridors.',
             isCorrect: false,
             explanation:
-              'Incorrect. Electric buses emit zero tailpipe emissions and significantly cut urban PM2.5 pollution.'
+              'Incorrect. Her objection is grounded in epidemiological data and medical ethics, not personal bias.'
           },
           {
             id: 'c2-s4-opt-c',
-            text: 'Because informal workers have no legal right to express opinions in Global Perspectives.',
+            text: 'Because international environmental health treaties legally mandate the immediate impoundment of every diesel minibus operating in Southeast Asia after the end of this calendar year.',
             isCorrect: false,
             explanation:
-              'Incorrect. Global Perspectives prioritizes investigating diverse stakeholder voices, especially vulnerable groups.'
+              'Incorrect. International agreements establish emissions targets for signatory nations, but do not impose criminal sanctions on individual workers.'
           }
         ]
       },
@@ -680,32 +699,32 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
       stage5CommonGround: {
         id: 'c2-s5',
         stageNumber: 5,
-        stageName: 'Find the Overlap (Common Ground)',
+        stageName: 'Identify the Shared Mobility Dependency',
         prompt:
-          'What shared operational reality unites both the city transit planners and informal angkot drivers?',
+          'What shared reality connects both the Chief Mobility Architect (Pak Farhan) and the Suburban Student Commuter (Rina)?',
         guidanceText:
-          'How does a passenger get from a tiny residential alley to a major electric bus terminal on the main avenue?',
+          'Why does a high-capacity trunk line fail if commuters cannot reach the stations?',
         options: [
           {
-            id: 'c2-s5-opt-a',
-            text: 'The city needs first-mile/last-mile feeder transit connecting narrow neighborhood alleys to main bus corridors, while drivers need steady, guaranteed income without reckless racing for cash passengers.',
-            isCorrect: true,
-            explanation:
-              'Correct! Standard 12-meter electric buses cannot enter narrow residential alleys. Angkots are the perfect feeder vehicle to deliver passengers to the main electric bus line, establishing a natural complementary partnership.'
-          },
-          {
             id: 'c2-s5-opt-b',
-            text: 'Both groups want all roads closed to all vehicles permanently.',
+            text: 'Both parties agree that passenger fares should be completely eliminated and all urban transit operations funded entirely by international charity donations.',
             isCorrect: false,
             explanation:
-              'Incorrect. Both require active, safe, functioning urban mobility networks.'
+              'Incorrect. Neither stakeholder proposes an unviable charity model; sustainable transit requires durable operational financing.'
+          },
+          {
+            id: 'c2-s5-opt-a',
+            text: 'Both understand that high-capacity electric bus lines cannot succeed unless an affordable, reliable "feeder" transit network connects suburban neighborhoods to main trunk stations.',
+            isCorrect: true,
+            explanation:
+              'Correct! Without feeder transport (the first-mile/last-mile connection), electric trunk corridors sit half-empty while suburban residents remain stranded.'
           },
           {
             id: 'c2-s5-opt-c',
-            text: 'Both groups agree that air pollution is beneficial for children’s health.',
+            text: 'Both believe that private passenger cars and motorcycles should remain the dominant form of urban travel across all Greater Jakarta roadways.',
             isCorrect: false,
             explanation:
-              'Incorrect. Everyone agrees clean air is essential.'
+              'Incorrect. Both stakeholders advocate for accessible, sustainable public mass transit over private vehicle congestion.'
           }
         ]
       },
@@ -717,11 +736,31 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
           'You are the City Chief Urban Mobility Commissioner. Formulate a solution that achieves clean air targets while protecting workers.',
         options: [
           {
+            id: 'c2-dec-3-bridge',
+            title: 'Option A: The "Jak-Feeder" Co-Op Transition Model',
+            approachType: 'balanced-bridge',
+            description:
+              'Incorporate existing angkot operators into a municipally guaranteed Cooperative with salaried wages, health coverage, and contracted neighborhood feeder loops that connect directly to electric bus stations.',
+            shortTermConsequence:
+              'Requires Rp 85B in transitional financing and 6 months of intensive co-op negotiations, but all driver unions endorse the plan and transition peacefully.',
+            longTermConsequence:
+              'The city achieves a seamless, multi-tier transit network from alley to avenue; PM2.5 drops by 45%; 3,800 informal workers gain formal social security and stable salaries; international climate bodies award full Just Transition grants.',
+            stakeholderImpact: {
+              economicScore: 88,
+              socialScore: 92,
+              environmentalScore: 90,
+              culturalScore: 86
+            },
+            isOptimalBridge: true,
+            debriefFeedback:
+              'Superb Bridge Solution! This captures the essence of Cambridge Global Perspectives by treating informal workers as essential community partners rather than obstacles, harmonizing clean air with human dignity.'
+          },
+          {
             id: 'c2-dec-1-ban',
-            title: 'Option 1: Complete Ban & Fast-Track Corporate Concession',
+            title: 'Option B: Complete Ban & Fast-Track Corporate Concession',
             approachType: 'unbalanced-commercial',
             description:
-              'Enact an immediate municipal ban on all informal minivans. Award the entire transit system to a private electric bus conglomerate. Deploy riot police to clear informal roadside warungs and minivans.',
+              'Enact an immediate municipal prohibition on all informal diesel minivans across the city, transfer transit franchises exclusively to private conglomerates, and deploy municipal enforcement to clear unlicensed roadside vehicles.',
             shortTermConsequence:
               'Air quality on the main boulevard improves by 30% in month one, but citywide strikes paralyze commerce and violent clashes break out.',
             longTermConsequence:
@@ -738,10 +777,10 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
           },
           {
             id: 'c2-dec-2-do-nothing',
-            title: 'Option 2: Unconditional Subsidy for Existing Minivans',
+            title: 'Option C: Unconditional Subsidy for Existing Minivans',
             approachType: 'unbalanced-freeze',
             description:
-              'Cancel all electric bus plans. Pay cash subsidies directly to existing minivan owners without requiring emissions tests, schedule adherence, or vehicle repairs.',
+              'Cancel all scheduled electric bus transit corridors and disburse indefinite fuel subsidies to informal diesel operators without requiring mechanical inspections, route restructuring, or emission filter upgrades.',
             shortTermConsequence:
               'Drivers call off strikes; roadside food vendors remain in place.',
             longTermConsequence:
@@ -755,26 +794,6 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
             isOptimalBridge: false,
             debriefFeedback:
               'This policy abandons public health and environmental commitments entirely, leaving future generations with permanent pulmonary damage and chronic economic paralysis.'
-          },
-          {
-            id: 'c2-dec-3-bridge',
-            title: 'Option 3: The "Jak-Feeder" Co-Op Transition Model',
-            approachType: 'balanced-bridge',
-            description:
-              'Incorporate existing angkot drivers into a municipally backed Cooperative with guaranteed monthly salaries and health insurance (BPJS). Re-route minivans as official electric/low-emission "Feeder Feeders" connecting narrow neighborhood alleys to the main electric bus rapid transit. Provide free evening driver academy certifications to transition drivers to electric bus pilots, and create designated formal vendor kiosks at major interchange stations.',
-            shortTermConsequence:
-              'Requires Rp 85B in transitional financing and 6 months of intensive co-op negotiations, but all driver unions endorse the plan and transition peacefully.',
-            longTermConsequence:
-              'The city achieves a seamless, multi-tier transit network from alley to avenue; PM2.5 drops by 45%; 3,800 informal workers gain formal social security and stable salaries; international climate bodies award full Just Transition grants.',
-            stakeholderImpact: {
-              economicScore: 88,
-              socialScore: 92,
-              environmentalScore: 90,
-              culturalScore: 86
-            },
-            isOptimalBridge: true,
-            debriefFeedback:
-              'Superb Bridge Solution! This captures the essence of Cambridge Global Perspectives by treating informal workers as essential community partners rather than obstacles, harmonizing clean air with human dignity.'
           }
         ]
       },
@@ -787,25 +806,25 @@ export const UNIT_1_CASE_CHALLENGES: CaseScenario[] = [
           'How does the Co-Op Transition Model protect the community while taking advantage of this national shift?',
         options: [
           {
+            id: 'c2-s7-opt-c',
+            text: 'Informal transport workers lack the technical capacity to maintain modern electric batteries and should be permanently restricted to operating non-motorized manual bicycles and traditional neighborhood handcarts.',
+            isCorrect: false,
+            explanation:
+              'Incorrect. This reflects elitist prejudice. Given fair institutional contracts and technical training, informal workers adapt rapidly and professionally.'
+          },
+          {
             id: 'c2-s7-opt-a',
-            text: 'Because drivers receive fixed monthly municipal salaries rather than paying out-of-pocket for petrol, they are insulated from the fuel price shock, and the city secures the $40M UN grant to convert all feeder minivans to locally assembled electric micro-buses.',
+            text: 'Because drivers receive guaranteed municipal cooperative salaries rather than paying fuel costs, they are insulated from price shocks, enabling the city to deploy the UN grant to electrify the feeder minivan fleet.',
             isCorrect: true,
             explanation:
               'Correct! By converting informal workers into formal cooperative partners, the system built economic resilience against volatile fuel shocks and qualified for international climate equity funding.'
           },
           {
             id: 'c2-s7-opt-b',
-            text: 'The grant money should be refunded because public transit should never use international funds.',
+            text: 'The battery supply disruption proves that imported diesel combustion engines remain superior for emerging economies, meaning municipal transport planners should permanently terminate the zero-emission electric roadmap.',
             isCorrect: false,
             explanation:
-              'Incorrect. Global funding mechanisms exist specifically to support sustainable transitions in emerging economies.'
-          },
-          {
-            id: 'c2-s7-opt-c',
-            text: 'The drivers should immediately return to burning low-grade kerosene.',
-            isCorrect: false,
-            explanation:
-              'Incorrect. Reverting to toxic fuels harms public health and violates environmental legislation.'
+              'Incorrect. Supply chain disruptions require flexible multi-modal transition planning, not a surrender to polluting fossil-fuel dependencies.'
           }
         ]
       }

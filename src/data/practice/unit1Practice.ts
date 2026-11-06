@@ -58,22 +58,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'A momentary emotional feeling or personal food preference.'
+        text: 'A momentary emotional feeling, spontaneous reaction, or personal food preference.'
       },
       {
         id: 'opt-b',
-        text: 'A structured worldview and framework shaped by values, context, and evidence.'
+        text: 'An absolute, unchangeable scientific law that cannot be questioned or debated.'
       },
       {
         id: 'opt-c',
-        text: 'An unchangeable scientific law that cannot be debated.'
+        text: 'A structured worldview and framework shaped by values, context, and evidence.'
       },
       {
         id: 'opt-d',
-        text: 'A statistical number collected from a single government survey.'
+        text: 'A single statistical number collected during an isolated local government survey.'
       }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation:
       'In Cambridge Global Perspectives, a perspective is a coherent framework through which an individual or group understands information and events. It is shaped by values, lived experience, and evidence—not just a momentary preference.'
   },
@@ -104,15 +104,15 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
       },
       {
         id: 'opt-b',
-        text: 'Leader A has an objective fact; Leader B has an unfair, invalid opinion.'
+        text: 'Leader A provides an objective scientific fact, while Leader B offers an entirely subjective and invalid opinion, despite failing to account for localized socioeconomic disparities and long-term community resistance.'
       },
       {
         id: 'opt-c',
-        text: 'Both leaders are stating facts because both leaders hold elected government offices.'
+        text: 'Both leaders are stating verified objective facts simply because both individuals hold elected government offices.'
       },
       {
         id: 'opt-d',
-        text: 'Because the leaders disagree, the temperature data cannot be considered true.'
+        text: 'Because elected leaders disagree on solutions, the recorded scientific temperature data cannot be considered true.'
       }
     ],
     correctAnswer: 'opt-a',
@@ -142,22 +142,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Perspectives are permanent and cannot be modified by weather.'
+        text: 'Perspectives remain permanent, unyielding, and cannot be modified by changing economic climates.'
       },
       {
         id: 'opt-b',
-        text: 'Perspectives are subjective, filtered through individual livelihoods and needs.'
+        text: 'One of the two factory workers is holding a deliberately biased, deceitful, and invalid viewpoint.'
       },
       {
         id: 'opt-c',
-        text: 'One of the two workers holds a biased and dishonest viewpoint.'
+        text: 'Only municipal city workers have genuine economic perspectives, while rural workers hold opinions.'
       },
       {
         id: 'opt-d',
-        text: 'Only urban workers possess economic perspectives.'
+        text: 'Perspectives are subjective, filtered through individual livelihoods, practical roles, and needs.'
       }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-d',
     explanation:
       'Perspectives are subjective: they depend on the person holding them. The rain is the identical physical event, but the two perspectives differ because of their distinct jobs, locations, and daily needs.'
   },
@@ -184,7 +184,7 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Perspectives are static and fixed once written into community records.'
+        text: 'Community perspectives remain static, permanent, and strictly unalterable once recorded.'
       },
       {
         id: 'opt-b',
@@ -192,11 +192,11 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
       },
       {
         id: 'opt-c',
-        text: 'The council abandoned their perspective and adopted unbiased facts.'
+        text: 'The village council completely abandoned cultural values to adopt purely commercial goals.'
       },
       {
         id: 'opt-d',
-        text: 'Changing a community viewpoint proves the original decision-makers were dishonest.'
+        text: 'Revising an established community policy proves that former village leaders acted dishonestly.'
       }
     ],
     correctAnswer: 'opt-b',
@@ -228,15 +228,15 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
       },
       {
         id: 'opt-b',
-        text: 'Filtering information so people ignore environmental risks.'
+        text: 'Filtering scientific information so neighborhoods can ignore environmental risks.'
       },
       {
         id: 'opt-c',
-        text: 'Enforcing political laws passed by international treaties.'
+        text: 'Enforcing mandatory political regulations decreed by international authorities.'
       },
       {
         id: 'opt-d',
-        text: 'Eliminating the need for economic planning.'
+        text: 'Replacing formal municipal infrastructure budgets through voluntary manual labor.'
       }
     ],
     correctAnswer: 'opt-a',
@@ -265,12 +265,24 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 1.2, pp. 10–12',
     question: 'A historical village council debates whether to allow an international hotel resort next to an ancient ancestral temple. An elder argues: "This mountain ridge has been sacred to our religious ceremonies for seven generations." Which analytical lens is the elder using?',
     options: [
-      { id: 'opt-a', text: 'Cultural Perspective' },
-      { id: 'opt-b', text: 'Economic Perspective' },
-      { id: 'opt-c', text: 'Political Perspective' },
-      { id: 'opt-d', text: 'Technological Perspective' }
+      {
+        id: 'opt-a',
+        text: 'Economic Perspective'
+      },
+      {
+        id: 'opt-b',
+        text: 'Political Perspective'
+      },
+      {
+        id: 'opt-c',
+        text: 'Cultural Perspective'
+      },
+      {
+        id: 'opt-d',
+        text: 'Scientific Perspective'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-c',
     explanation:
       'The cultural perspective focuses on beliefs, ancestral customs, spiritual heritage, traditions, and sacred identity. The elder’s argument is rooted in religious ceremony and ancestral heritage.'
   },
@@ -295,10 +307,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
       'In Section 1.2, the textbook deconstructs a cup of coffee. A researcher notes: "While urban cafe customers pay Rp 40,000 per cup, the smallholder farmer in Aceh who harvested the raw beans receives under Rp 2,000 per cup equivalent."',
     question: 'Which analytical lens focuses specifically on this distribution of revenue and market prices along the supply chain?',
     options: [
-      { id: 'opt-a', text: 'Political Lens' },
-      { id: 'opt-b', text: 'Economic Lens' },
-      { id: 'opt-c', text: 'Cultural Lens' },
-      { id: 'opt-d', text: 'Personal Lens' }
+      {
+        id: 'opt-a',
+        text: 'Political Lens'
+      },
+      {
+        id: 'opt-b',
+        text: 'Economic Lens'
+      },
+      {
+        id: 'opt-c',
+        text: 'Cultural Lens'
+      },
+      {
+        id: 'opt-d',
+        text: 'Personal Lens'
+      }
     ],
     correctAnswer: 'opt-b',
     explanation:
@@ -328,22 +352,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Social Perspective, because its primary focus is equity, human dignity, and accessibility for vulnerable groups.'
+        text: 'Economic Perspective, because low-floor buses generate massive corporate sales for foreign transit equipment manufacturers.'
       },
       {
         id: 'opt-b',
-        text: 'Economic Perspective, because low-floor buses generate corporate sales for manufacturers.'
+        text: 'Cultural Perspective, because riding municipal transit is an ancestral tradition that strengthens local urban folklore heritage.'
       },
       {
         id: 'opt-c',
-        text: 'Cultural Perspective, because riding the bus is an ancient ancestral tradition.'
+        text: 'Global Perspective, because foreign tourists visiting the capital city demand modern Western transit accommodations.'
       },
       {
         id: 'opt-d',
-        text: 'Global Perspective, because foreign tourists might visit the city.'
+        text: 'Social Perspective, because its primary focus is equity, human dignity, and accessibility for vulnerable groups.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-d',
     explanation:
       'The social perspective focuses on human well-being, equity, inclusion, public health, and dignity for vulnerable community members (such as elderly residents and citizens with physical disabilities).'
   },
@@ -369,12 +393,24 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 1.3, pp. 13–14',
     question: 'What are the four concentric levels (scales) of analysis used in Cambridge Global Perspectives?',
     options: [
-      { id: 'opt-a', text: 'Personal, Local, National, Global' },
-      { id: 'opt-b', text: 'Cultural, Economic, Political, Social' },
-      { id: 'opt-c', text: 'Primary, Secondary, Tertiary, Quaternary' },
-      { id: 'opt-d', text: 'Individual, Family, Neighborhood, Province' }
+      {
+        id: 'opt-a',
+        text: 'Cultural, Economic, Political, Social'
+      },
+      {
+        id: 'opt-b',
+        text: 'Personal, Local, National, Global'
+      },
+      {
+        id: 'opt-c',
+        text: 'Primary, Secondary, Tertiary, Quaternary'
+      },
+      {
+        id: 'opt-d',
+        text: 'Individual, Family, Provincial, Regional'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-b',
     explanation:
       'The four geographic levels (scales) of analysis are Personal (individual lived experience), Local (community, school, town), National (countrywide laws, nation-state), and Global (international bodies, planetary systems).'
   },
@@ -406,15 +442,15 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
       },
       {
         id: 'opt-b',
-        text: 'The student is right: Personal issues only relate to psychology, not money.'
+        text: 'The student is right: Personal issues only relate to psychological emotions, whereas financial costs belong strictly to national accounts.'
       },
       {
         id: 'opt-c',
-        text: 'Electricity bills are strictly national issues because power plants belong to the government.'
+        text: 'Electricity bills are strictly national issues because power plants belong to the government and utility grids span across multiple islands.'
       },
       {
         id: 'opt-d',
-        text: 'Economic issues only exist at the Global level between multi-billion-dollar corporations.'
+        text: 'Economic issues only exist at the Global level when multi-billion-dollar transnational corporations trade raw oil across oceans.'
       }
     ],
     correctAnswer: 'opt-a',
@@ -444,22 +480,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Global environmental solutions can create immediate, unintended social and ecological challenges for local communities.'
+        text: 'Local coastal fishing communities should be dismissed because international climate treaties carry superior moral authority.'
       },
       {
         id: 'opt-b',
-        text: 'Local fishing communities should be ignored because global treaties hold greater authority.'
+        text: 'Electric vehicle manufacturing programs operate in isolation and have zero direct impact on domestic mining regions.'
       },
       {
         id: 'opt-c',
-        text: 'Electric vehicles have zero impact on national or local economic policies.'
+        text: 'Local community viewpoints always align smoothly with global treaty targets without generating trade-offs or friction.'
       },
       {
         id: 'opt-d',
-        text: 'Local perspectives always agree with global treaty goals.'
+        text: 'Global environmental solutions can create immediate, unintended social and ecological challenges for local communities.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-d',
     explanation:
       'Multi-level analysis demonstrates that policies designed to achieve planetary goals (such as global carbon reduction) may impose localized costs on specific communities. Researchers must examine all scales to identify these trade-offs.'
   },
@@ -489,22 +525,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Introducing Halal-certified chicken, warm rice, local savory sambals, and family-friendly dining spaces.'
+        text: 'Doubling television advertising budgets while strictly preserving the standardized Western beef burger menu.'
       },
       {
         id: 'opt-b',
-        text: 'Doubling advertising budgets and maintaining the exact same Western menu.'
+        text: 'Filing legal copyright lawsuits against local street food vendors who prepare traditional warm rice lunches.'
       },
       {
         id: 'opt-c',
-        text: 'Suing local competitors for unfair food traditions.'
+        text: 'Introducing Halal-certified chicken, warm rice, local savory sambals, and family-friendly dining spaces.'
       },
       {
         id: 'opt-d',
-        text: 'Closing all restaurants and deciding Southeast Asian consumers never eat fast food.'
+        text: 'Permanently closing all suburban branches under the assumption that Southeast Asian consumers reject fast dining.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-c',
     explanation:
       'Successful international adaptation requires understanding the local perspective: respecting religious dietary standards (Halal certification), accommodating regional staple foods (rice and savory sauces), and recognizing communal family dining habits.'
   },
@@ -536,15 +572,15 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
       },
       {
         id: 'opt-b',
-        text: 'Global Perspectives teaches that facts do not exist and all opinions are equally true.'
+        text: 'Cambridge Global Perspectives teaches that objective empirical facts do not exist and all subjective viewpoints are equally valid.'
       },
       {
         id: 'opt-c',
-        text: 'Researchers are forbidden from having personal values.'
+        text: 'Academic researchers are ethically forbidden from holding values, requiring them to stay indifferent on all policy questions.'
       },
       {
         id: 'opt-d',
-        text: 'Because international organizations will always force everyone to agree.'
+        text: 'International development agencies will inevitably intervene to mandate uniform policies that eliminate stakeholder debates.'
       }
     ],
     correctAnswer: 'opt-a',
@@ -574,22 +610,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Require phones to be secured inside individual lockers during classroom lessons, while permitting access before school, after school, and for transit emergencies.'
+        text: 'Impose an absolute municipal ban on all mobile devices across city limits with strict police fines for adolescents carrying phones in public, although this overlooks critical institutional constraints and unintended regional environmental side effects.'
       },
       {
         id: 'opt-b',
-        text: 'Ban all smartphones completely from the city and fine students caught with phones at bus stops.'
+        text: 'Require phones to be secured inside individual lockers during classroom lessons, while permitting access before and after school for transit.'
       },
       {
         id: 'opt-c',
-        text: 'Allow students to use smartphones anytime during class without restriction.'
+        text: 'Allow unrestricted phone use at all times during classroom instruction, claiming digital independence outweighs teacher classroom focus.'
       },
       {
         id: 'opt-d',
-        text: 'Expel any parent who contacts the school regarding transit safety.'
+        text: 'Prohibit parental contact during transit hours while transferring full student travel surveillance to private municipal security contractors.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-b',
     explanation:
       'A bridge solution does not simply pick a winner. It addresses the core concern of teachers (preventing distractions during instructional time) while respecting the core concern of families (commuter safety and emergency communication).'
   },
@@ -617,22 +653,22 @@ export const UNIT_1_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Both groups need clean, unpolluted waterways free of toxic chemical spills and require long-term maritime navigation safety.'
+        text: 'Both groups agree that all commercial fishing operations should cease permanently across the entire coastal province.'
       },
       {
         id: 'opt-b',
-        text: 'Both groups agree that all fishing should cease permanently in the province.'
+        text: 'Both groups want to immediately close the international commercial shipping port to eliminate water pollution risks.'
       },
       {
         id: 'opt-c',
-        text: 'Both groups want to immediately close the commercial port.'
+        text: 'Both groups need clean, unpolluted waterways free of toxic chemical spills and require long-term maritime navigation safety.'
       },
       {
         id: 'opt-d',
-        text: 'Conflicting stakeholders never share any common interests.'
+        text: 'Conflicting commercial stakeholders never share common interests because economic competition prevents any policy compromise.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-c',
     explanation:
       'Even in sharp disputes, stakeholders frequently share underlying dependencies. Both the port operators and fishermen depend on clean water, harbor environmental stability, and safe maritime navigation, forming the foundation for a negotiated bridge solution.'
   }

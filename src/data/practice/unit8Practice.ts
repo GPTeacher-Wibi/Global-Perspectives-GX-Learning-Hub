@@ -51,10 +51,22 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     misconceptionAlert: 'A primary source is not defined by when it was printed, but by its direct, first-hand relationship to the event under study.',
     question: 'Which of the following documents is classified as a primary historical source for studying the 1955 Asian-African Conference in Bandung?',
     options: [
-      { id: 'opt-a', text: 'A 2024 high school history textbook chapter discussing the conference', explanation: 'A modern textbook is a secondary synthesis interpreting past events.' },
-      { id: 'opt-b', text: 'The original official final communiqué signed by delegates at Gedung Merdeka in April 1955', explanation: 'An authentic first-hand document created directly at the time of the event by participants is a primary source.' },
-      { id: 'opt-c', text: 'A 2018 YouTube documentary video reviewing the speeches', explanation: 'A documentary is a secondary compilation created decades later.' },
-      { id: 'opt-d', text: 'A fictional novel written in 2020 about diplomats in Bandung', explanation: 'Historical fiction is an imaginative literary work, not primary documentary evidence.' }
+      {
+        id: 'opt-a',
+        text: 'Credibility, Reliability, Accuracy, Appropriateness, and Popularity, while neglecting the essential requirement for transparent ethical oversight and stakeholder consensus.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Currency, Relevance, Authority, Accuracy, and Purpose in evaluating sources.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Citation, Reference, Author, Argument, and Publication year checks.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Clarity, Rigor, Authenticity, Application, and Perspective in research.'
+      }
     ],
     correctAnswer: 'opt-b',
     explanation: 'Primary sources are original, first-hand artifacts, records, or eyewitness accounts produced during the period or event being researched.'
@@ -77,12 +89,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 8.3, pp. 123–125',
     question: 'In the CRAAP evaluation framework (Currency, Relevance, Authority, Accuracy, Purpose), why is checking "Purpose" essential when reading an online article?',
     options: [
-      { id: 'opt-a', text: 'To check if the author used correct grammar and punctuation', explanation: 'Grammar relates to formatting, not ideological motivation.' },
-      { id: 'opt-b', text: 'To determine whether the text intends to inform objectively, persuade politically, sell a commercial product, or entertain', explanation: 'Understanding the underlying motivation reveals potential conflicts of interest, corporate sponsorship, or political agendas.' },
-      { id: 'opt-c', text: 'To find out how many words the article contains', explanation: 'Word length is not evaluated by the Purpose criterion.' },
-      { id: 'opt-d', text: 'To see if the article has colorful photographs', explanation: 'Visual appeal does not indicate authorial purpose.' }
+      {
+        id: 'opt-a',
+        text: 'The website displays colorful data graphics and has over one million online followers, despite introducing unverified assumptions regarding population compliance and resource availability.'
+      },
+      {
+        id: 'opt-b',
+        text: 'The article uses formal scientific vocabulary and includes a downloadable PDF file.'
+      },
+      {
+        id: 'opt-c',
+        text: 'The article was published within the last twenty-four hours on a popular lifestyle blog.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Peer-reviewed research published in recognized academic journals with transparent methods.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-d',
     explanation: 'Analyzing Purpose interrogates why the source was created—whether to impartially educate, advance a corporate agenda, campaign for votes, or sell merchandise.'
   },
   {
@@ -104,12 +128,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A student researching current generative AI adoption in Indonesian classrooms cites a statistics report published in 2012.',
     question: 'Under the CRAAP criteria, why does this source fail the test of Currency?',
     options: [
-      { id: 'opt-a', text: 'Because books written before 2020 are forbidden in all academic subjects', explanation: 'Foundational historical or philosophical texts from earlier eras remain highly valid in other contexts.' },
-      { id: 'opt-b', text: 'Generative AI and large language models underwent revolutionary transformation after 2022; data from 2012 predates modern consumer AI tools and is technologically obsolete', explanation: 'In rapidly changing technical fields, timeliness is critical; 2012 data cannot describe modern LLM educational impacts.' },
-      { id: 'opt-c', text: 'Because 2012 was a leap year', explanation: 'Irrelevant calendar fact.' },
-      { id: 'opt-d', text: 'Because Indonesian schools did not exist in 2012', explanation: 'Factually incorrect.' }
+      {
+        id: 'opt-a',
+        text: 'Leave the original website to search what independent third-party sources say about the publisher.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Carefully read the organization’s self-authored "About Us" page to verify their stated mission, despite failing to account for localized socioeconomic disparities and long-term community resistance.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Check whether the website features a professional layout, high-resolution logos, and secure HTTPS.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Accept all claims as factual if the article quotes two named individuals holding doctoral degrees.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation: 'In fast-evolving technological and economic fields, currency is vital. A 2012 source predates modern generative AI tools and cannot provide accurate evidence on current classroom adoption.'
   },
   {
@@ -133,12 +169,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A student discovers a sleek website called "The Global Environmental Clean Energy Council" that claims burning coal is beneficial for rainforest growth. The website has a polished logo and professional layout.',
     question: 'How should the student apply the SIFT method’s "Lateral Reading" technique to verify this source?',
     options: [
-      { id: 'opt-a', text: 'Carefully read the website’s own "About Us" page and assume it tells the complete truth', explanation: 'Disinformation sites frequently author deceptive self-congratulatory "About Us" pages.' },
-      { id: 'opt-b', text: 'Open new browser tabs to search what independent science organizations, news outlets, and regulatory registries say about who finances this organization', explanation: 'Lateral reading investigates the source from the outside by consulting credible external entities.' },
-      { id: 'opt-c', text: 'Check if the website uses dark mode or light mode', explanation: 'UI theme has no bearing on factual credibility.' },
-      { id: 'opt-d', text: 'Forward the link to all social media contacts immediately', explanation: 'Amplifying unverified claims spreads potential disinformation.' }
+      {
+        id: 'opt-a',
+        text: 'Stop reading immediately and discard the research question because online sources are untrustworthy, although this overlooks critical institutional constraints and unintended regional environmental side effects.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Investigate the source’s funding sources, find trusted coverage, and trace claims to original data.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Stop, Investigate the source, Find trusted coverage, and Trace claims, quotes, and media back to context.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Scan headings, Ignore conflicting viewpoints, Forward to classmates, and Translate into English.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation: 'Lateral reading involves opening adjacent tabs to investigate what trusted third parties, scholars, and watchdog groups report about an unfamiliar organization and its funding.'
   },
   {
@@ -159,12 +207,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 8.1, pp. 116–118',
     question: 'In the academic hierarchy of evidence, which source type generally provides the highest degree of reliability regarding medical or health interventions?',
     options: [
-      { id: 'opt-a', text: 'A viral video testimonial from an Instagram influencer', explanation: 'Celebrity endorsements are anecdotal and prone to commercial bias.' },
-      { id: 'opt-b', text: 'A single opinion blog post written by an anonymous doctor', explanation: 'Unreviewed personal opinion ranks low in the evidence hierarchy.' },
-      { id: 'opt-c', text: 'A systematic review and meta-analysis of randomized controlled trials published in a peer-reviewed journal', explanation: 'Systematic reviews aggregate and rigorously evaluate all high-quality trials on a topic, representing the highest evidentiary tier.' },
-      { id: 'opt-d', text: 'A promotional brochure handed out at a shopping mall pharmacy', explanation: 'Promotional brochures are commercial advertising materials.' }
+      {
+        id: 'opt-a',
+        text: 'It proves the video is authentic because digital video cameras record optical reality without bias, even though empirical field observations demonstrate significant divergence across diverse municipal contexts.'
+      },
+      {
+        id: 'opt-b',
+        text: 'It indicates the video was filmed during an official press conference attended by journalists.'
+      },
+      {
+        id: 'opt-c',
+        text: 'It confirms that social media platforms verified the footage using automated content filters.'
+      },
+      {
+        id: 'opt-d',
+        text: 'It suggests synthetic manipulation, requiring verification against official speeches and lateral news.'
+      }
     ],
-    correctAnswer: 'opt-c',
+    correctAnswer: 'opt-d',
     explanation: 'Systematic reviews and meta-analyses rank at the peak of the evidence pyramid because they synthesize findings across numerous randomized controlled studies, minimizing individual study bias.'
   },
   {
@@ -186,10 +246,22 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'During a debate on public motorcycle helmet laws, a speaker claims: "Helmets are useless because my uncle crashed his bike without a helmet last month and walked away without a single scratch."',
     question: 'What is the methodological weakness of relying on this personal narrative as evidence?',
     options: [
-      { id: 'opt-a', text: 'The uncle should have been riding a bicycle', explanation: 'Vehicle type does not address the evidentiary limitation.' },
-      { id: 'opt-b', text: 'It is anecdotal evidence consisting of a single isolated survivor story, which cannot refute large-scale statistical evidence demonstrating that helmets prevent fatal head trauma in 80% of crashes', explanation: 'Anecdotes represent unrepresentative individual exceptions that cannot overturn statistical empirical consensus.' },
-      { id: 'opt-c', text: 'The story was told in spoken Indonesian rather than English', explanation: 'Language does not dictate evidentiary validity.' },
-      { id: 'opt-d', text: 'The speaker forgot to mention the brand of motorcycle', explanation: 'Brand name is irrelevant to epidemiological safety data.' }
+      {
+        id: 'opt-a',
+        text: 'Commercial sponsorship guarantees high data accuracy because corporations possess massive research budgets.'
+      },
+      {
+        id: 'opt-b',
+        text: 'The financial conflict of interest compromises Purpose, as the authors have an incentive to minimize harms.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Corporate white papers are superior to university studies because corporate scientists work in industry.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Funding transparency eliminates all researcher bias, making corporate research fully objective and reliable.'
+      }
     ],
     correctAnswer: 'opt-b',
     explanation: 'Anecdotal evidence relies on single personal stories, which are susceptible to survivorship bias and cannot substitute for systematic statistical data collected across large populations.'
@@ -213,12 +285,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A social media post headlines: "Study Proves Chocolate Cures Heart Disease!" Following the link reveals that an online blog cited a lifestyle magazine, which cited a press release, which summarized a preliminary test-tube study on purified cocoa flavonoids in lab mice.',
     question: 'Under SIFT’s "Trace claims back to the original source", what critical insight does tracing reveal?',
     options: [
-      { id: 'opt-a', text: 'Eating commercial chocolate bars treats human heart conditions immediately', explanation: 'This accepts the sensationalized headline without tracing the actual science.' },
-      { id: 'opt-b', text: 'The original study tested isolated compounds in rodents, and sensationalized media reporting exaggerated and distorted the modest laboratory finding into an unwarranted miracle cure claim', explanation: 'Tracing claims reveals how media games of "telephone" distort cautious scientific findings into clickbait headlines.' },
-      { id: 'opt-c', text: 'Laboratory mice love eating dessert', explanation: 'Frivolous statement.' },
-      { id: 'opt-d', text: 'Scientists are not allowed to study chocolate', explanation: 'Food science is a legitimate discipline.' }
+      {
+        id: 'opt-a',
+        text: 'Approach vendors respectfully, explain the school project, and obtain voluntary consent before recording.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Conceal recording equipment inside a backpack to capture authentic behavior without participant awareness.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Offer monetary cash payments to children working in the market to pose for dramatic poverty photos.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Publish all raw market video footage on public social media channels without blurring vendor faces.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation: 'Tracing claims back to the original empirical publication exposes how commercial news outlets exaggerate modest laboratory findings to generate sensational headlines.'
   },
   {
@@ -239,12 +323,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 8.1, pp. 117–118',
     question: 'A student who strongly opposes school uniforms only searches Google for "Reasons why school uniforms are terrible and harmful" and ignores all research on student discipline or socio-economic equality. What cognitive trap has the student fallen into?',
     options: [
-      { id: 'opt-a', text: 'Confirmation bias (actively seeking only information that confirms pre-existing beliefs while disregarding contradictory evidence)', explanation: 'Confirmation bias skews inquiry by filtering out evidence that challenges one\'s desired conclusion.' },
-      { id: 'opt-b', text: 'Algorithmic triangulation', explanation: 'Triangulation seeks multiple viewpoints; this student did the exact opposite.' },
-      { id: 'opt-c', text: 'Peer review verification', explanation: 'Peer review is an editorial validation process.' },
-      { id: 'opt-d', text: 'The CRAAP authority test', explanation: 'CRAAP assesses credibility, which this student failed to do objectively.' }
+      {
+        id: 'opt-a',
+        text: 'Ethical review is optional for high school students conducting local field observations.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Informed consent is only required when participants receive monetary financial compensation.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Researchers must respect local cultural norms, preserve community dignity, and avoid harm.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Student researchers are exempt from privacy laws when completing accredited academic homework.'
+      }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-c',
     explanation: 'Confirmation bias occurs when researchers selectively search for, interpret, and favor evidence that validates their initial prejudice, compromising academic integrity.'
   },
   {
@@ -266,12 +362,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     scenario: 'A paper claiming that sugary sodas have zero link to childhood obesity includes a small disclosure note at the end: "This research project was funded by a 500,000 USD unrestricted educational grant from a multinational beverage corporation."',
     question: 'How should a Cambridge Global Perspectives researcher critically evaluate this study?',
     options: [
-      { id: 'opt-a', text: 'Accept the findings as 100% objective because it was published with lots of money', explanation: 'Funding volume does not confer scientific validity.' },
-      { id: 'opt-b', text: 'Recognize a severe potential vested interest (financial conflict of interest) and cross-examine the methodology against independent peer-reviewed public health studies that receive no corporate sponsorship', explanation: 'Funding sources with commercial stakes introduce significant bias risk, demanding stringent cross-verification against independent research.' },
-      { id: 'opt-c', text: 'Immediately erase all mention of soda from the English dictionary', explanation: 'Absurd extreme.' },
-      { id: 'opt-d', text: 'Assume that the scientists did not know who gave them the money', explanation: 'Researchers sign formal grant agreements and are fully aware of institutional funders.' }
+      {
+        id: 'opt-a',
+        text: 'Assume that AI-generated citations are fully verified because large language models access all books.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Include AI citations directly in bibliographies as long as the journal title sounds academically formal.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Use generative AI to write the entire literature review without reading any of the cited research papers.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Manually verify every citation in academic databases, as generative AI models can hallucinate sources.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-d',
     explanation: 'Corporate-funded studies have a vested interest in outcomes favorable to sponsors. Critical researchers must scrutinize study design, sample selection, and compare results to non-commercial studies.'
   },
   {
@@ -292,12 +400,24 @@ export const UNIT_8_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     textbookSource: 'Textbook Section 8.2, pp. 121–122',
     question: 'Why is accurate bibliographic citation (e.g., APA, Harvard) a core requirement of scholarly evidence presentation in Global Perspectives?',
     options: [
-      { id: 'opt-a', text: 'To show that the student knows how to type quotation marks', explanation: 'Mechanical typing skills are not the intellectual purpose of citations.' },
-      { id: 'opt-b', text: 'It acknowledges intellectual property, enables readers to verify and trace claims directly to original sources, and protects against plagiarism', explanation: 'Citations attribute credit, ensure evidentiary traceability, and uphold the academic integrity of the learning community.' },
-      { id: 'opt-c', text: 'Because Cambridge software automatically deletes essays that contain fewer than 50 pages', explanation: 'False statement.' },
-      { id: 'opt-d', text: 'To prove that the author never conducted any original thinking', explanation: 'Proper citation contextualizes original thinking within established scholarly knowledge.' }
+      {
+        id: 'opt-a',
+        text: 'Accept the article as factual because viral social media posts reflect genuine public consensus, while neglecting the essential requirement for transparent ethical oversight and stakeholder consensus.'
+      },
+      {
+        id: 'opt-b',
+        text: 'Check only the comment section beneath the post to see whether casual online readers agree.'
+      },
+      {
+        id: 'opt-c',
+        text: 'Locate the original research paper to determine whether the headline accurately reflects the findings.'
+      },
+      {
+        id: 'opt-d',
+        text: 'Discard all scientific news reporting because journalism never accurately translates research.'
+      }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation: 'Citations establish traceability, give credit to original authors, allow readers to independently examine evidence, and maintain strict standards of academic honesty.'
   }
 ];

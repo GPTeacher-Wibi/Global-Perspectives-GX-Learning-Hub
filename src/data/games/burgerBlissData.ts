@@ -116,22 +116,22 @@ export const STAGE_1_ITEMS: ScenarioQuestion[] = [
     prompt: 'According to Cambridge Global Perspectives Unit 1 (Slide 12), what is the primary "perspective blind spot" in Burger Bliss’s initial corporate strategy?',
     options: [
       {
+        id: 'opt-1b',
+        text: 'The executives miscalculated financial foreign exchange rates between US dollars and Indonesian rupiah reserves, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
+        isBestChoice: false,
+        feedback: 'Incorrect. While currency calculations matter in business, the core perspective flaw was ignoring cultural differences in food traditions and dining social habits.'
+      },
+      {
         id: 'opt-1a',
-        text: 'The executives assumed that customer dining habits and preferences in New York or London are universal across Southeast Asia.',
+        text: 'The executives assumed that customer dining habits in New York or London are universal across Southeast Asian markets.',
         isBestChoice: true,
         feedback: 'Correct! The textbook identifies this as a classic perspective failure: assuming your own cultural habits and fast-food routines are universal.',
         revealedLens: 'cultural',
         revealedScale: 'global'
       },
       {
-        id: 'opt-1b',
-        text: 'The executives forgot to calculate the exact currency exchange rate between US dollars and Indonesian rupiah.',
-        isBestChoice: false,
-        feedback: 'Incorrect. While currency calculations matter in business, the core perspective flaw was ignoring cultural differences in food traditions and dining social habits.'
-      },
-      {
         id: 'opt-1c',
-        text: 'The executives did not hire enough interior decorators to paint the restaurant walls with Western flags.',
+        text: 'The executives failed to hire enough Western interior decorators to display imported flags inside the restaurant dining hall.',
         isBestChoice: false,
         feedback: 'Incorrect. Store decoration is secondary. The fundamental issue is assuming that fast, solo beef consumption fits every country’s eating culture.'
       }
@@ -150,24 +150,24 @@ export const STAGE_1_ITEMS: ScenarioQuestion[] = [
     prompt: 'How does the local dining perspective differ from the corporate model regarding dining culture?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'Local dining is viewed primarily as a social and communal event, requiring comfortable shared seating and family-style meals.',
-        isBestChoice: true,
-        feedback: 'Correct! In Southeast Asia, dining out is frequently a communal activity where families and friends eat together, directly conflicting with solo counter seating.',
-        revealedLens: 'social',
-        revealedScale: 'local'
-      },
-      {
         id: 'opt-2b',
-        text: 'Local customers wanted the restaurant to stay open 24 hours only for solo online gamers.',
+        text: 'Local customers demanded that the franchise stay open twenty-four hours strictly to host solo late-night video gaming, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
         isBestChoice: false,
         feedback: 'Incorrect. The key cultural pattern is communal and family dining, not solo late-night gaming.'
       },
       {
         id: 'opt-2c',
-        text: 'Local customers preferred eating standing up outside the restaurant on the street sidewalk.',
+        text: 'Local customers preferred eating standing up outside the restaurant directly along busy public street sidewalk lanes.',
         isBestChoice: false,
         feedback: 'Incorrect. Customers wanted comfortable indoor group seating to socialize together.'
+      },
+      {
+        id: 'opt-2a',
+        text: 'Local dining is viewed primarily as a social, communal event requiring comfortable shared seating and family-style meals.',
+        isBestChoice: true,
+        feedback: 'Correct! In Southeast Asia, dining out is frequently a communal activity where families and friends eat together, directly conflicting with solo counter seating.',
+        revealedLens: 'social',
+        revealedScale: 'local'
       }
     ],
     pedagogicalKey: 'Social dining values vary dramatically: individual convenience vs. communal connection.',
@@ -185,7 +185,7 @@ export const STAGE_1_ITEMS: ScenarioQuestion[] = [
     options: [
       {
         id: 'opt-3a',
-        text: 'Cultural & Religious Lens at the National Scale (meeting statutory religious dietary laws for the country’s majority population).',
+        text: 'Cultural & Religious Lens at the National Scale (meeting statutory religious dietary laws for the majority population).',
         isBestChoice: true,
         feedback: 'Correct! Halal compliance in Indonesia is both a Cultural/Religious lens (faith and dietary morals) and a National scale issue (state certification laws).',
         revealedLens: 'cultural',
@@ -193,13 +193,13 @@ export const STAGE_1_ITEMS: ScenarioQuestion[] = [
       },
       {
         id: 'opt-3b',
-        text: 'Economic Lens at the Personal Scale (helping one single customer count daily carbohydrate intake).',
+        text: 'Economic Lens at the Personal Scale (monitoring individual student carbohydrate expenditure and personal daily fitness).',
         isBestChoice: false,
         feedback: 'Incorrect. Halal is not an individual diet fad; it is a fundamental faith-based requirement governed by nationwide standards.'
       },
       {
         id: 'opt-3c',
-        text: 'Political Lens at the Global Scale (asking the United Nations General Assembly to vote on burger ingredients).',
+        text: 'Political Lens at the Global Scale (requesting the United Nations General Assembly to supervise commercial recipes).',
         isBestChoice: false,
         feedback: 'Incorrect. Halal certification in Indonesia is governed by Indonesian national regulatory agencies, not the UN.'
       }
@@ -218,22 +218,22 @@ export const STAGE_1_ITEMS: ScenarioQuestion[] = [
     prompt: 'What core lesson from Unit 1 explains why sales plummeted after initial curiosity faded?',
     options: [
       {
+        id: 'opt-4b',
+        text: 'Customers collectively resolved that they would never purchase any meal prepared inside modern air-conditioned venues.',
+        isBestChoice: false,
+        feedback: 'Incorrect. Customers love comfortable air-conditioned spaces; the barrier was the lack of culturally satisfying staple foods like rice.'
+      },
+      {
         id: 'opt-4a',
-        text: 'Curiosity drove one-off trial, but long-term eating habits are anchored in cultural staple foods like rice and savory chicken.',
+        text: 'Curiosity drove one-off trial, but long-term eating habits are anchored in cultural staple foods like rice and chicken.',
         isBestChoice: true,
         feedback: 'Correct! As Slide 14 notes, novelty attracts first-time visitors, but sustainable business requires aligning with deep-seated culinary habits.',
         revealedLens: 'cultural',
         revealedScale: 'local'
       },
       {
-        id: 'opt-4b',
-        text: 'Customers decided that they would never eat any food prepared inside an air-conditioned building.',
-        isBestChoice: false,
-        feedback: 'Incorrect. Customers love comfortable air-conditioned spaces; the barrier was the lack of culturally satisfying staple foods like rice.'
-      },
-      {
         id: 'opt-4c',
-        text: 'The government banned all sandwiches nationwide by presidential emergency decree.',
+        text: 'The national government issued an emergency executive decree strictly forbidding Western bread sandwiches nationwide.',
         isBestChoice: false,
         feedback: 'Incorrect. There was no government ban; customer dietary preference was the natural economic driver.'
       }
@@ -259,24 +259,24 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
     prompt: 'What primary perspective drives Marcus Vance’s reasoning?',
     options: [
       {
+        id: 'opt-1b',
+        text: 'A Cultural perspective at the Local scale, defending traditional Sundanese culinary heritage in West Java provinces, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
+        isBestChoice: false,
+        feedback: 'Incorrect. Marcus is a Western corporate executive who does not focus on local Sundanese cultural heritage.'
+      },
+      {
+        id: 'opt-1c',
+        text: 'A Social perspective at the Personal scale, worrying about individual adolescent pocket money budgets in Bandung.',
+        isBestChoice: false,
+        feedback: 'Incorrect. His focus is corporate profitability and global supply chain predictability.'
+      },
+      {
         id: 'opt-1a',
         text: 'An Economic perspective at the Global scale, prioritizing worldwide brand consistency and bulk supply-chain cost savings.',
         isBestChoice: true,
         feedback: 'Correct! Marcus is focused on corporate cost control, global brand uniformity, and worldwide supply chain efficiency.',
         revealedLens: 'economic',
         revealedScale: 'global'
-      },
-      {
-        id: 'opt-1b',
-        text: 'A Cultural perspective at the Local scale, defending traditional Sundanese culinary heritage in West Java.',
-        isBestChoice: false,
-        feedback: 'Incorrect. Marcus is a Western corporate executive who does not focus on local Sundanese cultural heritage.'
-      },
-      {
-        id: 'opt-1c',
-        text: 'A Social perspective at the Personal scale, worrying about individual student pocket money in Bandung.',
-        isBestChoice: false,
-        feedback: 'Incorrect. His focus is corporate profitability and global supply chain predictability.'
       }
     ],
     pedagogicalKey: 'Corporate perspectives prioritize standardization, predictability, and multinational economies of scale.',
@@ -295,7 +295,7 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
     options: [
       {
         id: 'opt-2a',
-        text: 'An Economic & Social perspective at the Local and Personal scale, centered on family livelihood security and small business survival.',
+        text: 'An Economic & Social perspective at Local and Personal scales, centered on family livelihood and small enterprise survival.',
         isBestChoice: true,
         feedback: 'Correct! Ibu Ratna’s concern is directly about her household budget (Personal) and the local neighborhood economy (Local).',
         revealedLens: 'economic',
@@ -303,13 +303,13 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
       },
       {
         id: 'opt-2b',
-        text: 'A Political perspective at the Global scale, seeking to rewrite international maritime trade pacts.',
+        text: 'A Political perspective at the Global scale, seeking to rewrite multilateral World Trade Organization shipping covenants.',
         isBestChoice: false,
         feedback: 'Incorrect. Her concerns are local neighborhood livelihood and family income, not international shipping treaties.'
       },
       {
         id: 'opt-2c',
-        text: 'A purely aesthetic perspective, complaining that Burger Bliss uses yellow and red corporate logos.',
+        text: 'An aesthetic design perspective, complaining that Burger Bliss uses bright primary colors across its corporate logo signs.',
         isBestChoice: false,
         feedback: 'Incorrect. Her core concern is economic survival and family school expenses.'
       }
@@ -329,6 +329,12 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
     prompt: 'What tension does Farhan’s consumer perspective highlight?',
     options: [
       {
+        id: 'opt-3b',
+        text: 'A demand that international fast-food chains hire only tenured university professors to manage kitchen fryers.',
+        isBestChoice: false,
+        feedback: 'Incorrect. Farhan is concerned with social hangouts, Wi-Fi, and affordable meal prices.'
+      },
+      {
         id: 'opt-3a',
         text: 'A desire for modern social study spaces vs. strict personal financial budget constraints.',
         isBestChoice: true,
@@ -337,14 +343,8 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
         revealedScale: 'personal'
       },
       {
-        id: 'opt-3b',
-        text: 'A demand that fast-food restaurants only hire university professors to flip burgers.',
-        isBestChoice: false,
-        feedback: 'Incorrect. Farhan is concerned with social hangouts, Wi-Fi, and affordable meal prices.'
-      },
-      {
         id: 'opt-3c',
-        text: 'A demand that Burger Bliss sell expensive imported motorbikes alongside French fries.',
+        text: 'A demand that the restaurant franchise sell expensive Japanese motorcycles alongside customary side orders of fries.',
         isBestChoice: false,
         feedback: 'Incorrect. His focus is student-friendly pricing and communal hangout spaces.'
       }
@@ -364,24 +364,24 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
     prompt: 'What analytical lens and scale best characterize Pak Dedi’s governance responsibility?',
     options: [
       {
-        id: 'opt-4a',
-        text: 'Political & Social Lens at the Local scale, safeguarding public infrastructure, municipal traffic flow, and urban waste management.',
-        isBestChoice: true,
-        feedback: 'Correct! Municipal authorities must manage public externalities (traffic, trash, street safety) affecting the entire local community.',
-        revealedLens: 'political',
-        revealedScale: 'local'
-      },
-      {
         id: 'opt-4b',
-        text: 'Cultural Lens at the Global scale, tracking worldwide television ratings.',
+        text: 'Cultural Lens at the Global scale, monitoring international television ratings and broadcast advertising reach, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
         isBestChoice: false,
         feedback: 'Incorrect. City hall’s primary duties are urban order, public roads, and municipal environmental management.'
       },
       {
         id: 'opt-4c',
-        text: 'Personal Lens, trying to reserve a parking spot only for his personal car.',
+        text: 'Personal Lens at the Individual scale, seeking to reserve a private municipal parking slot exclusively for his car.',
         isBestChoice: false,
         feedback: 'Incorrect. His perspective represents his public official duty to manage city infrastructure for all citizens.'
+      },
+      {
+        id: 'opt-4a',
+        text: 'Political & Social Lens at Local scale, safeguarding public infrastructure, municipal traffic flow, and urban sanitation.',
+        isBestChoice: true,
+        feedback: 'Correct! Municipal authorities must manage public externalities (traffic, trash, street safety) affecting the entire local community.',
+        revealedLens: 'political',
+        revealedScale: 'local'
       }
     ],
     pedagogicalKey: 'Local government perspectives focus on public goods, municipal order, and environmental externalities.',
@@ -400,7 +400,7 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
     options: [
       {
         id: 'opt-5a',
-        text: 'An opportunity to build a National Economic linkage, substituting imported beef with domestic poultry to support local rural livelihoods.',
+        text: 'Building a National Economic linkage, substituting imported beef with domestic poultry to support rural livelihoods.',
         isBestChoice: true,
         feedback: 'Correct! By sourcing chicken and rice domestically, the restaurant creates positive economic multiplier effects for national agriculture.',
         revealedLens: 'economic',
@@ -408,13 +408,13 @@ export const STAGE_2_ITEMS: ScenarioQuestion[] = [
       },
       {
         id: 'opt-5b',
-        text: 'A plan to convince Burger Bliss to completely stop serving any hot food and sell raw wheat seeds instead.',
+        text: 'Persuading Burger Bliss to eliminate cooked meals entirely and market unground raw agricultural grains across Java.',
         isBestChoice: false,
         feedback: 'Incorrect. The farmers want to supply fresh chicken and rice for popular localized fast-food items.'
       },
       {
         id: 'opt-5c',
-        text: 'A suggestion that Indonesian farmers abandon agriculture and become corporate advertising models.',
+        text: 'Encouraging local rural farmers to abandon agriculture and seek employment as commercial billboard fashion models.',
         isBestChoice: false,
         feedback: 'Incorrect. Their interest is stable agricultural purchasing contracts and fair market prices.'
       }
@@ -439,22 +439,22 @@ export const STAGE_3_ITEMS: ScenarioQuestion[] = [
     prompt: 'What genuine trade-off must corporate management weigh in this decision?',
     options: [
       {
+        id: 'opt-1b',
+        text: 'Debating whether front-counter cashiers should speak multiple European languages or use non-verbal manual signs, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
+        isBestChoice: false,
+        feedback: 'Incorrect. Language skills are unrelated to the core menu trade-off between standardization and localized sourcing.'
+      },
+      {
         id: 'opt-1a',
-        text: 'Operational standardization and global recipe uniformity vs. lower food production costs and higher local customer acceptance.',
+        text: 'Operational standardization vs. lower ingredient production costs and higher local consumer market acceptance.',
         isBestChoice: true,
         feedback: 'Correct! Keeping 100% Western beef preserves corporate standardization, but adopting local poultry lowers costs and satisfies local dietary preferences.',
         revealedLens: 'economic',
         revealedScale: 'national'
       },
       {
-        id: 'opt-1b',
-        text: 'Deciding whether workers should speak five languages or only sign language.',
-        isBestChoice: false,
-        feedback: 'Incorrect. Language skills are unrelated to the core menu trade-off between standardization and localized sourcing.'
-      },
-      {
         id: 'opt-1c',
-        text: 'Choosing whether restaurant tables should be painted green or purple.',
+        text: 'Choosing whether customer dining tables and chairs should be painted light lavender or neon fluorescent green.',
         isBestChoice: false,
         feedback: 'Incorrect. The dilemma is about menu ingredients, kitchen equipment investment, and supply chain trade-offs.'
       }
@@ -473,24 +473,24 @@ export const STAGE_3_ITEMS: ScenarioQuestion[] = [
     prompt: 'How should a Global Perspectives researcher analyze this conflict of interests?',
     options: [
       {
-        id: 'opt-2a',
-        text: 'As a structural tension between multinational market power and vulnerable informal local livelihoods, where both sides pursue valid economic goals.',
-        isBestChoice: true,
-        feedback: 'Correct! The corporation seeks commercial growth, while local vendors defend their family survival. Recognizing both viewpoints is the foundation of perspective analysis.',
-        revealedLens: 'economic',
-        revealedScale: 'local'
-      },
-      {
         id: 'opt-2b',
-        text: 'By declaring that small street food stalls are outdated and should be legally banned across the city.',
+        text: 'By asserting that informal traditional food stalls are obsolete and should be outlawed across the municipality.',
         isBestChoice: false,
         feedback: 'Incorrect. Global Perspectives researchers avoid biased moral judgments and instead analyze the underlying socio-economic impact on communities.'
       },
       {
         id: 'opt-2c',
-        text: 'By claiming that Burger Bliss is evil and that foreign companies should never be allowed to do business anywhere.',
+        text: 'By claiming that Burger Bliss represents corporate greed and that international firms should be barred everywhere.',
         isBestChoice: false,
         feedback: 'Incorrect. Demonizing one side is simplistic; the goal is finding sustainable policies that encourage investment while protecting vulnerable livelihoods.'
+      },
+      {
+        id: 'opt-2a',
+        text: 'As structural tension between multinational market scale and vulnerable local livelihoods, where both pursue valid goals.',
+        isBestChoice: true,
+        feedback: 'Correct! The corporation seeks commercial growth, while local vendors defend their family survival. Recognizing both viewpoints is the foundation of perspective analysis.',
+        revealedLens: 'economic',
+        revealedScale: 'local'
       }
     ],
     pedagogicalKey: 'Perspective analysis balances competing legitimate claims rather than declaring heroes and villains.',
@@ -508,7 +508,7 @@ export const STAGE_3_ITEMS: ScenarioQuestion[] = [
     options: [
       {
         id: 'opt-3a',
-        text: 'An environmental externality (Social/Environmental lens) transforms into a direct operational financial cost (Economic lens) for the business.',
+        text: 'An environmental externality (Social lens) transforms into a direct operational financial cost (Economic lens).',
         isBestChoice: true,
         feedback: 'Correct! Perspectives are interconnected: local municipal environmental rules create a direct financial incentive for corporate operational reform.',
         revealedLens: 'political',
@@ -516,13 +516,13 @@ export const STAGE_3_ITEMS: ScenarioQuestion[] = [
       },
       {
         id: 'opt-3b',
-        text: 'The restaurant immediately closes all stores and sells its buildings to foreign airlines.',
+        text: 'The restaurant franchise immediately shutters all retail operations and liquidates commercial buildings to airlines, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
         isBestChoice: false,
         feedback: 'Incorrect. Companies adapt to environmental rules by changing packaging, not by liquidating their entire international business.'
       },
       {
         id: 'opt-3c',
-        text: 'Customers are required to bring their own ceramic plates from home in their school backpacks.',
+        text: 'Patrons are legally compelled to carry heavy porcelain dining plates from home inside their daily school backpacks.',
         isBestChoice: false,
         feedback: 'Incorrect. Sustainable packaging reform is implemented by restaurant management, not by placing unrealistic burdens on customers.'
       }
@@ -541,24 +541,24 @@ export const STAGE_3_ITEMS: ScenarioQuestion[] = [
     prompt: 'Why is this study a prime example of "dynamic perspectives" in research?',
     options: [
       {
-        id: 'opt-4a',
-        text: 'New empirical evidence forces decision-makers to revise their prior assumptions and adapt their business strategy to real local consumer behavior.',
-        isBestChoice: true,
-        feedback: 'Correct! Unit 1 teaches that perspectives are dynamic: when reliable evidence contradicts initial beliefs, researchers and leaders must update their view.',
-        revealedLens: 'cultural',
-        revealedScale: 'national'
-      },
-      {
         id: 'opt-4b',
-        text: 'It proves that corporate executives should never read research reports or listen to local university studies.',
+        text: 'It proves that corporate directors should disregard field surveys and ignore empirical consumer data from universities.',
         isBestChoice: false,
         feedback: 'Incorrect. High-quality empirical research is exactly what prevents catastrophic business failure in foreign markets.'
       },
       {
         id: 'opt-4c',
-        text: 'It means that fast-food companies should only sell burgers in cold winter countries.',
+        text: 'It proves that multinational restaurant corporations should restrict operations exclusively to subarctic continents.',
         isBestChoice: false,
         feedback: 'Incorrect. The lesson is adaptation to local culinary customs, not abandoning warm-climate markets.'
+      },
+      {
+        id: 'opt-4a',
+        text: 'Empirical data forces leaders to revise assumptions and adapt strategy to real regional consumer dining practices.',
+        isBestChoice: true,
+        feedback: 'Correct! Unit 1 teaches that perspectives are dynamic: when reliable evidence contradicts initial beliefs, researchers and leaders must update their view.',
+        revealedLens: 'cultural',
+        revealedScale: 'national'
       }
     ],
     pedagogicalKey: 'Perspectives are dynamic: evidence-based research enables rational adaptation.',
@@ -582,7 +582,7 @@ export const STAGE_4_ITEMS: ScenarioQuestion[] = [
     options: [
       {
         id: 'opt-1a',
-        text: 'Obtain official Halal certification, retain signature beef burgers for brand identity, but add localized options: crispy chicken, warm steamed rice, and regional chili sambal.',
+        text: 'Obtain Halal certification, retain signature beef burgers, and introduce localized options: crispy chicken, rice, and sambal.',
         isBestChoice: true,
         feedback: 'Correct! This dual approach (often called "glocalization") preserves brand identity while fully respecting local dietary traditions and family dining habits.',
         revealedLens: 'cultural',
@@ -590,13 +590,13 @@ export const STAGE_4_ITEMS: ScenarioQuestion[] = [
       },
       {
         id: 'opt-1b',
-        text: 'Double the size of beef burgers, raise prices by 50%, and remove all chicken and rice from the menu completely.',
+        text: 'Double the portion sizes of imported beef patties, increase menu prices by fifty percent, and remove rice completely, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
         isBestChoice: false,
         feedback: 'Incorrect. This doubles down on the original blind spot and would guarantee massive commercial failure in Indonesia.'
       },
       {
         id: 'opt-1c',
-        text: 'Stop selling food completely and turn the restaurant into a Western textbook bookstore.',
+        text: 'Cease food preparation operations and convert retail dining restaurants into imported textbook commercial bookstores.',
         isBestChoice: false,
         feedback: 'Incorrect. The restaurant is a food business; it must adapt its core culinary offering to local consumer demand.'
       }
@@ -615,22 +615,22 @@ export const STAGE_4_ITEMS: ScenarioQuestion[] = [
     prompt: 'What policy achieves the most sustainable multi-scale economic benefit?',
     options: [
       {
+        id: 'opt-2b',
+        text: 'Air-freight all raw poultry and packaged rice from distant foreign continents regardless of local agricultural supplies.',
+        isBestChoice: false,
+        feedback: 'Incorrect. Air-freighting staple ingredients is economically wasteful and ecologically damaging when excellent local farms exist nearby.'
+      },
+      {
         id: 'opt-2a',
-        text: 'Establish long-term supply contracts with Indonesian poultry and rice farming cooperatives, meeting strict quality and Halal standards.',
+        text: 'Establish long-term supply contracts with domestic farming cooperatives, meeting rigorous commercial and Halal standards.',
         isBestChoice: true,
         feedback: 'Correct! Sourcing chicken and rice domestically reduces shipping emissions, lowers ingredient costs, and injects economic revenue into local rural farming communities.',
         revealedLens: 'economic',
         revealedScale: 'national'
       },
       {
-        id: 'opt-2b',
-        text: 'Import all chicken and rice from thousands of miles away by air cargo regardless of local availability.',
-        isBestChoice: false,
-        feedback: 'Incorrect. Air-freighting staple ingredients is economically wasteful and ecologically damaging when excellent local farms exist nearby.'
-      },
-      {
         id: 'opt-2c',
-        text: 'Refuse to pay farmers and demand that local suppliers donate all meat and vegetables for free.',
+        text: 'Refuse payment to rural growers and demand that agricultural cooperatives donate poultry supplies without compensation.',
         isBestChoice: false,
         feedback: 'Incorrect. Sustainable business partnerships require fair wholesale pricing and legally binding mutual contracts.'
       }
@@ -649,24 +649,24 @@ export const STAGE_4_ITEMS: ScenarioQuestion[] = [
     prompt: 'Which community partnership model represents the most thoughtful common-ground approach?',
     options: [
       {
-        id: 'opt-3a',
-        text: 'Establish a designated "Culinary Heritage Alley" adjacent to the store for licensed local warungs, implement joint neighborhood cleanups, and avoid predatory price dumping.',
-        isBestChoice: true,
-        feedback: 'Correct! This creates cooperative synergy: the modern store attracts foot traffic while respecting and supporting informal local food heritage.',
-        revealedLens: 'social',
-        revealedScale: 'local'
-      },
-      {
         id: 'opt-3b',
-        text: 'Hire private security guards to chase away all traditional food carts and construct high concrete walls around the parking lot.',
+        text: 'Deploy private armed guards to evict traditional street vendors and erect concrete barriers around parking perimeters, despite failing to account for localized socioeconomic realities, consumer dining culture, and long-term neighborhood relationships.',
         isBestChoice: false,
         feedback: 'Incorrect. Hostile exclusion creates severe community resentment, protests, and municipal regulatory pushback.'
       },
       {
         id: 'opt-3c',
-        text: 'Offer to buy out and demolish all neighboring houses to build a giant private golf course.',
+        text: 'Purchase and demolish all neighboring residential homes to construct an expansive private golf course for executives.',
         isBestChoice: false,
         feedback: 'Incorrect. This escalates social conflict and destroys neighborhood cohesion.'
+      },
+      {
+        id: 'opt-3a',
+        text: 'Create a "Culinary Heritage Alley" for licensed local warungs, organize joint cleanups, and avoid predatory price dumping.',
+        isBestChoice: true,
+        feedback: 'Correct! This creates cooperative synergy: the modern store attracts foot traffic while respecting and supporting informal local food heritage.',
+        revealedLens: 'social',
+        revealedScale: 'local'
       }
     ],
     pedagogicalKey: 'Coexistence: Modern retail centers can synergize with informal vendors to foster vibrant, inclusive public spaces.',

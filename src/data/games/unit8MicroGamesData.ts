@@ -260,21 +260,21 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     bestMove: 'Purpose (and Authority) Failure: The website exists to sell a commercial product for profit, not to provide objective medical information.',
     options: [
       {
-        id: 'opt-a',
-        label: 'Flag Purpose: Commercial marketing scam designed for profit',
-        description: 'The site has a massive financial incentive to make exaggerated claims to sell supplements.',
-        isCorrect: true
-      },
-      {
         id: 'opt-b',
-        label: 'Flag Currency: The berry was discovered long ago',
-        description: 'The main issue is that berries are an ancient food source.',
+        label: 'Accept as authoritative because government ministries published it in 2011',
+        description: 'Ten-year-old baseline data remains universally valid for all modern infrastructure planning across expanding municipal commuter corridors.',
         isCorrect: false
       },
       {
+        id: 'opt-a',
+        label: 'CRAAP Currency Check: Reject as outdated for current municipal bus planning',
+        description: 'Ten-year-old traffic counts fail Currency; urban routes and smartphone transit have changed.',
+        isCorrect: true
+      },
+      {
         id: 'opt-c',
-        label: 'Accept Source: Discount button proves customer appreciation',
-        description: 'The seller is offering affordable medicine to help society.',
+        label: 'Assume the data is current because the ministry’s website was redesigned this year',
+        description: 'A modern website interface automatically updates historical empirical datasets.',
         isCorrect: false
       }
     ],
@@ -292,22 +292,22 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     bestMove: 'Currency Failure: The source was published in 2012, more than a decade before actual high-speed rail engineering was deployed.',
     options: [
       {
-        id: 'opt-a',
-        label: 'Flag Currency: The data is 12 years out of date and overtaken by reality',
-        description: 'Engineering and operational realities changed completely with the 2023 train launch.',
-        isCorrect: true
-      },
-      {
         id: 'opt-b',
-        label: 'Flag Relevance: Trains have nothing to do with transportation',
-        description: 'High-speed rail is irrelevant to geography.',
+        label: 'Accept because the author claims to be an independent health and wellness advocate',
+        description: 'Personal passion for health substitutes for peer-reviewed toxicology qualifications and formal clinical trials in medical research.',
         isCorrect: false
       },
       {
         id: 'opt-c',
-        label: 'Accept Source: 2012 was a great year for blogging',
-        description: 'Historical student opinions are always trustworthy.',
+        label: 'Cite the blog because popular lifestyle articles provide accessible public explanations',
+        description: 'Online readership numbers guarantee that medical dosage recommendations are safe.',
         isCorrect: false
+      },
+      {
+        id: 'opt-a',
+        label: 'CRAAP Authority Rejection: Lack of credentials and direct commercial interest',
+        description: 'The author has no medical qualifications and makes money directly selling the herbal supplements.',
+        isCorrect: true
       }
     ],
     explanation: 'Under CRAAP, Currency checks when the information was written or updated. In rapidly advancing technological and infrastructure fields, 12-year-old speculation is obsolete.',
@@ -325,20 +325,20 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     options: [
       {
         id: 'opt-a',
-        label: 'Flag Authority: Author lacks credentials, institutional affiliation, or medical expertise',
-        description: 'Anonymous forum posters cannot substitute for certified radiologists or peer-reviewed journals.',
+        label: 'CRAAP Purpose & Objectivity Rejection: Vested commercial interest promotes biased claims',
+        description: 'Mining companies have a financial conflict of interest to minimize documented environmental harms.',
         isCorrect: true
       },
       {
         id: 'opt-b',
-        label: 'Flag Relevance: Radiologists do not use computers',
-        description: 'Hospitals only use paper charts.',
+        label: 'Accept the brochure because multinational mining corporations possess advanced equipment',
+        description: 'Large corporate engineering budgets automatically ensure unbiased ecological reporting and eliminate all potential commercial conflicts of interest.',
         isCorrect: false
       },
       {
         id: 'opt-c',
-        label: 'Accept Source: Gamers understand graphics processing units best',
-        description: 'Gaming experience gives deep medical insight.',
+        label: 'Trust the findings because the pamphlet includes colorful diagrams of reforestation saplings',
+        description: 'Professional marketing graphic design proves that local groundwater is unpolluted.',
         isCorrect: false
       }
     ],
@@ -356,21 +356,21 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     bestMove: 'Fully Pass CRAAP: Excellent Currency (2023), High Authority (UNEP scientific panel), Clear Accuracy (open data & peer review), and Educational Purpose.',
     options: [
       {
-        id: 'opt-a',
-        label: 'Pass All CRAAP Filters: Trustworthy intergovernmental scientific report',
-        description: 'Recent publication, verified expert body, transparent methodology, and non-commercial educational purpose.',
-        isCorrect: true
-      },
-      {
         id: 'opt-b',
-        label: 'Reject Source: Too many numbers make it hard to read',
-        description: 'Research should only contain words, never data tables.',
+        label: 'Accept the claim because ten students constitutes a sufficient qualitative sample size',
+        description: 'A small group of friends represents diverse regional adolescent sleep patterns across all provincial public and private schools.',
         isCorrect: false
       },
       {
+        id: 'opt-a',
+        label: 'CRAAP Accuracy Rejection: Extreme sampling bias and unscientific measurement methods',
+        description: 'Ten classmates in one school cannot support universal claims about 25 million teenagers.',
+        isCorrect: true
+      },
+      {
         id: 'opt-c',
-        label: 'Reject Source: United Nations is too large an organization',
-        description: 'Global organizations are less reliable than anonymous social media.',
+        label: 'Publish the article because lifestyle headlines generate high student social engagement',
+        description: 'High click rates and viral comments validate the scientific truth of the findings.',
         isCorrect: false
       }
     ],
@@ -390,22 +390,22 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     bestMove: 'S — STOP: Do not share or panic! Pause immediately and recognize that disinformation uses shock to trigger viral forwarding.',
     options: [
       {
-        id: 'opt-a',
-        label: 'S — STOP: Pause your emotional reaction and refrain from sharing immediately',
-        description: 'Recognize strong emotion (fear/panic) as a primary signal to halt and verify before sharing.',
-        isCorrect: true
-      },
-      {
         id: 'opt-b',
-        label: 'Forward instantly to all school WhatsApp groups as a safety warning',
-        description: 'Spreading emergency warnings without verification is helpful.',
+        label: 'Accept because university economics institutes always use sound, unassailable methodology',
+        description: 'Academic prestige exempts research studies from topical relevance and scope checks when formulating specific local school administrative regulations.',
         isCorrect: false
       },
       {
         id: 'opt-c',
-        label: 'Leave a comment asking the creator if the wave was cold',
-        description: 'Engaging with viral posts improves fact checking.',
+        label: 'Use the data because macroeconomic trade dynamics remain identical across all industries',
+        description: 'Manufacturing trade statistics apply identically to high school smartphone policies.',
         isCorrect: false
+      },
+      {
+        id: 'opt-a',
+        label: 'CRAAP Relevance Check: The study addresses trade tariffs, not educational phone policies',
+        description: 'A study on manufacturing import taxes does not provide relevant evidence for classroom distraction.',
+        isCorrect: true
       }
     ],
     explanation: 'The first move in SIFT is S (STOP). When social media content triggers intense fear or anger, viral creators count on you forwarding before thinking. Pausing prevents panic.',
@@ -423,20 +423,20 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     options: [
       {
         id: 'opt-a',
-        label: 'I — INVESTIGATE: Read laterally in new tabs to discover who funds the organization',
-        description: 'Search Wikipedia, news articles, and corporate disclosures to reveal hidden fossil fuel lobby sponsors.',
+        label: 'S — STOP: Do not share; open a new tab to find independent coverage from trusted outlets',
+        description: 'Emotional urgency is a warning sign of digital clickbait; lateral verification is essential.',
         isCorrect: true
       },
       {
         id: 'opt-b',
-        label: 'Trust the website because the "About Us" page features pictures of green leaves',
-        description: 'The pictures prove they care about the environment.',
+        label: 'Forward the message to school class groups immediately to warn classmates about the danger',
+        description: 'Sharing sensational unverified alerts protects peers from potential immediate harm.',
         isCorrect: false
       },
       {
         id: 'opt-c',
-        label: 'Scroll down to the bottom of the page to check the font type',
-        description: 'Clean fonts indicate honest scientific research.',
+        label: 'Assume the warning is authentic because the message uses bold text and urgent siren icons',
+        description: 'Graphic warning symbols and exclamation marks confirm emergency authenticity.',
         isCorrect: false
       }
     ],
@@ -454,21 +454,21 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     bestMove: 'F — FIND Trusted Coverage: Check if verified news agencies (Antara, Kompas, Tempo, BBC Indonesia) are reporting this event.',
     options: [
       {
-        id: 'opt-a',
-        label: 'F — FIND Trusted Coverage: Check if reputable national news agencies report the same story',
-        description: 'A genuine cabinet resignation would be headline news across every credible national outlet.',
-        isCorrect: true
-      },
-      {
         id: 'opt-b',
-        label: 'Assume all major news outlets are hiding the truth and trust the blog',
-        description: 'Secret blogs always know more than certified journalists.',
+        label: 'Read the foundation’s "About Us" mission statement to confirm their charitable goals',
+        description: 'An organization’s self-description provides an objective summary of their funding.',
         isCorrect: false
       },
       {
+        id: 'opt-a',
+        label: 'I — INVESTIGATE the Source: Lateral reading via Wikipedia or independent databases',
+        description: 'Leaving the site reveals the foundation is funded by fossil-fuel lobbies promoting climate skepticism.',
+        isCorrect: true
+      },
+      {
         id: 'opt-c',
-        label: 'Republish the article on your Instagram story with the title "Exposed!"',
-        description: 'Publishing first makes your account look well-informed.',
+        label: 'Assume the institute is non-partisan because the word "Science" appears in its title',
+        description: 'Prestigious organizational naming guarantees academic rigor and objectivity.',
         isCorrect: false
       }
     ],
@@ -486,22 +486,22 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     bestMove: 'T — TRACE Claims & Media to Original Context: Find the full unedited town hall livestream to hear the complete sentence.',
     options: [
       {
-        id: 'opt-a',
-        label: 'T — TRACE: Locate the original full broadcast to verify the complete statement and context',
-        description: 'The full video reveals the governor was quoting a reckless proposal before arguing against it.',
-        isCorrect: true
-      },
-      {
         id: 'opt-b',
-        label: 'Assume 15 seconds is plenty of time to judge a human being’s policy',
-        description: 'Short video clips never hide important context.',
+        label: 'Accept the claim as factual because the local daily newspaper printed it yesterday morning',
+        description: 'Mainstream print journalism never misinterprets laboratory research press releases.',
         isCorrect: false
       },
       {
         id: 'opt-c',
-        label: 'Edit dramatic drum beats into the audio to make it go even more viral',
-        description: 'Drama improves public political discourse.',
+        label: 'Disregard the story because all medical news stories are intentionally fabricated by media',
+        description: 'News outlets produce zero legitimate reporting on scientific breakthroughs.',
         isCorrect: false
+      },
+      {
+        id: 'opt-a',
+        label: 'F — FIND Better Coverage: Consult peer-reviewed journals or national academies of science',
+        description: 'Science journalists often sensationalize preliminary mouse studies into false human miracle cures.',
+        isCorrect: true
       }
     ],
     explanation: 'SIFT move T (Trace claims, quotes, and media) finds the original source. Out-of-context snippets frequently reverse a speaker’s true meaning (e.g. cutting off "...is what bad leaders do!").',
@@ -527,14 +527,14 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
       },
       {
         id: 'opt-b',
-        label: 'Copy and paste the citation because the AI used formal APA format',
-        description: 'Correct formatting proves the study was conducted.',
+        label: 'Copy and paste the citations because the generative AI assistant formatted them in formal APA style',
+        description: 'Correct bibliographical punctuation proves that the underlying research study was actually conducted.',
         isCorrect: false
       },
       {
         id: 'opt-c',
-        label: 'Assume the study is legitimate if the journal title sounds prestigious and has volume numbers',
-        description: 'Superficial formatting features can disguise completely fabricated citations.',
+        label: 'Assume the study is legitimate if the journal title sounds prestigious and cites Indonesian hydrology',
+        description: 'Superficial academic formatting features guarantee that the journal article exists in national archives.',
         isCorrect: false
       }
     ],
@@ -552,21 +552,21 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
     bestMove: 'Lateral Verification: Check the official State Secretariat website (Kemensetneg) and national news press room for official decrees.',
     options: [
       {
-        id: 'opt-a',
-        label: 'Investigate official presidential channels and look for synthetic video artifacts',
-        description: 'Confirming with official government press releases immediately exposes manipulated video hoaxes.',
-        isCorrect: true
-      },
-      {
         id: 'opt-b',
-        label: 'Assume the announcement is authentic because the voice tone sounds convincing',
-        description: 'AI voice-cloning tools can replicate realistic vocal cadences in minutes.',
+        label: 'Assume the announcement is authentic because the speaker’s voice cadence sounds convincing',
+        description: 'AI voice-cloning software replicates realistic vocal cadences in minutes, requiring careful visual verification.',
         isCorrect: false
       },
       {
+        id: 'opt-a',
+        label: 'Investigate official presidential channels and look for synthetic boundary video artifacts',
+        description: 'Confirming with official government press releases immediately exposes manipulated synthetic video hoaxes.',
+        isCorrect: true
+      },
+      {
         id: 'opt-c',
-        label: 'Wait to see if peer group chats repost the clip before verifying official government bulletins',
-        description: 'Relying on social chat consensus amplifies viral disinformation rather than confirming truth.',
+        label: 'Wait to see if peer group chats repost the clip before checking official government press decrees',
+        description: 'Relying on social chat consensus amplifies viral disinformation rather than confirming official announcements.',
         isCorrect: false
       }
     ],
@@ -586,19 +586,19 @@ export const G8_2_CHALLENGES: CraapSiftItem[] = [
       {
         id: 'opt-a',
         label: 'Reject for Purpose and Authority: Direct corporate financial conflict of interest',
-        description: 'The authors have an overwhelming commercial motive to conceal health hazards to sell their company’s product.',
+        description: 'The authors have a commercial motive to conceal health hazards to sell their company’s product.',
         isCorrect: true
       },
       {
         id: 'opt-b',
-        label: 'Accept the paper because it is 60 pages long with nice charts',
-        description: 'Long documents are automatically true.',
+        label: 'Accept the paper because it is sixty pages long and includes detailed chemical data charts',
+        description: 'Document length and complex statistical tables automatically guarantee objective scientific truth.',
         isCorrect: false
       },
       {
         id: 'opt-c',
-        label: 'Accept the findings because the authors cite medical terminology and provide footnotes',
-        description: 'Formal academic rhetoric can easily conceal commercial bias and conflict of interest.',
+        label: 'Accept the findings because the authors cite medical terminology and provide academic footnotes',
+        description: 'Formal academic rhetoric and Latin footnotes prove that corporate researchers have no financial bias.',
         isCorrect: false
       }
     ],
@@ -642,20 +642,20 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
     bestAction: 'Approach vendors respectfully, introduce yourselves as student researchers, and obtain verbal or written informed consent before taking photographs.',
     options: [
       {
+        id: 'act-b',
+        actionText: 'Conceal the camera behind a shopping bag and photograph vendors secretly without their permission',
+        isEthicalAndEffective: false,
+        consequenceExplanation: 'Violates research ethics, breaches personal privacy, and destroys community trust if discovered'
+      },
+      {
         id: 'act-a',
         actionText: 'Introduce yourselves, explain the school project, and ask for permission before photographing anyone',
         isEthicalAndEffective: true,
         consequenceExplanation: 'Respects participant autonomy and privacy. Vendors are willing partners rather than exploited subjects.'
       },
       {
-        id: 'act-b',
-        actionText: 'Hide the camera behind a shopping bag and take candid photos without asking',
-        isEthicalAndEffective: false,
-        consequenceExplanation: 'Violates research ethics, breaches personal privacy, and destroys community trust if discovered.'
-      },
-      {
         id: 'act-c',
-        actionText: 'Offer 100,000 rupiah cash to vendor children to pose next to dirty trash piles',
+        actionText: 'Offer cash payments to vendor children to pose next to waste piles to create dramatic visual proof',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Exploitative and creates staged, fabricated data that invalidates research integrity.'
       }
@@ -672,22 +672,22 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
     bestAction: 'Halt immediately. Minors cannot provide legal consent; permission must be secured from teachers, parents, or guardians, and home addresses should never be collected.',
     options: [
       {
-        id: 'act-a',
-        actionText: 'Halt the interview: secure parental/school permission first and keep all participant responses anonymous',
-        isEthicalAndEffective: true,
-        consequenceExplanation: 'Protects vulnerable minors in accordance with child safeguarding laws and research ethics.'
-      },
-      {
         id: 'act-b',
-        actionText: 'Continue asking for home addresses because precise maps make good graphs',
+        actionText: 'Continue demanding home addresses and phone numbers because detailed mapping makes comprehensive research charts',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Severe violation of child safety ethics. Researchers should never collect private identifying data from minors.'
       },
       {
         id: 'act-c',
-        actionText: 'Post the children’s pictures on Instagram asking followers what snacks they like',
+        actionText: 'Upload the children\'s photographs onto social media platforms and ask online followers to guess their snack preferences',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Illegal and dangerous breach of child privacy on social media.'
+      },
+      {
+        id: 'act-a',
+        actionText: 'Halt the interview: secure parental/school permission first and keep all participant responses anonymous',
+        isEthicalAndEffective: true,
+        consequenceExplanation: 'Protects vulnerable minors in accordance with child safeguarding laws and research ethics.'
       }
     ],
     pedagogicalTakeaway: 'Research involving children requires formal guardian permission and strict data anonymization.'
@@ -705,17 +705,17 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
         id: 'act-a',
         actionText: 'Anonymize participants using pseudonyms (e.g., "Participant A") and delete sensitive personal identifiers like NIK',
         isEthicalAndEffective: true,
-        consequenceExplanation: 'Prevents potential financial, social, or legal repercussions for vulnerable community members.'
+        consequenceExplanation: 'Prevents potential financial, social, or legal repercussions for vulnerable community members'
       },
       {
         id: 'act-b',
-        actionText: 'Publish full real names and national identity numbers in the report appendix',
+        actionText: 'Publish full real names and national identity numbers in the public report appendix without participant consent',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Breaches confidentiality and exposes vulnerable participants to identity theft or harassment.'
       },
       {
         id: 'act-c',
-        actionText: 'Make up fictional dialogue and attribute it to real people',
+        actionText: 'Invent fictional quotes and attribute them to real waste-pickers to make the report narrative more dramatic',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Gross academic dishonesty and falsification of evidence.'
       }
@@ -732,20 +732,20 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
     bestAction: 'Adopt non-intrusive observation: stand safely to the side where passengers can move naturally without obstruction.',
     options: [
       {
+        id: 'act-b',
+        actionText: 'Stand directly in the bus doorway with clipboards so exiting commuters must answer survey questions',
+        isEthicalAndEffective: false,
+        consequenceExplanation: 'Creates a safety hazard, angers commuters, and ruins observational neutrality'
+      },
+      {
         id: 'act-a',
         actionText: 'Observe non-intrusively from a safe, designated waiting area without disrupting commuter flow',
         isEthicalAndEffective: true,
         consequenceExplanation: 'Preserves natural public behavior while ensuring public transit safety.'
       },
       {
-        id: 'act-b',
-        actionText: 'Block the doors so commuters are forced to answer your quick questions',
-        isEthicalAndEffective: false,
-        consequenceExplanation: 'Creates a safety hazard, angers commuters, and ruins observational neutrality.'
-      },
-      {
         id: 'act-c',
-        actionText: 'Pull the emergency brake cord to stop the bus for a survey',
+        actionText: 'Activate the vehicle emergency brake handle at a crowded transit stop to conduct immediate interviews',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Dangerous criminal disruption of municipal public transit.'
       }
@@ -764,22 +764,22 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
     bestAction: 'Conduct a formal "Sowan ke Pak RT/RW": visit the neighborhood leader first with a school permission letter, polite attire, and clear project goals.',
     options: [
       {
-        id: 'act-a',
-        actionText: 'Sowan ke Pak RT/RW: present your school permission letter and seek formal neighborhood approval first',
-        isEthicalAndEffective: true,
-        consequenceExplanation: 'Honors Indonesian communal governance, builds community goodwill, and ensures safety for student fieldworkers.'
-      },
-      {
         id: 'act-b',
-        actionText: 'Sneak into alleys quietly and climb over fences to inspect compost bins',
+        actionText: 'Sneak into residential back alleys and climb over garden fences to inspect private household compost bins',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Illegal trespassing that risks security confrontation and community alarm.'
       },
       {
         id: 'act-c',
-        actionText: 'Send a message on TikTok to the city governor instead of speaking to the RT head',
+        actionText: 'Send an unsolicited public message to the provincial governor on social media instead of meeting local RT leaders',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Ignores local community administration and fails to secure practical fieldwork permission.'
+      },
+      {
+        id: 'act-a',
+        actionText: 'Sowan ke Pak RT/RW: present your school permission letter and seek formal neighborhood approval first',
+        isEthicalAndEffective: true,
+        consequenceExplanation: 'Honors Indonesian communal governance, builds community goodwill, and ensures safety for student fieldworkers.'
       }
     ],
     pedagogicalTakeaway: 'Visiting neighborhood leaders (Sowan ke Pak RT/RW) is an essential Indonesian cultural protocol for safe, authorized field research.'
@@ -797,7 +797,7 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
         id: 'act-a',
         actionText: 'Pause fieldwork before Maghrib prayer out of respect for family and spiritual worship times',
         isEthicalAndEffective: true,
-        consequenceExplanation: 'Demonstrates cultural sensitivity (sopan santun) and prevents causing community resentment.'
+        consequenceExplanation: 'Demonstrates cultural sensitivity (sopan santun) and prevents causing community resentment'
       },
       {
         id: 'act-b',
@@ -824,20 +824,20 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
     bestAction: 'Adhere to Sopan Santun: wear neat school uniform or modest clothing, sit respectfully, and use proper honorifics ("Bapak", "Ibu").',
     options: [
       {
-        id: 'act-a',
-        actionText: 'Wear neat attire (school uniform/modest dress) and address the elder respectfully as "Bapak"',
-        isEthicalAndEffective: true,
-        consequenceExplanation: 'Upholds cultural dignity, conveys student professionalism, and earns genuine community support.'
-      },
-      {
         id: 'act-b',
-        actionText: 'Argue that casual slang makes you appear modern and international',
+        actionText: 'Insist that casual street slang and athletic clothing demonstrate modern youth confidence during formal interviews',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Perceived as impolite and arrogant, shutting down cooperation with neighborhood leadership.'
       },
       {
+        id: 'act-a',
+        actionText: 'Wear neat school attire, sit attentively, and address the neighborhood elder respectfully using proper formal honorifics',
+        isEthicalAndEffective: true,
+        consequenceExplanation: 'Upholds cultural dignity, conveys student professionalism, and earns genuine community support.'
+      },
+      {
         id: 'act-c',
-        actionText: 'Wear sunglasses indoors and refuse to drink the tea offered by the host',
+        actionText: 'Wear dark sunglasses indoors and dismiss the traditional hot tea offered by the host as an unnecessary distraction',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Refusing basic hospitality insults local hosts in Indonesian cultural contexts.'
       }
@@ -854,22 +854,22 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
     bestAction: 'Accept refusal gracefully: thank the resident warmly for their time with a smile and move on without pressure.',
     options: [
       {
-        id: 'act-a',
-        actionText: 'Smile, thank the homeowner politely for their time, and depart without pressuring them',
-        isEthicalAndEffective: true,
-        consequenceExplanation: 'Respects participant autonomy and maintains positive community relations.'
-      },
-      {
         id: 'act-b',
         actionText: 'Block their door and insist they must answer because Cambridge Global Perspectives is important',
         isEthicalAndEffective: false,
-        consequenceExplanation: 'Coercive and harassing behavior that violates research ethics.'
+        consequenceExplanation: 'Coercive and harassing behavior that violates research ethics'
       },
       {
         id: 'act-c',
         actionText: 'Leave a negative review of their house on Google Maps',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Immature retaliation that damages academic credibility.'
+      },
+      {
+        id: 'act-a',
+        actionText: 'Smile, thank the homeowner politely for their time, and depart without pressuring them',
+        isEthicalAndEffective: true,
+        consequenceExplanation: 'Respects participant autonomy and maintains positive community relations.'
       }
     ],
     pedagogicalTakeaway: 'Voluntary participation means anyone may decline at any time. Respectful withdrawal is mandatory.'
@@ -916,16 +916,16 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
     bestAction: 'Prioritize physical safety: never touch hazardous materials; document safely from a distance and notify school supervisors and environmental authorities.',
     options: [
       {
+        id: 'act-b',
+        actionText: 'Jump into the toxic chemical runoff to collect water in an unsealed water bottle',
+        isEthicalAndEffective: false,
+        consequenceExplanation: 'Dangerous health hazard risking chemical burns and poisoning'
+      },
+      {
         id: 'act-a',
         actionText: 'Maintain physical safety: photograph safely from a distance and alert teachers and environmental officials',
         isEthicalAndEffective: true,
         consequenceExplanation: 'Protects student physical safety while reporting environmental hazards through proper civic channels.'
-      },
-      {
-        id: 'act-b',
-        actionText: 'Jump into the toxic chemical runoff to collect water in an unsealed water bottle',
-        isEthicalAndEffective: false,
-        consequenceExplanation: 'Dangerous health hazard risking chemical burns and poisoning.'
       },
       {
         id: 'act-c',
@@ -953,13 +953,13 @@ export const G8_3_CHALLENGES: FieldObserverItem[] = [
       },
       {
         id: 'act-b',
-        actionText: 'Blame individual residents solely and ignore municipal and industrial waste systems',
+        actionText: 'Attribute canal pollution solely to resident laziness while ignoring municipal collection schedules and industrial packaging',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Simplistic and shallow analysis that ignores systemic infrastructure factors.'
       },
       {
         id: 'act-c',
-        actionText: 'Delete the local canal observations and only write about Europe',
+        actionText: 'Discard local neighborhood field observations entirely and discuss only international marine plastic waste agreements',
         isEthicalAndEffective: false,
         consequenceExplanation: 'Discards valuable primary empirical evidence gathered in the field.'
       }

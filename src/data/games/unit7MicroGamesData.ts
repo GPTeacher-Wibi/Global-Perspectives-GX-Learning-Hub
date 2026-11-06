@@ -62,22 +62,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'deductive',
     certaintyLevel: '100% Certain (if sound)',
     options: [
-      {
+        {
         mode: 'deductive',
         label: 'Deductive Reasoning (Top-Down / Universal Rule)',
-        description: 'Applies an established universal law or definition to a specific case. If premises are true, the conclusion is guaranteed with 100% certainty.'
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
       },
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Reasoning (Bottom-Up / Generalization)',
-        description: 'Generalizes from a sample of repeated observations to a broad pattern.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
       },
-      {
+        {
         mode: 'abductive',
-        label: 'Abductive Reasoning (Detective / Best Explanation)',
-        description: 'Infers the most likely cause from an incomplete set of clues.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Deductive reasoning moves from the universal general rule (Charles\'s Law) down to a specific instance (this syringe). The conclusion is logically inescapable.',
     pedagogicalKey: 'Deduction applies universal general laws to specific individual cases.'
   },
@@ -95,22 +95,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'inductive',
     certaintyLevel: 'High Probability (Empirical)',
     options: [
-      {
+        {
+        mode: 'deductive',
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
+      },
+        {
         mode: 'inductive',
         label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
-        description: 'Moves from specific observed empirical samples (14 bays) to extrapolate a general rule. Provides high probability, but remains subject to future observation.'
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
       },
-      {
-        mode: 'deductive',
-        label: 'Deductive Reasoning (Guaranteed Certainty)',
-        description: 'Applies a pure mathematical syllogism.'
-      },
-      {
+        {
         mode: 'abductive',
-        label: 'Abductive Reasoning (Inference to Best Explanation)',
-        description: 'Diagnoses a single mystery.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Inductive logic is the engine of empirical science: repeated observations across specific samples form a probable general theory.',
     pedagogicalKey: 'Induction builds general theories from repeated specific observations.'
   },
@@ -128,22 +128,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'abductive',
     certaintyLevel: 'Plausibility / Best Explanation',
     options: [
-      {
-        mode: 'abductive',
-        label: 'Abductive Reasoning (Inference to the Best Explanation)',
-        description: 'Takes an incomplete set of clues/symptoms and infers the single most likely, plausible explanation that accounts for all observed facts.'
-      },
-      {
-        mode: 'deductive',
-        label: 'Deductive Reasoning',
-        description: 'Proves a geometric theorem.'
-      },
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Reasoning',
-        description: 'Observes 10,000 computers shutting down.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
+      },
+        {
+        mode: 'deductive',
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
+      },
+        {
+        mode: 'abductive',
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Abductive reasoning acts like a detective: given the clues (hallway lights on, breaker switch tripped), a localized circuit trip is by far the most plausible explanation.',
     pedagogicalKey: 'Abduction determines the most plausible explanation for incomplete real-world evidence.'
   },
@@ -161,22 +161,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'deductive',
     certaintyLevel: '100% Certain (if sound)',
     options: [
-      {
+        {
         mode: 'deductive',
-        label: 'Deductive Syllogism (Definitional Inescapability)',
-        description: 'The conclusion is already logically contained within the definitions of the starting premises.'
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
       },
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Generalization',
-        description: 'Checking 100 whales one by one.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
       },
-      {
+        {
         mode: 'abductive',
-        label: 'Abductive Guess',
-        description: 'Guessing why a whale surfaced.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'A classic deductive syllogism: if Premise 1 and Premise 2 are true, it is logically impossible for the conclusion to be false.',
     pedagogicalKey: 'In a sound deductive syllogism, true premises guarantee a true conclusion.'
   },
@@ -196,22 +196,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'inductive',
     certaintyLevel: 'High Probability (Empirical)',
     options: [
-      {
-        mode: 'inductive',
-        label: 'Inductive Overreach (Confusing Induction with Deduction)',
-        description: 'The reasoning is inductive (extrapolating from observed samples), but mistakenly claims 100% deductive certainty, which is shattered by a single black swan.'
-      },
-      {
+        {
         mode: 'deductive',
-        label: 'Sound Deductive Logic',
-        description: 'Guaranteed by mathematical law.'
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
       },
-      {
+        {
+        mode: 'inductive',
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
+      },
+        {
         mode: 'abductive',
-        label: 'Abductive Diagnosis',
-        description: 'Explaining swan sickness.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Inductive reasoning can establish high probability, but never 100% absolute certainty. When Europeans visited Australia and saw black swans, this inductive claim collapsed.',
     pedagogicalKey: 'Inductive conclusions provide high probability, but can be shattered by a single outlier.'
   },
@@ -229,22 +229,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'abductive',
     certaintyLevel: 'Plausibility / Best Explanation',
     options: [
-      {
-        mode: 'abductive',
-        label: 'Abductive Reasoning (Clinical Diagnostic Inference)',
-        description: 'Medical diagnosis is the prime real-world application of abduction: inferring the most likely underlying condition from an incomplete cluster of patient symptoms.'
-      },
-      {
-        mode: 'deductive',
-        label: 'Pure Deduction',
-        description: 'A mathematical proof.'
-      },
-      {
+        {
         mode: 'inductive',
-        label: 'Pure Induction',
-        description: 'Testing the patient 1,000 times.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
+      },
+        {
+        mode: 'deductive',
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
+      },
+        {
+        mode: 'abductive',
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Doctors use abductive reasoning (inference to the best explanation) to form diagnostic working hypotheses from observed symptoms.',
     pedagogicalKey: 'Abductive reasoning generates the best working diagnosis from clinical symptoms.'
   },
@@ -262,22 +262,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'inductive',
     certaintyLevel: 'High Probability (Empirical)',
     options: [
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Reasoning (Empirical Testing Generalization)',
-        description: 'Generalizes from a controlled sample of 200 tests to establish a broad predictive degradation pattern.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
       },
-      {
+        {
         mode: 'deductive',
-        label: 'Deductive Syllogism',
-        description: 'Mathematical identity.'
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
       },
-      {
+        {
         mode: 'abductive',
-        label: 'Abductive Guess',
-        description: 'Guessing why a phone broke.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Testing a sample of 200 units to establish a general engineering principle is standard inductive empirical methodology.',
     pedagogicalKey: 'Inductive testing of sample cohorts establishes reliable engineering probabilities.'
   },
@@ -295,22 +295,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'deductive',
     certaintyLevel: '100% Certain (if sound)',
     options: [
-      {
-        mode: 'deductive',
-        label: 'Deductive Reasoning (Legal Syllogism / Constitutional Deduction)',
-        description: 'Subsumes a specific citizen activity under a universal constitutional right to deduce legal entitlement.'
-      },
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Generalization',
-        description: 'Counting how many students read newspapers.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
       },
-      {
+        {
+        mode: 'deductive',
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
+      },
+        {
         mode: 'abductive',
-        label: 'Abductive Guess',
-        description: 'Guessing why the newsletter was printed.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Legal arguments are traditionally structured as deductive syllogisms: applying a general statutory law to a specific documented action.',
     pedagogicalKey: 'Legal and constitutional arguments apply universal statutes deductively to specific cases.'
   },
@@ -330,22 +330,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'abductive',
     certaintyLevel: 'Plausibility / Best Explanation',
     options: [
-      {
-        mode: 'abductive',
-        label: 'Abductive Reasoning (Forensic Reconstruction)',
-        description: 'Forensics is pure abduction: evaluating physical traces to infer the most plausible sequence of past unseen events.'
-      },
-      {
-        mode: 'deductive',
-        label: 'Deductive Syllogism',
-        description: 'Deducing a universal law.'
-      },
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Sampling',
-        description: 'Sampling 1,000 broken windows.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
+      },
+        {
+        mode: 'deductive',
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
+      },
+        {
+        mode: 'abductive',
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Forensic investigations use abductive reasoning to reconstruct past events from physical clues and circumstantial evidence.',
     pedagogicalKey: 'Forensic investigators use abduction to infer past unseen events from physical clues.'
   },
@@ -363,22 +363,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'inductive',
     certaintyLevel: 'High Probability (Empirical)',
     options: [
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Reasoning (Large-Scale Clinical Induction)',
-        description: 'Derives population-level medical effectiveness from controlled empirical cohort observations.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
       },
-      {
+        {
         mode: 'deductive',
-        label: 'Pure Deductive Certainty',
-        description: 'Deductive mathematical theorem.'
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
       },
-      {
+        {
         mode: 'abductive',
-        label: 'Abductive Conjecture',
-        description: 'Guessing why a vaccine exists.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Randomized controlled trials and cohort studies provide high inductive probability supporting public health interventions.',
     pedagogicalKey: 'Clinical trials use inductive reasoning to infer population efficacy from sample cohorts.'
   },
@@ -396,22 +396,22 @@ export const G7_1_CHALLENGES: LogicMasterItem[] = [
     correctMode: 'deductive',
     certaintyLevel: '100% Certain (if sound)',
     options: [
-      {
-        mode: 'deductive',
-        label: 'Deductive Reasoning (Mathematical & Physical Proof)',
-        description: 'Applies universal mathematical gravitational equations to celestial bodies to deduce precise orbital forces.'
-      },
-      {
+        {
         mode: 'inductive',
-        label: 'Inductive Generalization',
-        description: 'Waiting for the moon to fall.'
+        label: 'Inductive Reasoning (Bottom-Up / Empirical Probability)',
+        description: 'Analyzes repeated empirical observations across specific field samples to extrapolate a probable, evidence-based general rule.'
       },
-      {
+        {
+        mode: 'deductive',
+        label: 'Deductive Reasoning (Top-Down / Universal Rule)',
+        description: 'Applies an established universal law or general definition to a specific case; if premises are true, the conclusion is guaranteed.'
+      },
+        {
         mode: 'abductive',
-        label: 'Abductive Guess',
-        description: 'Speculating why the moon shines.'
+        label: 'Abductive Reasoning (Diagnostic / Best Explanation)',
+        description: 'Evaluates an incomplete set of clues, symptoms, or unexpected results to infer the most plausible and testable causal explanation.'
       }
-    ],
+      ],
     explanation: 'Applying universal physical formulas to specific celestial bodies is pure deductive calculation.',
     pedagogicalKey: 'Mathematical astrophysics applies universal physical laws deductively to celestial bodies.'
   }
@@ -456,27 +456,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Municipal public high schools in Jakarta should delay daily morning classes to 8:30 AM."',
     correctComponent: 'claim',
     options: [
-      {
-        component: 'claim',
-        label: 'Claim (The Core Assertion)',
-        description: 'The primary thesis or central proposition that the author wants the audience to accept.'
-      },
-      {
+        {
         component: 'grounds_evidence',
-        label: 'Grounds / Evidence (Data)',
-        description: 'The empirical facts, statistics, or observational data supporting the claim.'
+        label: 'Grounds / Evidence (Empirical Data)',
+        description: 'The concrete facts, measurements, statistical data, or observational records that provide the foundation for the assertion.'
       },
-      {
+        {
+        component: 'claim',
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
+      },
+        {
         component: 'warrant',
-        label: 'Warrant (Logical Bridge)',
-        description: 'The underlying principle or rationale connecting the evidence to the claim.'
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
       },
-      {
+        {
         component: 'qualifier',
-        label: 'Qualifier (Boundary)',
-        description: 'Words that state conditions of certainty or scope.'
+        label: 'Qualifier (Scope & Degree)',
+        description: 'Explicit phrases stating the degree of certainty, probability, or bounded conditions under which the claim holds true.'
       }
-    ],
+      ],
     explanation: 'The statement is the central proposition and policy assertion (the Claim) that the rest of the argument seeks to justify.',
     pedagogicalKey: 'The Claim is the central destination of your argument.'
   },
@@ -488,27 +488,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Controlled clinical trials published in The Lancet demonstrated that high schools starting after 8:30 AM recorded a 14% improvement in standardized academic test scores and a 38% reduction in morning student tardiness."',
     correctComponent: 'grounds_evidence',
     options: [
-      {
+        {
+        component: 'warrant',
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
+      },
+        {
+        component: 'claim',
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
+      },
+        {
         component: 'grounds_evidence',
         label: 'Grounds / Evidence (Empirical Data)',
-        description: 'The concrete facts, measurements, clinical trials, or statistics that substantiate the claim.'
+        description: 'The concrete facts, measurements, statistical data, or observational records that provide the foundation for the assertion.'
       },
-      {
-        component: 'claim',
-        label: 'Claim',
-        description: 'The central recommendation.'
-      },
-      {
-        component: 'warrant',
-        label: 'Warrant',
-        description: 'The underlying logical assumption.'
-      },
-      {
+        {
         component: 'rebuttal',
-        label: 'Rebuttal',
-        description: 'Counter-evidence.'
+        label: 'Rebuttal (Counter-Condition)',
+        description: 'Specific exceptional circumstances, counter-evidence, or opposing arguments that would invalidate the central claim.'
       }
-    ],
+      ],
     explanation: 'Concrete empirical statistics (14% score improvement, 38% tardiness reduction) published in a peer-reviewed journal constitute the Grounds/Evidence.',
     pedagogicalKey: 'Grounds provide the empirical foundation that anchors your claim.'
   },
@@ -520,27 +520,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Educational institutions have a fundamental duty to structure scheduling around verified adolescent neurological development to optimize cognitive performance and student wellbeing."',
     correctComponent: 'warrant',
     options: [
-      {
-        component: 'warrant',
-        label: 'Warrant (The Logical Bridge)',
-        description: 'The implicit or explicit general principle that explains why the clinical evidence justifies the policy claim.'
-      },
-      {
-        component: 'claim',
-        label: 'Claim',
-        description: 'The policy assertion.'
-      },
-      {
-        component: 'grounds_evidence',
-        label: 'Grounds / Evidence',
-        description: 'Specific numbers and percentages.'
-      },
-      {
+        {
         component: 'backing',
-        label: 'Backing',
-        description: 'Additional citations for the warrant.'
+        label: 'Backing (Theoretical Support)',
+        description: 'The authoritative credentials, legal statutes, or verified scientific theories that substantiate the warrant itself.'
+      },
+        {
+        component: 'claim',
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
+      },
+        {
+        component: 'grounds_evidence',
+        label: 'Grounds / Evidence (Empirical Data)',
+        description: 'The concrete facts, measurements, statistical data, or observational records that provide the foundation for the assertion.'
+      },
+        {
+        component: 'warrant',
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
       }
-    ],
+      ],
     explanation: 'The Warrant bridges the gap between raw data (higher scores) and policy action (changing start times) by asserting that school schedules should align with neurological science.',
     pedagogicalKey: 'The Warrant answers: "Why does this specific evidence justify this specific claim?"'
   },
@@ -552,27 +552,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Unless working parents in industrial districts depend on earlier 7:00 AM school drop-offs due to factory shifts, in which case subsidized early morning breakfast study halls should be provided."',
     correctComponent: 'rebuttal',
     options: [
-      {
+        {
         component: 'rebuttal',
-        label: 'Rebuttal / Reservation (Counterargument & Exception)',
-        description: 'Acknowledges specific real-world conditions or counterarguments where the claim might not hold or requires special accommodations.'
+        label: 'Rebuttal (Counter-Condition)',
+        description: 'Specific exceptional circumstances, counter-evidence, or opposing arguments that would invalidate the central claim.'
       },
-      {
+        {
         component: 'claim',
-        label: 'Claim',
-        description: 'The main goal.'
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
       },
-      {
+        {
         component: 'warrant',
-        label: 'Warrant',
-        description: 'The logical principle.'
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
       },
-      {
+        {
         component: 'backing',
-        label: 'Backing',
-        description: 'Supporting theory.'
+        label: 'Backing (Theoretical Support)',
+        description: 'The authoritative credentials, legal statutes, or verified scientific theories that substantiate the warrant itself.'
       }
-    ],
+      ],
     explanation: 'The Rebuttal addresses opposing logistical realities (parent work hours) and provides an exception/accommodation, making the argument realistic and defensible.',
     pedagogicalKey: 'Rebuttals anticipate objections and disarm critics before they attack.'
   },
@@ -586,27 +586,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"The World Health Organization (WHO) and the American Academy of Pediatrics both officially endorse adolescent circadian rhythm synchronization as a public health imperative."',
     correctComponent: 'backing',
     options: [
-      {
-        component: 'backing',
-        label: 'Backing (Support for the Warrant)',
-        description: 'Additional empirical evidence, legal precedent, or institutional authority that validates and certifies the truth of the Warrant itself.'
-      },
-      {
+        {
         component: 'grounds_evidence',
-        label: 'Grounds / Evidence',
-        description: 'Local test score data.'
+        label: 'Grounds / Evidence (Empirical Data)',
+        description: 'The concrete facts, measurements, statistical data, or observational records that provide the foundation for the assertion.'
       },
-      {
+        {
+        component: 'backing',
+        label: 'Backing (Theoretical Support)',
+        description: 'The authoritative credentials, legal statutes, or verified scientific theories that substantiate the warrant itself.'
+      },
+        {
         component: 'claim',
-        label: 'Claim',
-        description: 'The policy rule.'
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
       },
-      {
+        {
         component: 'qualifier',
-        label: 'Qualifier',
-        description: 'A hedging word.'
+        label: 'Qualifier (Scope & Degree)',
+        description: 'Explicit phrases stating the degree of certainty, probability, or bounded conditions under which the claim holds true.'
       }
-    ],
+      ],
     explanation: 'Backing supports the Warrant: it proves that relying on circadian neuroscience is certified by global medical authorities like WHO.',
     pedagogicalKey: 'Backing certifies the authority and credibility of your Warrant.'
   },
@@ -618,27 +618,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"In most urban municipal districts where public transit infrastructure is fully operational..."',
     correctComponent: 'qualifier',
     options: [
-      {
-        component: 'qualifier',
-        label: 'Qualifier (Scope & Certainty Boundary)',
-        description: 'Nuances the claim with precise boundaries ("In most urban municipal districts...") to eliminate arrogant, sweeping generalizations.'
-      },
-      {
-        component: 'claim',
-        label: 'Claim',
-        description: 'The main point.'
-      },
-      {
+        {
         component: 'warrant',
-        label: 'Warrant',
-        description: 'The bridge.'
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
       },
-      {
+        {
+        component: 'claim',
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
+      },
+        {
+        component: 'qualifier',
+        label: 'Qualifier (Scope & Degree)',
+        description: 'Explicit phrases stating the degree of certainty, probability, or bounded conditions under which the claim holds true.'
+      },
+        {
         component: 'rebuttal',
-        label: 'Rebuttal',
-        description: 'Counterargument.'
+        label: 'Rebuttal (Counter-Condition)',
+        description: 'Specific exceptional circumstances, counter-evidence, or opposing arguments that would invalidate the central claim.'
       }
-    ],
+      ],
     explanation: 'Qualifiers state the degree of certainty or boundary of applicability ("In most urban districts..."), protecting the argument from being dismantled by remote rural exceptions.',
     pedagogicalKey: 'Qualifiers set safe operational boundaries around your claim.'
   },
@@ -650,27 +650,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Transitioning public transport bus fleets to electric propulsion will drastically decrease local urban tailpipe air pollution."',
     correctComponent: 'claim',
     options: [
-      {
-        component: 'claim',
-        label: 'Claim',
-        description: 'The central assertion being argued.'
-      },
-      {
-        component: 'warrant',
-        label: 'Warrant',
-        description: 'The underlying value.'
-      },
-      {
-        component: 'backing',
-        label: 'Backing',
-        description: 'Scientific backing.'
-      },
-      {
+        {
         component: 'qualifier',
-        label: 'Qualifier',
-        description: 'Scope limiter.'
+        label: 'Qualifier (Scope & Degree)',
+        description: 'Explicit phrases stating the degree of certainty, probability, or bounded conditions under which the claim holds true.'
+      },
+        {
+        component: 'warrant',
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
+      },
+        {
+        component: 'backing',
+        label: 'Backing (Theoretical Support)',
+        description: 'The authoritative credentials, legal statutes, or verified scientific theories that substantiate the warrant itself.'
+      },
+        {
+        component: 'claim',
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
       }
-    ],
+      ],
     explanation: 'The statement asserts the central policy outcome (the Claim).',
     pedagogicalKey: 'Identify the core Claim before evaluating its supporting structural components.'
   },
@@ -682,27 +682,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Critics correctly observe that lithium battery extraction and coal-powered electric grids generate upstream emissions; however, comprehensive lifecycle analyses prove EVs still emit 58% less total lifecycle carbon than diesel buses."',
     correctComponent: 'rebuttal',
     options: [
-      {
+        {
         component: 'rebuttal',
-        label: 'Rebuttal & Counter-Defense',
-        description: 'Explicitly acknowledges valid criticisms (battery mining, coal grids) and provides counter-evidence to demonstrate net superiority.'
+        label: 'Rebuttal (Counter-Condition)',
+        description: 'Specific exceptional circumstances, counter-evidence, or opposing arguments that would invalidate the central claim.'
       },
-      {
+        {
         component: 'claim',
-        label: 'Claim',
-        description: 'The recommendation.'
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
       },
-      {
+        {
         component: 'warrant',
-        label: 'Warrant',
-        description: 'The moral bridge.'
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
       },
-      {
+        {
         component: 'qualifier',
-        label: 'Qualifier',
-        description: 'Boundary word.'
+        label: 'Qualifier (Scope & Degree)',
+        description: 'Explicit phrases stating the degree of certainty, probability, or bounded conditions under which the claim holds true.'
       }
-    ],
+      ],
     explanation: 'A strong Rebuttal does not ignore counterarguments; it acknowledges them and uses lifecycle data to demonstrate that the primary claim remains valid.',
     pedagogicalKey: 'Confronting counterarguments directly elevates academic maturity.'
   },
@@ -716,27 +716,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Solar energy conversion efficiency models published by ITB engineers."',
     correctComponent: 'grounds_evidence',
     options: [
-      {
-        component: 'grounds_evidence',
-        label: 'Grounds / Evidence',
-        description: 'Engineering models and empirical efficiency data from university researchers.'
-      },
-      {
+        {
         component: 'claim',
-        label: 'Claim',
-        description: 'Solar panels should be built.'
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
       },
-      {
+        {
+        component: 'grounds_evidence',
+        label: 'Grounds / Evidence (Empirical Data)',
+        description: 'The concrete facts, measurements, statistical data, or observational records that provide the foundation for the assertion.'
+      },
+        {
         component: 'warrant',
-        label: 'Warrant',
-        description: 'Schools should save electricity.'
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
       },
-      {
+        {
         component: 'backing',
-        label: 'Backing',
-        description: 'National climate law.'
+        label: 'Backing (Theoretical Support)',
+        description: 'The authoritative credentials, legal statutes, or verified scientific theories that substantiate the warrant itself.'
       }
-    ],
+      ],
     explanation: 'Engineering models and measured efficiency figures provide the empirical Grounds/Data for the solar investment proposal.',
     pedagogicalKey: 'Empirical university engineering models serve as Grounds.'
   },
@@ -748,27 +748,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Public educational facilities should actively model sustainable fiscal and ecological stewardship by reducing recurring municipal operational expenditures."',
     correctComponent: 'warrant',
     options: [
-      {
-        component: 'warrant',
-        label: 'Warrant (Institutional Stewardship Principle)',
-        description: 'The ethical and operational premise that explains why solar data warrants school budget allocation.'
-      },
-      {
-        component: 'claim',
-        label: 'Claim',
-        description: 'The recommendation.'
-      },
-      {
+        {
         component: 'grounds_evidence',
-        label: 'Grounds',
-        description: 'Wattage data.'
+        label: 'Grounds / Evidence (Empirical Data)',
+        description: 'The concrete facts, measurements, statistical data, or observational records that provide the foundation for the assertion.'
       },
-      {
+        {
+        component: 'claim',
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
+      },
+        {
+        component: 'warrant',
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
+      },
+        {
         component: 'qualifier',
-        label: 'Qualifier',
-        description: 'Scope limiter.'
+        label: 'Qualifier (Scope & Degree)',
+        description: 'Explicit phrases stating the degree of certainty, probability, or bounded conditions under which the claim holds true.'
       }
-    ],
+      ],
     explanation: 'The Warrant articulates the institutional duty of schools to model stewardship, connecting engineering feasibility to budget policy.',
     pedagogicalKey: 'The Warrant establishes the normative justification for action.'
   },
@@ -780,27 +780,27 @@ export const G7_2_CHALLENGES: ToulminBuilderItem[] = [
     targetStatement: '"Except on older school buildings whose structural roof load capacity has not been certified by municipal safety inspectors."',
     correctComponent: 'rebuttal',
     options: [
-      {
-        component: 'rebuttal',
-        label: 'Rebuttal / Operational Exception',
-        description: 'Identifies the precise structural safety condition where the solar policy must be withheld to protect student life.'
-      },
-      {
-        component: 'claim',
-        label: 'Claim',
-        description: 'Install solar.'
-      },
-      {
-        component: 'warrant',
-        label: 'Warrant',
-        description: 'Save money.'
-      },
-      {
+        {
         component: 'backing',
-        label: 'Backing',
-        description: 'Energy codes.'
+        label: 'Backing (Theoretical Support)',
+        description: 'The authoritative credentials, legal statutes, or verified scientific theories that substantiate the warrant itself.'
+      },
+        {
+        component: 'claim',
+        label: 'Claim (Core Proposition)',
+        description: 'The primary assertion, thesis, or policy stance that the arguer is attempting to prove or convince the audience to accept.'
+      },
+        {
+        component: 'warrant',
+        label: 'Warrant (Logical Principle)',
+        description: 'The underlying rule, rationale, or inferential principle that justifies moving logically from the evidence to the claim.'
+      },
+        {
+        component: 'rebuttal',
+        label: 'Rebuttal (Counter-Condition)',
+        description: 'Specific exceptional circumstances, counter-evidence, or opposing arguments that would invalidate the central claim.'
       }
-    ],
+      ],
     explanation: 'The word "Except" introduces a critical safety reservation (the Rebuttal) that prevents reckless blanket installations on structurally weak roofs.',
     pedagogicalKey: 'Safety reservations ensure policy claims are executed responsibly.'
   }
@@ -845,27 +845,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"Why should we listen to Dr. Sari\'s research on sea turtle mortality? She drives an old, beat-up car, wears unfashionable clothes, and was seen arguing with her neighbor last week. Her scientific data is totally untrustworthy!"',
     correctFallacy: 'ad_hominem',
     options: [
-      {
-        fallacy: 'ad_hominem',
-        label: 'Ad Hominem (Personal Attack)',
-        description: 'Attacking the speaker\'s personal character, appearance, or vehicle rather than addressing their actual empirical research evidence.'
-      },
-      {
-        fallacy: 'straw_man',
-        label: 'Straw Man (Distortion)',
-        description: 'Exaggerating the opponent\'s argument to make it ridiculous.'
-      },
-      {
+        {
         fallacy: 'post_hoc',
-        label: 'Post Hoc (False Cause)',
-        description: 'Confusing sequence with cause.'
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
       },
-      {
+        {
+        fallacy: 'straw_man',
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
+      },
+        {
+        fallacy: 'ad_hominem',
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
+      },
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Presenting only two extreme choices.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
       }
-    ],
+      ],
     explanation: 'Ad Hominem attacks the person instead of the argument. Dr. Sari\'s car or clothing has zero bearing on the biological accuracy of her turtle research.',
     pedagogicalKey: 'Argue against the evidence, never the personal character of the speaker.'
   },
@@ -877,27 +877,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"Person A proposes that our city allocate 5% of its electricity budget to install solar panels on hospital roofs. Person B responds: \'My opponent wants to plunge our entire city into cold, pitch-black darkness and force doctors to perform surgery by candlelight to save a few pennies!\'"',
     correctFallacy: 'straw_man',
     options: [
-      {
-        fallacy: 'straw_man',
-        label: 'Straw Man (Caricature & Distortion)',
-        description: 'Distorting, exaggerating, and misrepresenting Person A\'s moderate proposal (5% solar on hospitals) into a ridiculous extreme (surgery by candlelight in total darkness) that is easy to attack.'
-      },
-      {
-        fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Attacking their clothes.'
-      },
-      {
-        fallacy: 'hasty_generalization',
-        label: 'Hasty Generalization',
-        description: 'Sampling 1 battery.'
-      },
-      {
+        {
         fallacy: 'post_hoc',
-        label: 'Post Hoc',
-        description: 'Rooster crowing.'
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
+      },
+        {
+        fallacy: 'ad_hominem',
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
+      },
+        {
+        fallacy: 'hasty_generalization',
+        label: "Hasty Generalization (Inadequate Sample)",
+        description: "Draws a sweeping universal conclusion from an isolated, insufficient, or unrepresentative sample of empirical observations."
+      },
+        {
+        fallacy: 'straw_man',
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
       }
-    ],
+      ],
     explanation: 'Person B constructs a Straw Man: Person A never proposed surgery by candlelight. Person B invented a ridiculous caricature to attack instead.',
     pedagogicalKey: 'Attack what the opponent actually proposed, not an exaggerated caricature.'
   },
@@ -909,27 +909,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"My friend Kevin studied for exactly 10 minutes the night before the national history exam and scored a perfect 100! This proves conclusively that studying is a complete waste of time for every student in Indonesia."',
     correctFallacy: 'hasty_generalization',
     options: [
-      {
+        {
         fallacy: 'hasty_generalization',
-        label: 'Hasty Generalization (Inadequate Sample)',
-        description: 'Drawing a universal conclusion about all students from an isolated, unrepresentative sample of exactly one person (Kevin).'
+        label: "Hasty Generalization (Inadequate Sample)",
+        description: "Draws a sweeping universal conclusion from an isolated, insufficient, or unrepresentative sample of empirical observations."
       },
-      {
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Either study or die.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
       },
-      {
+        {
         fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Insulting Kevin.'
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
       },
-      {
+        {
         fallacy: 'valid_reasoning',
-        label: 'Valid Reasoning',
-        description: 'Scientifically sound proof.'
+        label: "Sound & Valid Reasoning",
+        description: "Applies logically necessary inferences from verified empirical premises to reach a balanced, scientifically sound conclusion."
       }
-    ],
+      ],
     explanation: 'A sample size of N=1 is completely inadequate to establish a universal educational rule. This is a classic Hasty Generalization.',
     pedagogicalKey: 'Never generalize universal truths from an unrepresentative sample of one.'
   },
@@ -941,27 +941,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"The rooster crowed at 5:00 AM, and the sun rose at 5:15 AM. Therefore, the rooster\'s loud crowing physically commanded the sun to rise into the sky!"',
     correctFallacy: 'post_hoc',
     options: [
-      {
-        fallacy: 'post_hoc',
-        label: 'Post Hoc Ergo Propter Hoc (False Cause)',
-        description: 'Falsely assuming that because Event B happened after Event A, Event A must have caused Event B, mistaking temporal sequence for physical causality.'
-      },
-      {
+        {
         fallacy: 'straw_man',
-        label: 'Straw Man',
-        description: 'Caricaturing an opponent.'
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
       },
-      {
+        {
+        fallacy: 'post_hoc',
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
+      },
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Either-or choices.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
       },
-      {
+        {
         fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Attacking the rooster.'
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
       }
-    ],
+      ],
     explanation: 'Post Hoc Ergo Propter Hoc ("After this, therefore because of this"): chronological sequence does not establish causal mechanics. Earth\'s rotation causes sunrise, not the rooster.',
     pedagogicalKey: 'Sequence in time does not prove cause and effect.'
   },
@@ -975,27 +975,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"Either our city council votes today to bulldoze 40 hectares of urban forest to build a concrete 6-lane elevated expressway, or our regional economy will permanently collapse and all our children will starve in poverty!"',
     correctFallacy: 'false_dilemma',
     options: [
-      {
-        fallacy: 'false_dilemma',
-        label: 'False Dilemma (Either-Or Fallacy)',
-        description: 'Artificially restricts a complex municipal debate into only two extreme choices (bulldoze trees OR total economic collapse), deliberately concealing realistic alternatives like public transit, commuter rail, and green corridors.'
-      },
-      {
-        fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Attacking city council members.'
-      },
-      {
+        {
         fallacy: 'post_hoc',
-        label: 'Post Hoc',
-        description: 'Citing rainfall records.'
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
       },
-      {
+        {
+        fallacy: 'ad_hominem',
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
+      },
+        {
+        fallacy: 'false_dilemma',
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
+      },
+        {
         fallacy: 'hasty_generalization',
-        label: 'Hasty Generalization',
-        description: 'Sampling 2 trees.'
+        label: "Hasty Generalization (Inadequate Sample)",
+        description: "Draws a sweeping universal conclusion from an isolated, insufficient, or unrepresentative sample of empirical observations."
       }
-    ],
+      ],
     explanation: 'The speaker manufactures an artificial either-or trap (bulldoze forest or starve in poverty), hiding numerous viable compromise solutions.',
     pedagogicalKey: 'When presented with "Either A or B", always look for Options C, D, and E.'
   },
@@ -1007,27 +1007,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"I wore my bright yellow anime socks on Monday and scored an A on chemistry. On Wednesday I forgot to wear them and scored a C on physics! My yellow socks clearly possess supernatural exam-passing powers."',
     correctFallacy: 'post_hoc',
     options: [
-      {
-        fallacy: 'post_hoc',
-        label: 'Post Hoc Ergo Propter Hoc (False Cause / Superstition)',
-        description: 'Mistakes accidental coincidence in time for physical causality, ignoring actual variables like study hours and exam difficulty.'
-      },
-      {
-        fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Insulting anime socks.'
-      },
-      {
-        fallacy: 'straw_man',
-        label: 'Straw Man',
-        description: 'Distorting the exam.'
-      },
-      {
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Either yellow socks or failing.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
+      },
+        {
+        fallacy: 'ad_hominem',
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
+      },
+        {
+        fallacy: 'straw_man',
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
+      },
+        {
+        fallacy: 'post_hoc',
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
       }
-    ],
+      ],
     explanation: 'Coincidence is not causation. Yellow socks have no neurological or physical causal mechanism to alter exam performance.',
     pedagogicalKey: 'Demand verified causal mechanisms, not coincidental timing.'
   },
@@ -1039,27 +1039,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"I landed in City X, and within two hours a pickpocket stole my wallet at the central train station. Everyone living in City X is a thieving criminal and the entire country is completely unsafe for tourists!"',
     correctFallacy: 'hasty_generalization',
     options: [
-      {
+        {
         fallacy: 'hasty_generalization',
-        label: 'Hasty Generalization (Xenophobic Sampling Bias)',
-        description: 'Extrapolates from a single unfortunate criminal encounter to brand an entire population of 10 million citizens as thieves.'
+        label: "Hasty Generalization (Inadequate Sample)",
+        description: "Draws a sweeping universal conclusion from an isolated, insufficient, or unrepresentative sample of empirical observations."
       },
-      {
+        {
         fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Attacking the train station.'
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
       },
-      {
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Either stay home or get robbed.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
       },
-      {
+        {
         fallacy: 'post_hoc',
-        label: 'Post Hoc',
-        description: 'Train arrival caused theft.'
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
       }
-    ],
+      ],
     explanation: 'A single bad experience at a train station does not justify branding millions of citizens as criminals. Representative crime statistics are required.',
     pedagogicalKey: 'Broad demographic claims require representative statistical datasets.'
   },
@@ -1071,27 +1071,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"Parent A suggests: \'Let us ask students to keep phones in their backpacks during the 45-minute math lecture.\' Teacher B shouts: \'Parent A wants to banish all technology from modern education and return our students to the Stone Age writing on cave walls!\'"',
     correctFallacy: 'straw_man',
     options: [
-      {
-        fallacy: 'straw_man',
-        label: 'Straw Man (Absurd Amplification)',
-        description: 'Distorts a 45-minute classroom phone-stowing rule into an absurd desire to banish all modern technology and return to Stone Age cave painting.'
-      },
-      {
+        {
         fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Attacking Teacher B.'
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
       },
-      {
+        {
+        fallacy: 'straw_man',
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
+      },
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Either cave walls or smartphones.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
       },
-      {
+        {
         fallacy: 'post_hoc',
-        label: 'Post Hoc',
-        description: 'Backpacks cause low grades.'
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
       }
-    ],
+      ],
     explanation: 'Teacher B attacked an invented extreme caricature (returning to the Stone Age) rather than debating the actual modest proposal.',
     pedagogicalKey: 'Recognize when an opponent exaggerates a policy into an absurd extreme.'
   },
@@ -1105,27 +1105,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"Controlled econometric data from 12 OECD economies demonstrated that introducing a $40/ton carbon fee reduced industrial greenhouse emissions by 8% over 5 years. While low-income households initially experienced higher heating bills, revenue-recycling through direct cash dividend rebates successfully neutralized this regressivity without dampening the emissions reduction."',
     correctFallacy: 'valid_reasoning',
     options: [
-      {
-        fallacy: 'valid_reasoning',
-        label: 'Sound & Valid Reasoning (Fallacy-Free Academic Rigor)',
-        description: 'Demonstrates exemplary Cambridge Global Perspectives reasoning: grounds conclusions in multi-country empirical econometric data, acknowledges trade-offs (heating bills), and analyzes policy counter-measures (rebates).'
-      },
-      {
-        fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Forces people to pay taxes.'
-      },
-      {
+        {
         fallacy: 'straw_man',
-        label: 'Straw Man',
-        description: 'Exaggerates heating costs.'
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
       },
-      {
+        {
+        fallacy: 'false_dilemma',
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
+      },
+        {
+        fallacy: 'valid_reasoning',
+        label: "Sound & Valid Reasoning",
+        description: "Applies logically necessary inferences from verified empirical premises to reach a balanced, scientifically sound conclusion."
+      },
+        {
         fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Attacking OECD economies.'
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
       }
-    ],
+      ],
     explanation: 'This passage is free of logical fallacies: it cites empirical multi-country data, candidly addresses adverse equity impacts, and evaluates compensatory mechanisms.',
     pedagogicalKey: 'Sound academic arguments cite data, acknowledge trade-offs, and avoid fallacies.'
   },
@@ -1137,27 +1137,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"Why should Parliament debate this youth climate petition? The lead petitioner is only a 16-year-old high school girl who probably doesn\'t even pay taxes or understand how a corporation works. She is just an emotional teenager who should stick to doing her algebra homework."',
     correctFallacy: 'ad_hominem',
     options: [
-      {
-        fallacy: 'ad_hominem',
-        label: 'Ad Hominem (Ageist Character Dismissal)',
-        description: 'Dismisses the empirical petition entirely based on the lead author\'s youth, age, and student status rather than examining the climate data presented.'
-      },
-      {
-        fallacy: 'post_hoc',
-        label: 'Post Hoc',
-        description: 'Blaming climate on teenagers.'
-      },
-      {
-        fallacy: 'straw_man',
-        label: 'Straw Man',
-        description: 'Caricaturing homework.'
-      },
-      {
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma',
-        description: 'Either algebra or climate.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
+      },
+        {
+        fallacy: 'post_hoc',
+        label: "Post Hoc Ergo Propter Hoc (False Cause)",
+        description: "Falsely assumes that because an event occurred after another in time, the earlier event must have caused the later one."
+      },
+        {
+        fallacy: 'straw_man',
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
+      },
+        {
+        fallacy: 'ad_hominem',
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
       }
-    ],
+      ],
     explanation: 'Discrediting research purely because the researcher is 16 years old is classic Ad Hominem. Scientific claims must be evaluated on empirical evidence, not the age or identity of the author.',
     pedagogicalKey: 'Scientific evidence must be judged on its merits, never the age of the researcher.'
   },
@@ -1169,27 +1169,27 @@ export const G7_3_CHALLENGES: FallacyPatrolItem[] = [
     speechTranscript: '"We face a binary destiny: Either we construct this massive hydroelectric dam that floods three indigenous valley villages, or our province will suffer permanent energy blackouts and economic stagnation forever."',
     correctFallacy: 'false_dilemma',
     options: [
-      {
+        {
         fallacy: 'false_dilemma',
-        label: 'False Dilemma (Manipulative Binary Framing)',
-        description: 'Traps policymakers into believing there are only two choices (flood ancestral villages OR permanent economic collapse), hiding alternatives like solar micro-grids, geothermal energy, and energy efficiency upgrades.'
+        label: "False Dilemma (Either-Or Trap)",
+        description: "Artificially restricts a complex issue into only two extreme choices while concealing viable intermediate alternatives."
       },
-      {
+        {
         fallacy: 'straw_man',
-        label: 'Straw Man',
-        description: 'Distorting indigenous rights.'
+        label: "Straw Man (Caricature & Distortion)",
+        description: "Distorts, exaggerates, or misrepresents an opposing argument into an extreme caricature that is far easier to attack."
       },
-      {
+        {
         fallacy: 'ad_hominem',
-        label: 'Ad Hominem',
-        description: 'Attacking electricity.'
+        label: "Ad Hominem (Personal Attack)",
+        description: "Attacks the speaker personal background, character, or appearance rather than addressing their evidence or argument."
       },
-      {
+        {
         fallacy: 'hasty_generalization',
-        label: 'Hasty Generalization',
-        description: 'Sampling one dam.'
+        label: "Hasty Generalization (Inadequate Sample)",
+        description: "Draws a sweeping universal conclusion from an isolated, insufficient, or unrepresentative sample of empirical observations."
       }
-    ],
+      ],
     explanation: 'A textbook False Dilemma: deliberately omitting solar, geothermal, and biomass options to force approval of a controversial mega-project.',
     pedagogicalKey: 'Reject false choices that erase viable ecological alternatives.'
   }

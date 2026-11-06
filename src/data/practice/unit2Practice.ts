@@ -59,22 +59,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Typing "population of Surabaya" into a search engine and noting the official census figure.'
+        text: 'Formulate an actionable municipal ordinance to penalize urban households dumping plastic waste.'
       },
       {
         id: 'opt-b',
-        text: 'Reading an encyclopedia article summarizing how electric car batteries function.'
+        text: 'Discover fundamental biochemical mechanisms without targeting an immediate commercial product.'
       },
       {
         id: 'opt-c',
-        text: 'Collecting daily particulate air sensors and comparing asthma clinic admissions across three neighborhoods to test pollution patterns.'
+        text: 'Manufacture affordable consumer water filtration kits sold directly to local rural clinics.'
       },
       {
         id: 'opt-d',
-        text: 'Copying three paragraphs from a scientific blog to paste into a school presentation slide.'
+        text: 'Design an industrial production facility to generate commercial chemical fertilizer for export.'
       }
     ],
-    correctAnswer: 'opt-c',
+    correctAnswer: 'opt-b',
     explanation:
       'In Cambridge Global Perspectives, research is a systematic, empirical, and purposive investigation of an unanswered question. Gathering sensor data and clinic records to test an unknown relationship creates fresh empirical insight, whereas looking up existing numbers is simply information retrieval.'
   },
@@ -101,22 +101,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Empirical Evidence — because the students conducted the trial outdoors rather than inside a university.'
+        text: 'Both teams pursue basic science because both investigations employ laboratory equipment and test tubes, even though empirical field observations demonstrate significant divergence across diverse municipal contexts.'
       },
       {
         id: 'opt-b',
-        text: 'Replicability — because the exact steps and variables were kept secret, preventing independent researchers from repeating and verifying the test.'
+        text: 'Dr. Lestari conducts applied research because studying biological membranes requires private grants.'
       },
       {
         id: 'opt-c',
-        text: 'Purposive Goal — because cleaning oil spills is not a meaningful environmental objective.'
+        text: 'Both research programs represent applied science because all biochemical research ultimately aids human life.'
       },
       {
         id: 'opt-d',
-        text: 'Theoretical Significance — because high school students are legally prohibited from discovering enzymes.'
+        text: 'Dr. Lestari conducts basic research (pure knowledge), while Dr. Setiawan conducts applied research (practical tool).'
       }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-d',
     explanation:
       'Replicability is the hallmark of scientific credibility (pp. 23–24). If an investigation does not document its methodology, materials, and procedures clearly enough for an independent scholar to repeat the study and test the conclusions, the claims cannot be accepted as reliable knowledge.'
   },
@@ -147,22 +147,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Testing whether adding recycled plastic pellets into asphalt increases the durability of municipal flood roads.'
+        text: 'Basic research creates the foundational theoretical knowledge that applied scientists utilize to build practical solutions.'
       },
       {
         id: 'opt-b',
-        text: 'Investigating the cellular mechanism of how deep-sea hydrothermal bacteria synthesize sulfur compounds in complete darkness.'
+        text: 'Applied research must always precede basic research because funding agencies demand functional gadgets before theory, while neglecting the essential requirement for transparent ethical oversight and stakeholder consensus.'
       },
       {
         id: 'opt-c',
-        text: 'Designing an automated smartphone notification schedule to increase high school homework completion rates.'
+        text: 'Basic research has been rendered obsolete by digital computing because computer models replace natural observation.'
       },
       {
         id: 'opt-d',
-        text: 'Evaluating the cost-effectiveness of solar-powered water purifiers for remote fishing villages in Maluku.'
+        text: 'Government science ministries should defund pure laboratory research because theoretical papers produce zero jobs.'
       }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-a',
     explanation:
       'Basic research is driven by curiosity to understand the fundamental laws and mechanisms of nature, without an immediate commercial or practical application (pp. 24–26). Studying deep-sea bacterial biochemistry expands fundamental biology, whereas road paving, apps, and water filters are applied solutions to practical problems.'
   },
@@ -189,22 +189,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'The argument is logically flawed because applied technologies cannot exist without the fundamental theoretical discoveries provided by basic research.'
+        text: 'Step 1: Problem Formulation, because identifying student dissatisfaction must precede every other research decision.'
       },
       {
         id: 'opt-b',
-        text: 'The argument is sound because basic research has produced zero useful consumer applications in the past 100 years.'
+        text: 'Step 4: Methodology Design, because choosing between paper surveys and online forms determines student responses.'
       },
       {
         id: 'opt-c',
-        text: 'The argument is correct because applied research is conducted with strict scientific methods, whereas basic research relies on personal intuition.'
+        text: 'Step 2: Literature Review, because reviewing prior research reveals existing validated tools and prevents naive repetition.'
       },
       {
         id: 'opt-d',
-        text: 'The argument is flawed because basic research is cheap and requires no funding, whereas applied research is completely free.'
+        text: 'Step 6: Data Analysis, because calculating descriptive statistical metrics determines whether student opinions are reliable.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-c',
     explanation:
       'As demonstrated in textbook Section 2.2 (pp. 26–27), basic and applied research are deeply interdependent. Applied engineers cannot build microchips, GPS satellites, or diagnostic medicines without decades of theoretical physics and molecular biology discoveries that uncovered the underlying laws.'
   },
@@ -234,22 +234,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'A qualitative ethnographic diary study observing 4 students sleeping in their bedrooms.'
+        text: 'Collecting survey data before writing any research question guarantees spontaneous, unbiased answers from students.'
       },
       {
         id: 'opt-b',
-        text: 'A quantitative standardized survey distributed across grade levels paired with numerical correlation analysis.'
+        text: 'Conducting statistical tests before cleaning survey datasets accelerates the publication timeline in school journals.'
       },
       {
         id: 'opt-c',
-        text: 'An unstructured group discussion with teachers discussing their personal memories of high school.'
+        text: 'Finalizing research recommendations before interviewing community elders ensures the project stays on schedule.'
       },
       {
         id: 'opt-d',
-        text: 'A historical review of sleep patterns during the Industrial Revolution.'
+        text: 'Distributing questionnaires without a literature review and clear question creates unscientific, disorganized data.'
       }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-d',
     explanation:
       'Quantitative methodology is specifically designed to measure numerical frequencies, calculate percentages across large representative populations, and test statistical correlations between variables (pp. 27–29). Measuring sleep hours and test scores across 950 students requires structured numerical data.'
   },
@@ -279,22 +279,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Because qualitative research allows participants to describe complex emotions and lived experiences in their own words, capturing nuances that fixed numbers cannot reveal.'
+        text: 'Surveys should only gather numerical responses because written words cannot be evaluated systematically by scientists, despite introducing unverified assumptions regarding population compliance and resource availability.'
       },
       {
         id: 'opt-b',
-        text: 'Because qualitative research takes much less time and requires no careful planning or ethical permissions.'
+        text: 'Quantitative data provides statistical patterns and generalizability, while qualitative data reveals lived experiences.'
       },
       {
         id: 'opt-c',
-        text: 'Because quantitative rating scales are illegal when studying teenagers with sports injuries.'
+        text: 'Qualitative research is merely preliminary anecdotal evidence that must be discarded once formal numbers are tallied.'
       },
       {
         id: 'opt-d',
-        text: 'Because qualitative research always generates definitive mathematical laws that apply to all humans.'
+        text: 'Combining numbers with open-ended interviews invalidates scientific rigor because statistical tests demand purity.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-b',
     explanation:
       'Qualitative research explores the rich "why" and "how" of human experiences, meanings, and psychological coping (pp. 28–30). Deep grief, cultural expectations, and identity loss cannot be adequately expressed through a rigid 1-to-5 number scale; they require verbatim transcripts and thematic analysis.'
   },
@@ -324,19 +324,19 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'The official confused a quantitative measurement of vacancy with an unverified causal explanation, failing to collect qualitative evidence about why families did not move.'
+        text: 'Quantitative Methodology, because the research objective demands measuring numerical prevalence across a large representative sample.'
       },
       {
         id: 'opt-b',
-        text: 'The official should have used qualitative interviews to count the empty buildings instead of sensor logs.'
+        text: 'Qualitative Methodology, because interviewing 10 students provides deeper personal anecdotes about emotional sleep stress, despite failing to account for localized socioeconomic disparities and long-term community resistance.'
       },
       {
         id: 'opt-c',
-        text: 'The sample size of 1,200 apartments was too small to draw any statistical conclusion.'
+        text: 'Mixed Methods Methodology, because every high school inquiry project must include both numbers and unstructured interviews.'
       },
       {
         id: 'opt-d',
-        text: 'Housing data is always subjective and cannot be measured with numerical figures.'
+        text: 'Historical Archival Methodology, because reviewing school attendance registers from thirty years ago confirms sleep habits.'
       }
     ],
     correctAnswer: 'opt-a',
@@ -367,22 +367,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'When investigating a completely new or little-understood phenomenon where prior literature is scarce and key variables are not yet defined.'
+        text: 'Publishing student names alongside their test results to promote academic transparency across the province.'
       },
       {
         id: 'opt-b',
-        text: 'When testing a well-established mathematical law that has been proven thousands of times in physics textbooks.'
+        text: 'Discarding negative survey responses so the final research report highlights the program’s positive outcomes.'
       },
       {
         id: 'opt-c',
-        text: 'When seeking to confirm an exact statistical percentage across a known national census database.'
+        text: 'Obtaining informed consent, safeguarding participant confidentiality, and avoiding emotional or physical harm.'
       },
       {
         id: 'opt-d',
-        text: 'When a researcher refuses to collect any empirical data and relies entirely on personal intuition.'
+        text: 'Offering financial cash payments to guarantee that low-income participants give favorable responses to questions.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-c',
     explanation:
       'Exploratory research is conducted when a problem or phenomenon is new, poorly understood, or lacks prior academic scholarship (pp. 27–31). It aims to gain preliminary insights, clarify terms, and generate promising questions for future structured investigations, rather than testing pre-set hypotheses.'
   },
@@ -415,19 +415,19 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: '"To what extent did the ban on single-use plastic bags in Denpasar reduce commercial retail plastic waste along Sanur Beach over a 12-month period?"'
+        text: 'Secure institutional permissions, obtain informed consent from parents and students, and guarantee strict anonymity.'
       },
       {
         id: 'opt-b',
-        text: '"When was the first plastic water bottle invented in Europe?"'
+        text: 'Publish all raw interview recordings on public social media channels to establish transparent public debate, although this overlooks critical institutional constraints and unintended regional environmental side effects.'
       },
       {
         id: 'opt-c',
-        text: '"Do sea turtles prefer swimming in clean water or dirty water?"'
+        text: 'Hide microphones under classroom desks to record authentic student discussions without their awareness or consent.'
       },
       {
         id: 'opt-d',
-        text: '"Should everyone in the world stop using plastic right now?"'
+        text: 'Promise students higher end-of-term academic grades if they agree to participate in confidential focus groups.'
       }
     ],
     correctAnswer: 'opt-a',
@@ -458,22 +458,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'To demonstrate that the student knows how to copy-paste quotations from published authors to fill pages.'
+        text: 'Proceed with the publication immediately because environmental truth is more important than municipal business privacy.'
       },
       {
         id: 'opt-b',
-        text: 'To map existing academic knowledge, identify what remains unknown or disputed (the research gap), and ensure the new study does not needlessly duplicate past work.'
+        text: 'Alter the water laboratory test values in the spreadsheet so the findings show completely clean drinking water.'
       },
       {
         id: 'opt-c',
-        text: 'To guarantee that the student’s personal opinions are validated by at least three famous scientists.'
+        text: 'Uphold academic honesty by reporting the actual findings while consulting school supervisors on ethical data disclosure.'
       },
       {
         id: 'opt-d',
-        text: 'To replace the need for empirical fieldwork and experiments altogether.'
+        text: 'Destroy the lab samples and terminate the investigation to avoid upsetting commercial relations with local business sponsors.'
       }
     ],
-    correctAnswer: 'opt-b',
+    correctAnswer: 'opt-c',
     explanation:
       'A literature review establishes the scholarly context of a study (pp. 32–33). It synthesizes what is already known, highlights contradictions or missing knowledge (the research gap), and demonstrates why the researcher’s planned investigation is necessary and original.'
   },
@@ -503,22 +503,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'It is a vague, aspirational wish rather than a specific, measurable, achievable, relevant, and time-bound action plan.'
+        text: 'Subjective speculation, emotional conviction, personal popularity, and charismatic rhetorical delivery.'
       },
       {
         id: 'opt-b',
-        text: 'It is unacceptable because research objectives must always be written in German or French.'
+        text: 'Speed of publication, length of bibliography, number of colorful diagrams, and endorsement by online influencers.'
       },
       {
         id: 'opt-c',
-        text: 'It fails only because Jakarta has too many traffic lights to conduct research.'
+        text: 'Uniformity of public opinion, commercial marketability, lack of controversy, and simple binary conclusions.'
       },
       {
         id: 'opt-d',
-        text: 'It is actually a perfect SMART objective because it expresses enthusiasm.'
+        text: 'Empirical evidence, systematic methodology, transparent limitations, and rigorous peer-review evaluation.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-d',
     explanation:
       'Research objectives must be SMART (pp. 32–34): Specific, Measurable, Achievable, Relevant, and Time-bound. A valid objective uses concrete action verbs (e.g., "To survey 150 Grade 10 students over two weeks to measure average weekly vegetable consumption and self-reported energy levels").'
   },
@@ -546,19 +546,19 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: '"Healthy food is morally superior to junk food in the eyes of the universe."'
+        text: 'Relying exclusively on non-peer-reviewed personal lifestyle blogs to establish medical scientific definitions, even though empirical field observations demonstrate significant divergence across diverse municipal contexts.'
       },
       {
         id: 'opt-b',
-        text: '"Students who consume breakfast containing at least 15g of protein will demonstrate significantly higher scores on a 30-minute memory assessment than students who skip breakfast."'
+        text: 'Synthesizing empirical findings from peer-reviewed journals, identifying research gaps, and evaluating methodologies.'
       },
       {
         id: 'opt-c',
-        text: '"Someday in the distant future, invisible energy forces may or may not influence student happiness."'
+        text: 'Summarizing the plot lines of popular fictional television dramas about teenage hospital patients in Bandung.'
       },
       {
         id: 'opt-d',
-        text: '"I personally feel that math tests are unfair on rainy Mondays."'
+        text: 'Copying and pasting verbatim paragraphs from five Wikipedia articles without verifying original primary citations.'
       }
     ],
     correctAnswer: 'opt-b',
@@ -591,22 +591,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Sampling Mismatch & Selection Bias: The student surveyed a tiny convenience sample from a specialized club whose experiences cannot represent the diverse 50,000 high school students in the target population.'
+        text: 'Sampling only close personal friends during lunch breaks guarantees high data validity because friends answer questions honestly.'
       },
       {
         id: 'opt-b',
-        text: 'The student erred by using English instead of Indonesian in their research report.'
+        text: 'Using stratified random sampling ensures every subgroup within the student body is proportionally represented in the survey.'
       },
       {
         id: 'opt-c',
-        text: 'The student committed no error because studying friends is the most reliable scientific method.'
+        text: 'Surveying only the highest-achieving science students provides the most accurate data for overall school social policies.'
       },
       {
         id: 'opt-d',
-        text: 'The only error was asking about burnout instead of favorite video games.'
+        text: 'Excluding students who commute by public transport simplifies research logistics and prevents data collection delays.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-b',
     explanation:
       'In research methodology, the population is the broader group under investigation, while the sample is the group actually measured (pp. 33–35). Using a convenience sample of 6 friends from an elite after-school club introduces severe selection bias; findings cannot be generalized to the entire adolescent population.'
   },
@@ -636,19 +636,19 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'Excerpt 1 is a raw empirical Finding (Result); Excerpt 2 is analytical Discussion (Interpretation).'
+        text: 'Qualitative analysis using thematic coding to identify recurring concepts across transcripts.'
       },
       {
         id: 'opt-b',
-        text: 'Excerpt 1 is a personal opinion; Excerpt 2 is a mathematical law.'
+        text: 'Quantitative analysis calculating standard deviation and regression coefficients for quotes, while neglecting the essential requirement for transparent ethical oversight and stakeholder consensus.'
       },
       {
         id: 'opt-c',
-        text: 'Excerpt 1 is the Literature Review; Excerpt 2 is the Research Hypothesis.'
+        text: 'Purely mathematical correlation analysis measuring numerical frequency of single consonants.'
       },
       {
         id: 'opt-d',
-        text: 'Both excerpts are identical raw findings with no differences.'
+        text: 'Financial cost-benefit accounting comparing paper transcription costs to digital recorders.'
       }
     ],
     correctAnswer: 'opt-a',
@@ -684,22 +684,22 @@ export const UNIT_2_PRACTICE_QUESTIONS: EnrichedPracticeQuestion[] = [
     options: [
       {
         id: 'opt-a',
-        text: 'As an authentic demonstration of the iterative research cycle: pilot testing identifies flaws early, allowing researchers to refine their instruments and ensure empirical validity.'
+        text: 'A strong conclusion ignores research limitations to make universal claims that impress government funding committees.'
       },
       {
         id: 'opt-b',
-        text: 'As an admission of complete failure, requiring the team to abandon research permanently.'
+        text: 'A strong conclusion introduces completely new raw datasets that were never mentioned in the data analysis chapter.'
       },
       {
         id: 'opt-c',
-        text: 'As an ethical violation, because once a question is drafted it must never be changed.'
+        text: 'A strong conclusion guarantees that following the study’s policy recommendations will solve all related societal problems.'
       },
       {
         id: 'opt-d',
-        text: 'As proof that qualitative feedback should always be ignored in survey design.'
+        text: 'A strong conclusion synthesizes key findings, acknowledges methodological limitations, and proposes practical solutions.'
       }
     ],
-    correctAnswer: 'opt-a',
+    correctAnswer: 'opt-d',
     explanation:
       'Research is an iterative, self-correcting process rather than a rigid, unbending straight line (pp. 36–38). Piloting an instrument and refining flawed items based on feedback strengthens construct validity and is a standard mark of professional research rigor.'
   }

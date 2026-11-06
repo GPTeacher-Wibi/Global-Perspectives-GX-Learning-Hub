@@ -507,7 +507,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
             </h3>
 
             <div className="space-y-3" role="radiogroup">
-              {activeCase.stages.stage1Comprehension.options.map((opt) => {
+              {activeCase.stages.stage1Comprehension.options.map((opt, idx) => {
                 const isSelected = stage1SelectedOpt === opt.id;
                 let optStyle = 'bg-white hover:bg-slate-50 border-slate-300 text-slate-800';
                 if (stage1Submitted) {
@@ -536,7 +536,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
                           : 'border-slate-400'
                       }`}
                     >
-                      {opt.id.slice(-1).toUpperCase()}
+                      {String.fromCharCode(65 + idx)}
                     </div>
                     <span className="leading-snug text-sm sm:text-base">{opt.text}</span>
                   </button>
@@ -937,7 +937,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
             </h3>
 
             <div className="space-y-3" role="radiogroup">
-              {activeCase.stages.stage4ConflictAnalysis.options.map((opt) => {
+              {activeCase.stages.stage4ConflictAnalysis.options.map((opt, idx) => {
                 const isSelected = stage4SelectedOpt === opt.id;
                 let optStyle = 'bg-white hover:bg-slate-50 border-slate-300 text-slate-800';
                 if (stage4Submitted) {
@@ -966,7 +966,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
                           : 'border-slate-400'
                       }`}
                     >
-                      {opt.id.slice(-1).toUpperCase()}
+                      {String.fromCharCode(65 + idx)}
                     </div>
                     <span className="leading-snug text-sm sm:text-base">{opt.text}</span>
                   </button>
@@ -1050,7 +1050,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
             </h3>
 
             <div className="space-y-3" role="radiogroup">
-              {activeCase.stages.stage5CommonGround.options.map((opt) => {
+              {activeCase.stages.stage5CommonGround.options.map((opt, idx) => {
                 const isSelected = stage5SelectedOpt === opt.id;
                 let optStyle = 'bg-white hover:bg-slate-50 border-slate-300 text-slate-800';
                 if (stage5Submitted) {
@@ -1079,7 +1079,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
                           : 'border-slate-400'
                       }`}
                     >
-                      {opt.id.slice(-1).toUpperCase()}
+                      {String.fromCharCode(65 + idx)}
                     </div>
                     <span className="leading-snug text-sm sm:text-base">{opt.text}</span>
                   </button>
@@ -1158,7 +1158,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
 
           {/* Decision Cards */}
           <div className="space-y-4">
-            {activeCase.stages.stage6PolicyDecision.options.map((opt) => {
+            {activeCase.stages.stage6PolicyDecision.options.map((opt, idx) => {
               const isSelected = stage6SelectedDecision === opt.id;
               let cardStyle = 'border-slate-200 bg-white hover:border-slate-400';
               if (stage6Submitted) {
@@ -1207,10 +1207,10 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
                       className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 text-xs font-bold ${
                         isSelected
                           ? 'border-purple-600 bg-purple-600 text-white'
-                          : 'border-slate-300'
+                          : 'border-slate-400 text-slate-700'
                       }`}
                     >
-                      {isSelected ? '✓' : ''}
+                      {isSelected ? '✓' : String.fromCharCode(65 + idx)}
                     </div>
                   </div>
 
@@ -1373,7 +1373,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
             </h3>
 
             <div className="space-y-3" role="radiogroup">
-              {activeCase.stages.stage7TwistAndSynthesis.options.map((opt) => {
+              {activeCase.stages.stage7TwistAndSynthesis.options.map((opt, idx) => {
                 const isSelected = stage7SelectedOpt === opt.id;
                 let optStyle = 'bg-white hover:bg-slate-50 border-slate-300 text-slate-800';
                 if (stage7Submitted) {
@@ -1402,7 +1402,7 @@ export const PerspectiveCaseChallenge: React.FC<PerspectiveCaseChallengeProps> =
                           : 'border-slate-400'
                       }`}
                     >
-                      {opt.id.slice(-1).toUpperCase()}
+                      {String.fromCharCode(65 + idx)}
                     </div>
                     <span className="leading-snug text-sm sm:text-base">{opt.text}</span>
                   </button>
