@@ -1,3 +1,6 @@
 Global Perspectives Learning Hub adalah ekosistem pembelajaran digital yang dirancang guru untuk mendukung pembelajaran Global Perspectives kelas X. Platform ini mengintegrasikan materi pembelajaran terstruktur, permainan edukatif interaktif, latihan penerapan konsep, dan skenario yang mendorong siswa menggunakan penalaran.
 Mata pelajaran Global Perspectives menuntut siswa untuk memahami beragam perspektif, mengajukan pertanyaan, menganalisis data, mengevaluasi bukti, mengidentifikasi klaim dan asumsi, serta menyusun kesimpulan yang dapat dipertanggungjawabkan. Keterampilan tersebut memerlukan kesempatan latihan yang berulang dan kontekstual.
 Untuk menjawab kebutuhan tersebut, guru mengembangkan Learning Hub dengan bantuan Google AI Studio. Platform mencakup 10 unit pembelajaran, 215 slide instruksional, serta 30 permainan mikro dan capstone yang terintegrasi dalam alur kurikulum.
+
+Demo Link:
+https://global-perspectives-gx-learning-hub.vercel.app/
